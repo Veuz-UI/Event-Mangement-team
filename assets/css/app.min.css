@@ -6206,7 +6206,7 @@ table.dataTable.dtr-inline.collapsed>tbody>tr>td.dtr-control:before {
 }
 
 .top-header .backtohome {
-    border: 1px solid #ebebeb;
+    border: 1px solid #dfdfdf;
     border-radius: 50px;
     width: 40px;
     height: 40px;
@@ -6696,6 +6696,14 @@ table.dataTable.dtr-inline.collapsed>tbody>tr>td.dtr-control:before {
     border: 1px solid #d5d5d5;
     color: #263238;
 }
+.btn-publish{
+    background-color: #193567 !important;
+    border-color:  #193567 !important;
+}
+.btn-publish:hover{
+    background-color: #102448 !important;
+    border-color:  #102448 !important;
+}
 
 .btn-publish:hover svg path,
 .btn-publish:focus svg path,
@@ -7139,7 +7147,7 @@ table.dataTable.dtr-inline.collapsed>tbody>tr>td.dtr-control:before {
 }
 
 .tckt-p {
-    background-color: #4CAF50;
+    background-color: #f55f5f;
     color: white;
     padding: 3px 10px;
     font-size: 11px;
@@ -7197,8 +7205,8 @@ table.dataTable.dtr-inline.collapsed>tbody>tr>td.dtr-control:before {
 }
 
 .event-detail-header .rightside-btns .btn-evnt-edit {
-    border-top-left-radius: 20px;
-    border-bottom-left-radius: 20px;
+    border-top-left-radius: 2px;
+    border-bottom-left-radius: 2px;
     padding-left: 15px;
     padding-right: 8px;
     padding-top: 4px;
@@ -7206,8 +7214,8 @@ table.dataTable.dtr-inline.collapsed>tbody>tr>td.dtr-control:before {
 }
 
 .event-detail-header .rightside-btns .dropdown-toggle-split {
-    border-top-right-radius: 20px;
-    border-bottom-right-radius: 20px;
+    border-top-right-radius: 2px;
+    border-bottom-right-radius: 2px;
     padding-right: 15px;
     padding-top: 4px;
     padding-bottom: 4px;
@@ -9225,7 +9233,7 @@ table.dataTable.dtr-inline.collapsed>tbody>tr>td.dtr-control:before {
  }
 
  .booth-status{
-    background-color: #4CAF50;
+    background-color: #418ee9;
     color: white;
     font-size: 12px;
     font-weight: 400;
@@ -9365,7 +9373,7 @@ table.dataTable.dtr-inline.collapsed>tbody>tr>td.dtr-control:before {
 }
 
 .attandee-crfrm-btn{
-    border-radius: 50px;
+    border-radius: 2px;
     background-color: #09BC8A;
     border: none !important;
     color: white;
@@ -9378,7 +9386,7 @@ height: 20px;
     transition: 1s;
 }
 .attandee-cncl-btn{
-    border-radius: 50px;
+    border-radius:2px;
     border: none !important;
     margin-left: 10px;
     height: 20px;

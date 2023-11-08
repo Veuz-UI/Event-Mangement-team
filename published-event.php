@@ -413,7 +413,7 @@
                                                 <div class="row">
                                                     <div class="col-md-12">
                                                         <textarea id="" cols="30" rows="5" class="form-control txtarea" placeholder="Send message to followers"></textarea>
-                                                        <button type="button" class="btn btn-primary btn-publish waves-effect waves-light btn-sm px-4 br-50 small">Send</button>
+                                                        <button type="button" class="btn btn-primary waves-effect waves-light btn-sm px-4 br-50 small">Send</button>
                                                     </div>
                                                
                                                 </div>
@@ -422,7 +422,7 @@
                                                 <div class="row">
                                                     <div class="col-md-12">
                                                         <textarea id="" cols="30" rows="5" class="form-control txtarea" placeholder="Log an internal note"></textarea>
-                                                        <button type="button" class="btn btn-primary btn-publish waves-effect waves-light btn-sm px-4 br-50 small">Send</button>
+                                                        <button type="button" class="btn btn-primary waves-effect waves-light btn-sm px-4 br-50 small">Send</button>
                                                     </div>
                                               
                                                 </div>
