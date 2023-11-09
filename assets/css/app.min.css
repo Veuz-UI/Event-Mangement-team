@@ -2703,7 +2703,7 @@ input[type=checkbox].tui-full-calendar-checkbox-round+span {
 }
 
 .fc .fc-toolbar h2 {
-    font-size: 16px;
+    font-size: 15px;
     line-height: 30px;
     text-transform: uppercase
 }
@@ -9373,7 +9373,7 @@ table.dataTable.dtr-inline.collapsed>tbody>tr>td.dtr-control:before {
 }
 
 .attandee-crfrm-btn{
-    border-radius: 2px;
+    border-radius: 4px;
     background-color: #09BC8A;
     border: none !important;
     color: white;
@@ -9386,7 +9386,7 @@ height: 20px;
     transition: 1s;
 }
 .attandee-cncl-btn{
-    border-radius:2px;
+    border-radius:4px;
     border: none !important;
     margin-left: 10px;
     height: 20px;
@@ -10502,13 +10502,13 @@ height: 20px;
 .tick-box {
     height: 24px;
     padding: 1px 10px;
-    border: 1px solid #09BC8A;
+    border: 1px solid #0176d3;
     font-weight: 600;
     border-radius: 15px;
     color: #fff;
     font-size: 11.5px;
     letter-spacing: .3px;
-    background-color: #09BC8A;
+    background-color: #0176d3;
     transition: 1s;
 }
 
@@ -11334,13 +11334,13 @@ table .avatar-sm{
 
 .platinum{
     padding: 1px 10px;
-    border: 1px solid #4CAF50;
+    border: 1px solid #50a5f1;
     font-weight: 600;
     border-radius: 15px;
     color: #fff;
     font-size: 11.5px;
     letter-spacing: .3px;
-    background-color: #4CAF50;
+    background-color: #50a5f1;
     transition: 1s;
 }
 
@@ -11381,13 +11381,13 @@ table .avatar-sm{
 
 .tick-paid {
     padding: 1px 10px;
-    border: 1px solid #4CAF50;
+    border: 1px solid #f46a6a;
     font-weight: 600;
     border-radius: 15px;
     color: #fff;
     font-size: 11.5px;
     letter-spacing: .3px;
-    background-color: #4CAF50;
+    background-color: #f46a6a;
     transition: 1s;
 }
 
@@ -11535,4 +11535,328 @@ table .avatar-sm{
         padding: 52px 0px 0px;
         overflow-x:auto;
     }
+}
+
+
+.calendar-vw{
+    overflow-x: hidden;
+    overflow-y: auto;
+    padding: 10px 15px;
+}
+
+.small-calendar, .main-calendar{
+    box-shadow: none !important;
+}
+
+.small-calendar{
+    padding: 10px;
+    margin-bottom: 0px;
+    height: 100%;
+    border-radius: 0.25rem;
+    border: 1px solid #ebebeb;
+}
+
+.small-calendar p{
+    font-size: 14px;
+    line-height: 25px;
+    margin: 0px 0px 10px;
+}
+
+.main-calendar{
+    padding: 10px;
+    margin-bottom: 0px;
+    border: 1px solid #ebebeb;
+}
+
+.main-calendar .fc-event {
+    margin: 3px 5px;
+    padding: 3px 8px;
+    justify-content: center;
+}
+
+.fc th{
+    padding: 3px !important;
+    font-weight: 600;
+    color: #333;
+}
+
+.fc-day-grid .fc-row{
+    min-height: 100px !important;
+    height: 120px !important;
+}
+
+.fc-day-grid-container{
+    height: auto !important;
+}
+
+.fc-week{
+    overflow: auto;
+}
+
+.fc-event, .fc-event:hover {
+    color: #fff;
+    text-decoration: none;
+}
+
+
+.sm-calendar {
+    width: 100%;
+    background: #fff;
+    border-radius: 3px;
+    border: 1px solid #ebebeb;
+    margin-top: 10px;
+    margin-bottom: 15px;
+}
+
+.sm-calendar header {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    padding: 7px 15px 5px;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    background: #f5f5f5;
+    border-radius: 2px 2px 0 0;
+}
+
+.sm-calendar header .icons {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin-right: 5px;
+}
+
+.sm-calendar header .icons span {
+    height: 14px;
+    width: 14px;
+    margin: 0 0px;
+    cursor: pointer;
+    color: #343639;
+    background-color: transparent;
+    text-align: center;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    border-radius: 50%;
+    line-height: 14px;
+}
+
+.sm-calendar .icons span:last-child {
+    margin-right: -10px;
+}
+
+.sm-calendar header .icons span:hover {
+    background: #f2f2f2;
+}
+
+.sm-calendar header .current-date {
+    font-size: 14px;
+    font-weight: 500;
+    color: #000;
+    margin-bottom: 0px;
+}
+
+.sm-calendar .calenda-mini {
+    padding: 20px 6px;
+}
+
+.sm-calendar .calenda-mini ul {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    list-style: none;
+    text-align: center;
+    margin: 0px;
+    padding: 0px;
+}
+
+.sm-calendar .calenda-mini li {
+    color: #333;
+    width: calc(100% / 7);
+    font-size: 13px;
+}
+
+.sm-calendar .calenda-mini .weeks li {
+    font-weight: 500;
+    cursor: default;
+}
+
+.sm-calendar .calenda-mini .days li {
+    z-index: 1;
+    cursor: pointer;
+    position: relative;
+    margin-top: 20px;
+}
+
+.sm-calendar .days li.inactive {
+    color: #aaa;
+}
+
+.sm-calendar .days li.active {
+    color: #fff;
+}
+
+.sm-calendar .days li::before {
+    position: absolute;
+    content: "";
+    left: 50%;
+    top: 50%;
+    height: 30px;
+    width: 30px;
+    z-index: -1;
+    border-radius: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+.sm-calendar .days li.active::before {
+    background: #0f7bff;
+}
+
+.sm-calendar .days li:not(.active):hover::before {
+    background: #f2f2f2;
+}
+
+/* Calender */
+
+.fc .fc-button-group>* {
+    border-color: var(--strock-colors);
+    box-shadow: none;
+}
+
+.fc-state-default.fc-corner-right {
+    border-color: var(--strock-colors);
+    box-shadow: none;
+}
+
+.fc-toolbar h2 {
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 30px;
+    color: #000;
+}
+
+.fc th.fc-widget-header {
+    background: var(--liter-color);
+    font-size: 13px;
+    line-height: 20px;
+    padding: 10px 0px;
+}
+
+.fc-unthemed th,
+.fc-unthemed td,
+.fc-unthemed thead,
+.fc-unthemed tbody,
+.fc-unthemed .fc-divider,
+.fc-unthemed .fc-row,
+.fc-unthemed .fc-content,
+.fc-unthemed .fc-popover,
+.fc-unthemed .fc-list-view,
+.fc-unthemed .fc-list-heading td {
+    border-color: var(--strock-colors);
+}
+
+.fc-event {
+    border-radius: 2px;
+    border: none;
+    cursor: move;
+    font-size: 13px;
+    margin: 5px 0px;
+    padding: 2px 2px;
+    text-align: center;
+    font-weight: 500;
+}
+
+.fc-day-grid-event .fc-time {
+    font-weight: 500;
+}
+
+.btn-calender-add {
+    height: 31px;
+    background: var(--button-primary);
+    border-radius: 16px;
+    border: none;
+    color: var(--white-colors);
+    text-transform: uppercase;
+    font-size: 11px;
+    font-weight: 600;
+    line-height: 20px;
+    box-shadow: none;
+    padding: 0px 14px;
+    margin-top: 19px;
+}
+.control-label{
+    margin-bottom: 0.3rem;
+}
+
+#btn-new-event{
+    font-size: 14px;
+    padding: 5px 10px;
+}
+
+.btn-suc{
+    border-top-left-radius: 0px;
+    border-bottom-left-radius: 0px;
+}
+
+.fc-agendaWeek-view .fc-content-skeleton table td:first-child{
+    width: 50px;
+    max-width: 50px;
+}
+
+.attendee-today-boxes{
+    margin: 0px;
+    padding: 0px 8px 0 13px;
+}
+
+.attendee-today-boxes .attendee-today-box{
+    border: 1px solid #ebebeb;
+    padding: 10px;
+    background-color: #f5f5f5;
+    border-radius: 3px;
+    margin-bottom: 8px;
+}
+
+.attendee-bxes{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 12px;
+}
+
+.attendee-bx1 h4{
+    font-size: 15px;
+    font-weight: 600;
+    margin-bottom: 7px;
+}
+
+.attendee-bx1 h6{
+    font-size: 12px;
+    color: #888;
+    margin-bottom: 0px;
+}
+
+.attendee-bx2 h5{
+    margin-bottom: 0px;
+    border: 1px solid #dbdbdb;
+    width: 35px;
+    height: 35px;
+    font-size: 15px;
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.attendee-today-box .attendee-btns{
+    display: flex;
+    justify-content: space-between;
 }

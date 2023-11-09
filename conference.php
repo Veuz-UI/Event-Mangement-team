@@ -556,7 +556,7 @@
                                                 id="inlineFormInputGroupUsername" placeholder="Search this list "
                                                 fdprocessedid="8pxgmh">
                                             <div class="dropdown drpdwn-fg">
-                                                <button type="button" style="margin-right:8px;"
+                                                <button type="button" style=""
                                                     class="input-group-text input-group-text-right btn-export btn-filter waves-effect waves-light btn-sm small dropdown-toggle h-100"
                                                     id="dropdownMenuButton" data-mdb-toggle="dropdown"
                                                     aria-expanded="false" data-mdb-auto-close="outside"
@@ -6548,7 +6548,7 @@
                                                                                 <div class="col-lg-12 data-box">
                                                                                     <img src="assets/images/booth.svg" alt="" class="avatar-sm">
                                                                                     <div class="data-box-contnt">
-                                                                                        <h2>Expo Booth <span class="sponser-type tick-paid">Available<span></h2>
+                                                                                        <h2>Expo Booth <span class="sponser-type tick-box">Available<span></h2>
                                                                                         <h4>ID: <span class="sponser-type dark-content">12345</span></h4>
                                                                                         <h4>Category: <span class="sponser-type dark-content">Booth Category</span></h4>
                                                                                         <h4>Exhibitor: <span class="sponser-type dark-content">Exhibitor Name</span></h4>
@@ -6687,7 +6687,7 @@
                                                                                 <div class="col-lg-12 data-box">
                                                                                     <img src="assets/images/booth.svg" alt="" class="avatar-sm">
                                                                                     <div class="data-box-contnt">
-                                                                                        <h2>Expo Booth <span class="sponser-type tick-paid">Available<span></h2>
+                                                                                        <h2>Expo Booth <span class="sponser-type tick-box">Available<span></h2>
                                                                                         <h4>ID: <span class="sponser-type dark-content">12345</span></h4>
                                                                                         <h4>Category: <span class="sponser-type dark-content">Booth Category</span></h4>
                                                                                         <h4>Exhibitor: <span class="sponser-type dark-content">Exhibitor Name</span></h4>
@@ -6779,7 +6779,7 @@
                                                                                 <div class="col-lg-12 data-box">
                                                                                     <img src="assets/images/booth.svg" alt="" class="avatar-sm">
                                                                                     <div class="data-box-contnt">
-                                                                                        <h2>Expo Booth <span class="sponser-type tick-paid">Available<span></h2>
+                                                                                        <h2>Expo Booth <span class="sponser-type tick-box">Available<span></h2>
                                                                                         <h4>ID: <span class="sponser-type dark-content">12345</span></h4>
                                                                                         <h4>Category: <span class="sponser-type dark-content">Booth Category</span></h4>
                                                                                         <h4>Exhibitor: <span class="sponser-type dark-content">Exhibitor Name</span></h4>
@@ -6825,7 +6825,7 @@
                                                                                 <div class="col-lg-12 data-box">
                                                                                     <img src="assets/images/booth.svg" alt="" class="avatar-sm">
                                                                                     <div class="data-box-contnt">
-                                                                                        <h2>Expo Booth <span class="sponser-type tick-paid">Available<span></h2>
+                                                                                        <h2>Expo Booth <span class="sponser-type tick-box">Available<span></h2>
                                                                                         <h4>ID: <span class="sponser-type dark-content">12345</span></h4>
                                                                                         <h4>Category: <span class="sponser-type dark-content">Booth Category</span></h4>
                                                                                         <h4>Exhibitor: <span class="sponser-type dark-content">Exhibitor Name</span></h4>
@@ -6871,7 +6871,7 @@
                                                                                 <div class="col-lg-12 data-box">
                                                                                     <img src="assets/images/booth.svg" alt="" class="avatar-sm">
                                                                                     <div class="data-box-contnt">
-                                                                                        <h2>Expo Booth <span class="sponser-type tick-paid">Available<span></h2>
+                                                                                        <h2>Expo Booth <span class="sponser-type tick-box">Available<span></h2>
                                                                                         <h4>ID: <span class="sponser-type dark-content">12345</span></h4>
                                                                                         <h4>Category: <span class="sponser-type dark-content">Booth Category</span></h4>
                                                                                         <h4>Exhibitor: <span class="sponser-type dark-content">Exhibitor Name</span></h4>
@@ -6920,7 +6920,7 @@
                                                                                         <h2>Expo Booth <span class="sponser-type tick-paid">Not Available<span></h2>
                                                                                         <h4>ID: <span class="sponser-type dark-content">12345</span></h4>
                                                                                         <h4>Category: <span class="sponser-type dark-content">Booth Category</span></h4>
-                                                                                        <h4 class="mt-2"><a href="#" data-bs-toggle="modal" data-bs-target="#add-exhibitor"><span class="tick-box">Add Exhibitor</span></a></h4>
+                                                                                        <h4 class="mt-2"><a href="#" data-bs-toggle="modal" data-bs-target="#add-exhibitor"><span class="btn btn-soft-primary waves-effect waves-light attandee-crfrm-btn">Add Exhibitor</span></a></h4>
                                                                                     </div>
                                                                                     <div
                                                                                         class="dropdown print-mail-dropdwn">
@@ -6963,7 +6963,7 @@
                                                                                 <div class="col-lg-12 data-box">
                                                                                     <img src="assets/images/booth.svg" alt="" class="avatar-sm">
                                                                                     <div class="data-box-contnt">
-                                                                                        <h2>Expo Booth <span class="sponser-type tick-paid">Available<span></h2>
+                                                                                        <h2>Expo Booth <span class="sponser-type tick-box">Available<span></h2>
                                                                                         <h4>ID: <span class="sponser-type dark-content">12345</span></h4>
                                                                                         <h4>Category: <span class="sponser-type dark-content">Booth Category</span></h4>
                                                                                         <h4>Exhibitor: <span class="sponser-type dark-content">Exhibitor Name</span></h4>

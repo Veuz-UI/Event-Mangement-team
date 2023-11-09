@@ -891,7 +891,7 @@
                                                                             <button type="button"
                                                                                 class="btn btn-soft-primary waves-effect waves-light attandee-crfrm-btn">Confirm</button>
                                                                             <button type="button"
-                                                                                class="btn btn-soft-secondary waves-effect waves-light attandee-cncl-btn">Cancel</button>
+                                                                                class="btn btn-soft-secondary waves-effect waves-light attandee-cncl-btn ms-1">Cancel</button>
                                                                         </div>
                                                                         <span class="resize"></span>
                                                                     </td>
@@ -910,7 +910,7 @@
                                                                             <button type="button"
                                                                                 class="btn btn-soft-primary waves-effect waves-light attandee-crfrm-btn">Confirm</button>
                                                                             <button type="button"
-                                                                                class="btn btn-soft-secondary waves-effect waves-light attandee-cncl-btn">Cancel</button>
+                                                                                class="btn btn-soft-secondary waves-effect waves-light attandee-cncl-btn ms-1">Cancel</button>
                                                                         </div>
                                                                         <span class="resize"></span>
                                                                     </td>
@@ -929,7 +929,7 @@
                                                                             <button type="button"
                                                                                 class="btn btn-soft-primary waves-effect waves-light attandee-crfrm-btn">Confirm</button>
                                                                             <button type="button"
-                                                                                class="btn btn-soft-secondary waves-effect waves-light attandee-cncl-btn">Cancel</button>
+                                                                                class="btn btn-soft-secondary waves-effect waves-light attandee-cncl-btn ms-1">Cancel</button>
                                                                         </div>
                                                                         <span class="resize"></span>
                                                                     </td>
@@ -993,8 +993,10 @@
                                                                     <div class="border-class"></div>
                                                                 </div>
                                                                 <div class="col-lg-12 attended-text d-flex align-items-center">
-                                                                <button type="button" class="tick-box me-1" fdprocessedid="ktksnm">Confirm</button>
-                                                                    <button type="button" class="block-box me-1" fdprocessedid="6ldr2n">Cancel</button>
+                                                                    <button type="button"
+                                                                    class="btn btn-soft-primary waves-effect waves-light attandee-crfrm-btn">Confirm</button>
+                                                                <button type="button"
+                                                                    class="btn btn-soft-secondary waves-effect waves-light attandee-cncl-btn ms-1">Cancel</button>
                                                                 </div>
                                                             </div>
                                                         </div>
@@ -1035,7 +1037,8 @@
                                                                 <div class="col-lg-12 attended-text d-flex align-items-center justify-content-between">
                                                                    
                                                                     <h4>Confirmed</h4>
-                                                                    <button type="button" class="block-box" fdprocessedid="6ldr2n">Cancel</button>
+                                                                    <button type="button"
+                                                                    class="btn btn-soft-secondary waves-effect waves-light attandee-cncl-btn ms-1">Cancel</button>
                                                                 </div>
                                     
                                                             </div>
@@ -1075,7 +1078,8 @@
                                                                 </div>
                                                                 <div class="col-lg-12 attended-text d-flex align-items-center justify-content-between">
                                                                     <h4 class="cancelled">Cancelled</h4>
-                                                                    <button type="button" class="tick-box" fdprocessedid="ktksnm">Confirm</button>
+                                                                    <button type="button"
+                                                                    class="btn btn-soft-primary waves-effect waves-light attandee-crfrm-btn">Confirm</button>
                                                                 </div>
                                                             </div>
                                                         </div>
@@ -1114,8 +1118,10 @@
                                                                     <div class="border-class"></div>
                                                                 </div>
                                                                 <div class="col-lg-12 attended-text d-flex align-items-center">
-                                                                    <button type="button" class="tick-box me-1" fdprocessedid="ktksnm">Confirm</button>
-                                                                    <button type="button" class="block-box me-1" fdprocessedid="6ldr2n">Cancel</button>
+                                                                    <button type="button"
+                                                                    class="btn btn-soft-primary waves-effect waves-light attandee-crfrm-btn">Confirm</button>
+                                                                <button type="button"
+                                                                    class="btn btn-soft-secondary waves-effect waves-light attandee-cncl-btn ms-1">Cancel</button>
                                                                 </div>
                                                             </div>
                                                         </div>
@@ -1193,76 +1199,89 @@
                                             <div class="tab-pane active show" id="attendees-table" role="tabpanel">
                                                 <div class="event-table speaker-table response-tbl">
                                                     <div class="attend-today-tbl">
-                                                        <table id="event-table"
-                                                            class="table table-resizable attendee-today-tbl table-striped">
-                                                            <thead>
-                                                                <tr>
-                                                                    <th width="150px">Day<span class="resize"></span></th>
-                                                                    <th>Total Attendees<span class="resize"></span></th>
-                    
-                                                                </tr>
-                                                            </thead>
-                                                            <tbody>
-                                                                <tr>
-                                                                    <td>
-                                                                        <a href="#">
-                                                                            <h5>Day 1</h5>
+                                                        <div class="row attendee-today-boxes gx-2">
+                                                            <div class="col-md-6">
+                                                                <div class="attendee-today-box">
+                                                                    <div class="attendee-bxes">
+                                                                        <div class="attendee-bx1">
+                                                                            <h4>Day 1</h4>
                                                                             <h6>24/09/23</h6>
-                                                                        </a>
-                                                                        <span class="resize"></span>
-                                                                    </td>
-                                                                    <td>20
-                                                                        <span
-                                                                            class="badge badge-pill badge-soft-success font-size-13 ms-3">10
+                                                                        </div>
+                                                                        <div class="attendee-bx2">
+                                                                            <h5>20</h5>
+                                                                        </div> 
+                                                                    </div>
+                                                                   
+                                                                    <div class="attendee-btns">
+                                                                        <span class="badge badge-pill badge-soft-success font-size-13">10
                                                                             Check In</span>
-                                                                        <span
-                                                                            class="badge badge-pill badge-soft-danger font-size-13 ms-2">10
+                                                                        <span class="badge badge-pill badge-soft-danger font-size-13">10
                                                                             Checkout</span>
-                                                                        <span class="resize"></span>
-                                                                    </td>
-                                                                </tr>
-                                                                <tr>
-                                                                    <td>
-                                                                        <a href="#">
-                                                                            <h5>Day 2</h5>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            <div class="col-md-6">
+                                                                <div class="attendee-today-box">
+                                                                    <div class="attendee-bxes">
+                                                                        <div class="attendee-bx1">
+                                                                            <h4>Day 1</h4>
                                                                             <h6>24/09/23</h6>
-                                                                        </a>
-                                                                        <span class="resize"></span>
-                                                                    </td>
-                                                                    <td>20
-                                                                        <span
-                                                                            class="badge badge-pill badge-soft-success font-size-13 ms-3">10
+                                                                        </div>
+                                                                        <div class="attendee-bx2">
+                                                                            <h5>20</h5>
+                                                                        </div> 
+                                                                    </div>
+                                                                   
+                                                                    <div class="attendee-btns">
+                                                                        <span class="badge badge-pill badge-soft-success font-size-13">10
                                                                             Check In</span>
-                                                                        <span
-                                                                            class="badge badge-pill badge-soft-danger font-size-13 ms-2">10
+                                                                        <span class="badge badge-pill badge-soft-danger font-size-13">10
                                                                             Checkout</span>
-                                                                        <span class="resize"></span>
-                                                                    </td>
-                                                                </tr>
-                                                                <tr>
-                                                                    <td>
-                                                                        <a href="#">
-                                                                            <h5>Day 3</h5>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            <div class="col-md-6">
+                                                                <div class="attendee-today-box">
+                                                                    <div class="attendee-bxes">
+                                                                        <div class="attendee-bx1">
+                                                                            <h4>Day 1</h4>
                                                                             <h6>24/09/23</h6>
-                                                                        </a>
-                                                                        <span class="resize"></span>
-                                                                    </td>
-                                                                    <td>20
-                                                                        <span
-                                                                            class="badge badge-pill badge-soft-success font-size-13 ms-3">10
+                                                                        </div>
+                                                                        <div class="attendee-bx2">
+                                                                            <h5>20</h5>
+                                                                        </div> 
+                                                                    </div>
+                                                                   
+                                                                    <div class="attendee-btns">
+                                                                        <span class="badge badge-pill badge-soft-success font-size-13">10
                                                                             Check In</span>
-                                                                        <span
-                                                                            class="badge badge-pill badge-soft-danger font-size-13 ms-2">10
+                                                                        <span class="badge badge-pill badge-soft-danger font-size-13">10
                                                                             Checkout</span>
-                                                                        <span class="resize"></span>
-                                                                    </td>
-                                                                </tr>
-                    
-                    
-                    
-                    
-                                                            </tbody>
-                                                        </table>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            <div class="col-md-6">
+                                                                <div class="attendee-today-box">
+                                                                    <div class="attendee-bxes">
+                                                                        <div class="attendee-bx1">
+                                                                            <h4>Day 1</h4>
+                                                                            <h6>24/09/23</h6>
+                                                                        </div>
+                                                                        <div class="attendee-bx2">
+                                                                            <h5>20</h5>
+                                                                        </div> 
+                                                                    </div>
+                                                                   
+                                                                    <div class="attendee-btns">
+                                                                        <span class="badge badge-pill badge-soft-success font-size-13">10
+                                                                            Check In</span>
+                                                                        <span class="badge badge-pill badge-soft-danger font-size-13">10
+                                                                            Checkout</span>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                     
                                                     </div>
                                                 </div>
                     

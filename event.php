@@ -17,6 +17,7 @@
         <link href="assets/css/bootstrap.min.css" id="bootstrap-style" rel="stylesheet" type="text/css" />
         <link href="assets/css/icons.min.css" rel="stylesheet" type="text/css" />
         <link href="assets/css/app.min.css" id="app-style" rel="stylesheet" type="text/css" />
+        <link href="assets/libs/calendar/fullcalendar.css" rel="stylesheet">
         <link href="assets/css/aos.css" rel="stylesheet">
 
     </head>
@@ -2663,7 +2664,93 @@
                             </div>
                         </div>
                         <div class="tab-pane" id="event-cal-tab" role="tabpanel">
-
+                            <div class="calendar-vw">
+                                <div class="row">
+                                    <div class="col-xl-2 ls-3 pe-md-0">
+                                        <div class="card small-calendar">
+                                            <div class="card-body p-0">
+                                                <div class="d-grid">
+                                                    <button class="btn font-16 btn-primary" id="btn-new-event" data-toggle="modal" data-target="#add-category"><i class="mdi mdi-plus-circle-outline"></i> Create
+                                                        New Event</button>
+                                                </div>
+                                            
+                                                <div class="wrapper sm-calendar">
+                
+                                                    <header>
+                                                        <p class="current-date"></p>
+                                                        <div class="icons">
+                                                            <span id="prev">
+                                                                <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" fill="currentColor"
+                                                                    class="bi bi-caret-left-fill" viewBox="0 0 16 16">
+                                                                    <path
+                                                                        d="m3.86 8.753 5.482 4.796c.646.566 1.658.106 1.658-.753V3.204a1 1 0 0 0-1.659-.753l-5.48 4.796a1 1 0 0 0 0 1.506z" />
+                                                                </svg>
+                                                            </span>
+                                    
+                                                            <span id="next">
+                                                                <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" fill="currentColor"
+                                                                    class="bi bi-caret-right-fill" viewBox="0 0 16 16">
+                                                                    <path
+                                                                        d="m12.14 8.753-5.482 4.796c-.646.566-1.658.106-1.658-.753V3.204a1 1 0 0 1 1.659-.753l5.48 4.796a1 1 0 0 1 0 1.506z" />
+                                                                </svg>
+                                                            </span>
+                                                        </div>
+                                                    </header>
+                                    
+                                                    <div class="calenda-mini">
+                                                        <ul class="weeks">
+                                                            <li>Sun</li>
+                                                            <li>Mon</li>
+                                                            <li>Tue</li>
+                                                            <li>Wed</li>
+                                                            <li>Thu</li>
+                                                            <li>Fri</li>
+                                                            <li>Sat</li>
+                                                        </ul>
+                                                        <ul class="days"></ul>
+                                                    </div>
+                                                </div>
+                
+                                                <div id="external-events" class="activity-list">
+                                                    <p>Drag and drop your event or click in the calendar</p>
+                                                    <div class="external-event fc-event bg-success" data-class="bg-inverse" style="position: relative">
+                                                        <i class="mdi mdi-checkbox-blank-circle font-size-11 me-2"></i>My Event One
+                                                    </div>
+                                                    <div class="external-event fc-event bg-info" data-class="bg-danger" style="position: relative">
+                                                        <i class="mdi mdi-checkbox-blank-circle font-size-11 me-2"></i>My Event Two
+                                                    </div>
+                                                    <div class="external-event fc-event bg-warning" data-class="bg-primary" style="position: relative">
+                                                        <i class="mdi mdi-checkbox-blank-circle font-size-11 me-2"></i>My Event Three
+                                                    </div>
+                                                    <div class="external-event fc-event bg-danger" data-class="bg-purple" style="position: relative">
+                                                        <i class="mdi mdi-checkbox-blank-circle font-size-11 me-2"></i>My Event Four
+                                                    </div>
+                                                </div>
+                
+                                                <!-- checkbox -->
+                                                <div class="checkbox checkbox-primary mt-3">
+                                                    <input id="drop-remove" type="checkbox" class="form-check-input">
+                                                    <label for="drop-remove" class="form-check-label">
+                                                            Remove after drop
+                                                        </label>
+                                                </div>
+                                                
+                                                
+                
+                                            </div>
+                                        </div>
+                                    </div> 
+                
+                                    <div class="col-xl-10 ls-9">
+                                        <div class="card main-calendar">
+                                            <div class="card-body p-0">
+                                                <div class="calendar-wrapper" id="calendar"></div>
+                                            </div>
+                                        </div>
+                                    </div> 
+                
+                                </div> 
+                            </div>
                         </div>
                         <div class="tab-pane" id="event-graph-tab" role="tabpanel">
 
@@ -2949,7 +3036,66 @@
             </div>
         </div>
 
+     <!-- Modal Add event -->
+   <div class="modal fade none-border" id="event-modal" tabindex="-1">
+                <div class="modal-dialog modal-dialog-centered">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="title-category modal-title">Add Event</h5>
+                            <button type="button" class="btn-close close1" data-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body"></div>
+                        <div class="modal-footer">
 
+                           
+                            <button type="button" class="cancel-btn btn btn-light br-50 btn-md close1" data-dismiss="modal">Close</button>
+                            <button type="button" class="btn btn-primary br-50 btn-md save-event">Create event</button>
+                            <button type="button" class="cancel-btn btn btn-light br-50 btn-md delete-event px-2" data-dismiss="modal"><i class="bx bx-trash-alt font-size-15"></i></button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Modal Add Category -->
+            <div class="modal fade none-border" id="add-category" tabindex="-1">
+                <div class="modal-dialog modal-dialog-centered">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="title-category modal-title">Add a category</h5>
+                            <button type="button" class="btn-close" data-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                            <form>
+                                <div class="row">
+                                    <div class="col-md-12">
+                                        <label class="control-label">Category Name</label>
+                                        <input class="form-control form-white" placeholder="Enter name" type="text" name="category-name">
+                                    </div>
+                                    <div class="col-md-12 mt-3">
+                                        <label class="control-label">Choose Category Color</label>
+                                        <div class="select-inp">
+                                        <select class="form-control form-white" data-placeholder="Choose a color..." name="category-color">
+                                                <option value="success">Success</option>
+                                                <option value="danger">Danger</option>
+                                                <option value="primary">Primary</option>
+                                                <option value="warning">Warning</option>
+                                                <option value="inverse">Inverse</option>
+                                            </select>
+                                            <i class="fas fa-chevron-down"></i>
+                                        </div>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="cancel-btn btn btn-light br-50 btn-md" data-dismiss="modal">Close</button>
+                            <button type="button" class="btn btn-primary br-50 btn-md save-category" data-dismiss="modal">Save</button>
+                    
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- END MODAL -->
 
 
         <!-- JAVASCRIPT -->
@@ -3029,8 +3175,10 @@
             });
         </script>
 
+
         <script src="https://kit.fontawesome.com/49ccdaea81.js " crossorigin="anonymous "></script>
-        <script src="assets/libs/jquery/jquery.min.js"></script>
+        <!-- <script src="assets/libs/jquery/jquery.min.js"></script> -->
+        <script src="assets/js/jquery.min.js"></script>
         <script src="assets/libs/bootstrap/js/bootstrap.bundle.min.js"></script>
         <script src="assets/libs/metismenu/metisMenu.min.js"></script>
         <script src="assets/libs/simplebar/simplebar.min.js"></script>
@@ -3053,6 +3201,10 @@
         <script src="assets/js/pages/saas-dashboard.init.js"></script>
         <script src="assets/js/pages/apexcharts.init.js"></script>
         <script src="assets/js/pages/mdb.min.js"></script>
+        <script src="assets/libs/calendar/jquery-ui.min.js"></script>
+        <script src="assets/libs/calendar/moment.min.js"></script>
+        <script src="assets/libs/calendar/fullcalendar.min.js"></script>
+        <script src="assets/libs/calendar/jquery.fullcalendar.js"></script>
         <script src="assets/js/app.js"></script>
         <script src="assets/js/aos.js"></script>
         <script>
@@ -3258,7 +3410,61 @@
                 startCalendar: $('.datestart')
             });
         </script>
+        
+<script>
+    const daysTag = document.querySelector(".days");
+    const currentDate = document.querySelector(".current-date");
+    const prevNextIcon = document.querySelectorAll(".icons span");
 
+    let currYear = new Date().getFullYear();
+    let currMonth = new Date().getMonth();
+
+    const months = ["January", "February", "March", "April", "May", "June", "July", "August", "September",
+        "October", "November", "December"
+    ];
+
+    const renderCalendar = () => {
+        const date = new Date(currYear, currMonth, 1);
+        let firstDayofMonth = date.getDay();
+        let lastDateofMonth = new Date(currYear, currMonth + 1, 0).getDate();
+        let lastDayofMonth = new Date(currYear, currMonth, lastDateofMonth).getDay();
+        let lastDateofLastMonth = new Date(currYear, currMonth, 0).getDate();
+
+        let liTag = "";
+
+        for (let i = firstDayofMonth; i > 0; i--) {
+            liTag += `<li class="inactive">${lastDateofLastMonth - i + 1}</li>`;
+        }
+
+        for (let i = 1; i <= lastDateofMonth; i++) {
+            let isToday = i === new Date().getDate() && currMonth === new Date().getMonth() && currYear ===
+                new Date().getFullYear() ? "active" : "";
+            liTag += `<li class="${isToday}">${i}</li>`;
+        }
+
+        for (let i = lastDayofMonth; i < 6; i++) {
+            liTag += `<li class="inactive">${i - lastDayofMonth + 1}</li>`
+        }
+
+        currentDate.innerText = `${months[currMonth]} ${currYear}`;
+        daysTag.innerHTML = liTag;
+    };
+
+    renderCalendar();
+
+    prevNextIcon.forEach(icon => {
+        icon.addEventListener("click", () => {
+            currMonth = icon.id === "prev" ? currMonth - 1 : currMonth + 1;
+
+            if (currMonth < 0 || currMonth > 11) {
+                currYear = icon.id === "prev" ? currYear - 1 : currYear + 1;
+                currMonth = currMonth < 0 ? 11 : 0;
+            }
+
+            renderCalendar();
+        });
+    });
+</script>
 
     </body>
 
