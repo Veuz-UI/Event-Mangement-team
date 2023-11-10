@@ -142,11 +142,16 @@
                                 </li>
                                 <li class="nav-item">
                                     <a class="nav-link" data-bs-toggle="tab" href="#evnt-tab5" role="tab">
-                                        <span>From Responses</span>
+                                        <span>Polls</span>
                                     </a>
                                 </li>
                                 <li class="nav-item">
                                     <a class="nav-link" data-bs-toggle="tab" href="#evnt-tab6" role="tab">
+                                        <span>From Responses</span>
+                                    </a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" data-bs-toggle="tab" href="#evnt-tab7" role="tab">
                                         <span>Settings</span>
                                     </a>
                                 </li>
@@ -2805,6 +2810,437 @@
                                     <div class="col-md-12">
                                         <div class="speaker-header">
                                             <div class="speaker-btns">
+                                                <button type="button" class="btn btn-primary waves-effect waves-light btn-sm br-50 small" data-bs-toggle="modal" data-bs-target="#add-poll">
+                                                                   Add Poll
+                                                                </button>
+                                                                <div class="dropdown event-sett1">
+                                                                    <div class="event-settings dropdown-toggle" type="button"
+                                                                        id="dropdownMenuButton" data-bs-toggle="dropdown"
+                                                                        aria-expanded="false">
+                                                                        <i class="fas fa-cog"></i>
+                                                                    </div>
+                                                                    <div class="dropdown-menu"
+                                                                        aria-labelledby="dropdownMenuButton">
+                                                                        <a class="dropdown-item" href="#"><i
+                                                                                class="fas fa-download me-2"></i>Import</a>
+                                                                        <div class="dropdown-divider"></div>
+                                                                        <a class="dropdown-item" href="#"><i
+                                                                                class="fas fa-upload me-2"></i>Export</a>
+                                                                    </div>
+                                                                </div>
+                                            </div>
+                                            <div class="d-flex rightside-btns">
+                                             
+                                                <div class="input-group search-inpt">
+                                                    <div class="input-group-text bg-white"><i class="bx bx-search-alt"></i>
+                                                    </div>
+                                                    <input type="text" class="form-control border-start-0 ps-0"
+                                                        id="inlineFormInputGroupUsername" placeholder="Search this list "
+                                                        fdprocessedid="8pxgmh">
+                                                    <div class="dropdown drpdwn-fg">
+                                                        <button type="button" style=""
+                                                            class="input-group-text input-group-text-right btn-export btn-filter waves-effect waves-light btn-sm small dropdown-toggle h-100"
+                                                            id="dropdownMenuButton" data-mdb-toggle="dropdown"
+                                                            aria-expanded="false" data-mdb-auto-close="outside"
+                                                            fdprocessedid="w62w8i">
+                                                            <i class="bx bx-filter-alt"></i>
+                    
+                                                        </button>
+                    
+                                                        <ul class="dropdown-menu dropdown-menu-lg filter-megadropdown animation fade-out"
+                                                            aria-labelledby="dropdownMenuButton"
+                                                            data-popper-placement="bottom-end" data-mdb-popper="null"
+                                                            style="position: absolute; inset: 0px 0px auto auto; margin: 0px; transform: translate(-8px, 35px);">
+                                                            <div class="dropdown-row">
+                                                                <div class="col-md-4 border-right px-0">
+                                                                    <h3><i class="bx bxs-filter-alt"></i>Filters</h3>
+                                                                    <div class="dropdown-divider"></div>
+                                                                    <li><a class="dropdown-item" href="#"><span><i
+                                                                                    class="fas fa-check me-2"
+                                                                                    aria-hidden="true"></i>My
+                                                                                Events</span></a>
+                                                                    </li>
+                                                                    <div class="dropdown-divider"></div>
+                                                                    <li>
+                                                                        <a class="dropdown-item" href="#"><span><i
+                                                                                    class="fas fa-check me-2"
+                                                                                    aria-hidden="true"></i>Upcoming/Running</span></a>
+                                                                    </li>
+                                                                    <div class="dropdown-divider"></div>
+                                                                    <li>
+                                                                        <a class="dropdown-item" href="#"><span><i
+                                                                                    class="fas fa-check me-2"
+                                                                                    aria-hidden="true"></i>Published</span></a>
+                                                                    </li>
+                                                                    <div class="dropdown-divider"></div>
+                                                                    <li>
+                                                                        <a class="dropdown-item drpdwn-menu-btn" href="#">
+                                                                            Stage <i class="fas fa-angle-right arrow"
+                                                                                aria-hidden="true"></i>
+                                                                        </a>
+                                                                        <ul class="dropdown-menu dropdown-submenu">
+                                                                            <li>
+                                                                                <a class="dropdown-item" href="#">
+                                                                                    Live
+                                                                                </a>
+                                                                            </li>
+                                                                            <li>
+                                                                                <a class="dropdown-item" href="#">
+                                                                                    Drafts
+                                                                                </a>
+                                                                            </li>
+                                                                            <li>
+                                                                                <a class="dropdown-item" href="#">
+                                                                                    Past
+                                                                                </a>
+                                                                            </li>
+                                                                            <li>
+                                                                                <a class="dropdown-item" href="#">
+                                                                                    Cancelled
+                                                                                </a>
+                                                                            </li>
+                                                                            <li>
+                                                                                <a class="dropdown-item" href="#">
+                                                                                    All
+                                                                                </a>
+                                                                            </li>
+                                                                            <li>
+                                                                                <a class="dropdown-item" href="#">
+                                                                                    Trash
+                                                                                </a>
+                                                                            </li>
+                    
+                                                                        </ul>
+                                                                    </li>
+                                                                    <div class="dropdown-divider"></div>
+                                                                    <li>
+                                                                        <a class="dropdown-item drpdwn-menu-btn" href="#">
+                                                                            Start Date <i class="fas fa-angle-right arrow"
+                                                                                aria-hidden="true"></i>
+                                                                        </a>
+                                                                        <ul class="dropdown-menu dropdown-submenu">
+                                                                            <li>
+                                                                                <a class="dropdown-item" href="#">
+                                                                                    <div class="reg-date w-100">
+                                                                                        <label for="">Date</label>
+                                                                                        <input type="date"
+                                                                                            class="form-control-sm">
+                                                                                    </div>
+                                                                                </a>
+                                                                            </li>
+                    
+                                                                        </ul>
+                                                                    </li>
+                                                                    <div class="dropdown-divider"></div>
+                                                                    <li>
+                                                                        <a class="dropdown-item" href="#"><span><i
+                                                                                    class="fas fa-check me-2"
+                                                                                    aria-hidden="true"></i>Archived</span></a>
+                                                                    </li>
+                                                                    <div class="dropdown-divider"></div>
+                                                                    <li>
+                                                                        <a class="dropdown-item drpdwn-menu-btn" href="#">
+                                                                            Add Custom Filter <i
+                                                                                class="fas fa-angle-right arrow"
+                                                                                aria-hidden="true"></i>
+                                                                        </a>
+                                                                        <ul class="dropdown-menu dropdown-submenu">
+                                                                            <li>
+                                                                                <a class="dropdown-item" href="#">
+                                                                                    <div class="reg-date w-100">
+                                                                                        <input type="text"
+                                                                                            class="form-control-sm"
+                                                                                            placeholder="Type here">
+                    
+                                                                                    </div>
+                    
+                                                                                </a>
+                                                                            </li>
+                                                                            <li>
+                                                                                <a class="dropdown-item" href="#">
+                                                                                    <button type="button"
+                                                                                        class="btn btn-primary btn-sm waves-effect waves-light">Apply</button>
+                    
+                                                                                </a>
+                                                                            </li>
+                    
+                                                                        </ul>
+                                                                    </li>
+                    
+                    
+                                                                </div>
+                                                                <div class="col-md-4 border-right px-0">
+                                                                    <h3><i class="bx bxs-layer"></i>Group By</h3>
+                                                                    <div class="dropdown-divider"></div>
+                                                                    <li><a class="dropdown-item" href="#"><span><i
+                                                                                    class="fas fa-check me-2"
+                                                                                    aria-hidden="true"></i>Responsible</span></a>
+                                                                    </li>
+                                                                    <div class="dropdown-divider"></div>
+                                                                    <li>
+                                                                        <a class="dropdown-item" href="#"><span><i
+                                                                                    class="fas fa-check me-2"
+                                                                                    aria-hidden="true"></i>Template</span></a>
+                                                                    </li>
+                                                                    <div class="dropdown-divider"></div>
+                                                                    <li>
+                                                                        <a class="dropdown-item" href="#"><span><i
+                                                                                    class="fas fa-check me-2"
+                                                                                    aria-hidden="true"></i>Stage</span></a>
+                                                                    </li>
+                    
+                                                                    <div class="dropdown-divider"></div>
+                                                                    <li>
+                                                                        <a class="dropdown-item drpdwn-menu-btn" href="#">
+                                                                            Start Date <i class="fas fa-angle-right arrow"
+                                                                                aria-hidden="true"></i>
+                                                                        </a>
+                                                                        <ul class="dropdown-menu dropdown-submenu">
+                                                                            <li>
+                                                                                <a class="dropdown-item" href="#">
+                                                                                    <div class="reg-date w-100">
+                                                                                        <label for="">Date</label>
+                                                                                        <input type="date"
+                                                                                            class="form-control-sm">
+                                                                                    </div>
+                                                                                </a>
+                                                                            </li>
+                    
+                                                                        </ul>
+                                                                    </li>
+                    
+                                                                    <div class="dropdown-divider"></div>
+                                                                    <li>
+                                                                        <a class="dropdown-item drpdwn-menu-btn" href="#">
+                                                                            Add Custom Group <i class="fas fa-angle-right arrow"
+                                                                                aria-hidden="true"></i>
+                                                                        </a>
+                                                                        <ul class="dropdown-menu dropdown-submenu">
+                                                                            <li>
+                                                                                <a class="dropdown-item" href="#">
+                                                                                    Company
+                                                                                </a>
+                                                                            </li>
+                                                                            <li>
+                                                                                <a class="dropdown-item" href="#">
+                                                                                    Country
+                                                                                </a>
+                                                                            </li>
+                                                                            <li>
+                                                                                <a class="dropdown-item" href="#">
+                                                                                    Created by
+                                                                                </a>
+                                                                            </li>
+                                                                            <li>
+                                                                                <a class="dropdown-item" href="#">
+                                                                                    Created on
+                                                                                </a>
+                                                                            </li>
+                    
+                                                                        </ul>
+                                                                    </li>
+                                                                </div>
+                                                                <div class="col-md-4 px-0">
+                                                                    <h3><i class="bx bxs-star fav"></i>Favorites</h3>
+                                                                    <div class="dropdown-divider"></div>
+                                                                    <li><a class="dropdown-item" href="#"><span><i
+                                                                                    class="fas fa-check me-2"
+                                                                                    aria-hidden="true"></i>My
+                                                                                Events</span></a>
+                                                                    </li>
+                                                                    <div class="dropdown-divider"></div>
+                                                                    <li>
+                                                                        <a class="dropdown-item" href="#"><span><i
+                                                                                    class="fas fa-check me-2"
+                                                                                    aria-hidden="true"></i>Upcoming
+                                                                                Events</span></a>
+                                                                    </li>
+                                                                    <div class="dropdown-divider"></div>
+                                                                    <li>
+                                                                        <a class="dropdown-item drpdwn-menu-btn" href="#">
+                                                                            Save current search <i
+                                                                                class="fas fa-angle-right arrow"
+                                                                                aria-hidden="true"></i>
+                                                                        </a>
+                                                                        <ul class="dropdown-menu dropdown-submenu" style="margin-top: 40px;left: auto;width: 100%;">
+                                                                            <li>
+                                                                                <a class="dropdown-item" href="#">
+                    
+                                                                                    <div class="form-check">
+                                                                                        <input class="form-check-input"
+                                                                                            type="checkbox" id="formCheck1">
+                                                                                        <label class="form-check-label"
+                                                                                            for="formCheck1">
+                                                                                            Default filter
+                                                                                        </label>
+                                                                                    </div>
+                                                                                </a>
+                                                                            </li>
+                                                                            <li>
+                                                                                <a class="dropdown-item" href="#">
+                                                                                    <div class="form-check">
+                                                                                        <input class="form-check-input"
+                                                                                            type="checkbox" id="formCheck1">
+                                                                                        <label class="form-check-label"
+                                                                                            for="formCheck1">
+                                                                                            Shared
+                                                                                        </label>
+                                                                                    </div>
+                                                                                </a>
+                                                                            </li>
+                                                                            <li>
+                                                                                <a class="dropdown-item" href="#">
+                                                                                    <button type="button"
+                                                                                        class="btn btn-primary btn-sm waves-effect waves-light">Save</button>
+                                                                                </a>
+                                                                            </li>
+                    
+                    
+                                                                        </ul>
+                                                                    </li>
+                                                                </div>
+                                                            </div>
+                    
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                    
+                                       
+                    
+                                            </div>
+
+                                        </div>
+                                        <div class="poll-table-overflow">
+                                            <div class="poll-table">
+                                                <div class="poll-title">Title</div>
+                                                <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
+                                                    <div class="panel panel-dark">
+                                                      <div class="panel-heading" role="tab" id="headingOne">
+                                                        <h4 class="panel-title">
+                                                          <div class="panel-collapse-title">
+                                                            <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne" class="pnl-collapse">
+                                                                <i class="fas fa-caret-up arrow-up"></i>
+                                                              </a> General knowledge 
+                                                          </div>
+                                                          <div class="poll-btns">
+                                                            <button class="btn poll-btn1">URL</button>
+                                                            <button class="btn poll-btn2">Participation</button>
+                                                            <button class="btn poll-btn3">See Result</button>
+                                                            <button class="btn poll-btn4"><i class="fas fa-play"></i></button>
+                                                            <button class="btn poll-btn5"><i class="fas fa-stop"></i></button>
+                                                          </div>
+                                                        </h4>
+                                                      </div>
+                                                      <div id="collapseOne" class="panel-collapse collapse show" role="tabpanel" aria-labelledby="headingOne">
+                                                        <div class="panel-body">
+                                                            <div class="poll-bx">
+                                                                <div class="poll-frst-box">
+                                                                    <span class="qstn-type">Single Choice</span>
+                                                                    <h4>1. Which of the following Himalayan regions is called "Shivalik's"?</h4>
+                                                                   
+                                                                </div>
+                                                                <div class="poll-scnd-box">
+                                                                    <div class="poll-second-bx">
+                                                                        <h6 class="mb-0"><span class="ans-no">Answer 1 </span> <span>Upper Himalayas</span></h6>                                                                                                                           
+                                                                        <h6 class="mb-0"><span class="ans-no">Answer 2 </span> <span>Lower Himalayas</span></h6>                                                       
+                                                                        <h6 class="mb-0"><span class="ans-no">Answer 3 </span> <span>Outer Himalayas</span></h6>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            <div class="poll-bx">
+                                                                <div class="poll-frst-box">
+                                                                    <span class="qstn-type">Single Choice</span>
+                                                                    <h4>2. The hero of the Malvikagnimitram of Kalidas is associated with which of the given dynasties? </h4>
+                                                                   
+                                                                </div>
+                                                                <div class="poll-scnd-box">
+                                                                    <div class="poll-second-bx">
+                                                                        <h6 class="mb-0"><span class="ans-no">Answer 1 </span> <span>The Sunga Dynasty</span></h6>                                                                                                                           
+                                                                        <h6 class="mb-0"><span class="ans-no">Answer 2 </span> <span>Pallava Dynasty</span></h6>                                                       
+                                                                        <h6 class="mb-0"><span class="ans-no">Answer 3 </span> <span>Magadha Dynasty</span></h6>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                      </div>
+                                                    </div>
+                                                    <div class="panel panel-dark">
+                                                      <div class="panel-heading" role="tab" id="headingTwo">
+                                                        <h4 class="panel-title">
+                                                         <div class="panel-collapse-title">
+                                                            <a class="pnl-collapse collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                                                <i class="fas fa-caret-up arrow-up"></i>
+                                                              </a> Current affairs
+                                                         </div>
+                                                         <div class="poll-btns">
+                                                            <button class="btn poll-btn1">URL</button>
+                                                            <button class="btn poll-btn2">Participation</button>
+                                                            <button class="btn poll-btn3">See Result</button>
+                                                            <button class="btn poll-btn4"><i class="fas fa-play"></i></button>
+                                                            <button class="btn poll-btn5"><i class="fas fa-stop"></i></button>
+                                                          </div>
+                                                        </h4>
+                                                      </div>
+                                                      <div id="collapseTwo" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo">
+                                                        <div class="panel-body">
+                                                            <div class="poll-bx">
+                                                                <div class="poll-frst-box">
+                                                                    <span class="qstn-type">Single Choice</span>
+                                                                    <h4>1. Which of the following Himalayan regions is called "Shivalik's"?</h4>
+                                                                   
+                                                                </div>
+                                                                <div class="poll-scnd-box">
+                                                                    <div class="poll-second-bx">
+                                                                        <h6 class="mb-0"><span class="ans-no">Answer 1 </span> <span>Upper Himalayas</span></h6>                                                                                                                           
+                                                                        <h6 class="mb-0"><span class="ans-no">Answer 2 </span> <span>Lower Himalayas</span></h6>                                                       
+                                                                        <h6 class="mb-0"><span class="ans-no">Answer 3 </span> <span>Outer Himalayas</span></h6>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            <div class="poll-bx">
+                                                                <div class="poll-frst-box">
+                                                                    <span class="qstn-type">Single Choice</span>
+                                                                    <h4>2. The hero of the Malvikagnimitram of Kalidas is associated with which of the given dynasties? </h4>
+                                                                   
+                                                                </div>
+                                                                <div class="poll-scnd-box">
+                                                                    <div class="poll-second-bx">
+                                                                        <h6 class="mb-0"><span class="ans-no">Answer 1 </span> <span>The Sunga Dynasty</span></h6>                                                                                                                           
+                                                                        <h6 class="mb-0"><span class="ans-no">Answer 2 </span> <span>Pallava Dynasty</span></h6>                                                       
+                                                                        <h6 class="mb-0"><span class="ans-no">Answer 3 </span> <span>Magadha Dynasty</span></h6>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                      </div>
+                                                    </div>
+                                                    
+                                                  </div>
+                                            </div>
+                                        </div>
+                                        <div class="bootom-nav">
+                                            <div class="total-count">
+                                                <h6>Total Count : <span>10</span></h6>
+                                                <ul>
+                                                    <li><a href="#"><i class="bx bx-chevron-left"></i></a></li>
+                                                    <li><a href="#"><i class="bx bx-chevrons-left"></i></a></li>
+                                                    <li class="active"><a href="#"><span>1</span></a></li>                                                 
+                                                    <li><a href="#"><span>2</span></a></li>
+                                                    <li><a href="#"><i class="bx bx-chevrons-right"></i></a></li>
+                                                    <li><a href="#"><i class="bx bx-chevron-right"></i></a></li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                   
+                                    </div>
+                                </div>
+                             
+                            </div>
+                            <div class="tab-pane" id="evnt-tab6" role="tabpanel">
+                                <div class="row speaker-div team-tab-content">
+                                    <div class="col-md-12">
+                                        <div class="speaker-header">
+                                            <div class="speaker-btns">
                                                 <div class="dropdown">
                                                     <div class="event-settings m-0 dropdown-toggle" type="button"
                                                         id="dropdownMenuButton" data-bs-toggle="dropdown"
@@ -3624,7 +4060,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="tab-pane" id="evnt-tab6" role="tabpanel">
+                            <div class="tab-pane" id="evnt-tab7" role="tabpanel">
                                 <div class="row speaker-div team-tab-content">
                                     <div class="col-md-6 col-lap-6">
                                         <div class="evnt-settings">
@@ -3920,6 +4356,141 @@
         </div>
 
 
+    </div>
+
+
+
+    <div class="modal common-modal fade" id="add-poll" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" role="dialog" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="staticBackdropLabel"> <img src="assets/images/users.svg" alt=""><span>Create Poll</span></h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <div class="row">
+                        <div class="col-lg-12">
+                            <div class="form-grp">
+                                <label class="form-label">Poll Title</label>
+                                <input class="form-control" type="text" placeholder="Title">
+                               
+                            </div>
+                        </div>
+                        <div class="col-lg-12">
+                            <div class="form-grp boothprice-labels">
+                                <label class="form-label">Pagination</label>
+                                <div class="row">
+                                    <div class="col-md-4">
+                                        <div class="form-check form-radio-outline form-radio-danger">
+                                            <input class="form-check-input" type="radio" name="formRadio" id="formRadio1">
+                                            <label class="form-check-label" for="formRadio1">
+                                                One page per question
+                                            </label>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <div class="form-check form-radio-outline form-radio-danger">
+                                            <input class="form-check-input" type="radio" name="formRadio" id="formRadio2">
+                                            <label class="form-check-label" for="formRadio2">
+                                                One page with all the questions
+                                            </label>
+                                        </div>
+                                    </div>
+                                </div>
+                               
+                               
+                            </div>
+                        </div>
+                
+
+                    </div>
+                    <div class="question-overflow">
+                        <div class="question-bx">
+                            <div class="row">
+                                <div class="col-lg-12">
+                                    <div class="form-grp">
+                                        <div class="d-flex justify-content-between">
+                                            <label class="form-label">Question</label>
+                                            <a href="#" class="dlt-link"> <i class="bx bxs-trash-alt"></i></a>
+        
+                                        </div>
+                                      
+                                        <textarea name="" id="" cols="30" rows="2" class="form-control" placeholder="Enter the poll question here"></textarea>
+                                       
+                                    </div>
+                                </div>
+                                <div class="col-lg-12">
+                                    <div class="form-grp boothprice-labels">
+                                        <label class="form-label">Poll Type</label>
+                                        <div class="row">
+                                            <div class="col-md-3">
+                                                <div class="form-check form-radio-outline form-radio-danger">
+                                                    <input class="form-check-input" type="radio" name="formRadio1" id="formRadio3">
+                                                    <label class="form-check-label" for="formRadio3">
+                                                        Single Choice
+                                                    </label>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-3">
+                                                <div class="form-check form-radio-outline form-radio-danger">
+                                                    <input class="form-check-input" type="radio" name="formRadio1" id="formRadio4">
+                                                    <label class="form-check-label" for="formRadio4">
+                                                        Multiple Choice
+                                                    </label>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-3">
+                                                <div class="form-check form-radio-outline form-radio-danger">
+                                                    <input class="form-check-input" type="radio" name="formRadio1" id="formRadio5">
+                                                    <label class="form-check-label" for="formRadio5">
+                                                        Rating
+                                                    </label>
+                                                </div>
+                                            </div>
+                                        </div>
+                                       
+                                       
+                                    </div>
+                                </div>
+                                <div class="col-lg-12">
+                                    <div class="form-grp poll-answers">
+                                        <div class="d-flex justify-content-between">
+                                            <label class="form-label">Answers</label>
+                                            <a href="#" class="clr-link"> <i class="fas fa-plus-circle"></i></a>
+        
+                                        </div>
+                                        <div class="input-group mb-2">
+                                            <input type="text" class="form-control" placeholder="Option 1">
+                                            <button class="btn btn-secondary" type="button" id="inputGroupFileAddon04"><i class="bx bx-x"></i></button>
+                                          </div>
+                                          <div class="input-group mb-2">
+                                            <input type="text" class="form-control" placeholder="Option 2">
+                                            <button class="btn btn-secondary" type="button" id="inputGroupFileAddon04"><i class="bx bx-x"></i></button>
+                                          </div>
+                                          <div class="input-group">
+                                            <input type="text" class="form-control" placeholder="Option 3">
+                                            <button class="btn btn-secondary" type="button" id="inputGroupFileAddon04"><i class="bx bx-x"></i></button>
+                                          </div>
+                                         
+                                    </div>
+                                </div>
+                            </div>
+                           </div>
+                    </div>
+                  
+                   <div class="add-answer">
+                    <a href="#"><i class="bx bx-plus-circle"></i> Add Question</a>
+                  </div>
+                </div>
+                <div class="modal-footer">
+                   
+                   
+                    <button type="button" class="btn btn-light br-50 btn-md" data-bs-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-primary br-50 btn-md ms-1">Save</button>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
     <div class="modal fade" id="share-qr" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" role="dialog" aria-labelledby="staticBackdropLabel" aria-hidden="true">
         <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
