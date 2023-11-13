@@ -2796,7 +2796,7 @@ input[type=checkbox].tui-full-calendar-checkbox-round+span {
 
 #external-events .external-event {
     text-align: left;
-    padding: 8px 16px
+    padding: 3px 16px
 }
 
 .fc-day-grid-event.fc-h-event.fc-event.fc-start.fc-end.bg-dark .fc-content {
@@ -11570,7 +11570,7 @@ table .avatar-sm{
 
 .main-calendar .fc-event {
     margin: 3px 5px;
-    padding: 3px 8px;
+    padding: 2px 8px;
     justify-content: center;
 }
 
@@ -11878,7 +11878,7 @@ table .avatar-sm{
 }
 
 .panel-heading{
-    padding: 10px 1rem;
+    padding: 6px 15px;
     border-bottom: 1px solid #ebebeb;
 }
 
@@ -11938,7 +11938,7 @@ table .avatar-sm{
 }
 
 .poll-second-bx h6 span{
-    padding: 8px 15px;
+    padding: 5px 15px;
     font-size: 14px;
     line-height: 25px;
 }
@@ -11960,7 +11960,7 @@ table .avatar-sm{
 }
 
 .poll-frst-box h4{
-    font-size: 16px;
+    font-size: 15px;
     color: #000;
     margin-top: 15px;
     line-height: 25px;
