@@ -2864,10 +2864,9 @@ textarea.form-control-lg {
 }
 
 .form-select:focus {
-    border-color: var(--bs-input-focus-border-color);
+    border-color: #85B7D9;
     outline: 0;
-    -webkit-box-shadow: 0 0 0 .15rem rgba(85, 110, 230, .25);
-    box-shadow: 0 0 0 .15rem rgba(85, 110, 230, .25)
+   
 }
 
 .form-select[multiple],
@@ -2891,7 +2890,7 @@ textarea.form-control-lg {
     padding-bottom: .25rem;
     padding-left: .5rem;
     font-size: .7109375rem;
-    border-radius: .2rem
+    border-radius: 0rem
 }
 
 .form-select-lg {

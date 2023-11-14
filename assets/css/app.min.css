@@ -12079,3 +12079,40 @@ table .avatar-sm{
 .dlt-link:hover{
     color: #cd3b3b;
 }
+
+.stars {
+    display: flex;
+    align-items: center;
+    gap: 3px;
+    margin-top: 3px;
+  }
+  .stars i {
+    color: #acacac;
+    font-size: 20px;
+    align-items: center;
+    justify-content: space-evenly;
+    text-shadow: 1px 1px 0.2px rgb(0 0 0 / 30%);
+    cursor: pointer;
+  }
+  .stars .active {
+    color: #ffa900 !important;
+  }
+
+.question-overflow{
+    max-height: 400px;
+    overflow-y: auto;
+    overflow-x: hidden;
+    padding-right: 5px;
+}
+
+.poll-modal .boothprice-labels .form-check-label{
+    font-size: 13.3px !important;
+}
+
+.poll-modal .form-radio-danger{
+    margin-top: 5px;
+}
+
+.poll-modal .boothprice-labels .form-check-input{
+    top: -1px;
+}

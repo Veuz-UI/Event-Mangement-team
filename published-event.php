@@ -3123,7 +3123,7 @@
                                                               </a> General knowledge 
                                                           </div>
                                                           <div class="poll-btns">
-                                                            <button class="btn poll-btn1">URL</button>
+                                                            <a href="poll.php" target="_blank"><button class="btn poll-btn1">URL</button></a>
                                                             <button class="btn poll-btn2">Participation</button>
                                                             <button class="btn poll-btn3">See Result</button>
                                                             <button class="btn poll-btn4"><i class="fas fa-play"></i></button>
@@ -4367,7 +4367,7 @@
                     <h5 class="modal-title" id="staticBackdropLabel"> <img src="assets/images/users.svg" alt=""><span>Create Poll</span></h5>
                     <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                 </div>
-                <div class="modal-body">
+                <div class="modal-body poll-modal">
                     <div class="row">
                         <div class="col-lg-12">
                             <div class="form-grp">
@@ -4425,7 +4425,7 @@
                                         <div class="row">
                                             <div class="col-md-3">
                                                 <div class="form-check form-radio-outline form-radio-danger">
-                                                    <input class="form-check-input" type="radio" name="formRadio1" id="formRadio3">
+                                                    <input class="form-check-input polltype" type="radio" name="polltype" id="formRadio3" value="1" checked>
                                                     <label class="form-check-label" for="formRadio3">
                                                         Single Choice
                                                     </label>
@@ -4433,7 +4433,7 @@
                                             </div>
                                             <div class="col-md-3">
                                                 <div class="form-check form-radio-outline form-radio-danger">
-                                                    <input class="form-check-input" type="radio" name="formRadio1" id="formRadio4">
+                                                    <input class="form-check-input polltype" type="radio" name="polltype" id="formRadio4" value="2">
                                                     <label class="form-check-label" for="formRadio4">
                                                         Multiple Choice
                                                     </label>
@@ -4441,7 +4441,7 @@
                                             </div>
                                             <div class="col-md-3">
                                                 <div class="form-check form-radio-outline form-radio-danger">
-                                                    <input class="form-check-input" type="radio" name="formRadio1" id="formRadio5">
+                                                    <input class="form-check-input polltype" type="radio" name="polltype" id="formRadio5" value="3">
                                                     <label class="form-check-label" for="formRadio5">
                                                         Rating
                                                     </label>
@@ -4453,10 +4453,10 @@
                                     </div>
                                 </div>
                                 <div class="col-lg-12">
-                                    <div class="form-grp poll-answers">
+                                    <div class="form-grp poll-answers poll-desc" id="polltype1">
                                         <div class="d-flex justify-content-between">
                                             <label class="form-label">Answers</label>
-                                            <a href="#" class="clr-link"> <i class="fas fa-plus-circle"></i></a>
+                                            <a href="#" class="clr-link add-answer-btn"> <i class="fas fa-plus-circle"></i></a>
         
                                         </div>
                                         <div class="input-group mb-2">
@@ -4467,18 +4467,52 @@
                                             <input type="text" class="form-control" placeholder="Option 2">
                                             <button class="btn btn-secondary" type="button" id="inputGroupFileAddon04"><i class="bx bx-x"></i></button>
                                           </div>
-                                          <div class="input-group">
+                                          <div class="input-group mb-2">
                                             <input type="text" class="form-control" placeholder="Option 3">
                                             <button class="btn btn-secondary" type="button" id="inputGroupFileAddon04"><i class="bx bx-x"></i></button>
                                           </div>
                                          
                                     </div>
                                 </div>
+                                <div class="col-lg-12">
+                                    <div class="form-grp poll-answers poll-desc" id="polltype2" style="display: none;">
+                                        <div class="d-flex justify-content-between">
+                                            <label class="form-label">Answers</label>
+                                            <a href="#" class="clr-link add-answer-btn"> <i class="fas fa-plus-circle"></i></a>
+        
+                                        </div>
+                                        <div class="input-group mb-2">
+                                            <input type="text" class="form-control" placeholder="Option 1">
+                                            <button class="btn btn-secondary" type="button" id="inputGroupFileAddon04"><i class="bx bx-x"></i></button>
+                                          </div>
+                                          <div class="input-group mb-2">
+                                            <input type="text" class="form-control" placeholder="Option 2">
+                                            <button class="btn btn-secondary" type="button" id="inputGroupFileAddon04"><i class="bx bx-x"></i></button>
+                                          </div>
+                                          <div class="input-group mb-2">
+                                            <input type="text" class="form-control" placeholder="Option 3">
+                                            <button class="btn btn-secondary" type="button" id="inputGroupFileAddon04"><i class="bx bx-x"></i></button>
+                                          </div>
+                                         
+                                    </div>
+                                </div>
+                                <div class="col-lg-3">
+                                    <div class="form-grp poll-rating poll-desc" id="polltype3" style="display: none;">
+                                        <label class="form-label">No of Stars</label>
+                                        <select class="form-select form-control form-select-sm" aria-label=".form-select-sm example">
+                                            <option value="3star">3 Star</option>
+                                            <option value="5star" selected>5 Star</option>
+                                            <option value="10star">10 Star</option>                          
+                                         
+                                        </select>
+                                         
+                                    </div>
+                                </div>
                             </div>
-                           </div>
+                        </div>
                     </div>
                   
-                   <div class="add-answer">
+                   <div class="add-answer add-qstn">
                     <a href="#"><i class="bx bx-plus-circle"></i> Add Question</a>
                   </div>
                 </div>
@@ -5894,6 +5928,146 @@
             $('.check-input').prop('checked', this.checked);
         });
     });
+</script>
+<script>
+
+
+
+
+
+    $(document).on('click','.poll-answers .input-group .btn', function(){
+        $(this).parent().fadeOut(500);
+    });
+    $(document).on('click','.question-bx .dlt-link', function(){
+        $(this).closest('.question-bx').fadeOut(500);
+    });
+    $(document).on('click','.add-answer-btn', function(){
+        newRowAdd =
+                '<div class="input-group mb-2"><input type="text" class="form-control" placeholder="Option 1"><button class="btn btn-secondary" type="button" id="inputGroupFileAddon04"><i class="bx bx-x"></i></button></div>' ;
+ 
+            $(this).closest('.poll-answers').append(newRowAdd);
+    });
+     
+        $(document).ready(function() {
+            $(document).on('click','.polltype', function(){
+                $(this).prop("checked", true)
+                var txt = $(this).val();
+                $(this).closest(".question-bx").find(".poll-desc").hide();
+                $(this).closest(".question-bx").find("#polltype" + txt).show();
+            });
+        });
+
+
+        var i = 1
+
+        $(".add-qstn").click(function () {
+
+           
+            newRowAddqstn =
+                '<div class="question-bx">' +
+                            '<div class="row">' +
+                               '<div class="col-lg-12">' +
+                                    '<div class="form-grp">' +
+                                        '<div class="d-flex justify-content-between">' +
+                                            '<label class="form-label">Question</label>' +
+                                            '<a href="#" class="dlt-link"> <i class="bx bxs-trash-alt"></i></a>' +       
+                                        '</div>' +
+                                      
+                                        '<textarea name="" id="" cols="30" rows="2" class="form-control" placeholder="Enter the poll question here"></textarea>' +
+                                       
+                                    '</div>' +
+                                '</div>' +
+                                '<div class="col-lg-12">' +
+                                    '<div class="form-grp boothprice-labels">' +
+                                        '<label class="form-label">Poll Type</label>' +
+                                        '<div class="row">' +
+                                            '<div class="col-md-3">' +
+                                                '<div class="form-check form-radio-outline form-radio-danger">' +
+                                                    '<input class="form-check-input polltype" type="radio" name="polltype'+i+'" id="formRadio3'+i+'" value="1" checked>' +
+                                                    '<label class="form-check-label" for="formRadio3'+i+'">Single Choice</label>' +
+                                                '</div>' +
+                                            '</div>' +
+                                            '<div class="col-md-3">' +
+                                                '<div class="form-check form-radio-outline form-radio-danger">' +
+                                                    '<input class="form-check-input polltype" type="radio" name="polltype'+i+'" id="formRadio4'+i+'" value="2">' +
+                                                    '<label class="form-check-label" for="formRadio4'+i+'">Multiple Choice</label>' +
+                                                '</div>' +
+                                            '</div>' +
+                                            '<div class="col-md-3">' +
+                                                '<div class="form-check form-radio-outline form-radio-danger">' +
+                                                    '<input class="form-check-input polltype" type="radio" name="polltype'+i+'" id="formRadio5'+i+'" value="3">' +
+                                                   '<label class="form-check-label" for="formRadio5'+i+'">Rating</label>' +
+                                                '</div>' +
+                                            '</div>' +
+                                       ' </div>' +
+                                       
+                                       
+                                    '</div>' +
+                                '</div>' +
+                                '<div class="col-lg-12">' +
+                                    '<div class="form-grp poll-answers poll-desc" id="polltype1">' +
+                                        '<div class="d-flex justify-content-between">' +
+                                            '<label class="form-label">Answers</label>' +
+                                            '<a href="#" class="clr-link add-answer-btn"> <i class="fas fa-plus-circle"></i></a>' +
+        
+                                        '</div>' +
+                                        '<div class="input-group mb-2">' +
+                                            '<input type="text" class="form-control" placeholder="Option 1">' +
+                                            '<button class="btn btn-secondary" type="button" id="inputGroupFileAddon04"><i class="bx bx-x"></i></button>' +
+                                          '</div>' +
+                                          '<div class="input-group mb-2">' +
+                                            '<input type="text" class="form-control" placeholder="Option 2">' +
+                                            '<button class="btn btn-secondary" type="button" id="inputGroupFileAddon04"><i class="bx bx-x"></i></button>' +
+                                          '</div>' +
+                                          '<div class="input-group mb-2">' +
+                                            '<input type="text" class="form-control" placeholder="Option 3">' +
+                                            '<button class="btn btn-secondary" type="button" id="inputGroupFileAddon04"><i class="bx bx-x"></i></button>' +
+                                          '</div>' +
+                                         
+                                    '</div>' +
+                                '</div>' +
+                                '<div class="col-lg-12">' +
+                                    '<div class="form-grp poll-answers poll-desc" id="polltype2" style="display: none;">' +
+                                       ' <div class="d-flex justify-content-between">' +
+                                            '<label class="form-label">Answers</label>' +
+                                            '<a href="#" class="clr-link add-answer-btn"> <i class="fas fa-plus-circle"></i></a>' +
+        
+                                        '</div>' +
+                                        '<div class="input-group mb-2">' +
+                                            '<input type="text" class="form-control" placeholder="Option 1">' +
+                                           ' <button class="btn btn-secondary" type="button" id="inputGroupFileAddon04"><i class="bx bx-x"></i></button>' +
+                                          '</div>' +
+                                          '<div class="input-group mb-2">' +
+                                            '<input type="text" class="form-control" placeholder="Option 2">' +
+                                           ' <button class="btn btn-secondary" type="button" id="inputGroupFileAddon04"><i class="bx bx-x"></i></button>' +
+                                          '</div>' +
+                                          '<div class="input-group mb-2">' +
+                                            '<input type="text" class="form-control" placeholder="Option 3">' +
+                                            '<button class="btn btn-secondary" type="button" id="inputGroupFileAddon04"><i class="bx bx-x"></i></button>' +
+                                         ' </div>' +
+                                         
+                                   ' </div>' +
+                                '</div>' +
+                                '<div class="col-lg-3">' +
+                                   ' <div class="form-grp poll-rating poll-desc" id="polltype3" style="display: none;">' +
+                                       ' <label class="form-label">No of Stars</label>' +
+                                       '<select class="form-select form-control form-select-sm" aria-label=".form-select-sm example">' +
+                                           '<option value="3star">3 Star</option>' +
+                                            '<option value="5star" selected>5 Star</option>' +
+                                            '<option value="10star">10 Star</option>' +                        
+                                         
+                                        '</select>' +
+                                       
+                                         
+                                    '</div>' +
+                                '</div>' +
+                            '</div>' +
+                        '</div>' ;
+            $('.question-overflow').append(newRowAddqstn);
+
+            i = i + 1
+        });
+                                            
 </script>
 
 </body>
