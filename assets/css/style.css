@@ -793,3 +793,25 @@ footer
     /* text-transform: uppercase; */
     transition: 0.4s;
   }
+
+  .star-checked {
+    color: orange;
+  }
+  .star-box{
+  position: absolute;
+  transform: translate(-50%,-50%);
+  top: 64%;
+  left: 50%;
+  }
+  .star-box span{
+    font-size: 40px;
+    margin: 5px;
+  }
+  .bg-of-onscreen{
+    background-image: url(../images/bg.svg);
+    width: 100%;
+    height: 100vh;
+  }
+  .event-onscreen-head h3{
+    font-size: 50px;
+  }

@@ -56,10 +56,6 @@
                 <div class="col-md-12">
                     <div class="speaker-header">
                         <div class="speaker-btns">
-                            <button type="button"
-                                class="btn btn-primary waves-effect waves-light btn-sm br-50 small"
-                                data-bs-toggle="modal" data-bs-target="#invite-speaker" fdprocessedid="c5f7r">Add Speakers
-                            </button>
                             <div class="dropdown event-sett">
                                 <div class="event-settings dropdown-toggle" type="button"
                                     id="dropdownMenuButton" data-bs-toggle="dropdown"
@@ -444,11 +440,11 @@
                                             <tr>
                                                 <th width="46px"><input class="form-check-input " type="checkbox" name="Main_Checkbox"
                                                 id="selectAll"><span class="resize"></span></th>
+                                                <th>Ticket ID<span class="resize"></span></th>
                                                 <th>Name<span class="resize"></span></th>
                                                 <th>Email<span class="resize"></span></th>
-                                                <th>Role<span class="resize"></span></th>
-                                                <th>Status<span class="resize"></span></th>
-                                                <th>Profile Status<span class="resize"></span></th>
+                                                <th>Phone Number<span class="resize"></span></th>
+                                                <th>See Result<span class="resize"></span></th>
                                                 <th><span class="resize"></span></th>
 
                                             </tr>
@@ -457,295 +453,106 @@
                                             <tr>
                                                 <td><input class="form-check-input check-input" type="checkbox" id="formCheck1"><span class="resize"></span></td>
                                                 <td>
-                                                    <div class="responsible">
-                                                        <img src="assets/images/users/avatar-7.jpg" alt=""
-                                                            class="avatar-sm rounded-circle">
-                                                        <div class="speaker-name-email">
-                                                            <h6>James Fernandas</h6>
-                                                        
-                                                        </div>
-
-                                                    </div><span class="resize"></span>
+                                                    KZQ-ZVDRT-613
                                                 </td>
                                                 <td>
-                                                    jamesfernand@gmail.com
+                                                 Dome jacson
                                                 <span class="resize"></span>
                                                 </td>
                                                 <td>
-                                                    <button type="button"
-                                                        class="btn btn-outline-secondary btn-export waves-effect waves-light btn-sm small spkr-btn"
-                                                        fdprocessedid="7erxri">
-                                                        <svg width="14" height="14" viewBox="0 0 14 14" fill="none"
-                                                            xmlns="http://www.w3.org/2000/svg">
-                                                            <path
-                                                                d="M6.99984 9.04175C8.289 9.04175 9.33317 7.99758 9.33317 6.70841V3.50008C9.33317 2.21091 8.289 1.16675 6.99984 1.16675C5.71067 1.16675 4.6665 2.21091 4.6665 3.50008V6.70841C4.6665 7.99758 5.71067 9.04175 6.99984 9.04175Z"
-                                                                stroke="#263238" stroke-linecap="round" stroke-linejoin="round">
-                                                            </path>
-                                                            <path
-                                                                d="M2.5376 5.62915V6.62082C2.5376 9.08249 4.53843 11.0833 7.0001 11.0833M7.0001 11.0833C9.46176 11.0833 11.4626 9.08249 11.4626 6.62082V5.62915M7.0001 11.0833V12.8333M6.18926 3.75082C6.71426 3.55832 7.28593 3.55832 7.81093 3.75082M6.53343 4.98749C6.8426 4.90582 7.16343 4.90582 7.4726 4.98749"
-                                                                stroke="#263238" stroke-linecap="round" stroke-linejoin="round">
-                                                            </path>
-                                                        </svg>Speaker
-                                                    </button><span class="resize"></span>
+                                                    domejacson@gmail.com
                                                 </td>
                                                 <td>
-                                                    <div class="status d-flex">
-                                                        <h6>Invited - 20 minutes ago</h6>
-                                                        <a href="#">Reinvite</a>
-                                                        <span class="resize"></span>
-                                                    </div>
+                                             +966 1234 5678 90
                                                 </td>
 
                                                 <td>
-                                                    <div class="profile-status">
-                                                        <div class="progress animated-progess">
-                                                            <div class="progress-bar bg-danger" role="progressbar"
-                                                                style="width: 50%" aria-valuenow="100" aria-valuemin="0"
-                                                                aria-valuemax="100"></div>
-                                                        </div>
-                                                        <h6>50%</h6>
-                                                    </div>
-                                                    <span class="resize"></span>
+                                                    <a href="exam-answers.php"><a href="exam-answers.php"><button type="button" class="btn btn-soft-primary waves-effect waves-light attandee-crfrm-btn">Go to Result</button></a></a>
                                                 </td>
-                                                <td class="text-end td-overflow">
-                                                    <div class="btn-group">
-                                                        <button type="button" class="btn btn-light1 text-uppercase px-2"
-                                                            data-bs-toggle="modal" data-bs-target="#invite-speaker"
-                                                            fdprocessedid="gel9d7">Edit</button>
-                                                        <button type="button"
-                                                            class="btn btn-light1 px-1 dropdown-toggle dropdown-toggle-split"
-                                                            data-bs-toggle="dropdown" aria-expanded="false" fdprocessedid="tv1629">
-                                                            <i class="mdi mdi-chevron-down"></i>
-                                                        </button>
-                                                        <div class="dropdown-menu">
-                                                            <a class="dropdown-item" href="#">Delete</a>
-
-
-                                                        </div>
-                                                    </div>
+                                                <td class="text-end">
+                                                    <a href="#" class="delete-member" data-bs-toggle="modal" data-bs-target="#delete-alert"><i class="bx bx-trash"></i></a>
                                                     <span class="resize"></span>
                                                 </td>
 
 
                                             </tr>
                                             <tr>
-                                                <td><input class="form-check-input check-input" type="checkbox" id="formCheck2"><span class="resize"></span></td>
+                                                <td><input class="form-check-input check-input" type="checkbox" id="formCheck1"><span class="resize"></span></td>
                                                 <td>
-                                                    <div class="responsible">
-                                                        <img src="assets/images/users/avatar-7.jpg" alt=""
-                                                            class="avatar-sm rounded-circle">
-                                                        <div class="speaker-name-email">
-                                                            <h6>James Fernandas</h6>
-                                                        
-                                                        </div>
-
-                                                    </div><span class="resize"></span>
+                                                    KZQ-ZVDRT-613
                                                 </td>
                                                 <td>
-                                                    jamesfernand@gmail.com
+                                                 Dome jacson
                                                 <span class="resize"></span>
                                                 </td>
                                                 <td>
-                                                    <button type="button"
-                                                        class="btn btn-outline-secondary btn-export waves-effect waves-light btn-sm small spkr-btn"
-                                                        fdprocessedid="jkxank">
-                                                        <svg width="14" height="14" viewBox="0 0 14 14" fill="none"
-                                                            xmlns="http://www.w3.org/2000/svg">
-                                                            <path
-                                                                d="M6.99984 9.04175C8.289 9.04175 9.33317 7.99758 9.33317 6.70841V3.50008C9.33317 2.21091 8.289 1.16675 6.99984 1.16675C5.71067 1.16675 4.6665 2.21091 4.6665 3.50008V6.70841C4.6665 7.99758 5.71067 9.04175 6.99984 9.04175Z"
-                                                                stroke="#263238" stroke-linecap="round" stroke-linejoin="round">
-                                                            </path>
-                                                            <path
-                                                                d="M2.5376 5.62915V6.62082C2.5376 9.08249 4.53843 11.0833 7.0001 11.0833M7.0001 11.0833C9.46176 11.0833 11.4626 9.08249 11.4626 6.62082V5.62915M7.0001 11.0833V12.8333M6.18926 3.75082C6.71426 3.55832 7.28593 3.55832 7.81093 3.75082M6.53343 4.98749C6.8426 4.90582 7.16343 4.90582 7.4726 4.98749"
-                                                                stroke="#263238" stroke-linecap="round" stroke-linejoin="round">
-                                                            </path>
-                                                        </svg>Speaker
-                                                    </button>
-                                                    <span class="resize"></span>
+                                                    domejacson@gmail.com
                                                 </td>
                                                 <td>
-                                                    <div class="status d-flex">
-                                                        <h6>Invited - 20 minutes ago</h6>
-                                                        <a href="#">Reinvite</a>
-                                                        <span class="resize"></span>
-                                                    </div>
+                                             +966 1234 5678 90
                                                 </td>
 
                                                 <td>
-                                                    <div class="profile-status">
-                                                        <div class="progress animated-progess">
-                                                            <div class="progress-bar bg-danger" role="progressbar"
-                                                                style="width: 50%" aria-valuenow="100" aria-valuemin="0"
-                                                                aria-valuemax="100"></div>
-                                                        </div>
-                                                        <h6>50%</h6>
-                                                    </div>
+                                                    <a href="exam-answers.php"><button type="button" class="btn btn-soft-primary waves-effect waves-light attandee-crfrm-btn">Go to Result</button></a>
+                                                </td>
+                                                <td class="text-end">
+                                                    <a href="#" class="delete-member" data-bs-toggle="modal" data-bs-target="#delete-alert"><i class="bx bx-trash"></i></a>
                                                     <span class="resize"></span>
                                                 </td>
-                                                <td class="text-end td-overflow">
-                                                    <div class="btn-group">
-                                                    <button type="button" class="btn btn-light1 text-uppercase px-2"
-                                                            data-bs-toggle="modal" data-bs-target="#invite-speaker"
-                                                            fdprocessedid="gel9d7">Edit</button>
-                                                        <button type="button"
-                                                            class="btn btn-light1 px-1 dropdown-toggle dropdown-toggle-split"
-                                                            data-bs-toggle="dropdown" aria-expanded="false" fdprocessedid="tv1629">
-                                                            <i class="mdi mdi-chevron-down"></i>
-                                                        </button>
-                                                        <div class="dropdown-menu">
-                                                            <a class="dropdown-item" href="#">Delete</a>
 
 
-                                                        </div>
-                                                    </div>
-                                                    <span class="resize"></span>
-                                                </td>
                                             </tr>
                                             <tr>
-                                                <td><input class="form-check-input check-input" type="checkbox" id="formCheck3"><span class="resize"></span></td>
+                                                <td><input class="form-check-input check-input" type="checkbox" id="formCheck1"><span class="resize"></span></td>
                                                 <td>
-                                                    <div class="responsible">
-                                                        <img src="assets/images/users/avatar-7.jpg" alt=""
-                                                            class="avatar-sm rounded-circle">
-                                                        <div class="speaker-name-email">
-                                                            <h6>James Fernandas</h6>
-                                                        
-                                                        </div>
-
-                                                    </div><span class="resize"></span>
+                                                    KZQ-ZVDRT-613
                                                 </td>
                                                 <td>
-                                                    jamesfernand@gmail.com
+                                                 Dome jacson
                                                 <span class="resize"></span>
                                                 </td>
                                                 <td>
-                                                    <button type="button"
-                                                        class="btn btn-outline-secondary btn-export waves-effect waves-light btn-sm small spkr-btn"
-                                                        fdprocessedid="sd9nll">
-                                                        <svg width="14" height="14" viewBox="0 0 14 14" fill="none"
-                                                            xmlns="http://www.w3.org/2000/svg">
-                                                            <path
-                                                                d="M6.99984 9.04175C8.289 9.04175 9.33317 7.99758 9.33317 6.70841V3.50008C9.33317 2.21091 8.289 1.16675 6.99984 1.16675C5.71067 1.16675 4.6665 2.21091 4.6665 3.50008V6.70841C4.6665 7.99758 5.71067 9.04175 6.99984 9.04175Z"
-                                                                stroke="#263238" stroke-linecap="round" stroke-linejoin="round">
-                                                            </path>
-                                                            <path
-                                                                d="M2.5376 5.62915V6.62082C2.5376 9.08249 4.53843 11.0833 7.0001 11.0833M7.0001 11.0833C9.46176 11.0833 11.4626 9.08249 11.4626 6.62082V5.62915M7.0001 11.0833V12.8333M6.18926 3.75082C6.71426 3.55832 7.28593 3.55832 7.81093 3.75082M6.53343 4.98749C6.8426 4.90582 7.16343 4.90582 7.4726 4.98749"
-                                                                stroke="#263238" stroke-linecap="round" stroke-linejoin="round">
-                                                            </path>
-                                                        </svg>Speaker
-                                                    </button>
-                                                    <span class="resize"></span>
+                                                    domejacson@gmail.com
                                                 </td>
                                                 <td>
-                                                    <div class="status d-flex">
-                                                        <h6>Invited - 20 minutes ago</h6>
-                                                        <a href="#">Reinvite</a>
-                                                        <span class="resize"></span>
-                                                    </div>
+                                             +966 1234 5678 90
                                                 </td>
 
                                                 <td>
-                                                    <div class="profile-status">
-                                                        <div class="progress animated-progess">
-                                                            <div class="progress-bar bg-danger" role="progressbar"
-                                                                style="width: 50%" aria-valuenow="100" aria-valuemin="0"
-                                                                aria-valuemax="100"></div>
-                                                        </div>
-                                                        <h6>50%</h6>
-                                                    </div>
+                                                    <a href="exam-answers.php"><button type="button" class="btn btn-soft-primary waves-effect waves-light attandee-crfrm-btn">Go to Result</button></a>
+                                                </td>
+                                                <td class="text-end">
+                                                    <a href="#" class="delete-member" data-bs-toggle="modal" data-bs-target="#delete-alert"><i class="bx bx-trash"></i></a>
                                                     <span class="resize"></span>
                                                 </td>
-                                                <td class="text-end td-overflow">
-                                                    <div class="btn-group">
-                                                    <button type="button" class="btn btn-light1 text-uppercase px-2"
-                                                            data-bs-toggle="modal" data-bs-target="#invite-speaker"
-                                                            fdprocessedid="gel9d7">Edit</button>
-                                                        <button type="button"
-                                                            class="btn btn-light1 px-1 dropdown-toggle dropdown-toggle-split"
-                                                            data-bs-toggle="dropdown" aria-expanded="false" fdprocessedid="tv1629">
-                                                            <i class="mdi mdi-chevron-down"></i>
-                                                        </button>
-                                                        <div class="dropdown-menu">
-                                                            <a class="dropdown-item" href="#">Delete</a>
 
 
-                                                        </div>
-                                                    </div>
-                                                    <span class="resize"></span>
-                                                </td>
                                             </tr>
                                             <tr>
-                                                <td><input class="form-check-input check-input" type="checkbox" id="formCheck4"><span class="resize"></span></td>
+                                                <td><input class="form-check-input check-input" type="checkbox" id="formCheck1"><span class="resize"></span></td>
                                                 <td>
-                                                    <div class="responsible">
-                                                        <img src="assets/images/users/avatar-7.jpg" alt=""
-                                                            class="avatar-sm rounded-circle">
-                                                        <div class="speaker-name-email">
-                                                            <h6>James Fernandas</h6>
-                                                        
-                                                        </div>
-
-                                                    </div><span class="resize"></span>
+                                                    KZQ-ZVDRT-613
                                                 </td>
                                                 <td>
-                                                    jamesfernand@gmail.com
+                                                 Dome jacson
                                                 <span class="resize"></span>
                                                 </td>
                                                 <td>
-                                                    <button type="button"
-                                                        class="btn btn-outline-secondary btn-export waves-effect waves-light btn-sm small spkr-btn"
-                                                        fdprocessedid="fuie46">
-                                                        <svg width="14" height="14" viewBox="0 0 14 14" fill="none"
-                                                            xmlns="http://www.w3.org/2000/svg">
-                                                            <path
-                                                                d="M6.99984 9.04175C8.289 9.04175 9.33317 7.99758 9.33317 6.70841V3.50008C9.33317 2.21091 8.289 1.16675 6.99984 1.16675C5.71067 1.16675 4.6665 2.21091 4.6665 3.50008V6.70841C4.6665 7.99758 5.71067 9.04175 6.99984 9.04175Z"
-                                                                stroke="#263238" stroke-linecap="round" stroke-linejoin="round">
-                                                            </path>
-                                                            <path
-                                                                d="M2.5376 5.62915V6.62082C2.5376 9.08249 4.53843 11.0833 7.0001 11.0833M7.0001 11.0833C9.46176 11.0833 11.4626 9.08249 11.4626 6.62082V5.62915M7.0001 11.0833V12.8333M6.18926 3.75082C6.71426 3.55832 7.28593 3.55832 7.81093 3.75082M6.53343 4.98749C6.8426 4.90582 7.16343 4.90582 7.4726 4.98749"
-                                                                stroke="#263238" stroke-linecap="round" stroke-linejoin="round">
-                                                            </path>
-                                                        </svg>Speaker
-                                                    </button>
-                                                    <span class="resize"></span>
+                                                    domejacson@gmail.com
                                                 </td>
                                                 <td>
-                                                    <div class="status d-flex">
-                                                        <h6>Invited - 20 minutes ago</h6>
-                                                        <a href="#">Reinvite</a>
-                                                        <span class="resize"></span>
-                                                    </div>
+                                             +966 1234 5678 90
                                                 </td>
 
                                                 <td>
-                                                    <div class="profile-status">
-                                                        <div class="progress animated-progess">
-                                                            <div class="progress-bar bg-danger" role="progressbar"
-                                                                style="width: 50%" aria-valuenow="100" aria-valuemin="0"
-                                                                aria-valuemax="100"></div>
-                                                        </div>
-                                                        <h6>50%</h6>
-                                                    </div>
+                                                    <a href="exam-answers.php"><button type="button" class="btn btn-soft-primary waves-effect waves-light attandee-crfrm-btn">Go to Result</button></a>
+                                                </td>
+                                                <td class="text-end">
+                                                    <a href="#" class="delete-member" data-bs-toggle="modal" data-bs-target="#delete-alert"><i class="bx bx-trash"></i></a>
                                                     <span class="resize"></span>
                                                 </td>
-                                                <td class="text-end td-overflow">
-                                                    <div class="btn-group">
-                                                    <button type="button" class="btn btn-light1 text-uppercase px-2"
-                                                            data-bs-toggle="modal" data-bs-target="#invite-speaker"
-                                                            fdprocessedid="gel9d7">Edit</button>
-                                                        <button type="button"
-                                                            class="btn btn-light1 px-1 dropdown-toggle dropdown-toggle-split"
-                                                            data-bs-toggle="dropdown" aria-expanded="false" fdprocessedid="tv1629">
-                                                            <i class="mdi mdi-chevron-down"></i>
-                                                        </button>
-                                                        <div class="dropdown-menu">
-                                                            <a class="dropdown-item" href="#">Delete</a>
 
 
-                                                        </div>
-                                                    </div>
-                                                    <span class="resize"></span>
-                                                </td>
                                             </tr>
 
                                         </tbody>

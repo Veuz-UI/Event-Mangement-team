@@ -3125,7 +3125,7 @@
                                                           <div class="poll-btns">
                                                             <a href="voting.php" target="_blank"><button class="btn poll-btn1">URL</button></a>
                                                             <a href="participation.php"><button class="btn poll-btn2">Participation</button></a>
-                                                            <button class="btn poll-btn3">See Result</button>
+                                                             <a href="on-screen.php"><button class="btn poll-btn3">On Screen</button></a>
                                                             <button class="btn poll-btn4"><i class="fas fa-play"></i></button>
                                                             <button class="btn poll-btn5"><i class="fas fa-stop"></i></button>
                                                           </div>
@@ -3175,7 +3175,7 @@
                                                          <div class="poll-btns">
                                                             <a href="voting.php" target="_blank"><button class="btn poll-btn1">URL</button></a>
                                                             <a href="participation.php"><button class="btn poll-btn2">Participation</button></a>
-                                                            <button class="btn poll-btn3">See Result</button>
+                                                            <a href="on-screen.php"> <a href="on-screen.php"><button class="btn poll-btn3">On Screen</button></a></a>
                                                             <button class="btn poll-btn4"><i class="fas fa-play"></i></button>
                                                             <button class="btn poll-btn5"><i class="fas fa-stop"></i></button>
                                                           </div>
