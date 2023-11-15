@@ -62,11 +62,10 @@ header h2
     justify-content: space-between;
 }
 .step-inner
-{
-    height: 100%;
+{height: 100%;
     display: grid;
     align-content: center;
-    padding: 40px 40px 20px;
+    padding: 40px 40px 35px;
     margin-bottom: 30px;
     border-radius: 3px;
     background-color: #fff;
@@ -75,9 +74,9 @@ header h2
 .step-num
 {
     background-color: rgb(9 188 138 / 10%);
-    width: 138px;
+    width: 125px;
     border-radius: 50px;
-    height: 37px;
+    height: 34px;
     text-align: center;
     display: grid;
     align-content: center;
@@ -89,7 +88,7 @@ header h2
     background: #09bc8a;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-    font-size: 16px;
+    font-size: 15px;
     font-weight: 600;
 }
 .quiz-text
@@ -100,7 +99,7 @@ header h2
 }
 .main-heading
 {
-    font-size: 23px;
+    font-size: 20px;
     line-height: 38px;
     margin-bottom: 0px;
     color: var(--text-color);
@@ -114,17 +113,17 @@ header h2
 .form
 {
     margin-top: 30px;
-    min-height: 180px;
+    min-height: auto;
     
 }
 .radio-field
 {
     width: 100%;
-    min-height: 57px;
+    min-height: auto;
     position: relative;
     display: grid;
     align-content: center;
-    margin-bottom: 20px;
+    margin-bottom: 15px;
 }
 .radio-field input
 {
@@ -149,9 +148,9 @@ header h2
 {
     position: relative;
     z-index: 100;
-    font-size: 16px;
+    font-size: 14px;
     margin-bottom: 0px;
-    padding: 10px 0px;
+    padding: 7px 0px;
     color: #333;
     font-weight: 600;
     pointer-events: none;
@@ -164,12 +163,12 @@ header h2
     content: "X";
     display: inline-block;
     background-color: #ebebeb;
-    width: 43px;
-    height: 43px;
-    min-width: 43px;
+    width: 35px;
+    height: 35px;
+    min-width: 23px;
     border-radius: 50%;
-    line-height: 43px;
-    font-size: 18px;
+    line-height: 36px;
+    font-size: 16px;
     color: #193567;
     font-weight: 700;
     text-align: center;
@@ -478,7 +477,7 @@ header h2
 
 footer
 {
-    min-height: 90px;
+    min-height: 70px;
     background-color: var(--field-color);
     display: grid;
     align-content: center;
@@ -492,18 +491,17 @@ footer
     align-items: center;
     justify-content: space-between;
 }
-.next_prev button
-{
+.next_prev button {
     background-color: rgb(241, 241, 241);
     border: 0;
-    padding: 0px 30px;
-    height: 50px;
-    border-radius: 50px;
+    padding: 0px 26px;
+    height: 36px;
+    border-radius: 5px;
     font-size: 14px;
     color: rgb(60, 60, 60);
-    font-weight: bold;
+    font-weight: 600;
     position: relative;
-    text-transform: uppercase;
+    /* text-transform: uppercase; */
     transition: 0.4s;
 }
 .next_prev .prev:hover
@@ -544,14 +542,15 @@ footer
 .next_prev .bar-inner
 {
     background-color: rgb(241, 241, 241);
-    width: 400px;
+    width: auto;
     height: 34px;
-    border-radius: 50px;
+    border-radius: 5px;
     display: grid;
     align-content: center;
     position: relative;
     overflow: hidden;
     margin: 0;
+    padding: 5px 20px;
 }
 .bar-inner .bar-text
 {
@@ -689,8 +688,8 @@ footer
 }
 
 .back-btn{
-    width: 45px;
-    height: 45px;
+    width: 40px;
+    height: 40px;
     font-size: 28px;
     border-radius: 50px;
     display: flex;
@@ -709,7 +708,8 @@ footer
     align-items: center;
     justify-content: center;
     gap: 15px;
-    margin-top: 20px;
+    margin-top: 0px;
+    margin-bottom: 10px;
   }
   .stars i {
     color: #acacac;
@@ -724,7 +724,7 @@ footer
   }
 
   .thanku-inner{
-    padding: 100px 50px;
+    padding: 80px 50px;
     margin-top: 160px;
     display: flex;
     flex-direction: column;
@@ -782,14 +782,14 @@ footer
   .submit-btn{
     background-color: var(--primary-color);
     border: 0;
-    margin-top: 25px;
+    margin-top: 12px;
     padding: 0px 38px;
-    height: 44px;
-    border-radius: 50px;
+    height: 37px;
+    border-radius: 5px;
     font-size: 16px;
     color: var(--field-color);
-    font-weight: 600;
+    font-weight: 500;
     position: relative;
-    text-transform: uppercase;
+    /* text-transform: uppercase; */
     transition: 0.4s;
   }
