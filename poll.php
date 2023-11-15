@@ -21,7 +21,7 @@
                 <!-- step-1 -->
                 <section class="steps">
                     <header>
-                        <a href="#" class="back-btn">
+                        <a href="voting.php" class="back-btn">
                             <span class="bx bx-chevron-left"></span>
                         </a>
                         <h2>
@@ -84,7 +84,7 @@
                 <!-- step 2 -->
                 <section class="steps">
                     <header>
-                        <a href="#" class="back-btn">
+                        <a href="voting.php" class="back-btn">
                             <span class="bx bx-chevron-left"></span>
                         </a>
                         <h2>
@@ -148,7 +148,7 @@
                 <section class="steps">
 
                     <header>
-                        <a href="#" class="back-btn">
+                        <a href="voting.php" class="back-btn">
                             <span class="bx bx-chevron-left"></span>
                         </a>
                         <h2>

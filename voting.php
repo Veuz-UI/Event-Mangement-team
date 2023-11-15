@@ -18,17 +18,23 @@
         <div class="wrapper">
             <section class="thanku-div">
                 <header>
-                    <a href="poll.php" class="back-btn">
+                    <a href="published-event.php" class="back-btn">
                         <span class="bx bx-chevron-left"></span>
                     </a>
                    
                 </header>
-                <div class="thanku-inner container">
+                <div class="voting-inner container">
 
                     <img src="assets/images/logo.png" alt="">
                  
                     <h1>Welcome to the Voting</h1>
                     <span>Please fill the below fields</span>
+                    <div class="row w-100 d-flex justify-content-center">
+                        <div class="col-md-4">
+                            <input type="text" placeholder="Ticket ID" class="form-control">
+                        </div>
+                    </div>
+                    <a href="poll.php"><button class="submit-btn" type="button">Submit</button></a>
                 </div>
                 
                 

@@ -3123,8 +3123,8 @@
                                                               </a> General knowledge 
                                                           </div>
                                                           <div class="poll-btns">
-                                                            <a href="poll.php" target="_blank"><button class="btn poll-btn1">URL</button></a>
-                                                            <button class="btn poll-btn2">Participation</button>
+                                                            <a href="voting.php" target="_blank"><button class="btn poll-btn1">URL</button></a>
+                                                            <a href="participation.php"><button class="btn poll-btn2">Participation</button></a>
                                                             <button class="btn poll-btn3">See Result</button>
                                                             <button class="btn poll-btn4"><i class="fas fa-play"></i></button>
                                                             <button class="btn poll-btn5"><i class="fas fa-stop"></i></button>
@@ -3173,8 +3173,8 @@
                                                               </a> Current affairs
                                                          </div>
                                                          <div class="poll-btns">
-                                                            <button class="btn poll-btn1">URL</button>
-                                                            <button class="btn poll-btn2">Participation</button>
+                                                            <a href="voting.php" target="_blank"><button class="btn poll-btn1">URL</button></a>
+                                                            <a href="participation.php"><button class="btn poll-btn2">Participation</button></a>
                                                             <button class="btn poll-btn3">See Result</button>
                                                             <button class="btn poll-btn4"><i class="fas fa-play"></i></button>
                                                             <button class="btn poll-btn5"><i class="fas fa-stop"></i></button>

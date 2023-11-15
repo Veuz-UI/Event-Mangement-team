@@ -49,8 +49,8 @@ header
 }
 header h2
 {
-    font-size: 20px;
-    font-weight: 700;
+    font-size: 18px;
+    font-weight: 600;
     color: #222;
     margin-bottom: 0px;
 }
@@ -100,11 +100,11 @@ header h2
 }
 .main-heading
 {
-    font-size: 25px;
+    font-size: 23px;
     line-height: 38px;
-    margin-bottom: 10px;
+    margin-bottom: 0px;
     color: var(--text-color);
-    font-weight: bold;
+    font-weight: 600;
 }
 .p-text
 {
@@ -113,18 +113,18 @@ header h2
 }
 .form
 {
-    margin-top: 35px;
-    min-height: 200px;
+    margin-top: 30px;
+    min-height: 180px;
     
 }
 .radio-field
 {
     width: 100%;
-    height: 65px;
+    min-height: 57px;
     position: relative;
     display: grid;
     align-content: center;
-    margin-bottom: 28px;
+    margin-bottom: 20px;
 }
 .radio-field input
 {
@@ -135,7 +135,7 @@ header h2
     background-color: var(--field-color);
     width: 100%;
     height: 100%;
-    border-radius: 50px;
+    border-radius: 100px;
     cursor: pointer;
     transition: 0.4s all;
     border: 2px solid #ebebeb;
@@ -149,10 +149,11 @@ header h2
 {
     position: relative;
     z-index: 100;
-    font-size: 18px;
+    font-size: 16px;
     margin-bottom: 0px;
+    padding: 10px 0px;
     color: #333;
-    font-weight: bold;
+    font-weight: 600;
     pointer-events: none;
     display: flex;
     align-items: center;
@@ -163,13 +164,14 @@ header h2
     content: "X";
     display: inline-block;
     background-color: #ebebeb;
-    width: 48px;
-    height: 48px;
+    width: 43px;
+    height: 43px;
+    min-width: 43px;
     border-radius: 50%;
-    line-height: 48px;
-    font-size: 20px;
+    line-height: 43px;
+    font-size: 18px;
     color: #193567;
-    font-weight: bold;
+    font-weight: 700;
     text-align: center;
     margin-left: 10px;
     margin-right: 15px;
@@ -739,9 +741,55 @@ footer
   .thanku-inner h1{
     color: #222;
     font-weight: 700;
-    font-size: 42px;
+    font-size: 35px;
   }
 
   .thanku-div{
     min-height: 100vh;
+  }
+
+  .voting-inner{
+    padding: 100px 50px;
+    margin-top: 160px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    background-color: #fff;
+    box-shadow: 0px 0px 6px rgb(255 255 255 / 10%);
+  }
+
+  .voting-inner img{
+    width: 180px;
+  }
+
+  .voting-inner h1{
+    color: var(--text-color);
+    font-weight: 800;
+    margin-top: 20px;
+    font-size: 35px;
+  }
+
+  .voting-inner span{
+    font-size: 18px;
+    margin-bottom: 20px;
+  }
+
+  .voting-inner .form-control{
+    padding: 0.5rem 0.7rem;
+  }
+
+  .submit-btn{
+    background-color: var(--primary-color);
+    border: 0;
+    margin-top: 25px;
+    padding: 0px 38px;
+    height: 44px;
+    border-radius: 50px;
+    font-size: 16px;
+    color: var(--field-color);
+    font-weight: 600;
+    position: relative;
+    text-transform: uppercase;
+    transition: 0.4s;
   }
