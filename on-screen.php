@@ -23,24 +23,204 @@
 
 </head>
 
-<body class="ovrflw">
+<body>
     
     <?php include 'loader.php';?>
 
-    <div id="layout-wrapper">
-<div class="bg-of-onscreen">
-    <div class="container">
-        <div class="row">
+    <div id="layout-wrapper" style="margin: 0px 0px 50px 0px;">
+<div class="bg-of-onscreen  d-flex align-items-center">
+    <div class="container-fluid container-sec-low">
+        <div class="row d-flex align-items-center">
         <div class="col-lg-9 event-onscreen-head">
-            <h3>Company Appreciation ceremonies</h3>
+            <h4>Current Event</h4>
+            <h3>2023 Product Company Appreciation ceremonies <br>Saudi Arabia</h3>
+        </div>
+        <div class="col-lg-3">
+           <div class="box-of-voters d-flex align-items-center justify-content-center flex-column">
+<h2>58</h2>
+<p>Voting Count</p>
+           </div>
         </div>
         </div>
      
     </div>
 </div>
+<div class="container-fluid container-sec-low">
+<div class="content-of-event-data">
+<h2>2023 best companies in saudi arabia ?</h2>
+<div class="row">
+    <div class="col-lg-4  mt-3">
+        <div class="box-of-voting-box d-flex align-items-center justify-content-between">
+            <div class="d-flex align-items-center">
+            <img src="assets/images/logo.png">
+            <h5>Veuz Concepts pvt ltd</h5>
+        </div>
+            <h3>80%</h3>
+     
+        </div>
+    </div>
+    <div class="col-lg-4  mt-3">
+        <div class="box-of-voting-box d-flex align-items-center justify-content-between">
+            <div class="d-flex align-items-center">
+                <img src="assets/images/ibm.jpg">
+            <h5>IBM Technologies pvt ltd</h5>
+        </div>
+            <h3>80%</h3>
+     
+        </div>
+    </div>
+    <div class="col-lg-4  mt-3">
+        <div class="box-of-voting-box d-flex align-items-center justify-content-between">
+            <div class="d-flex align-items-center">
+                <img src="assets/images/rava.jpg">
+            <h5>Rava Technologies pvt ltd</h5>
+        </div>
+            <h3>80%</h3>
+     
+        </div>
+    </div>
+    <div class="col-lg-4 mt-3">
+        <div class="box-of-voting-box d-flex align-items-center justify-content-between">
+            <div class="d-flex align-items-center">
+                <img src="assets/images/oracle.jpg">
+            <h5>Oracle Technologies pvt ltd</h5>
+        </div>
+            <h3>80%</h3>
+     
+        </div>
+    </div>
+    <div class="col-lg-4  mt-3">
+        <div class="box-of-voting-box d-flex align-items-center justify-content-between">
+            <div class="d-flex align-items-center">
+                <img src="assets/images/icad.jpg">
+            <h5>Icad pvt ltd</h5>
+        </div>
+            <h3>80%</h3>
+     
+        </div>
+    </div>
+    <div class="col-lg-4  mt-3">
+        <div class="box-of-voting-box d-flex align-items-center justify-content-between">
+            <div class="d-flex align-items-center">
+                <img src="assets/images/vitec.jpg">
+            <h5>Vitec Technologies </h5>
+        </div>
+            <h3>80%</h3>
+     
+        </div>
+    </div>
+</div>
+<h2>What is the process at the most detailed level of the data flow diagrams known as?</h2>
+<div class="row">
+    <div class="col-lg-4  mt-3">
+        <div class="box-of-voting-box d-flex align-items-center justify-content-between">
+            <h5>Interfaces</h5>
+            <h3>80%</h3>
+        </div>
+    </div>
+    <div class="col-lg-4  mt-3">
+        <div class="box-of-voting-box d-flex align-items-center justify-content-between">
+            <h5>Functional primitives</h5>
+            <h3>50%</h3>
+        </div>
+    </div>
+    <div class="col-lg-4  mt-3">
+        <div class="box-of-voting-box d-flex align-items-center justify-content-between">
+            <h5>Data flow</h5>
+            <h3>20%</h3>
+        </div>
+    </div>
+    <div class="col-lg-4 mt-3">
+        <div class="box-of-voting-box d-flex align-items-center justify-content-between">
+            <h5>Transform descriptions</h5>
+            <h3>15%</h3>
+        </div>
+    </div>
+    <div class="col-lg-4  mt-3">
+        <div class="box-of-voting-box d-flex align-items-center justify-content-between">
+            <h5>Functional primitives</h5>
+            <h3>10%</h3>
+        </div>
+    </div>
+    <div class="col-lg-4  mt-3">
+        <div class="box-of-voting-box d-flex align-items-center justify-content-between">
+            <h5>Interfaces</h5>
+            <h3>5%</h3>
+        </div>
+    </div>
+</div>
 
-
-      
+<h2>What is the process at the most detailed level of the data flow diagrams known as?</h2>
+<div class="row">
+    <div class="col-md-12 mt-4">
+        <div class="well well-sm">
+            <div class="row">
+                <div class="col-xs-12 col-md-12">
+                    <div class="row rating-desc">
+                        <div class="col-xs-3 col-md-1 text-right text-satarcount">
+                            <span class="fa fa-star"></span>5
+                        </div>
+                        <div class="col-xs-8 col-md-11">
+                            <div class="progress">
+                                <div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="20"
+                                    aria-valuemin="0" aria-valuemax="100" style="width: 80%">
+                                    <span class="sr-only">80%</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xs-3 col-md-1 text-right text-satarcount">
+                            <span class="fa fa-star"></span>4
+                        </div>
+                        <div class="col-xs-8 col-md-11">
+                            <div class="progress">
+                                <div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="20"
+                                    aria-valuemin="0" aria-valuemax="100" style="width: 60%">
+                                    <span class="sr-only">60%</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xs-3 col-md-1 text-right text-satarcount">
+                            <span class="fa fa-star"></span>3
+                        </div>
+                        <div class="col-xs-8 col-md-11">
+                            <div class="progress">
+                                <div class="progress-bar progress-bar-info" role="progressbar" aria-valuenow="20"
+                                    aria-valuemin="0" aria-valuemax="100" style="width: 40%">
+                                    <span class="sr-only">40%</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xs-3 col-md-1 text-right text-satarcount">
+                            <span class="fa fa-star"></span>2
+                        </div>
+                        <div class="col-xs-8 col-md-11">
+                            <div class="progress">
+                                <div class="progress-bar progress-bar-warning" role="progressbar" aria-valuenow="20"
+                                    aria-valuemin="0" aria-valuemax="100" style="width: 20%">
+                                    <span class="sr-only">20%</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xs-3 col-md-1 text-right text-satarcount">
+                            <span class="fa fa-star"></span>1
+                        </div>
+                        <div class="col-xs-8 col-md-11">
+                            <div class="progress">
+                                <div class="progress-bar progress-bar-danger" role="progressbar" aria-valuenow="80"
+                                    aria-valuemin="0" aria-valuemax="100" style="width: 15%">
+                                    <span class="sr-only">15%</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- end row -->
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+</div>
+</div>
         </div>
 
     </div>
