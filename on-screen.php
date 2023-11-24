@@ -27,396 +27,132 @@
     
     <?php include 'loader.php';?>
 
-    <div id="layout-wrapper" style="margin: 0px 0px 50px 0px;">
-<div class="bg-of-onscreen  d-flex align-items-center">
-    <div class="container-fluid container-sec-low">
-        <div class="row d-flex align-items-center">
-        <div class="col-lg-9 event-onscreen-head">
-            <h4>Current Event</h4>
-            <h3>2023 Product Company Appreciation ceremonies <br>Saudi Arabia</h3>
-        </div>
-        <div class="col-lg-3">
-           <div class="box-of-voters d-flex align-items-center justify-content-center flex-column">
-<h2>58</h2>
-<p>Voting Count</p>
-           </div>
-        </div>
-        </div>
-     
-    </div>
-</div>
-<div class="container-fluid container-sec-low">
-<div class="content-of-event-data">
-<h2>2023 best companies in saudi arabia ?</h2>
-<div class="row">
-    <div class="col-lg-4  mt-3">
-        <div class="box-of-voting-box d-flex align-items-center justify-content-between">
-            <div class="d-flex align-items-center">
-            <img src="assets/images/logo.png">
-            <h5>Veuz Concepts pvt ltd</h5>
-        </div>
-            <h3>80%</h3>
-     
-        </div>
-    </div>
-    <div class="col-lg-4  mt-3">
-        <div class="box-of-voting-box d-flex align-items-center justify-content-between">
-            <div class="d-flex align-items-center">
-                <img src="assets/images/ibm.jpg">
-            <h5>IBM Technologies pvt ltd</h5>
-        </div>
-            <h3>80%</h3>
-     
-        </div>
-    </div>
-    <div class="col-lg-4  mt-3">
-        <div class="box-of-voting-box d-flex align-items-center justify-content-between">
-            <div class="d-flex align-items-center">
-                <img src="assets/images/rava.jpg">
-            <h5>Rava Technologies pvt ltd</h5>
-        </div>
-            <h3>80%</h3>
-     
-        </div>
-    </div>
-    <div class="col-lg-4 mt-3">
-        <div class="box-of-voting-box d-flex align-items-center justify-content-between">
-            <div class="d-flex align-items-center">
-                <img src="assets/images/oracle.jpg">
-            <h5>Oracle Technologies pvt ltd</h5>
-        </div>
-            <h3>80%</h3>
-     
-        </div>
-    </div>
-    <div class="col-lg-4  mt-3">
-        <div class="box-of-voting-box d-flex align-items-center justify-content-between">
-            <div class="d-flex align-items-center">
-                <img src="assets/images/icad.jpg">
-            <h5>Icad pvt ltd</h5>
-        </div>
-            <h3>80%</h3>
-     
-        </div>
-    </div>
-    <div class="col-lg-4  mt-3">
-        <div class="box-of-voting-box d-flex align-items-center justify-content-between">
-            <div class="d-flex align-items-center">
-                <img src="assets/images/vitec.jpg">
-            <h5>Vitec Technologies </h5>
-        </div>
-            <h3>80%</h3>
-     
-        </div>
-    </div>
-</div>
-<h2>What is the process at the most detailed level of the data flow diagrams known as?</h2>
-<div class="row">
-    <div class="col-lg-4  mt-3">
-        <div class="box-of-voting-box d-flex align-items-center justify-content-between">
-            <h5>Interfaces</h5>
-            <h3>80%</h3>
-        </div>
-    </div>
-    <div class="col-lg-4  mt-3">
-        <div class="box-of-voting-box d-flex align-items-center justify-content-between">
-            <h5>Functional primitives</h5>
-            <h3>50%</h3>
-        </div>
-    </div>
-    <div class="col-lg-4  mt-3">
-        <div class="box-of-voting-box d-flex align-items-center justify-content-between">
-            <h5>Data flow</h5>
-            <h3>20%</h3>
-        </div>
-    </div>
-    <div class="col-lg-4 mt-3">
-        <div class="box-of-voting-box d-flex align-items-center justify-content-between">
-            <h5>Transform descriptions</h5>
-            <h3>15%</h3>
-        </div>
-    </div>
-    <div class="col-lg-4  mt-3">
-        <div class="box-of-voting-box d-flex align-items-center justify-content-between">
-            <h5>Functional primitives</h5>
-            <h3>10%</h3>
-        </div>
-    </div>
-    <div class="col-lg-4  mt-3">
-        <div class="box-of-voting-box d-flex align-items-center justify-content-between">
-            <h5>Interfaces</h5>
-            <h3>5%</h3>
-        </div>
-    </div>
-</div>
-
-<h2>What is the process at the most detailed level of the data flow diagrams known as?</h2>
-<div class="row">
-    <div class="col-md-12 mt-4">
-        <div class="well well-sm">
+    <section class="onscreen-section">
+        <div class="container-fluid">
             <div class="row">
-                <div class="col-xs-12 col-md-12">
-                    <div class="row rating-desc">
-                        <div class="col-xs-3 col-md-1 text-right text-satarcount">
-                            <span class="fa fa-star"></span>5
+                <div class="col-md-9">
+                    <div class="evt-left">
+                        <div class="evt-left-top">
+                            <img src="assets/images/onscreen-logo.svg" alt="">
+                            <h2>2023 Product Company Appreciation Ceremonies 
+                                Saudi Arabia Award</h2>
                         </div>
-                        <div class="col-xs-8 col-md-11">
-                            <div class="progress">
-                                <div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="20"
-                                    aria-valuemin="0" aria-valuemax="100" style="width: 80%">
-                                    <span class="sr-only">80%</span>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-xs-3 col-md-1 text-right text-satarcount">
-                            <span class="fa fa-star"></span>4
-                        </div>
-                        <div class="col-xs-8 col-md-11">
-                            <div class="progress">
-                                <div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="20"
-                                    aria-valuemin="0" aria-valuemax="100" style="width: 60%">
-                                    <span class="sr-only">60%</span>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-xs-3 col-md-1 text-right text-satarcount">
-                            <span class="fa fa-star"></span>3
-                        </div>
-                        <div class="col-xs-8 col-md-11">
-                            <div class="progress">
-                                <div class="progress-bar progress-bar-info" role="progressbar" aria-valuenow="20"
-                                    aria-valuemin="0" aria-valuemax="100" style="width: 40%">
-                                    <span class="sr-only">40%</span>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-xs-3 col-md-1 text-right text-satarcount">
-                            <span class="fa fa-star"></span>2
-                        </div>
-                        <div class="col-xs-8 col-md-11">
-                            <div class="progress">
-                                <div class="progress-bar progress-bar-warning" role="progressbar" aria-valuenow="20"
-                                    aria-valuemin="0" aria-valuemax="100" style="width: 20%">
-                                    <span class="sr-only">20%</span>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-xs-3 col-md-1 text-right text-satarcount">
-                            <span class="fa fa-star"></span>1
-                        </div>
-                        <div class="col-xs-8 col-md-11">
-                            <div class="progress">
-                                <div class="progress-bar progress-bar-danger" role="progressbar" aria-valuenow="80"
-                                    aria-valuemin="0" aria-valuemax="100" style="width: 15%">
-                                    <span class="sr-only">15%</span>
+                        <div class="evt-left-bottom">
+                            <h5>Participation of the best companies in Saudi Arabia 2023  </h5>
+                            <div class="company-logos">
+                                <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4">
+                                    <div class="col">
+                                        <div class="logo-div">
+                                            <img src="assets/images/logos/logo1.png" alt="">
+                                            <h6>Teva Technologies pvt.ltd</h6>
+                                        </div>
+                                    </div>
+                                    <div class="col">
+                                        <div class="logo-div">
+                                            <img src="assets/images/logos/logo2.png" alt="">
+                                            <h6>Teva Technologies pvt.ltd</h6>
+                                        </div>
+                                    </div>
+                                    <div class="col">
+                                        <div class="logo-div">
+                                            <img src="assets/images/logos/logo3.png" alt="">
+                                            <h6>Teva Technologies pvt.ltd</h6>
+                                        </div>
+                                    </div>
+                                    <div class="col">
+                                        <div class="logo-div">
+                                            <img src="assets/images/logos/logo4.png" alt="">
+                                            <h6>Teva Technologies pvt.ltd</h6>
+                                        </div>
+                                    </div>
+                                    <div class="col">
+                                        <div class="logo-div">
+                                            <img src="assets/images/logos/logo5.png" alt="">
+                                            <h6>Teva Technologies pvt.ltd</h6>
+                                        </div>
+                                    </div>
+                                    <div class="col">
+                                        <div class="logo-div">
+                                            <img src="assets/images/logos/logo6.png" alt="">
+                                            <h6>Teva Technologies pvt.ltd</h6>
+                                        </div>
+                                    </div>
+                                    <div class="col">
+                                        <div class="logo-div">
+                                            <img src="assets/images/logos/logo7.png" alt="">
+                                            <h6>Teva Technologies pvt.ltd</h6>
+                                        </div>
+                                    </div>
+                                    <div class="col">
+                                        <div class="logo-div">
+                                            <img src="assets/images/logos/logo8.png" alt="">
+                                            <h6>Teva Technologies pvt.ltd</h6>
+                                        </div>
+                                    </div>
+                                    <div class="col">
+                                        <div class="logo-div">
+                                            <img src="assets/images/logos/logo9.png" alt="">
+                                            <h6>Teva Technologies pvt.ltd</h6>
+                                        </div>
+                                    </div>
+                                    <div class="col">
+                                        <div class="logo-div">
+                                            <img src="assets/images/logos/logo10.png" alt="">
+                                            <h6>Teva Technologies pvt.ltd</h6>
+                                        </div>
+                                    </div>
+                                    <div class="col">
+                                        <div class="logo-div">
+                                            <img src="assets/images/logos/logo11.png" alt="">
+                                            <h6>Teva Technologies pvt.ltd</h6>
+                                        </div>
+                                    </div>
+                                    <div class="col">
+                                        <div class="logo-div">
+                                            <img src="assets/images/logos/logo12.png" alt="">
+                                            <h6>Teva Technologies pvt.ltd</h6>
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
                         </div>
                     </div>
-                    <!-- end row -->
                 </div>
-            </div>
-        </div>
-    </div>
-</div>
-</div>
-</div>
-        </div>
+                <div class="col-md-3">
+                    <div class="evt-right">
+                        <h4><svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M22.6668 28V25.3333C22.6668 23.9188 22.1049 22.5623 21.1047 21.5621C20.1045 20.5619 18.748 20 17.3335 20H6.66683C5.25234 20 3.89579 20.5619 2.89559 21.5621C1.8954 22.5623 1.3335 23.9188 1.3335 25.3333V28" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                            <path d="M11.9998 14.6667C14.9454 14.6667 17.3332 12.2789 17.3332 9.33333C17.3332 6.38781 14.9454 4 11.9998 4C9.05432 4 6.6665 6.38781 6.6665 9.33333C6.6665 12.2789 9.05432 14.6667 11.9998 14.6667Z" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                            <path d="M30.6665 28V25.3333C30.6656 24.1516 30.2723 23.0037 29.5483 22.0698C28.8243 21.1358 27.8107 20.4688 26.6665 20.1733" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                            <path d="M21.3335 4.17334C22.4807 4.46707 23.4975 5.13427 24.2237 6.06975C24.9498 7.00523 25.344 8.15578 25.344 9.34001C25.344 10.5242 24.9498 11.6748 24.2237 12.6103C23.4975 13.5457 22.4807 14.2129 21.3335 14.5067" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                            </svg>Voters
+                            </h4>
 
-    </div>
+                            <div class="time-breakdown">
 
-
-
-
-    <!-- Modal -->
-    <div class="modal fade" id="invite-speaker" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
-        role="dialog" aria-labelledby="staticBackdropLabel" aria-hidden="true">
-        <div class="modal-dialog modal-dialog-centered modal-xl" role="document">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <h5 class="modal-title" id="staticBackdropLabel"> <img src="assets/images/users.svg"
-                            alt=""><span>Add Speakers</span></h5>
-                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                </div>
-                <div class="modal-body user-sqr">
-                    <div class="row">
-                        <div class="col-md-10">
-                            <div class="row">
-                                <div class="col-md-4">
-                                    <div class="form-grp mb-1">
-                                        <label class="form-label">First Name</label>
-                                        <input type="text" class="form-control">
-                                    </div>
+                                <div class="time-breakdown-chart">
+                                  <div class="percentage-chart percentage-chart-focus">
+                                    <svg viewBox="0 0 36 36">
+                                      <path class="percentage-chart-bg" d="M18 2.0845
+                                        a 15.9155 15.9155 0 0 1 0 31.831
+                                        a 15.9155 15.9155 0 0 1 0 -31.831" />
+                                      <path class="percentage-chart-stroke" stroke-dasharray="100, 100" d="M18 2.0845
+                                        a 15.9155 15.9155 0 0 1 0 31.831
+                                        a 15.9155 15.9155 0 0 1 0 -31.831" />
+                                    </svg>
+                                    <div class="counter" style="--counter-end:100"></div>
+                                    <p><span style="--counter-end1:100"></span> of 100</p>
+                                  </div>
+                                  <div id="countdown"></div>
                                 </div>
-                                <div class="col-md-4">
-                                    <div class="form-grp mb-1">
-                                        <label class="form-label">Last Name</label>
-                                        <input type="text" class="form-control">
-                                    </div>
-                                </div>
-                                <div class="col-md-4">
-                                    <div class="form-grp mb-1">
-                                        <label class="form-label">Email</label>
-                                        <input type="text" class="form-control">
-                                    </div>
-                                </div>
-                                <div class="col-md-12">
-                                    <div class="form-check form-radio-outline form-radio-danger evnt-radio mb-2">
-                                        <input class="form-check-input" type="checkbox" name="formRadio6" id="formRadio5" autocompleted="">
-                                        <label class="form-check-label" for="formRadio6">
-                                            Feature this speaker
-                                        </label>
-                                    </div>
-                                </div>
-
-                                <div class="col-md-3">
-                                    <div class="form-grp">
-                                        <label class="form-label">Country</label>
-                                        <div class="select-inp">
-                                            <select class="form-control">
-
-                                                <option value="AK">India</option>
-                                                <option value="HI">Usa</option>
-
-                                            </select>
-                                            <i class="fas fa-chevron-down"></i>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-md-3">
-                                    <div class="form-grp">
-                                        <label class="form-label">Role</label>
-                                        <div class="select-inp">
-                                            <select class="form-control">
-
-                                                <option value="AK">Speaker</option>
-                                                <option value="HI">Guest Speaker</option>
-
-                                            </select>
-                                            <i class="fas fa-chevron-down"></i>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-md-3">
-                                    <div class="form-grp">
-                                        <label class="form-label">Designation</label>
-                                        <input type="text" class="form-control">
-                                    </div>
-                                </div>
-                                <div class="col-md-3">
-                                    <div class="form-grp">
-                                        <label class="form-label">Organization</label>
-                                        <input type="text" class="form-control">
-                                    </div>
-                                </div>
+                              
                             </div>
-                        </div>
-                        <div class="col-md-2">
-                            <div class="img-upload-form">
-                                <img src="assets/images/users/default.png" id="upld-image1">
-                                <i class="bx bxs-pencil" onclick="makeimg(1)" ;></i>
-                                <input type="file" oninput="previewFile(1)" accept="image/*" id="imgfile1" />
-
-                            </div>
-                        </div>
-
-
-
-                        <div class="col-md-10">
-                            <div class="form-grp">
-                                <label class="form-label">Skills</label>
-                                <div class="bs-example form-control mb-1">
-                                    <input type="text" id="#inputTag" value="" data-role="tagsinput">
-                                </div>
-                                <span>Use space to separate multiple skills</span>
-                            </div>
-                        </div>
-
-                        <div class="col-md-12">
-                            <div class="form-grp">
-                                <label class="form-label">Speaker Description</label>
-                                <textarea id="summernote" class="form-control"></textarea>
-                            </div>
-                        </div>
-                        <div class="col-md-6">
-                            <div class="row">
-                                <div class="col-md-6">
-                                    <div class="form-grp">
-                                        <label class="form-label">Telephone No</label>
-                                        <input type="text" class="form-control">
-                                    </div>
-                                </div>
-                                <div class="col-md-6">
-                                    <div class="form-grp">
-                                        <label class="form-label">Alternate Telephone No</label>
-                                        <input type="text" class="form-control">
-                                    </div>
-                                </div>
-                            </div>
-
-
-                            <div class="form-grp">
-                                <label class="form-label">Address</label>
-                                <textarea name="" id="" cols="30" rows="2" class="form-control"></textarea>
-                            </div>
-                        </div>
-                        <div class="col-md-6">
-                            <div class="form-grp social-inputgrp">
-                                <label class="form-label">Social Pages / Handles</label>
-
-                                <div class="input-group">
-
-                                    <select class="form-select light-btn">
-                                        <option value="BT" selected="">Twitter</option>
-                                        <option value="ET">Facebook</option>
-                                        <option value="LT">Instagram</option>
-                                    </select>
-                                    <input type="text" class="form-control" aria-label="Text input with dropdown button"
-                                        id="dropdown-on-both" placeholder="https://www.twitter.com/xyz">
-                                    <div class="input-group-append">
-                                        <button type="button"
-                                            class="btn btn-primary waves-effect waves-light ">ADD</button>
-                                    </div>
-                                </div>
-                                <div class="social-media-out social-media-overflw my-2">
-                                    <div class="input-group">
-                                        <div class="input-group-text bg-primary text-white font-size-15"><i
-                                                class="bx bxl-facebook"></i></div>
-                                        <input type="text" class="form-control" id="autoSizingInputGroup"
-                                            placeholder="https://www.facebook.com/xyz">
-                                        <button class="bx bx-trash delete-icn"></button>
-                                    </div>
-                                    <div class="input-group my-2">
-                                        <div class="input-group-text bg-pink text-white font-size-15"><i
-                                                class="bx bxl-instagram"></i></div>
-                                        <input type="text" class="form-control" id="autoSizingInputGroup"
-                                            placeholder="https://www.instagram.com/xyz">
-                                        <button class="bx bx-trash delete-icn"></button>
-                                    </div>
-                                    <div class="input-group">
-                                        <div class="input-group-text bg-info text-white font-size-15"><i
-                                                class="bx bxl-twitter"></i></div>
-                                        <input type="text" class="form-control" id="autoSizingInputGroup"
-                                            placeholder="https://www.twitter.com/xyz">
-                                        <button class="bx bx-trash delete-icn"></button>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-
-
                     </div>
-
-
-                </div>
-                <div class="modal-footer">
-
-                    <button type="button" class="btn btn-light  br-50 btn-md" data-bs-dismiss="modal">Close</button>
-                    <a href="#"><button type="button" class="btn btn-primary  br-50 btn-md">Done</button></a>
                 </div>
             </div>
         </div>
-    </div>
+    </section>
+
 
 
     <!-- JAVASCRIPT -->
@@ -447,122 +183,55 @@
     </script>
 
 
-            <!-- img-upload form -->
 
-            <script>
-            function makeimg() {
-                document.getElementById("imgfile").click();
-            }
-
-            function previewFile() {
-                const preview = document.getElementById('upld-image');
-                const file = document.getElementById("imgfile").files[0];
-                const reader = new FileReader();
-
-                reader.addEventListener("load", function () {
-                    preview.src = reader.result;
-                }, false);
-
-                if (file) {
-                    reader.readAsDataURL(file);
-                }
-            }
-        </script>
-        <script>
+    <script>
         $(function() {
             setTimeout(function() {
-                // $('.loader-mask').delay(350).fadeOut('slow')
                 $(".loader-mask").hide();
             }, 1000)
 
         })
+       
+    </script>
+
+    <script>
+        var timeInSecs;
+        var ticker;
+
+        function startTimer(secs) {
+            timeInSecs = parseInt(secs);
+            ticker = setInterval("tick()", 1000);
+        }
+
+        function tick() {
+            var secs = timeInSecs;
+            if (secs > 0) {
+                timeInSecs--;
+            } else {
+                clearInterval(ticker);
+                startTimer(1 * 60); // 4 minutes in seconds
+            }
+
+            var hours = Math.floor(secs / 3600);
+            secs %= 3600;
+            var mins = Math.floor(secs / 60);
+            secs %= 60;
+            var pretty = ((hours < 10) ? "0" : "") + hours + ":" + ((mins < 10) ? "0" : "") + mins + ":" + ((secs <
+                10) ? "0" : "") + secs;
+
+            document.getElementById("countdown").innerHTML = pretty;
+        }
+
+        startTimer(1 * 60);
     </script>
     <script>
-    $('textarea#summernote').summernote({
-        placeholder: 'Hello bootstrap 4',
-        tabsize: 2,
-        height: 100,
-  toolbar: [
-        ['style', ['style']],
-        ['font', ['bold', 'italic', 'underline', 'clear']],
-        // ['font', ['bold', 'italic', 'underline', 'strikethrough', 'superscript', 'subscript', 'clear']],
-        //['fontname', ['fontname']],
-       // ['fontsize', ['fontsize']],
-        ['color', ['color']],
-        ['para', ['ul', 'ol', 'paragraph']],
-        ['height', ['height']],
-        ['table', ['table']],
-        ['insert', ['link', 'picture', 'hr']],
-        //['view', ['fullscreen', 'codeview']],
-        ['help', ['help']]
-      ],
-      });
-</script>
-<!-- <script>
-    $('#selectAll').click(function (e) {
-        $(this).closest('table').find('td input:checkbox').prop('checked', this.checked);
-    });
-</script> -->
-<script>
-  
-  var startX, startWidth, $handle, $table, pressed = false;
-  
-  // mousedown
-  $('.table-resizable .resize').on('mousedown', function(event) {
-          // find index of 'td' in 'tr'
-          let index = $(this).parent().index();
-          // find 'th' according to the index value
-          $handle = $(this).parents('table').find('th').eq(index);
-          pressed = true;
-          startX = event.pageX;
-          startWidth = $handle.width();
-          $table = $handle.closest('.table-resizable').addClass('resizing');
-    });
-  
-  // mousemove
-  $('.table-resizable th, .table-resizable td').on('mousemove', function(event) {
-        if (pressed) {
-          $handle.width(startWidth + (event.pageX - startX));
-        }
-    });
-    
-  // mouseup
-  $('.table-resizable th, .table-resizable td').on('mouseup', function() {
-        if (pressed) {
-          $table.removeClass('resizing');
-          pressed = false;
-        }
-    });
-  
-  // reset column width
-  $('.table-resizable thead').on('dblclick', function() {
-      // Reset column sizes on double click
-      $(this).find('th').css('width', '');
-    });
-  </script>
-  <script>
-    $('.selected-num i').on('click', function () {
-        $(this).closest(".selected-num").remove();
-    });
-
-    $(function () {
-        $(".speaker-padding").on("click", function () {
-            $(".row-selected").toggle($(this).find(".check-input:checked").length > 0);
-        })
-        $('input[name="Main_Checkbox"]').on("click", function () {
-            $('.check-input').prop('checked', this.checked);
+        $(document).ready(function () {
+            window.setTimeout(function () {
+                location.href = "http://localhost/Event-Mangement-team/on-screen2.php";
+            }, 5000);
         });
-    });
-</script>
-<script>
-    $(".drpdwn-menu-btn").click(function () {
-        $(this).parent().children(".dropdown-menu").toggleClass("show");
-    });
-    $(".drpdwn-fg .dropdown-item").click(function () {
-        $(this).toggleClass("check");
-    });
+    </script>
 
-</script>
 </body>
 
 </html>
