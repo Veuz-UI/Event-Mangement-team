@@ -12116,4 +12116,7 @@ table .avatar-sm{
 .poll-modal .boothprice-labels .form-check-input{
     top: -1px;
 }
+.poll-edit{
+    cursor: pointer;
+}
 

@@ -3135,8 +3135,10 @@
                                                         <div class="panel-body">
                                                             <div class="poll-bx">
                                                                 <div class="poll-frst-box">
-                                                                    <span class="qstn-type">Single Choice</span>
-                                                                    <h4>1. Which of the following Himalayan regions is called "Shivalik's"?</h4>
+                                                                <div class="d-flex justify-content-between">
+                                                                        <span class="qstn-type">Single Choice</span>
+                                                                       <i class="fas fa-pencil-alt poll-edit" data-bs-toggle="modal" data-bs-target="#add-poll"></i>
+                                                                    </div>
                                                                    
                                                                 </div>
                                                                 <div class="poll-scnd-box">
@@ -3149,8 +3151,10 @@
                                                             </div>
                                                             <div class="poll-bx">
                                                                 <div class="poll-frst-box">
-                                                                    <span class="qstn-type">Single Choice</span>
-                                                                    <h4>2. The hero of the Malvikagnimitram of Kalidas is associated with which of the given dynasties? </h4>
+                                                                <div class="d-flex justify-content-between">
+                                                                        <span class="qstn-type">Single Choice</span>
+                                                                       <i class="fas fa-pencil-alt poll-edit" data-bs-toggle="modal" data-bs-target="#add-poll"></i>
+                                                                    </div>
                                                                    
                                                                 </div>
                                                                 <div class="poll-scnd-box">
