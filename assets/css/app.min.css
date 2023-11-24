@@ -12120,3 +12120,18 @@ table .avatar-sm{
     cursor: pointer;
 }
 
+.poll-answers .uploadFile1 input::-webkit-file-upload-button {
+    display: none;
+  }
+
+  .poll-answers .uploadFile1{
+    width: 250px;
+    margin: 0px 6px !important;
+  }
+  .poll-answers .uploadFile1 .input-group-text{
+    height: 100%;
+  }
+
+  .poll-answers .uploadFile1 .input-group-text i{
+    font-size: 14px;
+  }

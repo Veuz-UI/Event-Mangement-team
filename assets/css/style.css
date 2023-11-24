@@ -1276,9 +1276,6 @@ footer
   font-weight: 600;
 }
 
-/* body{
-  background: #0F0025;
-  } */
   .countdwn {
     display: flex;
     align-items: center;
@@ -1448,3 +1445,5 @@ footer
   border-radius: 10px;
   background-color: #FFC300;
 }
+
+

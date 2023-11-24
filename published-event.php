@@ -4465,14 +4465,35 @@
                                         </div>
                                         <div class="input-group mb-2">
                                             <input type="text" class="form-control" placeholder="Option 1">
+                                            <div class="input-group uploadFile1">
+                                                <div class="input-group-append">
+                                                    <span class="input-group-text"><i class="fas fa-paperclip" aria-hidden="true"></i></span>
+                                                </div>
+                                                <input type="file" accept="image/*,.pdf,.txt,.doc,.docx," class="inputfile form-control mb-0" >
+                                                
+                                            </div>
                                             <button class="btn btn-secondary" type="button" id="inputGroupFileAddon04"><i class="bx bx-x"></i></button>
                                           </div>
                                           <div class="input-group mb-2">
                                             <input type="text" class="form-control" placeholder="Option 2">
+                                            <div class="input-group uploadFile1">
+                                                <div class="input-group-append">
+                                                    <span class="input-group-text"><i class="fas fa-paperclip" aria-hidden="true"></i></span>
+                                                </div>
+                                                <input type="file" accept="image/*,.pdf,.txt,.doc,.docx," class="inputfile form-control mb-0" >
+                                                
+                                            </div>
                                             <button class="btn btn-secondary" type="button" id="inputGroupFileAddon04"><i class="bx bx-x"></i></button>
                                           </div>
                                           <div class="input-group mb-2">
                                             <input type="text" class="form-control" placeholder="Option 3">
+                                            <div class="input-group uploadFile1">
+                                                <div class="input-group-append">
+                                                    <span class="input-group-text"><i class="fas fa-paperclip" aria-hidden="true"></i></span>
+                                                </div>
+                                                <input type="file" accept="image/*,.pdf,.txt,.doc,.docx," class="inputfile form-control mb-0" >
+                                                
+                                            </div>
                                             <button class="btn btn-secondary" type="button" id="inputGroupFileAddon04"><i class="bx bx-x"></i></button>
                                           </div>
                                          
@@ -4487,14 +4508,35 @@
                                         </div>
                                         <div class="input-group mb-2">
                                             <input type="text" class="form-control" placeholder="Option 1">
+                                            <div class="input-group uploadFile1">
+                                                <div class="input-group-append">
+                                                    <span class="input-group-text"><i class="fas fa-paperclip" aria-hidden="true"></i></span>
+                                                </div>
+                                                <input type="file" accept="image/*,.pdf,.txt,.doc,.docx," class="inputfile form-control mb-0" >
+                                                
+                                            </div>
                                             <button class="btn btn-secondary" type="button" id="inputGroupFileAddon04"><i class="bx bx-x"></i></button>
                                           </div>
                                           <div class="input-group mb-2">
                                             <input type="text" class="form-control" placeholder="Option 2">
+                                            <div class="input-group uploadFile1">
+                                                <div class="input-group-append">
+                                                    <span class="input-group-text"><i class="fas fa-paperclip" aria-hidden="true"></i></span>
+                                                </div>
+                                                <input type="file" accept="image/*,.pdf,.txt,.doc,.docx," class="inputfile form-control mb-0" >
+                                                
+                                            </div>
                                             <button class="btn btn-secondary" type="button" id="inputGroupFileAddon04"><i class="bx bx-x"></i></button>
                                           </div>
                                           <div class="input-group mb-2">
                                             <input type="text" class="form-control" placeholder="Option 3">
+                                            <div class="input-group uploadFile1">
+                                                <div class="input-group-append">
+                                                    <span class="input-group-text"><i class="fas fa-paperclip" aria-hidden="true"></i></span>
+                                                </div>
+                                                <input type="file" accept="image/*,.pdf,.txt,.doc,.docx," class="inputfile form-control mb-0" >
+                                                
+                                            </div>
                                             <button class="btn btn-secondary" type="button" id="inputGroupFileAddon04"><i class="bx bx-x"></i></button>
                                           </div>
                                          
@@ -6017,14 +6059,35 @@
                                         '</div>' +
                                         '<div class="input-group mb-2">' +
                                             '<input type="text" class="form-control" placeholder="Option 1">' +
+                                            '<div class="input-group uploadFile1">' +
+                                                '<div class="input-group-append">' +
+                                                    '<span class="input-group-text"><i class="fas fa-paperclip" aria-hidden="true"></i></span>' +
+                                                '</div>' +
+                                                '<input type="file" accept="image/*,.pdf,.txt,.doc,.docx," class="inputfile form-control mb-0" >' +
+                                                
+                                            '</div>' +
                                             '<button class="btn btn-secondary" type="button" id="inputGroupFileAddon04"><i class="bx bx-x"></i></button>' +
                                           '</div>' +
                                           '<div class="input-group mb-2">' +
                                             '<input type="text" class="form-control" placeholder="Option 2">' +
+                                            '<div class="input-group uploadFile1">' +
+                                                '<div class="input-group-append">' +
+                                                    '<span class="input-group-text"><i class="fas fa-paperclip" aria-hidden="true"></i></span>' +
+                                                '</div>' +
+                                                '<input type="file" accept="image/*,.pdf,.txt,.doc,.docx," class="inputfile form-control mb-0" >' +
+                                                
+                                            '</div>' +
                                             '<button class="btn btn-secondary" type="button" id="inputGroupFileAddon04"><i class="bx bx-x"></i></button>' +
                                           '</div>' +
                                           '<div class="input-group mb-2">' +
                                             '<input type="text" class="form-control" placeholder="Option 3">' +
+                                            '<div class="input-group uploadFile1">' +
+                                                '<div class="input-group-append">' +
+                                                    '<span class="input-group-text"><i class="fas fa-paperclip" aria-hidden="true"></i></span>' +
+                                                '</div>' +
+                                                '<input type="file" accept="image/*,.pdf,.txt,.doc,.docx," class="inputfile form-control mb-0" >' +
+                                                
+                                            '</div>' +
                                             '<button class="btn btn-secondary" type="button" id="inputGroupFileAddon04"><i class="bx bx-x"></i></button>' +
                                           '</div>' +
                                          
@@ -6039,14 +6102,35 @@
                                         '</div>' +
                                         '<div class="input-group mb-2">' +
                                             '<input type="text" class="form-control" placeholder="Option 1">' +
+                                            '<div class="input-group uploadFile1">' +
+                                                '<div class="input-group-append">' +
+                                                    '<span class="input-group-text"><i class="fas fa-paperclip" aria-hidden="true"></i></span>' +
+                                                '</div>' +
+                                                '<input type="file" accept="image/*,.pdf,.txt,.doc,.docx," class="inputfile form-control mb-0" >' +
+                                                
+                                            '</div>' +
                                            ' <button class="btn btn-secondary" type="button" id="inputGroupFileAddon04"><i class="bx bx-x"></i></button>' +
                                           '</div>' +
                                           '<div class="input-group mb-2">' +
                                             '<input type="text" class="form-control" placeholder="Option 2">' +
+                                            '<div class="input-group uploadFile1">' +
+                                                '<div class="input-group-append">' +
+                                                    '<span class="input-group-text"><i class="fas fa-paperclip" aria-hidden="true"></i></span>' +
+                                                '</div>' +
+                                                '<input type="file" accept="image/*,.pdf,.txt,.doc,.docx," class="inputfile form-control mb-0" >' +
+                                                
+                                            '</div>' +
                                            ' <button class="btn btn-secondary" type="button" id="inputGroupFileAddon04"><i class="bx bx-x"></i></button>' +
                                           '</div>' +
                                           '<div class="input-group mb-2">' +
                                             '<input type="text" class="form-control" placeholder="Option 3">' +
+                                            '<div class="input-group uploadFile1">' +
+                                                '<div class="input-group-append">' +
+                                                    '<span class="input-group-text"><i class="fas fa-paperclip" aria-hidden="true"></i></span>' +
+                                                '</div>' +
+                                                '<input type="file" accept="image/*,.pdf,.txt,.doc,.docx," class="inputfile form-control mb-0" >' +
+                                                
+                                            '</div>' +
                                             '<button class="btn btn-secondary" type="button" id="inputGroupFileAddon04"><i class="bx bx-x"></i></button>' +
                                          ' </div>' +
                                          
