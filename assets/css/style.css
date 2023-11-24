@@ -1081,7 +1081,7 @@ footer
   
 .onscreen-section{
   height: 100vh;
-  background-image: url(../images/onscreen.jpg);
+  background-image: url(../images/onscreen.webp);
   background-size: cover;
   width: 100%;
   display: flex;
