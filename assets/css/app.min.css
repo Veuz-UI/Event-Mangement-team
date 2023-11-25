@@ -11970,7 +11970,7 @@ table .avatar-sm{
     border-bottom: 1px solid #ebebeb;
 }
 
-.panel-group .panel:last-child .panel-heading, .panel-group .panel:last-child .panel-body{
+.panel-group .panel:last-child .panel-body{
     border-bottom: 0px;
 }
 

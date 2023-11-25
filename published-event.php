@@ -3135,11 +3135,14 @@
                                                         <div class="panel-body">
                                                             <div class="poll-bx">
                                                                 <div class="poll-frst-box">
-                                                                <div class="d-flex justify-content-between">
+                                                                    <div class="d-flex justify-content-between">
                                                                         <span class="qstn-type">Single Choice</span>
-                                                                       <i class="fas fa-pencil-alt poll-edit" data-bs-toggle="modal" data-bs-target="#add-poll"></i>
+                                                                        <i class="fas fa-pencil-alt poll-edit"
+                                                                            data-bs-toggle="modal"
+                                                                            data-bs-target="#add-poll"></i>
                                                                     </div>
-                                                                    <h4>1. Which of the following Himalayan regions is called "Shivalik's"?</h4>
+                                                                    <h4>1. Which of the following Himalayan regions is
+                                                                        called "Shivalik's"?</h4>
                                                                 </div>
                                                                 <div class="poll-scnd-box">
                                                                     <div class="poll-second-bx">
@@ -3151,11 +3154,15 @@
                                                             </div>
                                                             <div class="poll-bx">
                                                                 <div class="poll-frst-box">
-                                                                <div class="d-flex justify-content-between">
+                                                                    <div class="d-flex justify-content-between">
                                                                         <span class="qstn-type">Single Choice</span>
-                                                                       <i class="fas fa-pencil-alt poll-edit" data-bs-toggle="modal" data-bs-target="#add-poll"></i>
+                                                                        <i class="fas fa-pencil-alt poll-edit"
+                                                                            data-bs-toggle="modal"
+                                                                            data-bs-target="#add-poll"></i>
                                                                     </div>
-                                                                    <h4>2. The hero of the Malvikagnimitram of Kalidas is associated with which of the given dynasties? </h4>
+                                                                    <h4>2. The hero of the Malvikagnimitram of Kalidas
+                                                                        is associated with which of the given dynasties?
+                                                                    </h4>
                                                                 </div>
                                                                 <div class="poll-scnd-box">
                                                                     <div class="poll-second-bx">
@@ -3189,10 +3196,16 @@
                                                         <div class="panel-body">
                                                             <div class="poll-bx">
                                                                 <div class="poll-frst-box">
-                                                                    <span class="qstn-type">Single Choice</span>
-                                                                    <h4>1. Which of the following Himalayan regions is called "Shivalik's"?</h4>
-                                                                   
+                                                                    <div class="d-flex justify-content-between">
+                                                                        <span class="qstn-type">Single Choice</span>
+                                                                        <i class="fas fa-pencil-alt poll-edit"
+                                                                            data-bs-toggle="modal"
+                                                                            data-bs-target="#add-poll"></i>
+                                                                    </div>
+                                                                    <h4>1. Which of the following Himalayan regions is
+                                                                        called "Shivalik's"?</h4>
                                                                 </div>
+                                                                   
                                                                 <div class="poll-scnd-box">
                                                                     <div class="poll-second-bx">
                                                                         <h6 class="mb-0"><span class="ans-no">Answer 1 </span> <span>Upper Himalayas</span></h6>                                                                                                                           
@@ -3203,9 +3216,15 @@
                                                             </div>
                                                             <div class="poll-bx">
                                                                 <div class="poll-frst-box">
-                                                                    <span class="qstn-type">Single Choice</span>
-                                                                    <h4>2. The hero of the Malvikagnimitram of Kalidas is associated with which of the given dynasties? </h4>
-                                                                   
+                                                                    <div class="d-flex justify-content-between">
+                                                                        <span class="qstn-type">Single Choice</span>
+                                                                        <i class="fas fa-pencil-alt poll-edit"
+                                                                            data-bs-toggle="modal"
+                                                                            data-bs-target="#add-poll"></i>
+                                                                    </div>
+                                                                    <h4>2. The hero of the Malvikagnimitram of Kalidas
+                                                                        is associated with which of the given dynasties?
+                                                                    </h4>
                                                                 </div>
                                                                 <div class="poll-scnd-box">
                                                                     <div class="poll-second-bx">
