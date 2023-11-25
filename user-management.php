@@ -1790,7 +1790,7 @@
             setTimeout(function() {
                 // $('.loader-mask').delay(350).fadeOut('slow')
                 $(".loader-mask").hide();
-            }, 1000)
+            }, 100)
 
         })
     </script>
