@@ -400,14 +400,14 @@ header h2
 .radio-field-3
 {
     position: relative;
-    margin-bottom: 50px;
+    margin-bottom: 15px;
 }
 .radio-field-3-inner
 {
-    border: solid 3px transparent;
+    border: solid 2px transparent;
     width: 100%;
-    height: 151px;
-    border-radius: 150px;
+    height: 180px;
+    border-radius: 10px;
     overflow: hidden;
     transition: 0.4s;
 
@@ -420,12 +420,12 @@ header h2
 {
     -webkit-appearance: none;
     position: absolute;
-    left: -18px;
-    top: 60px;
+    left: 15px;
+    top: 15px;
     border-radius: 50%;
     background-color: var(--field-color);
-    width: 37px;
-    height: 37px;
+    width: 26px;
+    height: 26px;
     cursor: pointer;
     border: solid 2px transparent;
     transition: 0.4s;
@@ -443,11 +443,11 @@ header h2
     left: 0;
     right: 0;
     margin: 0 auto;
-    top: 6px;
+    top: 4px;
     border-radius: 50%;
     background-color: var(--primary-color);
-    width: 22px;
-    height: 22px;
+    width: 14px;
+    height: 14px;
     transition: 0.4s;
 }
 .radio-field-3 label
@@ -468,7 +468,6 @@ header h2
 
 .radio-field-3 img
 {
-    object-position: 0px -55px;
     width: 100%;
     height: 100%;
     object-fit: cover;
@@ -1188,7 +1187,7 @@ footer
 }
 
 .onscreen-section .counter {
-  animation: counter 5s ease-out;
+  animation: counter 10s ease-out;
   animation-fill-mode: forwards;
   counter-reset: num var(--percentage);
   background-color: transparent;
@@ -1232,7 +1231,7 @@ footer
   stroke-width: 2.2;
   stroke: #FFC300;
   stroke-linecap: round;
-  animation: progress 5s ease-out forwards;
+  animation: progress 10s ease-out forwards;
 }
 
 .onscreen-section .counter {
@@ -1257,7 +1256,7 @@ footer
 }
 
 .onscreen-section .time-breakdown-chart p span{
-  animation: counter1 5s ease-out;
+  animation: counter1 10s ease-out;
   animation-fill-mode: forwards;
   counter-reset: num var(--count);
 }
@@ -1280,7 +1279,7 @@ footer
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 400px;
+    height: 600px;
     overflow: hidden;
     flex-direction: column;
   }
@@ -1289,8 +1288,8 @@ footer
   position: relative;
   }
   .circle-count {
-  width:200px;
-  height:200px;
+  width:400px;
+  height:400px;
   display:flex;
   align-items: center;
   justify-content: center;
@@ -1317,34 +1316,33 @@ footer
   }
   .circle-count .points{
   width: 2px;
-  height: 45px;
+  height: 70px;
   background: rgba(255,255,255,.2);
   position: absolute;
-  transform: rotate(calc(var(--i) * var(--r))) translateY(-100px);
+  transform: rotate(calc(var(--i) * var(--r))) translateY(-200px);
   animation: glow 10ms linear forwards;
   animation-delay: calc(var(--i) * .024s);
   }
   
   .countr {
     position: absolute;
-    top: -2px;
+    top: 50%;
     bottom: 0;
-    left: -5px;
-    right:auto;
-    margin: auto;
+    left: 50%;
+    right: auto;
     padding: 0;
     width: 150px;
     height: 150px;
     background: none;
     text-align: center;
-    font-size: 5rem;
+    font-size: 10rem;
     line-height: 5rem;
     display: flex;
     align-items: center;
     justify-content: center;
     color: rgba(0,0,0,.1);
     -webkit-text-stroke: 1px #FFC300;
-    transform: translateX(30px);
+    transform: translate(-50%, -50%);
   }
   
   @keyframes glow {
@@ -1446,4 +1444,48 @@ footer
   background-color: #FFC300;
 }
 
+.evt-left-bottom h1{
+  color: #ffc300;
+  font-size: 36px;
+  font-weight: 600;
+  text-align: center;
+  margin-bottom: 20px;
+}
 
+.winner-div{
+  position: relative;
+  width: 550px;
+  margin: 0 auto 35px;
+  overflow: hidden;
+}
+
+.winner-div .logo-div{
+  margin-bottom: 0px !important;
+  height: 140px;
+  padding: 20px 32px 20px 60px !important;
+}
+
+.winner-div .vote-percentage h4{
+  font-size: 40px;
+}
+
+.winner-div .vote-percentage i {
+  font-size: 45px;
+}
+
+.ribbon.left {
+  transform: rotate(-45deg);
+}
+
+.winner-div .ribbon{
+  position: absolute;
+  top: 15px;
+  left: -59px;
+  width: 180px;
+  padding: 5px 0;
+  background: #ffa000;
+  color: #fff;
+  text-align: center;
+  font-size: 16px;
+  text-transform: uppercase;
+}

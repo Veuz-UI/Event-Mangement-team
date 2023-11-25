@@ -12065,6 +12065,11 @@ table .avatar-sm{
     color: #222;
     display: flex;
     align-items: center;
+    width: fit-content;
+}
+
+.add-answer a:hover{
+    color: #04B070;
 }
 
 .clr-link:hover{
@@ -12127,11 +12132,38 @@ table .avatar-sm{
   .poll-answers .uploadFile1{
     width: 250px;
     margin: 0px 6px !important;
+    position: relative;
+    background-color: white;
+  }
+  .poll-answers .uploadFile1 .input-group-append{
+    position: absolute;
+    left: 0px;
+    z-index: 0;
+    height: 100%;
+    background-color: transparent;
   }
   .poll-answers .uploadFile1 .input-group-text{
     height: 100%;
+    background: transparent;
+    border-left: 0px;
   }
 
   .poll-answers .uploadFile1 .input-group-text i{
     font-size: 14px;
+  }
+
+  .poll-answers .uploadFile1 input{
+    padding-left: 40px;
+    background: transparent;
+  }
+
+  .poll-tymes{
+    display: flex;
+    justify-content: end;
+  }
+
+  .poll-tymes .form-grp{
+    display: flex;
+    align-items: center;
+    gap: 10px;
   }

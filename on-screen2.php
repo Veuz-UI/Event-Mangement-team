@@ -45,7 +45,7 @@
                  
                     <div class="next-stp">
                         <img src="assets/images/confetti.gif" alt="">
-                        <h3>Voting Completed</h3>
+                        <h3>The Winner is</h3>
                     </div>
                 </div>
                 </div>

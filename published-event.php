@@ -3139,7 +3139,7 @@
                                                                         <span class="qstn-type">Single Choice</span>
                                                                        <i class="fas fa-pencil-alt poll-edit" data-bs-toggle="modal" data-bs-target="#add-poll"></i>
                                                                     </div>
-                                                                   
+                                                                    <h4>1. Which of the following Himalayan regions is called "Shivalik's"?</h4>
                                                                 </div>
                                                                 <div class="poll-scnd-box">
                                                                     <div class="poll-second-bx">
@@ -3155,7 +3155,7 @@
                                                                         <span class="qstn-type">Single Choice</span>
                                                                        <i class="fas fa-pencil-alt poll-edit" data-bs-toggle="modal" data-bs-target="#add-poll"></i>
                                                                     </div>
-                                                                   
+                                                                    <h4>2. The hero of the Malvikagnimitram of Kalidas is associated with which of the given dynasties? </h4>
                                                                 </div>
                                                                 <div class="poll-scnd-box">
                                                                     <div class="poll-second-bx">
@@ -4405,8 +4405,7 @@
                                
                             </div>
                         </div>
-                
-
+                   
                     </div>
                     <div class="question-overflow">
                         <div class="question-bx">
@@ -4559,15 +4558,27 @@
                     </div>
                   
                    <div class="add-answer add-qstn">
-                    <a href="#"><i class="bx bx-plus-circle"></i> Add Question</a>
+                    <div class="row">
+                        <div class="col-md-3">
+                            <a href="#" class="qstn-add"><i class="bx bx-plus-circle"></i> Add Question</a>
+                        </div>
+                        <div class="col-md-9 poll-tymes">
+                            <div class="form-grp me-3">
+                                <label class="form-label">Survey Time</label>
+                                <input class="form-control" type="text" placeholder="00:00:00" style="width: 90px;">                              
+                            </div>
+                            <div class="form-grp me-1">
+                                <label class="form-label">Voting Time</label>
+                                <input class="form-control" type="text" placeholder="00:00:00" style="width: 90px;">                              
+                            </div>
+                        </div>
+                    </div>
+                  
                   </div>
                 </div>
                 <div class="modal-footer">
-                   
-                   
                     <button type="button" class="btn btn-light br-50 btn-md" data-bs-dismiss="modal">Close</button>
                     <button type="button" class="btn btn-primary br-50 btn-md ms-1">Save</button>
-                    </div>
                 </div>
             </div>
         </div>
@@ -6006,7 +6017,7 @@
 
         var i = 1
 
-        $(".add-qstn").click(function () {
+        $(".add-qstn .qstn-add").click(function () {
 
            
             newRowAddqstn =

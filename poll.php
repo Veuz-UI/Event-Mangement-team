@@ -155,6 +155,74 @@
                             Personality Survey Quiz
                         </h2>
                     </header>
+                    <div class="step-inner container">
+
+                        <!-- step number -->
+                        <div class="step-num"><span>Question 3</span></div>
+                        <article class="step2 quiz-text">
+                            <h3 class="main-heading">Recognize which of the images below represents the Eiffel Tower.</h3>
+                        </article>
+
+                        <!-- form -->
+                        <fieldset class="form" id="step3">
+                            <div class="row">
+                                <div class="col-md-4 ps-3 pe-3 lap-50">
+                                    <div class="radio-field-3">
+                                        <div class="radio-field-3-inner">
+                                            <img src="assets/images/poll/tower.jpg" alt="image-1">
+                                        </div>
+                                        <input type="radio" name="op4">
+                                       
+                                    </div>
+                                </div>
+                                <div class="col-md-4 ps-3 pe-3 lap-50">
+                                    <div class="radio-field-3 delay-100ms">
+                                        <div class="radio-field-3-inner">
+                                            <img src="assets/images/poll/tower1.jpg" alt="image-2">
+                                        </div>
+                                        <input type="radio" name="op4">
+                                       
+                                    </div>
+                                </div>
+                                <div class="col-md-4 ps-3 pe-3 lap-50">
+                                    <div class="radio-field-3 delay-200ms">
+                                        <div class="radio-field-3-inner">
+                                            <img src="assets/images/poll/tower2.jpg" alt="image-3">
+                                        </div>
+                                        <input type="radio" name="op4">
+                                       
+                                    </div>
+                                </div>
+                               
+                            </div>
+                        </fieldset>
+                    </div>
+
+                    <footer>
+                        <div class="container">
+                            <div class="next_prev">
+                                <button class="prev" type="button"><span>Previous Question</span></button>
+                                <div class="bar-inner">
+                                    <span class="bar-text">50% complete. keep it up!</span>
+                                    <div class="w-50 bar-move"></div>
+                                </div>
+                                <button class="next" type="button" id="step3btn"><span>Next Question</span></button>
+                            </div>
+                        </div>
+                    </footer>
+                </section>
+
+                <!-- step 4 -->
+                <section class="steps">
+
+                    <header>
+                        <a href="voting.php" class="back-btn">
+                            <span class="bx bx-chevron-left"></span>
+                        </a>
+                        <h2>
+                            Personality Survey Quiz
+                        </h2>
+                    </header>
 
                     <div class="step-inner container">
 
@@ -165,7 +233,7 @@
                         </article>
 
                         <!-- form-->
-                        <fieldset class="form" id="step3">
+                        <fieldset class="form" id="step4">
                             <div class="row">
                                 <div class="col-md-12 ps-3 pe-3">
                                     <div class="stars">

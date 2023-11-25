@@ -228,7 +228,7 @@
         $(document).ready(function () {
             window.setTimeout(function () {
                 location.href = "http://localhost/Event-Mangement-team/on-screen2.php";
-            }, 5000);
+            }, 10000);
         });
     </script>
 

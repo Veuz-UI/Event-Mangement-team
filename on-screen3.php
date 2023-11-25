@@ -38,7 +38,19 @@
                                 Saudi Arabia Award</h2>
                         </div>
                         <div class="evt-left-bottom">
-                         
+                            <h1>Winner</h1>
+                            <div class="winner-div">
+                                <h2 class="ribbon left">Winner</h2>
+                                <div class="logo-div">
+                                    <div class="company-log">
+                                        <img src="assets/images/logos/logo1.png" alt="">
+                                        <h6>Teva Technologies pvt.ltd</h6>
+                                    </div>
+                                   <div class="vote-percentage">
+                                        <h4>90%<i class="bx bx-up-arrow-alt high"></i></h4>
+                                   </div>
+                                </div>
+                            </div>
 
 
                             <h3>Participation of the best companies in Saudi Arabia 2023 ?  </h3>
@@ -51,7 +63,7 @@
                                                 <h6>Teva Technologies pvt.ltd</h6>
                                             </div>
                                            <div class="vote-percentage">
-                                                <h4>80%<i class="bx bx-up-arrow-alt high"></i></h4>
+                                                <h4>90%<i class="bx bx-up-arrow-alt high"></i></h4>
                                            </div>
                                         </div>
                                     </div>
