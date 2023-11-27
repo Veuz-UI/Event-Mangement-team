@@ -223,7 +223,7 @@ header h2
 /* step 2 */
 .step2.quiz-text
 {
-    width: 60%;
+    width: 80%;
 }
 .check-field
 {
@@ -1488,4 +1488,145 @@ footer
   text-align: center;
   font-size: 16px;
   text-transform: uppercase;
+}
+
+.back-btn:hover{
+  background-color: #089f75;
+}
+
+.radio-field-3 h6{
+    color: #333;
+    font-weight: 600;
+    font-size: 14px;
+}
+
+.radio-field-3 h6{
+  color: #333;
+  font-weight: 600;
+  font-size: 14px;
+  margin: 12px 0px 0px;
+}
+
+.radio-field-3 h6 span{
+  background-color: #ebebeb;
+  display: inline-block;
+  width: 35px;
+  height: 35px;
+  min-width: 23px;
+  border-radius: 50%;
+  line-height: 36px;
+  font-size: 16px;
+  color: #193567;
+  font-weight: 700;
+  text-align: center;
+  margin-right: 13px;
+}
+
+.modal-confirm .modal-content {
+	padding: 20px;
+	border-radius: 5px;
+	border: none;
+}
+.modal-confirm .modal-header {
+    padding: 6px;
+	border-bottom: none;   
+	position: relative;
+    background: transparent;
+}
+.modal-confirm h4 {
+	text-align: center;
+	font-size: 26px;
+	margin: 30px 0 -15px;
+}
+
+.modal-confirm .close {
+	position: absolute;
+	top: -5px;
+	right: -5px;
+}	
+.modal-confirm .modal-footer {
+	border: none;
+	text-align: center;
+	border-radius: 5px;
+	font-size: 13px;
+    padding: 0px 0px 10px;
+}	
+.modal-confirm .icon-box {
+    color: #fff;
+    position: absolute;
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+    top: -60px;
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    z-index: 9;
+    padding: 15px;
+    text-align: center;
+    box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.1);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.red{
+  background: #f14c4c;
+}
+.modal-confirm .icon-box i {
+  font-size: 30px;
+position: relative;
+}
+
+.modal-confirm .modal-body{
+  padding: 10px 15px;
+}
+
+.modal-confirm .modal-body p{
+  font-size: 16px;
+  color: #585858;
+  font-weight: 500;
+  margin-bottom: 5px;
+}
+
+.yes-btn {
+  width: 80px;
+  height: 30px;
+  margin: 0px 4px;
+  display: flex;
+  background-color: #09BC8A;
+  border-radius: 50px;
+  border: none !important;
+  color: #fff;
+  font-size: 13px;
+  font-weight: 600;
+  transition: 1s;
+  align-items: center;
+  justify-content: center;
+}
+
+.yes-btn:hover{
+  background-color: #089f75 ;
+  color: #fff;
+}
+
+.cancel-button {
+  width: 80px;
+  height: 30px;
+  margin: 0px 4px;
+  display: flex;
+  background-color: #f5f5f5;
+  border-radius: 50px;
+  border: none !important;
+  color: #333;
+  font-size: 13px;
+  font-weight: 600;
+  transition: 1s;
+  align-items: center;
+  justify-content: center;
+}
+
+.cancel-button:hover{
+  background-color: #e0e0e0;
+  color: #222;
 }

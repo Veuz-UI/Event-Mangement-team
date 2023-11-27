@@ -185,7 +185,7 @@ $(document).ready(function()
                         success: function(data,status)
                         {
 
-                        $("#sub").html("<span>Success</span>");
+                        // $("#sub").html("<span>Success</span>");
                         
                         window.location = 'thanku.php';
                         

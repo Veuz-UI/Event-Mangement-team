@@ -4485,7 +4485,11 @@
                                             <input type="text" class="form-control" placeholder="Option 1">
                                             <div class="input-group uploadFile1">
                                                 <div class="input-group-append">
-                                                    <span class="input-group-text"><i class="fas fa-paperclip" aria-hidden="true"></i></span>
+                                                    <span class="input-group-text">
+                                                        <svg width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                            <path d="M12.9077 6.85704L7.23439 12.2077C6.53936 12.8632 5.59671 13.2314 4.6138 13.2314C3.63088 13.2314 2.68823 12.8632 1.9932 12.2077C1.29818 11.5522 0.907715 10.6632 0.907715 9.73615C0.907715 8.80914 1.29818 7.9201 1.9932 7.2646L7.66653 1.91394C8.12988 1.47695 8.75831 1.23145 9.41359 1.23145C10.0689 1.23145 10.6973 1.47695 11.1607 1.91394C11.624 2.35094 11.8843 2.94364 11.8843 3.56164C11.8843 4.17965 11.624 4.77235 11.1607 5.20934L5.48115 10.56C5.24948 10.7785 4.93526 10.9012 4.60762 10.9012C4.27998 10.9012 3.96577 10.7785 3.73409 10.56C3.50242 10.3415 3.37226 10.0452 3.37226 9.73615C3.37226 9.42714 3.50242 9.1308 3.73409 8.9123L8.97528 3.97502" stroke="#495057" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"/>
+                                                        </svg>
+                                                    </span>
                                                 </div>
                                                 <input type="file" accept="image/*,.pdf,.txt,.doc,.docx," class="inputfile form-control mb-0" >
                                                 
@@ -4496,7 +4500,11 @@
                                             <input type="text" class="form-control" placeholder="Option 2">
                                             <div class="input-group uploadFile1">
                                                 <div class="input-group-append">
-                                                    <span class="input-group-text"><i class="fas fa-paperclip" aria-hidden="true"></i></span>
+                                                    <span class="input-group-text">
+                                                        <svg width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                            <path d="M12.9077 6.85704L7.23439 12.2077C6.53936 12.8632 5.59671 13.2314 4.6138 13.2314C3.63088 13.2314 2.68823 12.8632 1.9932 12.2077C1.29818 11.5522 0.907715 10.6632 0.907715 9.73615C0.907715 8.80914 1.29818 7.9201 1.9932 7.2646L7.66653 1.91394C8.12988 1.47695 8.75831 1.23145 9.41359 1.23145C10.0689 1.23145 10.6973 1.47695 11.1607 1.91394C11.624 2.35094 11.8843 2.94364 11.8843 3.56164C11.8843 4.17965 11.624 4.77235 11.1607 5.20934L5.48115 10.56C5.24948 10.7785 4.93526 10.9012 4.60762 10.9012C4.27998 10.9012 3.96577 10.7785 3.73409 10.56C3.50242 10.3415 3.37226 10.0452 3.37226 9.73615C3.37226 9.42714 3.50242 9.1308 3.73409 8.9123L8.97528 3.97502" stroke="#495057" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"/>
+                                                        </svg>
+                                                    </span>
                                                 </div>
                                                 <input type="file" accept="image/*,.pdf,.txt,.doc,.docx," class="inputfile form-control mb-0" >
                                                 
@@ -4507,7 +4515,11 @@
                                             <input type="text" class="form-control" placeholder="Option 3">
                                             <div class="input-group uploadFile1">
                                                 <div class="input-group-append">
-                                                    <span class="input-group-text"><i class="fas fa-paperclip" aria-hidden="true"></i></span>
+                                                    <span class="input-group-text">
+                                                        <svg width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                            <path d="M12.9077 6.85704L7.23439 12.2077C6.53936 12.8632 5.59671 13.2314 4.6138 13.2314C3.63088 13.2314 2.68823 12.8632 1.9932 12.2077C1.29818 11.5522 0.907715 10.6632 0.907715 9.73615C0.907715 8.80914 1.29818 7.9201 1.9932 7.2646L7.66653 1.91394C8.12988 1.47695 8.75831 1.23145 9.41359 1.23145C10.0689 1.23145 10.6973 1.47695 11.1607 1.91394C11.624 2.35094 11.8843 2.94364 11.8843 3.56164C11.8843 4.17965 11.624 4.77235 11.1607 5.20934L5.48115 10.56C5.24948 10.7785 4.93526 10.9012 4.60762 10.9012C4.27998 10.9012 3.96577 10.7785 3.73409 10.56C3.50242 10.3415 3.37226 10.0452 3.37226 9.73615C3.37226 9.42714 3.50242 9.1308 3.73409 8.9123L8.97528 3.97502" stroke="#495057" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"/>
+                                                        </svg>
+                                                    </span>
                                                 </div>
                                                 <input type="file" accept="image/*,.pdf,.txt,.doc,.docx," class="inputfile form-control mb-0" >
                                                 
@@ -4528,7 +4540,11 @@
                                             <input type="text" class="form-control" placeholder="Option 1">
                                             <div class="input-group uploadFile1">
                                                 <div class="input-group-append">
-                                                    <span class="input-group-text"><i class="fas fa-paperclip" aria-hidden="true"></i></span>
+                                                    <span class="input-group-text">
+                                                        <svg width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                            <path d="M12.9077 6.85704L7.23439 12.2077C6.53936 12.8632 5.59671 13.2314 4.6138 13.2314C3.63088 13.2314 2.68823 12.8632 1.9932 12.2077C1.29818 11.5522 0.907715 10.6632 0.907715 9.73615C0.907715 8.80914 1.29818 7.9201 1.9932 7.2646L7.66653 1.91394C8.12988 1.47695 8.75831 1.23145 9.41359 1.23145C10.0689 1.23145 10.6973 1.47695 11.1607 1.91394C11.624 2.35094 11.8843 2.94364 11.8843 3.56164C11.8843 4.17965 11.624 4.77235 11.1607 5.20934L5.48115 10.56C5.24948 10.7785 4.93526 10.9012 4.60762 10.9012C4.27998 10.9012 3.96577 10.7785 3.73409 10.56C3.50242 10.3415 3.37226 10.0452 3.37226 9.73615C3.37226 9.42714 3.50242 9.1308 3.73409 8.9123L8.97528 3.97502" stroke="#495057" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"/>
+                                                        </svg>
+                                                    </span>
                                                 </div>
                                                 <input type="file" accept="image/*,.pdf,.txt,.doc,.docx," class="inputfile form-control mb-0" >
                                                 
@@ -4539,7 +4555,11 @@
                                             <input type="text" class="form-control" placeholder="Option 2">
                                             <div class="input-group uploadFile1">
                                                 <div class="input-group-append">
-                                                    <span class="input-group-text"><i class="fas fa-paperclip" aria-hidden="true"></i></span>
+                                                    <span class="input-group-text">
+                                                        <svg width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                            <path d="M12.9077 6.85704L7.23439 12.2077C6.53936 12.8632 5.59671 13.2314 4.6138 13.2314C3.63088 13.2314 2.68823 12.8632 1.9932 12.2077C1.29818 11.5522 0.907715 10.6632 0.907715 9.73615C0.907715 8.80914 1.29818 7.9201 1.9932 7.2646L7.66653 1.91394C8.12988 1.47695 8.75831 1.23145 9.41359 1.23145C10.0689 1.23145 10.6973 1.47695 11.1607 1.91394C11.624 2.35094 11.8843 2.94364 11.8843 3.56164C11.8843 4.17965 11.624 4.77235 11.1607 5.20934L5.48115 10.56C5.24948 10.7785 4.93526 10.9012 4.60762 10.9012C4.27998 10.9012 3.96577 10.7785 3.73409 10.56C3.50242 10.3415 3.37226 10.0452 3.37226 9.73615C3.37226 9.42714 3.50242 9.1308 3.73409 8.9123L8.97528 3.97502" stroke="#495057" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"/>
+                                                        </svg>
+                                                    </span>
                                                 </div>
                                                 <input type="file" accept="image/*,.pdf,.txt,.doc,.docx," class="inputfile form-control mb-0" >
                                                 
@@ -4550,7 +4570,11 @@
                                             <input type="text" class="form-control" placeholder="Option 3">
                                             <div class="input-group uploadFile1">
                                                 <div class="input-group-append">
-                                                    <span class="input-group-text"><i class="fas fa-paperclip" aria-hidden="true"></i></span>
+                                                    <span class="input-group-text">
+                                                        <svg width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                            <path d="M12.9077 6.85704L7.23439 12.2077C6.53936 12.8632 5.59671 13.2314 4.6138 13.2314C3.63088 13.2314 2.68823 12.8632 1.9932 12.2077C1.29818 11.5522 0.907715 10.6632 0.907715 9.73615C0.907715 8.80914 1.29818 7.9201 1.9932 7.2646L7.66653 1.91394C8.12988 1.47695 8.75831 1.23145 9.41359 1.23145C10.0689 1.23145 10.6973 1.47695 11.1607 1.91394C11.624 2.35094 11.8843 2.94364 11.8843 3.56164C11.8843 4.17965 11.624 4.77235 11.1607 5.20934L5.48115 10.56C5.24948 10.7785 4.93526 10.9012 4.60762 10.9012C4.27998 10.9012 3.96577 10.7785 3.73409 10.56C3.50242 10.3415 3.37226 10.0452 3.37226 9.73615C3.37226 9.42714 3.50242 9.1308 3.73409 8.9123L8.97528 3.97502" stroke="#495057" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"/>
+                                                        </svg>
+                                                    </span>
                                                 </div>
                                                 <input type="file" accept="image/*,.pdf,.txt,.doc,.docx," class="inputfile form-control mb-0" >
                                                 
@@ -6019,7 +6043,7 @@
     });
     $(document).on('click','.add-answer-btn', function(){
         newRowAdd =
-                '<div class="input-group mb-2"><input type="text" class="form-control" placeholder="Option 1"><button class="btn btn-secondary" type="button" id="inputGroupFileAddon04"><i class="bx bx-x"></i></button></div>' ;
+                '<div class="input-group mb-2"><input type="text" class="form-control" placeholder="Option 1"><div class="input-group uploadFile1"><div class="input-group-append"><span class="input-group-text"><svg width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M12.9077 6.85704L7.23439 12.2077C6.53936 12.8632 5.59671 13.2314 4.6138 13.2314C3.63088 13.2314 2.68823 12.8632 1.9932 12.2077C1.29818 11.5522 0.907715 10.6632 0.907715 9.73615C0.907715 8.80914 1.29818 7.9201 1.9932 7.2646L7.66653 1.91394C8.12988 1.47695 8.75831 1.23145 9.41359 1.23145C10.0689 1.23145 10.6973 1.47695 11.1607 1.91394C11.624 2.35094 11.8843 2.94364 11.8843 3.56164C11.8843 4.17965 11.624 4.77235 11.1607 5.20934L5.48115 10.56C5.24948 10.7785 4.93526 10.9012 4.60762 10.9012C4.27998 10.9012 3.96577 10.7785 3.73409 10.56C3.50242 10.3415 3.37226 10.0452 3.37226 9.73615C3.37226 9.42714 3.50242 9.1308 3.73409 8.9123L8.97528 3.97502" stroke="#495057" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"/></svg></span></div><input type="file" accept="image/*,.pdf,.txt,.doc,.docx," class="inputfile form-control mb-0" ></div><button class="btn btn-secondary" type="button" id="inputGroupFileAddon04"><i class="bx bx-x"></i></button></div>' ;
  
             $(this).closest('.poll-answers').append(newRowAdd);
     });
@@ -6091,18 +6115,18 @@
                                             '<input type="text" class="form-control" placeholder="Option 1">' +
                                             '<div class="input-group uploadFile1">' +
                                                 '<div class="input-group-append">' +
-                                                    '<span class="input-group-text"><i class="fas fa-paperclip" aria-hidden="true"></i></span>' +
+                                                    '<span class="input-group-text"><svg width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M12.9077 6.85704L7.23439 12.2077C6.53936 12.8632 5.59671 13.2314 4.6138 13.2314C3.63088 13.2314 2.68823 12.8632 1.9932 12.2077C1.29818 11.5522 0.907715 10.6632 0.907715 9.73615C0.907715 8.80914 1.29818 7.9201 1.9932 7.2646L7.66653 1.91394C8.12988 1.47695 8.75831 1.23145 9.41359 1.23145C10.0689 1.23145 10.6973 1.47695 11.1607 1.91394C11.624 2.35094 11.8843 2.94364 11.8843 3.56164C11.8843 4.17965 11.624 4.77235 11.1607 5.20934L5.48115 10.56C5.24948 10.7785 4.93526 10.9012 4.60762 10.9012C4.27998 10.9012 3.96577 10.7785 3.73409 10.56C3.50242 10.3415 3.37226 10.0452 3.37226 9.73615C3.37226 9.42714 3.50242 9.1308 3.73409 8.9123L8.97528 3.97502" stroke="#495057" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"/></svg></span>' +
                                                 '</div>' +
                                                 '<input type="file" accept="image/*,.pdf,.txt,.doc,.docx," class="inputfile form-control mb-0" >' +
                                                 
-                                            '</div>' +
+                                            '</div>' +                                    
                                             '<button class="btn btn-secondary" type="button" id="inputGroupFileAddon04"><i class="bx bx-x"></i></button>' +
                                           '</div>' +
                                           '<div class="input-group mb-2">' +
                                             '<input type="text" class="form-control" placeholder="Option 2">' +
                                             '<div class="input-group uploadFile1">' +
                                                 '<div class="input-group-append">' +
-                                                    '<span class="input-group-text"><i class="fas fa-paperclip" aria-hidden="true"></i></span>' +
+                                                    '<span class="input-group-text"><svg width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M12.9077 6.85704L7.23439 12.2077C6.53936 12.8632 5.59671 13.2314 4.6138 13.2314C3.63088 13.2314 2.68823 12.8632 1.9932 12.2077C1.29818 11.5522 0.907715 10.6632 0.907715 9.73615C0.907715 8.80914 1.29818 7.9201 1.9932 7.2646L7.66653 1.91394C8.12988 1.47695 8.75831 1.23145 9.41359 1.23145C10.0689 1.23145 10.6973 1.47695 11.1607 1.91394C11.624 2.35094 11.8843 2.94364 11.8843 3.56164C11.8843 4.17965 11.624 4.77235 11.1607 5.20934L5.48115 10.56C5.24948 10.7785 4.93526 10.9012 4.60762 10.9012C4.27998 10.9012 3.96577 10.7785 3.73409 10.56C3.50242 10.3415 3.37226 10.0452 3.37226 9.73615C3.37226 9.42714 3.50242 9.1308 3.73409 8.9123L8.97528 3.97502" stroke="#495057" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"/></svg></span>' +
                                                 '</div>' +
                                                 '<input type="file" accept="image/*,.pdf,.txt,.doc,.docx," class="inputfile form-control mb-0" >' +
                                                 
@@ -6113,7 +6137,7 @@
                                             '<input type="text" class="form-control" placeholder="Option 3">' +
                                             '<div class="input-group uploadFile1">' +
                                                 '<div class="input-group-append">' +
-                                                    '<span class="input-group-text"><i class="fas fa-paperclip" aria-hidden="true"></i></span>' +
+                                                    '<span class="input-group-text"><svg width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M12.9077 6.85704L7.23439 12.2077C6.53936 12.8632 5.59671 13.2314 4.6138 13.2314C3.63088 13.2314 2.68823 12.8632 1.9932 12.2077C1.29818 11.5522 0.907715 10.6632 0.907715 9.73615C0.907715 8.80914 1.29818 7.9201 1.9932 7.2646L7.66653 1.91394C8.12988 1.47695 8.75831 1.23145 9.41359 1.23145C10.0689 1.23145 10.6973 1.47695 11.1607 1.91394C11.624 2.35094 11.8843 2.94364 11.8843 3.56164C11.8843 4.17965 11.624 4.77235 11.1607 5.20934L5.48115 10.56C5.24948 10.7785 4.93526 10.9012 4.60762 10.9012C4.27998 10.9012 3.96577 10.7785 3.73409 10.56C3.50242 10.3415 3.37226 10.0452 3.37226 9.73615C3.37226 9.42714 3.50242 9.1308 3.73409 8.9123L8.97528 3.97502" stroke="#495057" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"/></svg></span>' +
                                                 '</div>' +
                                                 '<input type="file" accept="image/*,.pdf,.txt,.doc,.docx," class="inputfile form-control mb-0" >' +
                                                 
@@ -6134,7 +6158,7 @@
                                             '<input type="text" class="form-control" placeholder="Option 1">' +
                                             '<div class="input-group uploadFile1">' +
                                                 '<div class="input-group-append">' +
-                                                    '<span class="input-group-text"><i class="fas fa-paperclip" aria-hidden="true"></i></span>' +
+                                                    '<span class="input-group-text"><svg width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M12.9077 6.85704L7.23439 12.2077C6.53936 12.8632 5.59671 13.2314 4.6138 13.2314C3.63088 13.2314 2.68823 12.8632 1.9932 12.2077C1.29818 11.5522 0.907715 10.6632 0.907715 9.73615C0.907715 8.80914 1.29818 7.9201 1.9932 7.2646L7.66653 1.91394C8.12988 1.47695 8.75831 1.23145 9.41359 1.23145C10.0689 1.23145 10.6973 1.47695 11.1607 1.91394C11.624 2.35094 11.8843 2.94364 11.8843 3.56164C11.8843 4.17965 11.624 4.77235 11.1607 5.20934L5.48115 10.56C5.24948 10.7785 4.93526 10.9012 4.60762 10.9012C4.27998 10.9012 3.96577 10.7785 3.73409 10.56C3.50242 10.3415 3.37226 10.0452 3.37226 9.73615C3.37226 9.42714 3.50242 9.1308 3.73409 8.9123L8.97528 3.97502" stroke="#495057" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"/></svg></span>' +
                                                 '</div>' +
                                                 '<input type="file" accept="image/*,.pdf,.txt,.doc,.docx," class="inputfile form-control mb-0" >' +
                                                 
@@ -6145,7 +6169,7 @@
                                             '<input type="text" class="form-control" placeholder="Option 2">' +
                                             '<div class="input-group uploadFile1">' +
                                                 '<div class="input-group-append">' +
-                                                    '<span class="input-group-text"><i class="fas fa-paperclip" aria-hidden="true"></i></span>' +
+                                                    '<span class="input-group-text"><svg width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M12.9077 6.85704L7.23439 12.2077C6.53936 12.8632 5.59671 13.2314 4.6138 13.2314C3.63088 13.2314 2.68823 12.8632 1.9932 12.2077C1.29818 11.5522 0.907715 10.6632 0.907715 9.73615C0.907715 8.80914 1.29818 7.9201 1.9932 7.2646L7.66653 1.91394C8.12988 1.47695 8.75831 1.23145 9.41359 1.23145C10.0689 1.23145 10.6973 1.47695 11.1607 1.91394C11.624 2.35094 11.8843 2.94364 11.8843 3.56164C11.8843 4.17965 11.624 4.77235 11.1607 5.20934L5.48115 10.56C5.24948 10.7785 4.93526 10.9012 4.60762 10.9012C4.27998 10.9012 3.96577 10.7785 3.73409 10.56C3.50242 10.3415 3.37226 10.0452 3.37226 9.73615C3.37226 9.42714 3.50242 9.1308 3.73409 8.9123L8.97528 3.97502" stroke="#495057" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"/></svg></span>' +
                                                 '</div>' +
                                                 '<input type="file" accept="image/*,.pdf,.txt,.doc,.docx," class="inputfile form-control mb-0" >' +
                                                 
@@ -6156,7 +6180,7 @@
                                             '<input type="text" class="form-control" placeholder="Option 3">' +
                                             '<div class="input-group uploadFile1">' +
                                                 '<div class="input-group-append">' +
-                                                    '<span class="input-group-text"><i class="fas fa-paperclip" aria-hidden="true"></i></span>' +
+                                                    '<span class="input-group-text"><svg width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M12.9077 6.85704L7.23439 12.2077C6.53936 12.8632 5.59671 13.2314 4.6138 13.2314C3.63088 13.2314 2.68823 12.8632 1.9932 12.2077C1.29818 11.5522 0.907715 10.6632 0.907715 9.73615C0.907715 8.80914 1.29818 7.9201 1.9932 7.2646L7.66653 1.91394C8.12988 1.47695 8.75831 1.23145 9.41359 1.23145C10.0689 1.23145 10.6973 1.47695 11.1607 1.91394C11.624 2.35094 11.8843 2.94364 11.8843 3.56164C11.8843 4.17965 11.624 4.77235 11.1607 5.20934L5.48115 10.56C5.24948 10.7785 4.93526 10.9012 4.60762 10.9012C4.27998 10.9012 3.96577 10.7785 3.73409 10.56C3.50242 10.3415 3.37226 10.0452 3.37226 9.73615C3.37226 9.42714 3.50242 9.1308 3.73409 8.9123L8.97528 3.97502" stroke="#495057" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"/></svg></span>' +
                                                 '</div>' +
                                                 '<input type="file" accept="image/*,.pdf,.txt,.doc,.docx," class="inputfile form-control mb-0" >' +
                                                 

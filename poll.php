@@ -160,7 +160,7 @@
                         <!-- step number -->
                         <div class="step-num"><span>Question 3</span></div>
                         <article class="step2 quiz-text">
-                            <h3 class="main-heading">Recognize which of the images below represents the Eiffel Tower.</h3>
+                            <h3 class="main-heading">What iconic landmark in Paris stands as a symbol of elegance and engineering prowess, offering breathtaking views of the city from its iron lattice structure?</h3>
                         </article>
 
                         <!-- form -->
@@ -172,7 +172,7 @@
                                             <img src="assets/images/poll/tower.jpg" alt="image-1">
                                         </div>
                                         <input type="radio" name="op4">
-                                       
+                                        <h6><span>A</span>Eiffel tower</h6>
                                     </div>
                                 </div>
                                 <div class="col-md-4 ps-3 pe-3 lap-50">
@@ -181,7 +181,7 @@
                                             <img src="assets/images/poll/tower1.jpg" alt="image-2">
                                         </div>
                                         <input type="radio" name="op4">
-                                       
+                                        <h6><span>B</span>Tokyo Tower</h6>
                                     </div>
                                 </div>
                                 <div class="col-md-4 ps-3 pe-3 lap-50">
@@ -190,7 +190,7 @@
                                             <img src="assets/images/poll/tower2.jpg" alt="image-3">
                                         </div>
                                         <input type="radio" name="op4">
-                                       
+                                        <h6><span>C</span>Petronas Tower</h6>
                                     </div>
                                 </div>
                                
@@ -258,7 +258,7 @@
                                     <span class="bar-text">75% complete. keep it up!</span>
                                     <div class="w-75 bar-move"></div>
                                 </div>
-                                <button class="apply" type="button" id="sub"><span>Submit</span></button>
+                                <button class="apply" type="button" data-bs-toggle="modal" data-bs-target="#alert-msg"><span>Submit</span></button>
                             </div>
                         </div>
                     </footer>
@@ -280,7 +280,25 @@
     <div id="error">
         
     </div>
+    <div id="alert-msg" class="modal fade" tabindex="-1" aria-labelledby="..." aria-hidden="true" style="display: none;">
+        <div class="modal-dialog modal-confirm modal-dialog-centered modal-sm">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <div class="icon-box red">
+                        <i class="mdi mdi-alert"></i>
+                    </div>				
+                </div>
+                <div class="modal-body">
+                    <p class="text-center">Are you sure you want to submit ?</p>
+                </div>
+                <div class="modal-footer d-flex justify-content-center">
+                    <button class="btn yes-btn successful-btn" id="sub">Yes</button>
+                    <button class="btn cancel-button" data-bs-dismiss="modal">No</button>
 
+                </div>
+            </div>
+        </div>
+    </div> 
 
         <script src="assets/libs/jquery/jquery.min.js"></script>
         <script src="assets/libs/bootstrap/js/bootstrap.bundle.min.js"></script>

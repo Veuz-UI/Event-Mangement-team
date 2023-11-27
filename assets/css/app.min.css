@@ -7216,7 +7216,7 @@ table.dataTable.dtr-inline.collapsed>tbody>tr>td.dtr-control:before {
 .event-detail-header .rightside-btns .dropdown-toggle-split {
     border-top-right-radius: 2px;
     border-bottom-right-radius: 2px;
-    padding-right: 15px;
+    padding-right: 10px;
     padding-top: 4px;
     padding-bottom: 4px;
     border-left: 1px solid rgb(255 255 255 / 10%);
@@ -8748,6 +8748,9 @@ table.dataTable.dtr-inline.collapsed>tbody>tr>td.dtr-control:before {
 
 .next-screen {
     width: 25px;
+    font-size: 32px;
+    line-height: 18px;
+    color: #ababab;
 }
 
 
@@ -9941,7 +9944,7 @@ height: 20px;
     height: 30px;
     margin: 0px 4px;
     display: flex;
-    background-color: #313131;
+    background-color: #09BC8A;
     border-radius: 50px;
     border: none !important;
     color: #fff;
@@ -9950,6 +9953,12 @@ height: 20px;
     transition: 1s;
     align-items: center;
     justify-content: center;
+}
+
+.yes-btn:hover{
+    background-color: #089f75;
+    color: #fff;
+    transition: 1s;
 }
 
 .cancel-button {
@@ -9966,12 +9975,6 @@ height: 20px;
     transition: 1s;
     align-items: center;
     justify-content: center;
-}
-
-.successful-btn:hover{
-    background-color: #111;
-    color: #fff;
-    transition: 1s;
 }
 
 .cancel-button:hover{
@@ -11518,7 +11521,11 @@ table .avatar-sm{
     outline: 0;
 }
 .gree-color-icon{
-    color: #008204 !important;
+    color: #09BC8A;
+}
+
+.gree-color-icon:hover{
+    color: #089f75;
 }
 
 @media only screen and (min-width:100px) and (max-width:766px) {
@@ -11879,7 +11886,7 @@ table .avatar-sm{
 
 .panel-heading{
     padding: 6px 15px;
-    border-bottom: 1px solid #ebebeb;
+    /* border-bottom: 1px solid #ebebeb; */
 }
 
 .panel-heading h4{
@@ -11966,11 +11973,19 @@ table .avatar-sm{
     line-height: 25px;
 }
 
-.panel-body{
+/* .panel-body{
+    border-bottom: 1px solid #ebebeb;
+} */
+
+.panel-group .panel:last-child .panel-body{
+    border-bottom: 0px;
+}
+
+.panel-group .panel{
     border-bottom: 1px solid #ebebeb;
 }
 
-.panel-group .panel:last-child .panel-body{
+.panel-group .panel:last-child{
     border-bottom: 0px;
 }
 
@@ -12130,7 +12145,7 @@ table .avatar-sm{
   }
 
   .poll-answers .uploadFile1{
-    width: 250px;
+    width: 190px;
     margin: 0px 6px !important;
     position: relative;
     background-color: white;
@@ -12155,6 +12170,7 @@ table .avatar-sm{
   .poll-answers .uploadFile1 input{
     padding-left: 40px;
     background: transparent;
+    font-size: 13px;
   }
 
   .poll-tymes{
@@ -12167,3 +12183,121 @@ table .avatar-sm{
     align-items: center;
     gap: 10px;
   }
+  
+  .event-settings i:hover{
+    color: #09BC8A;
+  }
+
+  .kan-create i:hover{
+    color: #09BC8A;
+  }
+
+  .search-inpt:hover .input-group-text{
+    border-color: #193567;
+  }
+
+  .search-inpt:hover input{
+    border-color: #193567 !important;
+  }
+
+  .search-inpt:hover .drpdwn-fg .btn-filter{
+    border-color: #193567;
+    background-color: #193567;
+    color: white;
+  }
+
+  .table tr:hover td{
+    background-color: #eee;
+    --bs-table-accent-bg: #eee !important;
+  }
+  .common-drpdwn i:hover{
+    color: #09BC8A;
+  }
+
+  .top-header .header-title ul li a:hover{
+    color: #09BC8A;
+  }
+
+  .delete-icn:hover{
+    color: #F14C4C !important;
+  }
+
+  .ticket-tab-pane .nav-tabs-custom .nav-item .nav-link:hover{
+    color: #263238;
+  }
+
+  .evnt-tab-content .nav-tabs-custom .nav-item .nav-link:hover{
+    color: #263238;
+  }
+
+  .nav-tabs-custom .nav-item .nav-link:hover:after{
+    transform: scale(1);
+  }
+
+  .right-side-nav .nav-tabs-custom .nav-item .nav-link:hover {
+    background-color: #F9FAFB;
+}
+
+.evt-box-bottom:hover{
+    border-color: #09BC8A;
+    background-color: #09BC8A;
+}
+
+.attandee-crfrm-btn:hover{
+    background-color: #089f75 ;
+}
+
+.session-tabs .nav-tabs-custom .nav-item .nav-link:hover{
+    background-color: #263238;
+    color: white;
+    border-radius: 0px;
+}
+
+.panel-heading h4 .arrow-up:hover{
+    background-color: #333;
+    color: #fff;
+}
+
+.poll-edit:hover{
+    color: #333;
+}
+
+.top-header .backtohome:hover{
+    border: 1px solid #09bc8a;
+    background-color: #09bc8a;
+}
+
+.top-header .backtohome:hover i{
+    color: white;
+}
+
+.top-header .backtohome:hover svg path{
+    stroke: white;
+}
+
+.uploadFile1:hover svg path{
+    stroke: #222;
+}
+.delete-member:hover{
+    color: #F14C4C;
+}
+
+.settings-options:hover{
+    background-color: #09BC8A;
+}
+
+.settings-options:hover .text-info-settings{
+    color: #fff;
+}
+
+.settings-options:hover i{
+    color: #fff;
+}
+
+.bxs-pencil:hover{
+    color: #09BC8A;
+}
+
+.bx-trash:hover{
+    color: #F14C4C;
+}

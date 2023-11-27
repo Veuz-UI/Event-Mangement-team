@@ -73,9 +73,9 @@
                             <div>
                                 <h3 class="text-info-settings">User Management</h3>
                             </div>
-                            <div>
+                            <div class="d-flex align-items-center">
                                 
-                                    <img src="assets/images/next.svg" class="next-screen">
+                            <i class="bx bx-chevron-right next-screen"></i>
                                 
                             </div>
 
@@ -89,9 +89,9 @@
                             <div>
                                 <h3 class="text-info-settings">Role Management</h3>
                             </div>
-                            <div>
+                            <div class="d-flex align-items-center">
                                
-                                    <img src="assets/images/next.svg" class="next-screen">       
+                            <i class="bx bx-chevron-right next-screen"></i>      
                             </div>
                         </div>
                     </a>
@@ -102,10 +102,8 @@
                             <div>
                                 <h3 class="text-info-settings">Configuration</h3>
                             </div>
-                            <div>
-                                <a href="#">
-                                    <img src="assets/images/next.svg" class="next-screen">
-                                </a>
+                            <div class="d-flex align-items-center">
+                            <i class="bx bx-chevron-right next-screen"></i>
                             </div>
 
                         </div>
@@ -116,10 +114,8 @@
                             <div>
                                 <h3 class="text-info-settings">Change Password</h3>
                             </div>
-                            <div>
-                                <a href="#">
-                                    <img src="assets/images/next.svg" class="next-screen">
-                                </a>
+                            <div class="d-flex align-items-center">
+                            <i class="bx bx-chevron-right next-screen"></i>
                             </div>
 
                         </div>

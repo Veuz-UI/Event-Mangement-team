@@ -8477,7 +8477,7 @@
                                 <div class="d-flex justify-content-between">
                                     <label class="form-label">Speakers</label>
                                     <a href="#" data-bs-target="#invite-speaker" data-bs-toggle="modal"
-                                        data-bs-dismiss="modal"> <i class="fas fa-plus-circle" class="gree-color-icon"></i></a>
+                                        data-bs-dismiss="modal"> <i class="fas fa-plus-circle gree-color-icon"></i></a>
 
                                 </div>
 
@@ -8510,7 +8510,7 @@
                                 <div class="d-flex justify-content-between">
                                     <label class="form-label">Hall</label>
                                     <a href="#" data-bs-target="#add-hall-modal" data-bs-toggle="modal"
-                                        data-bs-dismiss="modal"> <i class="fas fa-plus-circle" class="gree-color-icon"></i></a>
+                                        data-bs-dismiss="modal"> <i class="fas fa-plus-circle gree-color-icon"></i></a>
 
                                 </div>
 
@@ -8541,7 +8541,7 @@
                                 <div class="d-flex justify-content-between">
                                     <label class="form-label">Guest</label>
                                     <a href="#" data-bs-target="#add-guest-modal" data-bs-toggle="modal"
-                                        data-bs-dismiss="modal"> <i class="fas fa-plus-circle" class="gree-color-icon"></i></a>
+                                        data-bs-dismiss="modal"> <i class="fas fa-plus-circle gree-color-icon"></i></a>
 
                                 </div>
 
@@ -8574,7 +8574,7 @@
                                 <div class="d-flex justify-content-between">
                                     <label class="form-label">Track</label>
                                     <a href="#" data-bs-target="#add-track-modal" data-bs-toggle="modal"
-                                        data-bs-dismiss="modal"> <i class="fas fa-plus-circle" class="gree-color-icon"></i></a>
+                                        data-bs-dismiss="modal"> <i class="fas fa-plus-circle gree-color-icon"></i></a>
 
                                 </div>
 
