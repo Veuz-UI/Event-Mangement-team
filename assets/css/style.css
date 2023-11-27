@@ -1106,7 +1106,7 @@ footer
 
 .onscreen-section .evt-left .evt-left-bottom{
   padding: 45px 50px 30px;
-  max-height: 73vh;
+  max-height: 68vh;
   overflow: auto;
 }
 
@@ -1415,6 +1415,7 @@ footer
 
   .onscreen-section1 .evt-left .evt-left-bottom {
     padding: 20px 50px 20px;
+    max-height: 73vh !important;
 }
 
 .company-log h2{
