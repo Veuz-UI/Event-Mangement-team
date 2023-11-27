@@ -167,7 +167,7 @@ $(document).ready(function()
         
 
 
-            $("#sub").html("<img src='assets/images/loading.gif'>");
+            // $("#sub").html("<img src='assets/images/loading.gif'>");
 
                             
             var dataString = new FormData(document.getElementById("steps"));
