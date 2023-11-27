@@ -224,13 +224,13 @@
 
         startTimer(1 * 60);
     </script>
-    <!-- <script>
+    <script>
         $(document).ready(function () {
             window.setTimeout(function () {
                 location.href = "http://localhost/Event-Mangement-team/on-screen2.php";
             }, 10000);
         });
-    </script> -->
+    </script>
 
 </body>
 
