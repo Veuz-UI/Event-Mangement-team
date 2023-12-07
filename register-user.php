@@ -56,33 +56,19 @@
                 <div class="col-md-6">
                     <div class="card register-detail-card">
                         <div class="card-header">
-                            <div class="status-tag">
-                                <div class="s-tag first-tag">
-                                    <h6>Pending</h6>
-                                    <svg width="21" height="35" viewBox="0 0 21 40" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                                    <path d="M1 1L20 20L1 39L1" stroke="#EBEBEB" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-                                                </svg>
-
+                            <div class="status-tags-div">
+                                <div class="status-tags">
+                                    <div class="status-tag prev">
+                                        <h6>Pending</h6>
+                                    </div>
+                                    <div class="status-tag active">
+                                        <h6>Confirm</h6>
+                                    </div>
+                                    <div class="status-tag">
+                                        <h6>Mark as Attended</h6>
+                                    </div>
+                                  
                                 </div>
-                                <div class="s-tag">
-                                    <svg class="frst-arrow-svg" width="21" height="35" viewBox="0 0 21 40" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                                    <path d="M1 1L20 20L1 39L1" stroke="#EBEBEB" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-                                                </svg>
-                                    <h6>Confirm</h6>
-                                    <svg width="21" height="35" viewBox="0 0 21 40" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                                    <path d="M1 1L20 20L1 39L1" stroke="#EBEBEB" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-                                                </svg>
-                                </div>
-                                <div class="s-tag active">
-                                    <svg class="frst-arrow-svg" width="21" height="35" viewBox="0 0 21 40" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                                    <path d="M1 1L20 20L1 39L1" stroke="#EBEBEB" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-                                                </svg>
-                                    <h6>Mark as Attended</h6>
-                                    <svg width="21" height="35" viewBox="0 0 21 40" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                                    <path d="M1 1L20 20L1 39L1" stroke="#EBEBEB" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-                                                </svg>
-                                </div>
-                               
                             </div>
                         </div>
                         <div class="card-body">

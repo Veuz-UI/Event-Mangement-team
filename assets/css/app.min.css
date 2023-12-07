@@ -12373,3 +12373,109 @@ table .avatar-sm{
   }
   
   /* floor map section closed */
+
+
+
+  /* status-tags */
+
+.status-tags-div {
+    padding: 10px;
+    border-bottom: 1px solid #F3F3F3;
+}
+
+.status-tags {
+    display: flex;
+    height: 30px;
+    width: fit-content;
+}
+
+.status-tags .status-tag{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.status-tags h6 {
+    margin: 2px 0px;
+    color: #333;
+    width: max-content;
+    min-width: 110px;
+    padding-left: 27px;
+}
+
+.status-tags .status-tag {
+    width: 100%;
+    text-align: center;
+    background-color: #F4F4F4;
+    padding: 8px;
+    position: relative;
+}
+
+.status-tags .status-tag:first-child {
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+
+.status-tags .status-tag.prev {
+    background-color: #3C97DD;
+    color: white;
+}
+
+.status-tags .status-tag.prev h6{
+    color: white;
+}
+
+.status-tags .status-tag.active {
+    background-color: #4AAE61;
+}
+
+.status-tags .status-tag.active h6 {
+    color: white;
+}
+
+.status-tags .status-tag.active::after {
+    border-left: 12px solid #4AAE61;
+}
+
+.status-tags .status-tag.prev::after {
+    border-left: 12px solid #3C97DD;
+}
+
+.status-tags .status-tag:first-child::before {
+    display: none;
+}
+
+.status-tags .status-tag:last-child {
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+.status-tags .status-tag:last-child::after {
+    display: none;
+}
+
+.status-tags .status-tag::after {
+    content: ' ';
+    height: 100%;
+    right: -26px;
+    top: 0px;
+    position: absolute;
+    z-index: 111;
+    border-top: 15px solid transparent;
+    border-right: 14px solid transparent;
+    border-bottom: 15px solid transparent;
+    border-left: 14px solid #F4F4F4;
+}
+
+.status-tags .status-tag::before {
+    content: ' ';
+    height: 100%;
+    left: 0px;
+    top: -4px;
+    position: absolute;
+    z-index: 99;
+    border-left: 15px solid #ffffff;
+    border-top: 19px solid transparent;
+    border-right: 15px solid transparent;
+    border-bottom: 20px solid transparent;
+}
