@@ -20,6 +20,7 @@
     <link href="https://cdnjs.cloudflare.com/ajax/libs/summernote/0.8.9/summernote-bs4.css" rel="stylesheet">
     <link href="assets/libs/multiselect/choices.min.css" rel="stylesheet">
     <link href="assets/css/form.css" rel="stylesheet" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
 </head>
 
 <body class="ovrflw body-gray">
@@ -286,6 +287,17 @@
                             </svg>
 
                             <span>Exhibitors</span>
+                        </a>
+                    </li>
+                    <li class="nav-item" role="presentation">
+                        <a class="nav-link" data-bs-toggle="tab" href="#nav7" role="tab" aria-selected="false"
+                            tabindex="-1">
+                            <svg width="24" height="24" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M7 4.639V18.5M13 1V15M1 6.71C1 5.236 1 4.5 1.393 4.07C1.53209 3.91703 1.70129 3.79447 1.89 3.71C2.422 3.474 3.121 3.707 4.519 4.173C5.586 4.529 6.119 4.707 6.659 4.688C6.8571 4.68149 7.05406 4.65536 7.247 4.61C7.772 4.485 8.24 4.173 9.176 3.55L10.558 2.628C11.758 1.828 12.357 1.428 13.045 1.337C13.733 1.244 14.417 1.472 15.784 1.928L16.949 2.316C17.939 2.646 18.434 2.811 18.717 3.204C19 3.597 19 4.119 19 5.162V13.291C19 14.764 19 15.501 18.607 15.931C18.4677 16.0832 18.2985 16.2051 18.11 16.289C17.578 16.526 16.879 16.293 15.481 15.827C14.414 15.471 13.881 15.293 13.341 15.312C13.1429 15.3185 12.9459 15.3446 12.753 15.39C12.228 15.515 11.76 15.827 10.824 16.45L9.442 17.372C8.242 18.172 7.643 18.572 6.955 18.663C6.267 18.756 5.583 18.528 4.216 18.072L3.051 17.684C2.061 17.354 1.566 17.189 1.283 16.796C1 16.403 1 15.88 1 14.838V6.709V6.71Z" stroke="#94949E" stroke-width="1.5"/>
+</svg>
+
+
+                            <span>Floor Map</span>
                         </a>
                     </li>
 
@@ -8173,6 +8185,140 @@
                             </div>
                         </div>
                     </div>
+                    <div class="tab-pane pb-0" id="nav7" role="tabpanel">
+                        <style>
+.floor-map-sec{
+    padding: 60px 100px;
+ }
+
+.btn-file-floor{
+  margin: 0;
+  padding: 0;
+  position: relative;
+  z-index: 1;
+}
+.btn-file__actions {
+  margin: 0;
+  padding: 0;
+}
+.btn-file__actions__item {
+  padding: 35px;
+  font-size: 1.5em;
+  color: #d3e0e9;
+  cursor: pointer;
+  text-decoration: none;
+  border-top: 3px dashed #d3e0e9;
+  border-left: 3px dashed #d3e0e9;
+  border-bottom: 3px dashed #d3e0e9;
+}
+.btn-file__actions__item:first-child {
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+.btn-file__actions__item:last-child {
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+  border-right: 3px dashed #d3e0e9;
+}
+.btn-file__actions__item:hover,
+.btn-file__actions__item:focus {
+  color: #636b6f;
+  background-color: rgba(211, 224, 233, 0.1);
+}
+.btn-file__actions__item:hover--shadow,
+.btn-file__actions__item:focus--shadow {
+  box-shadow: #d3e0e9 0 0 60px 15px;
+}
+.btn-file__actions__item--shadow {
+  display: inline-block;
+  position: relative;
+  z-index: 1;
+}
+.btn-file__actions__item--shadow::before {
+  content: " ";
+  box-shadow: #fff 0 0 60px 40px;
+  display: inline-block;
+  position: absolute;
+  top: 50%;
+  left: 0;
+  width: 100%;
+  z-index: -1;
+}
+.btn-file__preview {
+  /* opacity: 0.5; */
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  position: absolute;
+  z-index: -1;
+  border-radius: 10px;
+  background-size: cover;
+  background-position: center;
+}
+.form-group-box label.attachment {
+  width: 100%;
+}
+.form-group-box label.attachment .btn-create > a,
+.form-group-box label.attachment .btn-create > div {
+  margin-top: 5px;
+}
+.form-group-box label.attachment input[type='file'] {
+  display: none;
+}
+
+                        </style>
+<div class="floor-map-sec">
+        <div class="row">
+          <div class="col-md-12">
+            <div class="form-group-box">
+              <label for="fileField" class="attachment">
+                <div class="row btn-file-floor">
+                  <div class="btn-file__preview"></div>
+                  <div class="btn-file__actions">
+                    <div class="btn-file__actions__item col-xs-12 text-center">
+                      <div class="btn-file__actions__item--shadow">
+                        <i class="fa fa-plus fa-lg fa-fw" aria-hidden="true"></i>
+                        <div class="visible-xs-block"></div>
+                        Select file
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <input name="file" type="file" id="fileField">
+              </label>
+            </div>
+            <button type="button" class="btn btn-primary waves-effect waves-light btn-md br-50 mt-2">
+                Save Floor Map
+              </button>
+          </div>
+        </div>
+   
+
+      <script>
+        jQuery(($) => {
+  $('.attachment input[type="file"]')
+    .on('change', (event) => {
+    let el = $(event.target).closest('.attachment').find('.btn-file-floor');
+    
+    el
+      .find('.btn-file__actions__item')
+      .css({
+        'padding': '135px'
+      });
+    
+    el
+      .find('.btn-file__preview')
+      .css({
+        'background-image': 'url(' + window.URL.createObjectURL(event.target.files[0]) + ')'
+      });
+  });
+});
+      </script>
+
+
+</div>
+                    </div>
 
                 </div>
             </div>
@@ -8728,53 +8874,6 @@
         </div>
     </div>
 
-    <!-- <div class="modal fade" id="add-speaker-modal" aria-hidden="true" aria-labelledby="..." tabindex="-1">
-        <div class="modal-dialog modal-dialog-centered">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <h5 class="modal-title"><img src="assets/images/users.svg" alt="">Add Speaker</h5>
-                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                </div>
-                <div class="modal-body">
-                    <div class="row">
-                    <div class="col-lg-12">
-                        
-                        <div class="img-upload-form">
-                            <img src="assets/images/users/default.png" id="upld-image2">
-                                <i class="bx bxs-pencil" onclick="makeimg(2)" ;></i>
-                            <input type="file" oninput="previewFile(2)" accept="image/*" id="imgfile2" />
-
-                        </div>
-
-
-                    </div>
-                    <div class="col-lg-12">
-                        <div class="form-grp">
-                            <label class="form-label">Name</label>
-                            <input class="form-control" type="text" placeholder="">
-                        </div>
-                        <div class="form-grp">
-                            <label class="form-label">Email</label>
-                            <input class="form-control" type="email" placeholder="">
-                        </div>
-                        <div class="form-grp">
-                            <label class="form-label">About Speaker</label>
-                            <input class="form-control" type="text" placeholder="">
-                        </div>
-                    </div>
-                    </div>
-                   
-                    
-                </div>
-                <div class="modal-footer">
-                    <button class="btn btn-primary  br-50 btn-md" data-bs-target="#add-session" data-bs-toggle="modal" data-bs-dismiss="modal">Save</button>
-                    <button type="button" class="btn btn-light  br-50 btn-md" data-bs-target="#add-session" data-bs-toggle="modal" data-bs-dismiss="modal"><i
-                                class="fas fa-arrow-left me-2"></i>Back</button>
-                </div>
-
-            </div>
-        </div>
-    </div> -->
 
     <div class="modal fade" id="add-guest-modal" aria-hidden="true" aria-labelledby="..." tabindex="-1">
         <div class="modal-dialog modal-dialog-centered">
