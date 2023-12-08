@@ -127,31 +127,36 @@
                                 </li>
                                 <li class="nav-item">
                                     <a class="nav-link" data-bs-toggle="tab" href="#evnt-tab2" role="tab">
-                                        <span>Attendees</span>
+                                        <span>Register User</span>
                                     </a>
                                 </li>
                                 <li class="nav-item">
                                     <a class="nav-link" data-bs-toggle="tab" href="#evnt-tab3" role="tab">
-                                        <span>Team</span>
+                                        <span>Attendees</span>
                                     </a>
                                 </li>
                                 <li class="nav-item">
                                     <a class="nav-link" data-bs-toggle="tab" href="#evnt-tab4" role="tab">
-                                        <span>Session</span>
+                                        <span>Team</span>
                                     </a>
                                 </li>
                                 <li class="nav-item">
                                     <a class="nav-link" data-bs-toggle="tab" href="#evnt-tab5" role="tab">
-                                        <span>Polls</span>
+                                        <span>Session</span>
                                     </a>
                                 </li>
                                 <li class="nav-item">
                                     <a class="nav-link" data-bs-toggle="tab" href="#evnt-tab6" role="tab">
-                                        <span>From Responses</span>
+                                        <span>Polls</span>
                                     </a>
                                 </li>
                                 <li class="nav-item">
                                     <a class="nav-link" data-bs-toggle="tab" href="#evnt-tab7" role="tab">
+                                        <span>From Responses</span>
+                                    </a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" data-bs-toggle="tab" href="#evnt-tab8" role="tab">
                                         <span>Settings</span>
                                     </a>
                                 </li>
@@ -492,6 +497,672 @@
                                 </div>
                             </div>
                             <div class="tab-pane" id="evnt-tab2" role="tabpanel">
+                                <div class="row speaker-div team-tab-content">
+                                    <div class="col-md-12">
+                                        <div class="speaker-header">
+                                            <div class="speaker-btns">
+                                                <button type="button" class="btn btn-primary waves-effect waves-light btn-sm br-50 small"
+                                                    data-bs-toggle="modal" data-bs-target="#add-registeruser">Add Register User
+                                                </button>
+                                                <div class="dropdown event-sett1">
+                                                    <div class="event-settings dropdown-toggle" type="button" id="dropdownMenuButton"
+                                                        data-bs-toggle="dropdown" aria-expanded="false">
+                                                        <i class="fas fa-cog"></i>
+                                                    </div>
+                                                    <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                                                        <a class="dropdown-item" href="#" data-bs-toggle="modal" data-bs-target="#import-upload"><i class="fas fa-download me-2"></i>Import</a>
+                                                        <div class="dropdown-divider"></div>
+                                                        <a class="dropdown-item" href="#" data-bs-toggle="modal" data-bs-target="#export-modal"><i class="fas fa-upload me-2"></i>Export</a>
+                                                        <div class="dropdown-divider"></div>
+                                                        <a class="dropdown-item" href="#"><i class="fas fa-envelope me-2"
+                                                                data-bs-toggle="modal" data-bs-target="#alert-msg"></i>Send Mail</a>
+                                                    </div>
+                                                </div>
+                    
+                                            </div>
+                                            <!-- <div class="page-count">                                              
+                                                                        <select class="form-select">
+                                                                            <option>10</option>
+                                                                            <option>20</option>
+                                                                            <option>50</option>
+                                                                            <option>100</option>
+                                                                        </select>
+                                                                    </div> -->
+                                            <div class="d-flex rightside-btns">
+                                                <div class="row-selected" style="display: none;">
+                                                    <button type="button" class="btn btn-light selected-num me-1" fdprocessedid="6xsncw">
+                                                        <span>8</span>Selected<i class="bx bx-x"></i>
+                                                    </button>
+                                                    <div class="btn-group">
+                                                        <button type="button" class="btn btn-primary dropdown-toggle"
+                                                            data-bs-toggle="dropdown" aria-expanded="false" fdprocessedid="p8hcnm"><i
+                                                                class="fas fa-cog me-1" aria-hidden="true"></i>Actions</button>
+                                                        <div class="dropdown-menu" style="">
+                                                            <a class="dropdown-item" href="#"><i class="fas fa-download me-2"
+                                                                    aria-hidden="true"></i>Export</a>
+                                                            <div class="dropdown-divider"></div>
+                                                            <a class="dropdown-item" href="#"><i class="bx bxs-archive-in me-2"
+                                                                    aria-hidden="true"></i>Archive</a>
+                                                            <div class="dropdown-divider"></div>
+                                                            <a class="dropdown-item" href="#"><i class="bx bxs-archive-out me-2"
+                                                                    aria-hidden="true"></i>Unarchive</a>
+                                                            <div class="dropdown-divider"></div>
+                                                            <a class="dropdown-item" href="#"><i class="bx bxs-trash-alt me-2"
+                                                                    aria-hidden="true"></i>Delete</a>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="input-group search-inpt">
+                                                    <div class="input-group-text bg-white"><i class="bx bx-search-alt"></i>
+                                                    </div>
+                                                    <input type="text" class="form-control border-start-0 ps-0"
+                                                        id="inlineFormInputGroupUsername" placeholder="Search this list "
+                                                        fdprocessedid="8pxgmh">
+                                                    <div class="dropdown drpdwn-fg">
+                                                        <button type="button" style="margin-right:8px;"
+                                                            class="input-group-text input-group-text-right btn-export btn-filter waves-effect waves-light btn-sm small dropdown-toggle h-100"
+                                                            id="dropdownMenuButton" data-mdb-toggle="dropdown" aria-expanded="false"
+                                                            data-mdb-auto-close="outside" fdprocessedid="w62w8i">
+                                                            <i class="bx bx-filter-alt"></i>
+                    
+                                                        </button>
+                    
+                                                        <ul class="dropdown-menu dropdown-menu-lg filter-megadropdown animation fade-out"
+                                                            aria-labelledby="dropdownMenuButton" data-popper-placement="bottom-end"
+                                                            data-mdb-popper="null"
+                                                            style="position: absolute; inset: 0px 0px auto auto; margin: 0px; transform: translate(-8px, 35px);">
+                                                            <div class="dropdown-row">
+                                                                <div class="col-md-4 border-right px-0">
+                                                                    <h3><i class="bx bxs-filter-alt"></i>Filters</h3>
+                                                                    <div class="dropdown-divider"></div>
+                                                                    <li><a class="dropdown-item" href="#"><span><i class="fas fa-check me-2"
+                                                                                    aria-hidden="true"></i>My
+                                                                                Events</span></a>
+                                                                    </li>
+                                                                    <div class="dropdown-divider"></div>
+                                                                    <li>
+                                                                        <a class="dropdown-item" href="#"><span><i class="fas fa-check me-2"
+                                                                                    aria-hidden="true"></i>Upcoming/Running</span></a>
+                                                                    </li>
+                                                                    <div class="dropdown-divider"></div>
+                                                                    <li>
+                                                                        <a class="dropdown-item" href="#"><span><i class="fas fa-check me-2"
+                                                                                    aria-hidden="true"></i>Published</span></a>
+                                                                    </li>
+                                                                    <div class="dropdown-divider"></div>
+                                                                    <li>
+                                                                        <a class="dropdown-item drpdwn-menu-btn" href="#">
+                                                                            Stage <i class="fas fa-angle-right arrow"
+                                                                                aria-hidden="true"></i>
+                                                                        </a>
+                                                                        <ul class="dropdown-menu dropdown-submenu">
+                                                                            <li>
+                                                                                <a class="dropdown-item" href="#">
+                                                                                    Live
+                                                                                </a>
+                                                                            </li>
+                                                                            <li>
+                                                                                <a class="dropdown-item" href="#">
+                                                                                    Drafts
+                                                                                </a>
+                                                                            </li>
+                                                                            <li>
+                                                                                <a class="dropdown-item" href="#">
+                                                                                    Past
+                                                                                </a>
+                                                                            </li>
+                                                                            <li>
+                                                                                <a class="dropdown-item" href="#">
+                                                                                    Cancelled
+                                                                                </a>
+                                                                            </li>
+                                                                            <li>
+                                                                                <a class="dropdown-item" href="#">
+                                                                                    All
+                                                                                </a>
+                                                                            </li>
+                                                                            <li>
+                                                                                <a class="dropdown-item" href="#">
+                                                                                    Trash
+                                                                                </a>
+                                                                            </li>
+                    
+                                                                        </ul>
+                                                                    </li>
+                                                                    <div class="dropdown-divider"></div>
+                                                                    <li>
+                                                                        <a class="dropdown-item drpdwn-menu-btn" href="#">
+                                                                            Start Date <i class="fas fa-angle-right arrow"
+                                                                                aria-hidden="true"></i>
+                                                                        </a>
+                                                                        <ul class="dropdown-menu dropdown-submenu">
+                                                                            <li>
+                                                                                <a class="dropdown-item" href="#">
+                                                                                    <div class="reg-date w-100">
+                                                                                        <label for="">Date</label>
+                                                                                        <input type="date" class="form-control-sm">
+                                                                                    </div>
+                                                                                </a>
+                                                                            </li>
+                    
+                                                                        </ul>
+                                                                    </li>
+                                                                    <div class="dropdown-divider"></div>
+                                                                    <li>
+                                                                        <a class="dropdown-item" href="#"><span><i class="fas fa-check me-2"
+                                                                                    aria-hidden="true"></i>Archived</span></a>
+                                                                    </li>
+                                                                    <div class="dropdown-divider"></div>
+                                                                    <li>
+                                                                        <a class="dropdown-item drpdwn-menu-btn" href="#">
+                                                                            Add Custom Filter <i class="fas fa-angle-right arrow"
+                                                                                aria-hidden="true"></i>
+                                                                        </a>
+                                                                        <ul class="dropdown-menu dropdown-submenu">
+                                                                            <li>
+                                                                                <a class="dropdown-item" href="#">
+                                                                                    <div class="reg-date w-100">
+                                                                                        <input type="text" class="form-control-sm"
+                                                                                            placeholder="Type here">
+                    
+                                                                                    </div>
+                    
+                                                                                </a>
+                                                                            </li>
+                                                                            <li>
+                                                                                <a class="dropdown-item" href="#">
+                                                                                    <button type="button"
+                                                                                        class="btn btn-primary btn-sm waves-effect waves-light">Apply</button>
+                    
+                                                                                </a>
+                                                                            </li>
+                    
+                                                                        </ul>
+                                                                    </li>
+                    
+                    
+                                                                </div>
+                                                                <div class="col-md-4 border-right px-0">
+                                                                    <h3><i class="bx bxs-layer"></i>Group By</h3>
+                                                                    <div class="dropdown-divider"></div>
+                                                                    <li><a class="dropdown-item" href="#"><span><i class="fas fa-check me-2"
+                                                                                    aria-hidden="true"></i>Responsible</span></a>
+                                                                    </li>
+                                                                    <div class="dropdown-divider"></div>
+                                                                    <li>
+                                                                        <a class="dropdown-item" href="#"><span><i class="fas fa-check me-2"
+                                                                                    aria-hidden="true"></i>Template</span></a>
+                                                                    </li>
+                                                                    <div class="dropdown-divider"></div>
+                                                                    <li>
+                                                                        <a class="dropdown-item" href="#"><span><i class="fas fa-check me-2"
+                                                                                    aria-hidden="true"></i>Stage</span></a>
+                                                                    </li>
+                    
+                                                                    <div class="dropdown-divider"></div>
+                                                                    <li>
+                                                                        <a class="dropdown-item drpdwn-menu-btn" href="#">
+                                                                            Start Date <i class="fas fa-angle-right arrow"
+                                                                                aria-hidden="true"></i>
+                                                                        </a>
+                                                                        <ul class="dropdown-menu dropdown-submenu">
+                                                                            <li>
+                                                                                <a class="dropdown-item" href="#">
+                                                                                    <div class="reg-date w-100">
+                                                                                        <label for="">Date</label>
+                                                                                        <input type="date" class="form-control-sm">
+                                                                                    </div>
+                                                                                </a>
+                                                                            </li>
+                    
+                                                                        </ul>
+                                                                    </li>
+                    
+                                                                    <div class="dropdown-divider"></div>
+                                                                    <li>
+                                                                        <a class="dropdown-item drpdwn-menu-btn" href="#">
+                                                                            Add Custom Group <i class="fas fa-angle-right arrow"
+                                                                                aria-hidden="true"></i>
+                                                                        </a>
+                                                                        <ul class="dropdown-menu dropdown-submenu">
+                                                                            <li>
+                                                                                <a class="dropdown-item" href="#">
+                                                                                    Company
+                                                                                </a>
+                                                                            </li>
+                                                                            <li>
+                                                                                <a class="dropdown-item" href="#">
+                                                                                    Country
+                                                                                </a>
+                                                                            </li>
+                                                                            <li>
+                                                                                <a class="dropdown-item" href="#">
+                                                                                    Created by
+                                                                                </a>
+                                                                            </li>
+                                                                            <li>
+                                                                                <a class="dropdown-item" href="#">
+                                                                                    Created on
+                                                                                </a>
+                                                                            </li>
+                    
+                                                                        </ul>
+                                                                    </li>
+                                                                </div>
+                                                                <div class="col-md-4 px-0">
+                                                                    <h3><i class="bx bxs-star fav"></i>Favorites</h3>
+                                                                    <div class="dropdown-divider"></div>
+                                                                    <li><a class="dropdown-item" href="#"><span><i class="fas fa-check me-2"
+                                                                                    aria-hidden="true"></i>My
+                                                                                Events</span></a>
+                                                                    </li>
+                                                                    <div class="dropdown-divider"></div>
+                                                                    <li>
+                                                                        <a class="dropdown-item" href="#"><span><i class="fas fa-check me-2"
+                                                                                    aria-hidden="true"></i>Upcoming
+                                                                                Events</span></a>
+                                                                    </li>
+                                                                    <div class="dropdown-divider"></div>
+                                                                    <li>
+                                                                        <a class="dropdown-item drpdwn-menu-btn" href="#">
+                                                                            Save current search <i class="fas fa-angle-right arrow"
+                                                                                aria-hidden="true"></i>
+                                                                        </a>
+                                                                        <ul class="dropdown-menu dropdown-submenu" style="margin-top: 40px;left: auto;width: 100%;">
+                                                                            <li>
+                                                                                <a class="dropdown-item" href="#">
+                    
+                                                                                    <div class="form-check">
+                                                                                        <input class="form-check-input" type="checkbox"
+                                                                                            id="formCheck1">
+                                                                                        <label class="form-check-label" for="formCheck1">
+                                                                                            Default filter
+                                                                                        </label>
+                                                                                    </div>
+                                                                                </a>
+                                                                            </li>
+                                                                            <li>
+                                                                                <a class="dropdown-item" href="#">
+                                                                                    <div class="form-check">
+                                                                                        <input class="form-check-input" type="checkbox"
+                                                                                            id="formCheck1">
+                                                                                        <label class="form-check-label" for="formCheck1">
+                                                                                            Shared
+                                                                                        </label>
+                                                                                    </div>
+                                                                                </a>
+                                                                            </li>
+                                                                            <li>
+                                                                                <a class="dropdown-item" href="#">
+                                                                                    <button type="button"
+                                                                                        class="btn btn-primary btn-sm waves-effect waves-light">Save</button>
+                                                                                </a>
+                                                                            </li>
+                    
+                    
+                                                                        </ul>
+                                                                    </li>
+                                                                </div>
+                                                            </div>
+                    
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                    
+                                                <ul class="nav nav-pills event-tab-nav" role="tablist">
+                    
+                                                    <li class="nav-item waves-effect waves-light" role="presentation">
+                                                        <a class="nav-link active" data-bs-toggle="tab" href="#register-list-tab" role="tab"
+                                                            aria-selected="true">
+                                                            <button type="button" class="btn btn-kanlist ml-15 waves-effect waves-light"
+                                                                data-bs-toggle="tooltip" data-bs-placement="bottom" aria-label="List"
+                                                                fdprocessedid="zf5u4">
+                                                                <svg width="16" height="16" viewBox="0 0 25 24" fill="none"
+                                                                    xmlns="http://www.w3.org/2000/svg">
+                                                                    <path d="M8.5 6H21.5" stroke="black" stroke-width="2"
+                                                                        stroke-linecap="round" stroke-linejoin="round"></path>
+                                                                    <path d="M8.5 12H21.5" stroke="black" stroke-width="2"
+                                                                        stroke-linecap="round" stroke-linejoin="round"></path>
+                                                                    <path d="M8.5 18H21.5" stroke="black" stroke-width="2"
+                                                                        stroke-linecap="round" stroke-linejoin="round"></path>
+                                                                    <path d="M3.5 6H3.51" stroke="black" stroke-width="2"
+                                                                        stroke-linecap="round" stroke-linejoin="round"></path>
+                                                                    <path d="M3.5 12H3.51" stroke="black" stroke-width="2"
+                                                                        stroke-linecap="round" stroke-linejoin="round"></path>
+                                                                    <path d="M3.5 18H3.51" stroke="black" stroke-width="2"
+                                                                        stroke-linecap="round" stroke-linejoin="round"></path>
+                                                                </svg>
+                    
+                                                            </button>
+                                                        </a>
+                                                    </li>
+                                                    <li class="nav-item waves-effect waves-light" role="presentation">
+                                                        <a class="nav-link" data-bs-toggle="tab" href="#register-grid-tab" role="tab"
+                                                            aria-selected="false" tabindex="-1">
+                                                            <button type="button" class="btn btn-kanlist ml-15 waves-effect waves-light"
+                                                                data-bs-toggle="tooltip" data-bs-placement="bottom" aria-label="Grid"
+                                                                fdprocessedid="thdk6">
+                                                                <svg width="14" height="14" viewBox="0 0 21 20" fill="none"
+                                                                    xmlns="http://www.w3.org/2000/svg">
+                                                                    <path d="M8.5 1.05225H1.5V8.05225H8.5V1.05225Z" stroke="black"
+                                                                        stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round">
+                                                                    </path>
+                                                                    <path d="M19.5 1.05225H12.5V8.05225H19.5V1.05225Z" stroke="black"
+                                                                        stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round">
+                                                                    </path>
+                                                                    <path d="M19.5 12.0522H12.5V19.0522H19.5V12.0522Z" stroke="black"
+                                                                        stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round">
+                                                                    </path>
+                                                                    <path d="M8.5 12.0522H1.5V19.0522H8.5V12.0522Z" stroke="black"
+                                                                        stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round">
+                                                                    </path>
+                                                                </svg>
+                    
+                                                            </button>
+                                                        </a>
+                                                    </li>
+                    
+                                                </ul>
+                    
+                                            </div>
+                    
+                                        </div>
+                                        <div class="tab-content">
+                                            <div class="tab-pane active" id="register-list-tab" role="tabpanel">
+                                                <div class="response-tbl">
+                                                    <div class="attnd-overflow">
+                                                        <table id="event-table" class="table table-resizable attendee-tbl">
+                                                            <thead>
+                                                                <tr>
+                                                                    <th width="46px"><input class="form-check-input " type="checkbox"
+                                                                            name="Main_Checkbox" id="selectAll"><span class="resize"></span>
+                                                                    </th>
+                                                                    <th>First Name<span class="resize"></span></th>
+                                                                    <th width="100px">Last Name<span class="resize"></span></th>
+                                                                    <th>Email<span class="resize"></span></th>
+                                                                    <th>Mobile<span class="resize"></span></th>
+                                                                    <th>Ticket Type<span class="resize"></span></th>
+                                                                    <th>Company Name<span class="resize"></span></th>
+                                                                    <th width="220px"><span class="resize"></span></th>
+                                                                </tr>
+                                                            </thead>
+                                                            <tbody>
+                                                                <tr>
+                                                                    <td><input class="form-check-input check-input" type="checkbox"
+                                                                            id="formCheck1"><span class="resize"></span></td>
+                                                                    <td><a class="tbl-link" href="register-user.php">AmarNath</a><span class="resize"></span></td>
+                                                                    <td>M<span class="resize"></span></td>
+                                                                    <td>amarNath@gmail.com<span class="resize"></span></td>
+                                                                    <td>9874563210<span class="resize"></span></td>
+                                                                    <td>0<span class="resize"></span></td>
+                                                                    <td>Veuz Concepts<span class="resize"></span></td>
+                                                                    <td>
+                                                                        <div class="d-flex justify-content-end">
+                                                                            <button type="button"
+                                                                                class="btn btn-soft-primary waves-effect waves-light attandee-crfrm-btn">Confirm</button>
+                                                                            <button type="button"
+                                                                                class="btn btn-soft-secondary waves-effect waves-light attandee-cncl-btn ms-1">Cancel</button>
+                                                                        </div>
+                                                                        <span class="resize"></span>
+                                                                    </td>
+                                                                </tr>
+                                                                <tr>
+                                                                    <td><input class="form-check-input check-input" type="checkbox"
+                                                                            id="formCheck2"><span class="resize"></span></td>
+                                                                    <td><a class="tbl-link" href="register-user.php">AmarNath</a><span class="resize"></span></td>
+                                                                    <td>M<span class="resize"></span></td>
+                                                                    <td>amarNath@gmail.com<span class="resize"></span></td>
+                                                                    <td>9874563210<span class="resize"></span></td>
+                                                                    <td>0<span class="resize"></span></td>
+                                                                    <td>Veuz Concepts<span class="resize"></span></td>
+                                                                    <td>
+                                                                        <div class="d-flex justify-content-end">
+                                                                            <button type="button"
+                                                                                class="btn btn-soft-primary waves-effect waves-light attandee-crfrm-btn">Confirm</button>
+                                                                            <button type="button"
+                                                                                class="btn btn-soft-secondary waves-effect waves-light attandee-cncl-btn ms-1">Cancel</button>
+                                                                        </div>
+                                                                        <span class="resize"></span>
+                                                                    </td>
+                                                                </tr>
+                                                                <tr>
+                                                                    <td><input class="form-check-input check-input" type="checkbox"
+                                                                            id="formCheck3"><span class="resize"></span></td>
+                                                                    <td><a class="tbl-link" href="register-user.php">AmarNath</a><span class="resize"></span></td>
+                                                                    <td>M<span class="resize"></span></td>
+                                                                    <td>amarNath@gmail.com<span class="resize"></span></td>
+                                                                    <td>9874563210<span class="resize"></span></td>
+                                                                    <td>0<span class="resize"></span></td>
+                                                                    <td>Veuz Concepts<span class="resize"></span></td>
+                                                                    <td>
+                                                                        <div class="d-flex justify-content-end">
+                                                                            <button type="button"
+                                                                                class="btn btn-soft-primary waves-effect waves-light attandee-crfrm-btn">Confirm</button>
+                                                                            <button type="button"
+                                                                                class="btn btn-soft-secondary waves-effect waves-light attandee-cncl-btn ms-1">Cancel</button>
+                                                                        </div>
+                                                                        <span class="resize"></span>
+                                                                    </td>
+                                                                </tr>
+                    
+                    
+                    
+                    
+                                                            </tbody>
+                                                        </table>
+                                                    </div>
+                                                </div>
+                                                <div class="bootom-nav">
+                                                    <div class="total-count">
+                                                        <h6>Total Count : <span>10</span></h6>
+                                                        <ul>
+                                                            <li><a href="#"><i class="bx bx-chevron-left"></i></a></li>
+                                                            <li><a href="#"><i class="bx bx-chevrons-left"></i></a></li>
+                                                            <li class="active"><a href="#"><span>1</span></a></li>
+                                                            <li><a href="#"><span>2</span></a></li>
+                                                            <li><a href="#"><i class="bx bx-chevrons-right"></i></a></li>
+                                                            <li><a href="#"><i class="bx bx-chevron-right"></i></a></li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="tab-pane" id="register-grid-tab" role="tabpanel">
+                                               <div class="attendee-grid">
+                                                <div class="row">
+                                                    <div class="col-md-2 margin-box-this">
+                                                        <div class="attendee-box h-100">
+                                                            <div class="row d-flex align-items-center">
+                                                                <div class="col-lg-12 data-box">
+                                                                    <img src="assets/images/users/avatar-6.jpg" alt="" class="avatar-sm rounded-circle">
+                                                                    <div class="data-box-contnt">
+                                                                        <h2>Barney Lonny</h2>
+                                                                        <h3>barneylonny@gmail.com</h3>
+                                                                        <h3>91 9874563210</h3>
+                                                                        <h4>Badge Issued : <span class="no"> No<span></h4>
+                                                                    </div>
+                                                                    <div class="dropdown print-mail-dropdwn">
+                                                                        <div class="event-settings dropdown-toggle"
+                                                                            type="button" id="dropdownMenuButton"
+                                                                            data-bs-toggle="dropdown"
+                                                                            aria-expanded="false">
+                                                                            <i class="fas fa-cog"></i>
+                                                                        </div>
+                                                                        <div class="dropdown-menu dropdown-menu-sm"
+                                                                            aria-labelledby="dropdownMenuButton">
+                                                                            <a class="dropdown-item" href="#" data-bs-toggle="modal" data-bs-target="#add-attandee"><i class="fas fa-pencil-alt me-2"></i>Edit</a>
+                                                                            <div class="dropdown-divider"></div>
+                                                                            <a class="dropdown-item" href="#"><i class="fas fa-envelope me-2"></i>Send Mail</a>
+                                                                            <div class="dropdown-divider"></div>
+                                                                            <a class="dropdown-item" href="#"><i class="fas fa-print me-2"></i>Print</a>
+                                                                           
+                                                                        </div>
+                                                                    </div>
+                                                                   
+                                                                </div>
+                                                                <div class="col-lg-12">
+                                                                    <div class="border-class"></div>
+                                                                </div>
+                                                                <div class="col-lg-12 attended-text d-flex align-items-center">
+                                                                    <button type="button"
+                                                                    class="btn btn-soft-primary waves-effect waves-light attandee-crfrm-btn">Confirm</button>
+                                                                <button type="button"
+                                                                    class="btn btn-soft-secondary waves-effect waves-light attandee-cncl-btn ms-1">Cancel</button>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                    
+                                                    <div class="col-md-2 margin-box-this">
+                                                        <div class="attendee-box h-100">
+                                                            <div class="row d-flex align-items-center">
+                                                                <div class="col-lg-12 data-box">
+                                                                    <img src="assets/images/users/avatar-4.jpg" alt="" class="avatar-sm rounded-circle">
+                                                                    <div class="data-box-contnt">
+                                                                        <h2>Barney Lonny</h2>
+                                                                        <h3>barneylonny@gmail.com</h3>
+                                                                        <h3>91 9874563210</h3>
+                                                                        <h4>Badge Issued : <span class="yes"> Yes<span></h4>
+                                                                    </div>
+                                                                    <div class="dropdown print-mail-dropdwn">
+                                                                        <div class="event-settings dropdown-toggle"
+                                                                            type="button" id="dropdownMenuButton"
+                                                                            data-bs-toggle="dropdown"
+                                                                            aria-expanded="false">
+                                                                            <i class="fas fa-cog"></i>
+                                                                        </div>
+                                                                        <div class="dropdown-menu dropdown-menu-sm"
+                                                                            aria-labelledby="dropdownMenuButton">
+                                                                            <a class="dropdown-item" href="#" data-bs-toggle="modal" data-bs-target="#add-attandee"><i class="fas fa-pencil-alt me-2"></i>Edit</a>
+                                                                            <div class="dropdown-divider"></div>
+                                                                            <a class="dropdown-item" href="#"><i class="fas fa-envelope me-2"></i>Send Mail</a>
+                                                                            <div class="dropdown-divider"></div>
+                                                                            <a class="dropdown-item" href="#"><i class="fas fa-print me-2"></i>Print</a>
+                                                                           
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="col-lg-12">
+                                                                    <div class="border-class"></div>
+                                                                </div>
+                                                                <div class="col-lg-12 attended-text d-flex align-items-center justify-content-between">
+                                                                   
+                                                                    <h4>Confirmed</h4>
+                                                                    <button type="button"
+                                                                    class="btn btn-soft-secondary waves-effect waves-light attandee-cncl-btn ms-1">Cancel</button>
+                                                                </div>
+                                    
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-md-2 margin-box-this">
+                                                        <div class="attendee-box h-100">
+                                                            <div class="row d-flex align-items-center">
+                                                                <div class="col-lg-12 data-box">
+                                                                    <img src="assets/images/users/avatar-3.jpg" alt="" class="avatar-sm rounded-circle">
+                                                                    <div class="data-box-contnt">
+                                                                        <h2>Barney Lonny</h2>
+                                                                        <h3>barneylonny@gmail.com</h3>
+                                                                        <h3>91 9874563210</h3>
+                                                                        <h4>Badge Issued : <span class="no"> No<span></h4>
+                                                                    </div>
+                                                                    <div class="dropdown print-mail-dropdwn">
+                                                                        <div class="event-settings dropdown-toggle"
+                                                                            type="button" id="dropdownMenuButton"
+                                                                            data-bs-toggle="dropdown"
+                                                                            aria-expanded="false">
+                                                                            <i class="fas fa-cog"></i>
+                                                                        </div>
+                                                                        <div class="dropdown-menu dropdown-menu-sm"
+                                                                            aria-labelledby="dropdownMenuButton">
+                                                                            <a class="dropdown-item" href="#" data-bs-toggle="modal" data-bs-target="#add-attandee"><i class="fas fa-pencil-alt me-2"></i>Edit</a>
+                                                                            <div class="dropdown-divider"></div>
+                                                                            <a class="dropdown-item" href="#"><i class="fas fa-envelope me-2"></i>Send Mail</a>
+                                                                            <div class="dropdown-divider"></div>
+                                                                            <a class="dropdown-item" href="#"><i class="fas fa-print me-2"></i>Print</a>
+                                                                           
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="col-lg-12">
+                                                                    <div class="border-class"></div>
+                                                                </div>
+                                                                <div class="col-lg-12 attended-text d-flex align-items-center justify-content-between">
+                                                                    <h4 class="cancelled">Cancelled</h4>
+                                                                    <button type="button"
+                                                                    class="btn btn-soft-primary waves-effect waves-light attandee-crfrm-btn">Confirm</button>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                    
+                                                    <div class="col-md-2 margin-box-this">
+                                                        <div class="attendee-box h-100">
+                                                            <div class="row d-flex align-items-center">
+                                                                <div class="col-lg-12 data-box">
+                                                                    <img src="assets/images/users/avatar-2.jpg" alt="" class="avatar-sm rounded-circle">
+                                                                    <div class="data-box-contnt">
+                                                                        <h2>Barney Lonny</h2>
+                                                                        <h3>barneylonny@gmail.com</h3>
+                                                                        <h3>91 9874563210</h3>
+                                                                        <h4>Badge Issued : <span class="yes"> Yes<span></h4>
+                                                                    </div>
+                                                                    <div class="dropdown print-mail-dropdwn">
+                                                                        <div class="event-settings dropdown-toggle"
+                                                                            type="button" id="dropdownMenuButton"
+                                                                            data-bs-toggle="dropdown"
+                                                                            aria-expanded="false">
+                                                                            <i class="fas fa-cog"></i>
+                                                                        </div>
+                                                                        <div class="dropdown-menu dropdown-menu-sm"
+                                                                            aria-labelledby="dropdownMenuButton">
+                                                                            <a class="dropdown-item" href="#" data-bs-toggle="modal" data-bs-target="#add-attandee"><i class="fas fa-pencil-alt me-2"></i>Edit</a>
+                                                                            <div class="dropdown-divider"></div>
+                                                                            <a class="dropdown-item" href="#"><i class="fas fa-envelope me-2"></i>Send Mail</a>
+                                                                            <div class="dropdown-divider"></div>
+                                                                            <a class="dropdown-item" href="#"><i class="fas fa-print me-2"></i>Print</a>
+                                                                           
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="col-lg-12">
+                                                                    <div class="border-class"></div>
+                                                                </div>
+                                                                <div class="col-lg-12 attended-text d-flex align-items-center">
+                                                                    <button type="button"
+                                                                    class="btn btn-soft-primary waves-effect waves-light attandee-crfrm-btn">Confirm</button>
+                                                                <button type="button"
+                                                                    class="btn btn-soft-secondary waves-effect waves-light attandee-cncl-btn ms-1">Cancel</button>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                    
+                                                    
+                                                   
+                                    
+                                                </div>
+                                               </div>
+                                               <div class="bootom-nav">
+                                                <div class="total-count">
+                                                    <h6>Total Count : <span>10</span></h6>
+                                                    <ul>
+                                                        <li><a href="#"><i class="bx bx-chevron-left"></i></a></li>
+                                                        <li><a href="#"><i class="bx bx-chevrons-left"></i></a></li>
+                                                        <li class="active"><a href="#"><span>1</span></a></li>
+                                                        <li><a href="#"><span>2</span></a></li>
+                                                        <li><a href="#"><i class="bx bx-chevrons-right"></i></a></li>
+                                                        <li><a href="#"><i class="bx bx-chevron-right"></i></a></li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                            </div>
+                                        </div>
+                    
+                                    </div>
+                                  
+                                </div>
+                            </div>
+                            <div class="tab-pane" id="evnt-tab3" role="tabpanel">
                                 <div class="row speaker-div team-tab-content">
                                     <div class="col-md-9 border-right">
                                         <div class="speaker-header">
@@ -1299,7 +1970,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="tab-pane" id="evnt-tab3" role="tabpanel">
+                            <div class="tab-pane" id="evnt-tab4" role="tabpanel">
                                 <div class="row speaker-div team-tab-content">
                                     <div class="col-md-12">
                                         <div class="speaker-header">
@@ -2186,7 +2857,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="tab-pane" id="evnt-tab4" role="tabpanel">
+                            <div class="tab-pane" id="evnt-tab5" role="tabpanel">
                                 <div class="row speaker-div team-tab-content">
                                     <div class="col-md-12">
                                         <div class="speaker-header">
@@ -2805,7 +3476,7 @@
                                 </div>
 
                             </div>
-                            <div class="tab-pane" id="evnt-tab5" role="tabpanel">
+                            <div class="tab-pane" id="evnt-tab6" role="tabpanel">
                                 <div class="row speaker-div team-tab-content">
                                     <div class="col-md-12">
                                         <div class="speaker-header">
@@ -3259,7 +3930,7 @@
                                 </div>
                              
                             </div>
-                            <div class="tab-pane" id="evnt-tab6" role="tabpanel">
+                            <div class="tab-pane" id="evnt-tab7" role="tabpanel">
                                 <div class="row speaker-div team-tab-content">
                                     <div class="col-md-12">
                                         <div class="speaker-header">
@@ -4083,7 +4754,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="tab-pane" id="evnt-tab7" role="tabpanel">
+                            <div class="tab-pane" id="evnt-tab8" role="tabpanel">
                                 <div class="row speaker-div team-tab-content">
                                     <div class="col-md-6 col-lap-6">
                                         <div class="evnt-settings">
@@ -5015,6 +5686,139 @@
             <div class="modal-content">
                 <div class="modal-header">
                     <h5 class="modal-title" id="staticBackdropLabel"> <img src="assets/images/users.svg" alt=""><span>Add Attendee</span></h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <div class="row">
+                        <div class="col-lg-6">
+                            <div class="form-grp">
+                                <label class="form-label">Name</label>
+                                <input class="form-control" type="text" placeholder="Enter Name">
+                                <div class="form-check form-radio-outline form-radio-danger evnt-radio mt-1">
+                                    <input class="form-check-input" type="checkbox" name="formRadio6" id="formRadio1">
+                                    <label class="form-check-label" for="formRadio1">
+                                    Don't clear this field
+                                    </label>
+                                </div>
+                               
+                            </div>
+                        </div>
+                        <div class="col-lg-6">
+                            <div class="form-grp">
+                                <label class="form-label">Email</label>
+                                <input class="form-control" type="text" placeholder="Enter Email">
+                                <div class="form-check form-radio-outline form-radio-danger evnt-radio mt-1">
+                                    <input class="form-check-input" type="checkbox" name="formRadio6" id="formRadio2">
+                                    <label class="form-check-label" for="formRadio2">
+                                    Don't clear this field
+                                    </label>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-6">
+                            <div class="form-grp">
+                                <label class="form-label">Mobile No</label>
+                                <input class="form-control" type="text" placeholder="Enter mobile number">
+                                <div class="form-check form-radio-outline form-radio-danger evnt-radio mt-1">
+                                    <input class="form-check-input" type="checkbox" name="formRadio6" id="formRadio3">
+                                    <label class="form-check-label" for="formRadio3">
+                                    Don't clear this field
+                                    </label>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-6">
+                            <div class="form-grp">
+                                <label class="form-label">Comapany Name</label>
+                                <input class="form-control" type="text" placeholder="Enter company name">
+                                <div class="form-check form-radio-outline form-radio-danger evnt-radio mt-1">
+                                    <input class="form-check-input" type="checkbox" name="formRadio6" id="formRadio4">
+                                    <label class="form-check-label" for="formRadio4">
+                                    Don't clear this field
+                                    </label>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-6">
+                            <div class="form-grp">
+                                <label class="form-label">Event</label>
+
+
+                                <select class="form-select form-control form-select-sm" aria-label=".form-select-sm example">
+                                    <option selected>Event2</option>
+                                    <option value="AK">Event1</option>
+                                    <option value="HI">Event2</option>                          
+                                    <option value="CA">Event3</option>
+                                    <option value="NV">Event4</option>  
+                                  </select>
+                                  <div class="form-check form-radio-outline form-radio-danger evnt-radio mt-1">
+                                    <input class="form-check-input" type="checkbox" name="formRadio6" id="formRadio5">
+                                    <label class="form-check-label" for="formRadio5">
+                                    Don't clear this field
+                                    </label>
+                                </div>
+
+                            </div>
+                        </div>
+
+                        <div class="col-lg-6">
+                            <div class="form-grp">
+                                <label class="form-label">Booked by</label>
+
+                                <select class="form-select form-control form-select-sm" aria-label=".form-select-sm example">
+                                    <option value="AK">Navab</option>
+                                    <option value="HI">Amar</option>                          
+                                    <option value="CA">Nasim</option>
+                                    <option value="NV">Bishru</option>  
+                                  </select>
+                                  <div class="form-check form-radio-outline form-radio-danger evnt-radio mt-1">
+                                    <input class="form-check-input" type="checkbox" name="formRadio6" id="formRadio6">
+                                    <label class="form-check-label" for="formRadio6">
+                                    Don't clear this field
+                                    </label>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-5">
+                            <div class="form-grp">
+                                <label class="form-label">Ticket Type</label>
+
+                                <select class="form-select form-control form-select-sm" aria-label=".form-select-sm example">
+                                    <option value="AK">Premium</option>
+                                    <option value="HI">Gold</option>                          
+                                    <option value="CA">Platinium</option>
+                                    <option value="NV">Silver</option>  
+                                  </select>
+                                  <div class="form-check form-radio-outline form-radio-danger evnt-radio mt-1">
+                                    <input class="form-check-input" type="checkbox" name="formRadio6" id="formRadio7">
+                                    <label class="form-check-label" for="formRadio7">
+                                    Don't clear this field
+                                    </label>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="modal-footer">
+                   
+                   
+                    <button type="button" class="btn btn-light br-50 btn-md" data-bs-dismiss="modal">Close</button>
+                    <div class="d-flex">
+                    <a href="#"><button type="button" class="btn btn-primary br-50 btn-md">Save and Close</button></a>
+                    <a href="#"><button type="button" class="btn btn-primary br-50 btn-md ms-1">Save and New</button></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal common-modal fade" id="add-registeruser" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" role="dialog" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="staticBackdropLabel"> <img src="assets/images/users.svg" alt=""><span>Add Register User</span></h5>
                     <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                 </div>
                 <div class="modal-body">

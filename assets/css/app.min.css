@@ -12511,8 +12511,8 @@ table .avatar-sm{
 }
 
 .dividr{
-    border-top: 1px solid #ebebeb;
-    margin: 5px 0px 10px;
+    border-top: 2px solid #ebebeb;
+    margin: 5px -5px 10px;
 }
 
 .linear-div{
@@ -12554,7 +12554,7 @@ table .avatar-sm{
 }
 
 .tbl-head1{
-    width: 15%;
+    width: 17%;
     padding: 0.5rem 16px;
 }
 .tbl-head2{
@@ -12562,7 +12562,7 @@ table .avatar-sm{
     padding: 0.5rem 16px;
 }
 .tbl-head3{
-    width: 20%;
+    width: 19%;
     padding: 0.5rem 16px;
 }
 .tbl-head4{
@@ -12570,7 +12570,7 @@ table .avatar-sm{
     padding: 0.5rem 16px;
 }
 .tbl-head5{
-    width: 20%;
+    width: 19%;
     padding: 0.5rem 16px;
 }
 .tbl-head6{
@@ -12610,7 +12610,7 @@ table .avatar-sm{
 }
 
 .tbl-td-content1{
-    width: 15%;
+    width: 17%;
     padding: 0.2rem 16px;
     display: flex;
     align-items: center;
@@ -12621,7 +12621,7 @@ table .avatar-sm{
     padding: 0.2rem 16px;
 }
 .tbl-td-content3{
-    width: 20%;
+    width: 19%;
     padding: 0.2rem 16px;
 }
 .tbl-td-content4{
@@ -12629,7 +12629,7 @@ table .avatar-sm{
     padding: 0.2rem 16px;
 }
 .tbl-td-content5{
-    width: 20%;
+    width: 19%;
     padding: 0.2rem 16px;
 }
 .tbl-td-content6{
@@ -12680,4 +12680,8 @@ table .avatar-sm{
 
 .register-detail-card .form-label{
     font-weight: 600;
+}
+
+.tbl-link{
+    color: #005acf !important;
 }

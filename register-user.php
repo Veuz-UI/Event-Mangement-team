@@ -53,7 +53,7 @@
         </header>
         <div class="container-fluid register-details">
             <div class="row gx-3 h-100">
-                <div class="col-md-6 h-100">
+                <div class="col-md-5 h-100">
                     <div class="card register-detail-card h-100">
                         <div class="card-header status-edit-head">
                             <div class="status-tags-div">
@@ -74,9 +74,9 @@
                         </div>
                         <div class="card-body">
                             <div class="row">
-                                <div class="col-md-10">
+                                <div class="col-md-9">
                                     <div class="row">
-                                        <div class="col-md-6">
+                                        <div class="col-md-12">
                                             <div class="form-grp">
                                                 <label class="form-label">Name</label>
                                                 <input class="form-control" type="text" Value="Bisharu Rahman" disabled>                                        
@@ -96,7 +96,7 @@
                                         </div>
                                     </div>
                                 </div>
-                                <div class="col-md-2">
+                                <div class="col-md-3">
                                     <div class="img-upload-form">
                                         <img src="assets/images/users/avatar-7.jpg" id="upld-image1">
                                         <i class="bx bxs-pencil" onclick="makeimg(1)" ;></i>
@@ -106,17 +106,17 @@
                                     </div>
                                 </div>
                            
-                                <div class="col-md-12">
+                                <div class="col-md-12 px-0">
                                     <hr class="dividr">
                                 </div>
                                   
-                                <div class="col-md-6">
+                                <div class="col-md-12">
                                     <div class="form-grp">
                                         <label class="form-label">Address</label>
-                                        <textarea name="" id="" cols="30" rows="4" class="form-control" disabled style="min-height: 100px;">115  Anandraj Indl Estate Off L B S Marg Bhandup , Mumbai,Kozhikode,400078,India</textarea>                                      
+                                        <textarea name="" id="" cols="30" rows="" class="form-control" disabled style="max-height: 20px;">115  Anandraj Indl Estate Off L B S Marg Bhandup , Mumbai,Kozhikode,400078,India</textarea>                                      
                                     </div>
                                 </div>
-                                <div class="col-md-6">
+                                <div class="col-md-12">
                                     <div class="row">
                                         <div class="col-md-6">
                                             <div class="form-grp">
@@ -146,7 +146,7 @@
                                    
                                 </div>
                                     
-                                <div class="col-md-12">
+                                <div class="col-md-12 px-0">
                                     <hr class="dividr">
                                 </div>
                                 <div class="col-md-12">
@@ -182,7 +182,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-md-6">
+                <div class="col-md-7">
                     <div class="card register-detail-card">
                         <div class="card-header">
                             <h3>Event Entrance History</h3>
@@ -805,31 +805,31 @@
 
     <div class="modal fade" id="register-user" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
     role="dialog" aria-labelledby="staticBackdropLabel" aria-hidden="true">
-    <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+    <div class="modal-dialog modal-dialog-centered modal-md" role="document">
         <div class="modal-content">
             <div class="modal-header">
-                <h5 class="modal-title" id="staticBackdropLabel"> <img src="assets/images/calendar.svg"
+                <h5 class="modal-title" id="staticBackdropLabel"> <img src="assets/images/users.svg"
                         alt=""><span>Register User Details</span></h5>
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
             <div class="modal-body">
                 <div class="row">
-                    <div class="col">
+                    <div class="col-md-12">
                         <div class="form-grp">
                             <label class="form-label">Name<span>*</span></label>
-                            <input class="form-control" type="text" placeholder="">
+                            <input class="form-control" type="text" placeholder="" Value="Bisharu Rahman">
                         </div>
                     </div>
-                    <div class="col">
+                    <div class="col-md-6">
                         <div class="form-grp">
                             <label class="form-label">Email<span>*</span></label>
-                            <input class="form-control" type="text" placeholder="">
+                            <input class="form-control" type="text" placeholder="" Value="bisharu@gmail.com">
                         </div>
                     </div>
-                    <div class="col-md-3">
+                    <div class="col-md-6">
                         <div class="form-grp">
                             <label class="form-label">Mobile No<span>*</span></label>
-                            <input class="form-control" type="text" placeholder="">
+                            <input class="form-control" type="text" placeholder=""  Value="7766885522">
                         </div>
                     </div>
                 </div>
@@ -837,23 +837,23 @@
                     <div class="col-md-12">
                         <div class="form-grp">
                             <label class="form-label">Address</label>
-                            <textarea class="form-control" id="" cols="30" rows="3"></textarea>
+                            <textarea class="form-control" id="" cols="30" rows="3">115  Anandraj Indl Estate Off L B S Marg Bhandup , Mumbai,Kozhikode,400078,India</textarea>
                         </div>
                     </div>
-                    <div class="col-md-4">
+                    <div class="col-md-6">
                         <div class="form-grp">
                             <label class="form-label">Department</label>
-                            <input class="form-control" type="text" placeholder="">
+                            <input class="form-control" type="text" placeholder="" value="Department">
 
                         </div>
                     </div>
-                    <div class="col-md-4">
+                    <div class="col-md-6">
                         <div class="form-grp">
                             <label class="form-label">City</label>
                             <div class="select-inp">
                                 <select class="form-control">
 
-                                    <option value="AK">Kozhikode</option>
+                                    <option value="AK" selected>Kozhikode</option>
                                     <option value="HI">Kannur</option>
                                     <option value="CA">malapuam</option>
                             
@@ -863,13 +863,13 @@
 
                         </div>
                     </div>
-                    <div class="col-md-4">
+                    <div class="col-md-6">
                         <div class="form-grp">
                             <label class="form-label">Country</label>
                             <div class="select-inp">
                                 <select class="form-control">
 
-                                    <option value="AK">India</option>
+                                    <option value="AK" selected>India</option>
                                     <option value="HI">China</option>
                                     <option value="CA">Pakistan</option>
                             
@@ -879,22 +879,22 @@
 
                         </div>
                     </div>
-                    <div class="col-md-4">
+                    <div class="col-md-6">
                         <div class="form-grp">
                             <label class="form-label">Pincode</label>
-                            <input class="form-control" type="text" placeholder="">
+                            <input class="form-control" type="text" placeholder="" value="673007">
 
                         </div>
                     </div>
                 </div>
                 <div class="row">
-                    <div class="col-md-4">
+                    <div class="col-md-6">
                         <div class="form-grp">
                             <label class="form-label">Ticket Type</label>
                             <div class="select-inp">
                                 <select class="form-control">
 
-                                    <option value="AK">Gold</option>
+                                    <option value="AK" selected>Gold</option>
                                     <option value="HI">Platinum</option>
                                     <option value="CA">Silver</option>
                             
@@ -904,7 +904,7 @@
 
                         </div>
                     </div>
-                    <div class="col-md-4">
+                    <div class="col-md-6">
                         <div class="form-grp">
                             <label class="form-label">Badge Issued Status</label>
                         <div class="d-flex mt-1">
@@ -924,13 +924,13 @@
 
                         </div>
                     </div>
-                    <div class="col-md-4">
-                        <div class="form-grp">
+                    <div class="col-md-6">
+                        <div class="form-grp mb-0">
                             <label class="form-label">Date</label>
                             <div class="ui calendar datestart">
                                 <div class="ui input left icon">
                                     <i class="far fa-calendar icon"></i>
-                                    <input type="text" placeholder="Date">
+                                    <input type="text" placeholder="Date" value="July 12, 2023">
                                 </div>
                             </div>
                         </div>
