@@ -12307,18 +12307,25 @@ table .avatar-sm{
 }
 
 .register-details{
-    background-color: #ebebeb;
-    height: 100vh;
+    background-color: #f5f5f5;
+    height: 93vh;
+    padding: 16px;
 }
 
-.register-details .card{
-    margin: 10px;
+.register-details .form-control:disabled{
+    border-bottom: 1px solid #e4e4e4 !important;
+    background-color: #fff;
+    border: none;
+    padding-left: 0px;
+    color: #666;
+    font-weight: 400;
 }
 
 .register-detail-card .card-header{
     padding: 0px;
     border-bottom: 1px solid #ebebeb;
     background-color: #fff;
+    border-radius: 0.25rem 0.25rem 0px 0px;
 }
 
 
@@ -12379,13 +12386,36 @@ table .avatar-sm{
   /* status-tags */
 
 .status-tags-div {
-    padding: 10px;
-    border-bottom: 1px solid #F3F3F3;
+    padding: 10px 15px;
+}
+
+.status-edit-head{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.status-edit-head .edit-modl{
+    padding-right: 15px;
+    font-size: 14px;
+    font-weight: 500;
+    color: #09bc8a;
+    display: flex;
+    gap: 5px;
+    align-items: center;
+}
+
+.status-edit-head .edit-modl i{
+    font-size: 15px;
+}
+
+.status-edit-head .edit-modl:hover{
+    color: #0c9f76;
 }
 
 .status-tags {
     display: flex;
-    height: 30px;
+    height: 26px;
     width: fit-content;
 }
 
@@ -12399,7 +12429,7 @@ table .avatar-sm{
     margin: 2px 0px;
     color: #333;
     width: max-content;
-    min-width: 110px;
+    min-width: 100px;
     padding-left: 27px;
 }
 
@@ -12457,14 +12487,14 @@ table .avatar-sm{
 .status-tags .status-tag::after {
     content: ' ';
     height: 100%;
-    right: -26px;
+    right: -28px;
     top: 0px;
     position: absolute;
     z-index: 111;
-    border-top: 15px solid transparent;
-    border-right: 14px solid transparent;
-    border-bottom: 15px solid transparent;
-    border-left: 14px solid #F4F4F4;
+    border-top: 13px solid transparent;
+    border-right: 16px solid transparent;
+    border-bottom: 13px solid transparent;
+    border-left: 10px solid #F4F4F4;
 }
 
 .status-tags .status-tag::before {
@@ -12475,7 +12505,179 @@ table .avatar-sm{
     position: absolute;
     z-index: 99;
     border-left: 15px solid #ffffff;
-    border-top: 19px solid transparent;
+    border-top: 17px solid transparent;
     border-right: 15px solid transparent;
-    border-bottom: 20px solid transparent;
+    border-bottom: 17px solid transparent;
+}
+
+.dividr{
+    border-top: 1px solid #ebebeb;
+    margin: 5px 0px 10px;
+}
+
+.linear-div{
+    display: flex;
+    align-items: center;
+}
+
+.linear-div label{
+    min-width: 150px;
+}
+
+.linear-div .date-linear{
+    min-width: 80px !important;
+}
+
+.linear-div .form-check-input:disabled~.form-check-label, .linear-div .form-check-input[disabled]~.form-check-label{
+    opacity: 1 !important;
+}
+
+.linear-div .form-check-input:disabled{
+    opacity: 1 !important;
+}
+
+.register-detail-card .card-header h3{
+    font-size: 15px;
+    padding: 12px 15px;
+    margin: 0px;
+    font-weight: 600;
+    color: #222;
+}
+
+.register-detail-card .card-body{
+    padding: 0.8rem 1rem 1rem;
+}
+
+.user-detail-tbl .poll-title{
+    padding: 0px;
+    display: flex;
+}
+
+.tbl-head1{
+    width: 15%;
+    padding: 0.5rem 16px;
+}
+.tbl-head2{
+    width: 15%;
+    padding: 0.5rem 16px;
+}
+.tbl-head3{
+    width: 20%;
+    padding: 0.5rem 16px;
+}
+.tbl-head4{
+    width: 15%;
+    padding: 0.5rem 16px;
+}
+.tbl-head5{
+    width: 20%;
+    padding: 0.5rem 16px;
+}
+.tbl-head6{
+    width: 15%;
+    padding: 0.5rem 16px;
+}
+
+.user-detail-tbl .panel-collapse-title{
+    width: 100%;
+    gap: 0px;
+}
+
+.user-detail-tbl .panel-heading{
+    padding: 0px;
+}
+
+.user-detail-tbl .panel-heading h4{
+    font-size: 13.4px;
+}
+
+.user-detail-tbl .form-check-input:disabled~.form-check-label, .user-detail-tbl .form-check-input[disabled]~.form-check-label{
+    opacity: 1 !important;
+}
+
+.user-detail-tbl .form-check-input:disabled{
+    opacity: 1 !important;
+}
+
+.user-tbl-row{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    font-size: 13.4px;
+    color: var(--bs-heading-color);
+    font-weight: 500;
+    border-top: 1px solid #ebebeb;
+}
+
+.tbl-td-content1{
+    width: 15%;
+    padding: 0.2rem 16px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+.tbl-td-content2{
+    width: 15%;
+    padding: 0.2rem 16px;
+}
+.tbl-td-content3{
+    width: 20%;
+    padding: 0.2rem 16px;
+}
+.tbl-td-content4{
+    width: 15%;
+    padding: 0.2rem 16px;
+}
+.tbl-td-content5{
+    width: 20%;
+    padding: 0.2rem 16px;
+}
+.tbl-td-content6{
+    width: 15%;
+    padding: 0.2rem 16px;
+}
+
+.user-detail-tbl .panel-heading h4 .arrow-up{
+    font-size: 17px;
+    width: 22px;
+    height: 22px;
+    margin-bottom: 2px;
+}
+
+.user-detail-tbl .panel-group{
+    max-height: 165px;
+    overflow: auto;
+}
+
+.register-details .card{
+    margin-bottom: 16px;
+}
+
+.register-details .img-upload-form i {
+    color: #333;
+    font-size: 12px;
+    width: 30px;
+    height: 30px;
+    border: 3px solid #fff;
+    background: #E8EDF4;
+    display: flex;
+    border-radius: 50%;
+    position: absolute;
+    top: 1px;
+    right: 4px;
+    cursor: pointer;
+    align-items: center;
+    justify-content: center;
+}
+
+.register-details .img-upload-form i:hover{
+    color: #05B460;
+}
+
+.register-details .img-upload-form{
+    margin: 10px 0px 0px;
+}
+
+.register-detail-card .form-label{
+    font-weight: 600;
 }
