@@ -909,13 +909,13 @@
                             <label class="form-label">Badge Issued Status</label>
                         <div class="d-flex mt-1">
                             <div class="form-check form-radio-outline form-radio-danger price-radio me-3">
-                                <input class="form-check-input" type="radio" name="badgerad1" id="badgerad1" checked="" autocompleted="">
+                                <input class="form-check-input" type="radio" name="badgerad1" id="badgerad1" checked="" autocompleted="" value="1">
                                 <label class="form-check-label" for="badgerad1">
                                     Yes
                                 </label>
                             </div>
                             <div class="form-check form-radio-outline form-radio-danger price-radio">
-                                <input class="form-check-input" type="radio" name="badgerad1" id="badgerad2">
+                                <input class="form-check-input" type="radio" name="badgerad1" id="badgerad2" value="2">
                                 <label class="form-check-label" for="badgerad2">
                                     No
                                 </label>
@@ -924,7 +924,7 @@
 
                         </div>
                     </div>
-                    <div class="col-md-6">
+                    <div class="col-md-6 badgeissue-date">
                         <div class="form-grp mb-0">
                             <label class="form-label">Date</label>
                             <div class="ui calendar datestart">
@@ -1106,6 +1106,20 @@
         type: 'date',
         startCalendar: $('.datestart')
     });
+</script>
+<script>
+
+$(document).ready(function() {
+   $('input[type="radio"]').click(function() {
+       if($(this).attr('id') == 'badgerad1') {
+            $('.badgeissue-date').show();           
+       }
+
+       else {
+            $('.badgeissue-date').hide();   
+       }
+   });
+});
 </script>
 </body>
 
