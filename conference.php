@@ -20,6 +20,7 @@
     <link href="https://cdnjs.cloudflare.com/ajax/libs/summernote/0.8.9/summernote-bs4.css" rel="stylesheet">
     <link href="assets/libs/multiselect/choices.min.css" rel="stylesheet">
     <link href="assets/css/form.css" rel="stylesheet" />
+    <link rel="stylesheet" href="assets/libs/select/select2.min.css">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
 </head>
 
@@ -293,8 +294,8 @@
                         <a class="nav-link" data-bs-toggle="tab" href="#nav7" role="tab" aria-selected="false"
                             tabindex="-1">
                             <svg width="24" height="24" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
-<path d="M7 4.639V18.5M13 1V15M1 6.71C1 5.236 1 4.5 1.393 4.07C1.53209 3.91703 1.70129 3.79447 1.89 3.71C2.422 3.474 3.121 3.707 4.519 4.173C5.586 4.529 6.119 4.707 6.659 4.688C6.8571 4.68149 7.05406 4.65536 7.247 4.61C7.772 4.485 8.24 4.173 9.176 3.55L10.558 2.628C11.758 1.828 12.357 1.428 13.045 1.337C13.733 1.244 14.417 1.472 15.784 1.928L16.949 2.316C17.939 2.646 18.434 2.811 18.717 3.204C19 3.597 19 4.119 19 5.162V13.291C19 14.764 19 15.501 18.607 15.931C18.4677 16.0832 18.2985 16.2051 18.11 16.289C17.578 16.526 16.879 16.293 15.481 15.827C14.414 15.471 13.881 15.293 13.341 15.312C13.1429 15.3185 12.9459 15.3446 12.753 15.39C12.228 15.515 11.76 15.827 10.824 16.45L9.442 17.372C8.242 18.172 7.643 18.572 6.955 18.663C6.267 18.756 5.583 18.528 4.216 18.072L3.051 17.684C2.061 17.354 1.566 17.189 1.283 16.796C1 16.403 1 15.88 1 14.838V6.709V6.71Z" stroke="#94949E" stroke-width="1.5"/>
-</svg>
+                            <path d="M7 4.639V18.5M13 1V15M1 6.71C1 5.236 1 4.5 1.393 4.07C1.53209 3.91703 1.70129 3.79447 1.89 3.71C2.422 3.474 3.121 3.707 4.519 4.173C5.586 4.529 6.119 4.707 6.659 4.688C6.8571 4.68149 7.05406 4.65536 7.247 4.61C7.772 4.485 8.24 4.173 9.176 3.55L10.558 2.628C11.758 1.828 12.357 1.428 13.045 1.337C13.733 1.244 14.417 1.472 15.784 1.928L16.949 2.316C17.939 2.646 18.434 2.811 18.717 3.204C19 3.597 19 4.119 19 5.162V13.291C19 14.764 19 15.501 18.607 15.931C18.4677 16.0832 18.2985 16.2051 18.11 16.289C17.578 16.526 16.879 16.293 15.481 15.827C14.414 15.471 13.881 15.293 13.341 15.312C13.1429 15.3185 12.9459 15.3446 12.753 15.39C12.228 15.515 11.76 15.827 10.824 16.45L9.442 17.372C8.242 18.172 7.643 18.572 6.955 18.663C6.267 18.756 5.583 18.528 4.216 18.072L3.051 17.684C2.061 17.354 1.566 17.189 1.283 16.796C1 16.403 1 15.88 1 14.838V6.709V6.71Z" stroke="#94949E" stroke-width="1.5"/>
+                            </svg>
 
 
                             <span>Floor Map</span>
@@ -357,7 +358,7 @@
                                     <label class="form-label">Event name</label>
                                     <input class="form-control" type="text" placeholder="Enter here">
                                 </div>
-
+                    
                                 <div class="form-grp">
                                     <div class="col-md-9 d-flex align-items-center justify-content-between">
                                         <label class="form-label">Date & Time</label>
@@ -8187,137 +8188,164 @@
                     </div>
                     <div class="tab-pane pb-0" id="nav7" role="tabpanel">
                         <style>
-.floor-map-sec{
-    padding: 60px 100px;
- }
+                        .floor-map-sec {
+                            padding: 15px;
+                        }
 
-.btn-file-floor{
-  margin: 0;
-  padding: 0;
-  position: relative;
-  z-index: 1;
-}
-.btn-file__actions {
-  margin: 0;
-  padding: 0;
-}
-.btn-file__actions__item {
-  padding: 35px;
-  font-size: 1.5em;
-  color: #d3e0e9;
-  cursor: pointer;
-  text-decoration: none;
-  border-top: 3px dashed #d3e0e9;
-  border-left: 3px dashed #d3e0e9;
-  border-bottom: 3px dashed #d3e0e9;
-}
-.btn-file__actions__item:first-child {
-  border-top-left-radius: 10px;
-  border-bottom-left-radius: 10px;
-}
-.btn-file__actions__item:last-child {
-  border-top-right-radius: 10px;
-  border-bottom-right-radius: 10px;
-  border-right: 3px dashed #d3e0e9;
-}
-.btn-file__actions__item:hover,
-.btn-file__actions__item:focus {
-  color: #636b6f;
-  background-color: rgba(211, 224, 233, 0.1);
-}
-.btn-file__actions__item:hover--shadow,
-.btn-file__actions__item:focus--shadow {
-  box-shadow: #d3e0e9 0 0 60px 15px;
-}
-.btn-file__actions__item--shadow {
-  display: inline-block;
-  position: relative;
-  z-index: 1;
-}
-.btn-file__actions__item--shadow::before {
-  content: " ";
-  box-shadow: #fff 0 0 60px 40px;
-  display: inline-block;
-  position: absolute;
-  top: 50%;
-  left: 0;
-  width: 100%;
-  z-index: -1;
-}
-.btn-file__preview {
-  /* opacity: 0.5; */
-  top: 0;
-  left: 0;
-  bottom: 0;
-  right: 0;
-  position: absolute;
-  z-index: -1;
-  border-radius: 10px;
-  background-size: cover;
-  background-position: center;
-}
-.form-group-box label.attachment {
-  width: 100%;
-}
-.form-group-box label.attachment .btn-create > a,
-.form-group-box label.attachment .btn-create > div {
-  margin-top: 5px;
-}
-.form-group-box label.attachment input[type='file'] {
-  display: none;
-}
+                        .floor-map-sec .panel{
+                            display: flex;
+                            justify-content: space-between;
+                        }
+
+                        .image-upload-buttons .btn{
+                            font-size: 13px !important;
+                        }
+
+                        .image-upload-buttons{
+                            display: flex;
+                            gap: 5px;
+                        }
+                        .button_outer {
+                            display: inline-flex;
+                            transition: .2s;
+                            line-height: 13px !important;
+                        }
+
+                        .btn_upload {
+                            padding: 1px;
+                            font-size: 13px;
+                            color: #fff;
+                            text-align: center;
+                            position: relative;
+                            display: inline-block;
+                            overflow: hidden;
+                            z-index: 3;
+                            white-space: nowrap;
+                        }
+
+                        .btn_upload input {
+                            position: absolute;
+                            width: 100%;
+                            left: 0;
+                            top: 0;
+                            width: 100%;
+                            height: 105%;
+                            cursor: pointer;
+                            opacity: 0;
+                        }
+
+                        .uploaded_file_view {
+                            width: 100%;
+                            height: 77vh;
+                            overflow: auto;
+                            margin: 15px auto 0px;
+                            text-align: center;
+                            position: relative;
+                            transition: .2s;
+                            border: 2px dashed #ebebeb;
+                            padding: 15px;
+                        }
+
+                        .file_remove:hover {
+                            background: #222;
+                            transition: .2s;
+                        }
+
+                        .uploaded_file_view img {
+                            max-width: 100%;
+                            height: 100%;
+                            object-fit: contain;
+                        }
+
+                        .uploaded_file_view.show {
+                            opacity: 1;
+                        }
+
+                        .error_msg {
+                            text-align: center;
+                            color: #ff1515;
+                            width: 200px;
+                            font-size: 13px;
+                            font-weight: 500;
+                        }
+                        .error_msg.err-show{
+                            border: 1px dashed #ffabab;
+                            padding: 3px;
+                            margin: -28px auto 15px;
+                        }
+                        .empty-image{
+                            width: 40%;
+                            margin-top: -15px;
+                        }
+                        .uploaded_file_view.show .empty-image{
+                            display: none;
+                        }
+                        .image-upload-buttons .btn-danger:hover{
+                            background-color: #e94c4c;
+                        }
 
                         </style>
-<div class="floor-map-sec">
-        <div class="row">
-          <div class="col-md-12">
-            <div class="form-group-box">
-              <label for="fileField" class="attachment">
-                <div class="row btn-file-floor">
-                  <div class="btn-file__preview"></div>
-                  <div class="btn-file__actions">
-                    <div class="btn-file__actions__item col-xs-12 text-center">
-                      <div class="btn-file__actions__item--shadow">
-                        <i class="fa fa-plus fa-lg fa-fw" aria-hidden="true"></i>
-                        <div class="visible-xs-block"></div>
-                        Select file
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <input name="file" type="file" id="fileField">
-              </label>
-            </div>
-            <button type="button" class="btn btn-primary waves-effect waves-light btn-md br-50 mt-2">
-                Save Floor Map
-              </button>
-          </div>
-        </div>
+                        <main class="main_full floor-map-sec">
+                            <div class="container-fluid px-0">
+                                <div class="panel">
+                                    <div class="button_outer btn btn-primary waves-effect waves-light btn-sm  br-50 small">
+                                        <div class="btn_upload">
+                                            <input type="file" id="upload_file" name="">
+                                            Upload Image
+                                        </div>
+                                    
+                                    </div>
+                                    <div class="image-upload-buttons">
+                                        <button type="button" class="btn btn-danger waves-effect waves-light file_remove btn-sm  br-50 small">Delete</button>
+                                        <button type="button" class="btn btn-info waves-effect waves-light btn-sm  br-50 small">Save</button>
+                                    </div>
+                                </div>
+                                <div class="error_msg"></div>
+                                <div class="uploaded_file_view" id="uploaded_view">
+                                    <img src="assets/images/empty-img1.jpg" alt="" class="empty-image">
+                                </div>
+                            </div>
+                        </main>
+                       
    
 
-      <script>
-        jQuery(($) => {
-  $('.attachment input[type="file"]')
-    .on('change', (event) => {
-    let el = $(event.target).closest('.attachment').find('.btn-file-floor');
-    
-    el
-      .find('.btn-file__actions__item')
-      .css({
-        'padding': '135px'
-      });
-    
-    el
-      .find('.btn-file__preview')
-      .css({
-        'background-image': 'url(' + window.URL.createObjectURL(event.target.files[0]) + ')'
-      });
-  });
-});
-      </script>
-
-
-</div>
+                        <script>
+                            var btnUpload = $("#upload_file"),
+                                btnOuter = $(".button_outer"),
+                                uploadedView = $("#uploaded_view"),
+                                error_msg = $(".error_msg");
+                        
+                            btnUpload.on("change", function (e) {
+                                // uploadedView.removeClass("show");
+                                uploadedView.find(".uploaded-imgg").remove();
+                        
+                                var ext = btnUpload.val().split('.').pop().toLowerCase();
+                                if ($.inArray(ext, ['gif', 'png', 'jpg', 'jpeg', 'svg']) == -1) {
+                                    error_msg.addClass("err-show");
+                                    error_msg.text("Not an Image...");
+                                } else {
+                                    error_msg.text("");
+                                    error_msg.removeClass("err-show");
+                                    var uploadedFile = URL.createObjectURL(e.target.files[0]);
+                                    setTimeout(function () {
+                                        uploadedView.append('<img src="' + uploadedFile + '" class="uploaded-imgg"/>')
+                                            .addClass("show");
+                                    }, 500);
+                        
+                                    // Disable the file input after successful upload
+                                    // btnUpload.prop("disabled", true);
+                                }
+                            });
+                        
+                            $(".file_remove").on("click", function (e) {
+                                // Enable the file input when removing the uploaded image
+                                // btnUpload.prop("disabled", false);
+                        
+                                uploadedView.removeClass("show");
+                                uploadedView.find(".uploaded-imgg").remove();
+                            });
+                        </script>
+                        
                     </div>
 
                 </div>
@@ -9702,7 +9730,7 @@
     <script src="assets/js/pages/popper.min.js"></script>
     <script src="assets/js/pages/bootstrap.min.js"></script>
     <script src="assets/libs/datepicker/semantic.min.js"></script>
-
+    <script src="assets/libs/select/select2.min.js"></script>
     <script src="assets/libs/select2/js/select2.min.js"></script>
     <script src="assets/libs/bootstrap-datepicker/js/bootstrap-datepicker.min.js"></script>
     <script src="assets/libs/spectrum-colorpicker2/spectrum.min.js"></script>
@@ -9715,7 +9743,15 @@
     <script src="assets/js/summernote-bs4.js"></script>
     <script src="assets/js/app.js"></script>
 
-
+    <script>
+        $(".mul-select").select2({
+            tags: true
+        });
+    
+        $("ul.select2-selection__rendered").sortable({
+            containment: 'parent'
+        });
+    </script>
     <script>
     $(".drpdwn-menu-btn").click(function () {
         $(this).parent().children(".dropdown-menu").toggleClass("show");
