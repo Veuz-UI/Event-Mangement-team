@@ -182,7 +182,7 @@
                                                 <a class="dropdown-item" href="#"><i class="bx bxs-archive-out me-2"
                                                         aria-hidden="true"></i>Unarchive</a>
                                                 <div class="dropdown-divider"></div>
-                                                <a class="dropdown-item" href="#"><i class="bx bxs-trash-alt me-2"
+                                                <a class="dropdown-item" href="#" data-bs-toggle="modal" data-bs-target="#alert-delete"><i class="bx bxs-trash-alt me-2"
                                                         aria-hidden="true"></i>Delete</a>
                                             </div>
                                         </div>
@@ -606,7 +606,7 @@
                                                     <div class="dropdown-divider"></div>
                                                     <a class="dropdown-item" href="#">Automations</a>
                                                     <div class="dropdown-divider"></div>
-                                                    <a class="dropdown-item" href="#">Delete</a>
+                                                    <a class="dropdown-item" href="#" data-bs-toggle="modal" data-bs-target="#alert-delete">Delete</a>
                                                     <div class="dropdown-divider"></div>
                                                     <a class="dropdown-item" href="#">Archive All</a>
                                                     <div class="dropdown-divider"></div>
@@ -853,7 +853,7 @@
                                                     <div class="dropdown-divider"></div>
                                                     <a class="dropdown-item" href="#">Automations</a>
                                                     <div class="dropdown-divider"></div>
-                                                    <a class="dropdown-item" href="#">Delete</a>
+                                                    <a class="dropdown-item" href="#" data-bs-toggle="modal" data-bs-target="#alert-delete">Delete</a>
                                                     <div class="dropdown-divider"></div>
                                                     <a class="dropdown-item" href="#">Archive All</a>
                                                     <div class="dropdown-divider"></div>
@@ -1236,7 +1236,7 @@
                                                     <div class="dropdown-divider"></div>
                                                     <a class="dropdown-item" href="#">Automations</a>
                                                     <div class="dropdown-divider"></div>
-                                                    <a class="dropdown-item" href="#">Delete</a>
+                                                    <a class="dropdown-item" href="#" data-bs-toggle="modal" data-bs-target="#alert-delete">Delete</a>
                                                     <div class="dropdown-divider"></div>
                                                     <a class="dropdown-item" href="#">Archive All</a>
                                                     <div class="dropdown-divider"></div>
@@ -1481,7 +1481,7 @@
                                                     <div class="dropdown-divider"></div>
                                                     <a class="dropdown-item" href="#">Automations</a>
                                                     <div class="dropdown-divider"></div>
-                                                    <a class="dropdown-item" href="#">Delete</a>
+                                                    <a class="dropdown-item" href="#" data-bs-toggle="modal" data-bs-target="#alert-delete">Delete</a>
                                                     <div class="dropdown-divider"></div>
                                                     <a class="dropdown-item" href="#">Archive All</a>
                                                     <div class="dropdown-divider"></div>
@@ -1864,7 +1864,7 @@
                                                     <div class="dropdown-divider"></div>
                                                     <a class="dropdown-item" href="#">Automations</a>
                                                     <div class="dropdown-divider"></div>
-                                                    <a class="dropdown-item" href="#">Delete</a>
+                                                    <a class="dropdown-item" href="#" data-bs-toggle="modal" data-bs-target="#alert-delete">Delete</a>
                                                     <div class="dropdown-divider"></div>
                                                     <a class="dropdown-item" href="#">Archive All</a>
                                                     <div class="dropdown-divider"></div>
@@ -2163,7 +2163,7 @@
                                 <table id="event-table" class="table table-resizable table-striped">
                                     <thead>
                                         <tr>
-                                            <th width="46px"><input class="form-check-input " type="checkbox"
+                                            <th width="36px" style="padding-right: 4px;"><input class="form-check-input " type="checkbox"
                                                     name="Main_Checkbox" id="selectAll"><span class="resize"></span>
                                             </th>
                                             <th>Event<span class="resize"></span></th>
@@ -2180,7 +2180,7 @@
                                     </thead>
                                     <tbody>
                                         <tr>
-                                            <td><input class="form-check-input check-input" type="checkbox"
+                                            <td style="padding-right: 4px;"><input class="form-check-input check-input" type="checkbox"
                                                     id="formCheck1"><span class="resize"></span></td>
                                             <td><a href="#" class="link-color">Business workshops</a><span
                                                     class="resize"></span></td>
@@ -2207,15 +2207,14 @@
                                                             class="fas fa-ellipsis-v dots"></i></a>
                                                     <div class="dropdown-menu dropdown-menu-sm">
                                                         <a class="dropdown-item" href="conference.php">Edit</a>
-                                                        <a class="dropdown-item" href="#" data-bs-toggle="modal"
-                                                            data-bs-target="#trash-popup">Trash</a>
+                                                        <a class="dropdown-item" href="#" data-bs-toggle="modal" data-bs-target="#alert-delete">Trash</a>
                                                     </div>
                                                 </div>
                                                 <span class="resize"></span>
                                             </td>
                                         </tr>
                                         <tr>
-                                            <td><input class="form-check-input check-input" type="checkbox"
+                                            <td style="padding-right: 4px;"><input class="form-check-input check-input" type="checkbox"
                                                     id="formCheck2"><span class="resize"></span></td>
                                             <td><a href="#" class="link-color">OpenWood Collection Online</a><span
                                                     class="resize"></span></td>
@@ -2243,15 +2242,14 @@
                                                             class="fas fa-ellipsis-v dots"></i></a>
                                                     <div class="dropdown-menu dropdown-menu-sm">
                                                         <a class="dropdown-item" href="conference.php">Edit</a>
-                                                        <a class="dropdown-item" href="#" data-bs-toggle="modal"
-                                                            data-bs-target="#trash-popup">Trash</a>
+                                                        <a class="dropdown-item" href="#" data-bs-toggle="modal" data-bs-target="#alert-delete">Trash</a>
                                                     </div>
                                                 </div>
                                                 <span class="resize"></span>
                                             </td>
                                         </tr>
                                         <tr>
-                                            <td><input class="form-check-input check-input" type="checkbox"
+                                            <td style="padding-right: 4px;"><input class="form-check-input check-input" type="checkbox"
                                                     id="formCheck3"><span class="resize"></span></td>
                                             <td><a href="#" class="link-color">Business workshops</a><span
                                                     class="resize"></span></td>
@@ -2279,15 +2277,14 @@
                                                             class="fas fa-ellipsis-v dots"></i></a>
                                                     <div class="dropdown-menu dropdown-menu-sm">
                                                         <a class="dropdown-item" href="conference.php">Edit</a>
-                                                        <a class="dropdown-item" href="#" data-bs-toggle="modal"
-                                                            data-bs-target="#trash-popup">Trash</a>
+                                                        <a class="dropdown-item" href="#" data-bs-toggle="modal" data-bs-target="#alert-delete">Trash</a>
                                                     </div>
                                                 </div>
                                                 <span class="resize"></span>
                                             </td>
                                         </tr>
                                         <tr>
-                                            <td><input class="form-check-input check-input" type="checkbox"
+                                            <td style="padding-right: 4px;"><input class="form-check-input check-input" type="checkbox"
                                                     id="formCheck1"><span class="resize"></span></td>
                                             <td><a href="#" class="link-color">OpenWood Collection Online</a><span
                                                     class="resize"></span></td>
@@ -2315,8 +2312,7 @@
                                                             class="fas fa-ellipsis-v dots"></i></a>
                                                     <div class="dropdown-menu dropdown-menu-sm">
                                                         <a class="dropdown-item" href="conference.php">Edit</a>
-                                                        <a class="dropdown-item" href="#" data-bs-toggle="modal"
-                                                            data-bs-target="#trash-popup">Trash</a>
+                                                        <a class="dropdown-item" href="#" data-bs-toggle="modal" data-bs-target="#alert-delete">Trash</a>
                                                     </div>
                                                 </div>
                                                 <span class="resize"></span>
@@ -2354,8 +2350,7 @@
                                                                 class="fas fa-ellipsis-v dots"></i></a>
                                                         <div class="dropdown-menu dropdown-menu-sm">
                                                             <a class="dropdown-item" href="conference.php">Edit</a>
-                                                            <a class="dropdown-item" href="#" data-bs-toggle="modal"
-                                                                data-bs-target="#trash-popup">Trash</a>
+                                                            <a class="dropdown-item" href="#" data-bs-toggle="modal" data-bs-target="#alert-delete">Trash</a>
                                                         </div>
                                                     </div>
 
@@ -2414,7 +2409,7 @@
                                                                 class="fas fa-ellipsis-v dots"></i></a>
                                                         <div class="dropdown-menu dropdown-menu-sm">
                                                             <a class="dropdown-item" href="conference.php">Edit</a>
-                                                            <a class="dropdown-item" href="#">Trash</a>
+                                                            <a class="dropdown-item" href="#" data-bs-toggle="modal" data-bs-target="#alert-delete">Trash</a>
                                                         </div>
                                                     </div>
 
@@ -2473,7 +2468,7 @@
                                                                 class="fas fa-ellipsis-v dots"></i></a>
                                                         <div class="dropdown-menu dropdown-menu-sm">
                                                             <a class="dropdown-item" href="conference.php">Edit</a>
-                                                            <a class="dropdown-item" href="#">Trash</a>
+                                                            <a class="dropdown-item" href="#" data-bs-toggle="modal" data-bs-target="#alert-delete">Trash</a>
                                                         </div>
                                                     </div>
 
@@ -2532,7 +2527,7 @@
                                                                 class="fas fa-ellipsis-v dots"></i></a>
                                                         <div class="dropdown-menu dropdown-menu-sm">
                                                             <a class="dropdown-item" href="conference.php">Edit</a>
-                                                            <a class="dropdown-item" href="#">Trash</a>
+                                                            <a class="dropdown-item" href="#" data-bs-toggle="modal" data-bs-target="#alert-delete">Trash</a>
                                                         </div>
                                                     </div>
 
@@ -2591,7 +2586,7 @@
                                                                 class="fas fa-ellipsis-v dots"></i></a>
                                                         <div class="dropdown-menu dropdown-menu-sm">
                                                             <a class="dropdown-item" href="conference.php">Edit</a>
-                                                            <a class="dropdown-item" href="#">Trash</a>
+                                                            <a class="dropdown-item" href="#" data-bs-toggle="modal" data-bs-target="#alert-delete">Trash</a>
                                                         </div>
                                                     </div>
 
@@ -3032,6 +3027,45 @@
                             data-bs-dismiss="modal">No</button>
 
                     </div>
+                </div>
+            </div>
+        </div>
+
+        <div id="alert-delete" class="modal fade" tabindex="-1" aria-labelledby="..." aria-hidden="true"
+            style="display: none;">
+            <div class="modal-dialog modal-confirm modal-dialog-centered modal-sm">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <div class="icon-box red">
+                            <i class="mdi mdi-alert"></i>
+                        </div>
+                    </div>
+                    <div class="modal-body">
+                        <p class="text-center">Are you sure you want to delete ?</p>
+                    </div>
+                    <div class="modal-footer d-flex justify-content-center">
+                        <button class="btn yes-btn successful-btn" data-bs-dismiss="modal">Yes</button>
+                        <button class="btn cancel-button" data-bs-target="#event-create" data-bs-toggle="modal"
+                            data-bs-dismiss="modal">No</button>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div id="alert-success" class="modal fade" tabindex="-1" aria-labelledby="..." aria-hidden="true"
+            style="display: none;">
+            <div class="modal-dialog modal-confirm modal-dialog-centered modal-sm">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <div class="icon-box green">
+                            <i class="mdi mdi-check"></i>
+                        </div>
+                    </div>
+                    <div class="modal-body">
+                        <p class="text-center">Your message has been sent successfully</p>
+                    </div>
+                   
                 </div>
             </div>
         </div>

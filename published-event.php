@@ -547,7 +547,7 @@
                                                             <a class="dropdown-item" href="#"><i class="bx bxs-archive-out me-2"
                                                                     aria-hidden="true"></i>Unarchive</a>
                                                             <div class="dropdown-divider"></div>
-                                                            <a class="dropdown-item" href="#"><i class="bx bxs-trash-alt me-2"
+                                                            <a class="dropdown-item" href="#" data-bs-toggle="modal" data-bs-target="#alert-delete"><i class="bx bxs-trash-alt me-2"
                                                                     aria-hidden="true"></i>Delete</a>
                                                         </div>
                                                     </div>
@@ -874,7 +874,7 @@
                                                         <table id="event-table" class="table table-resizable attendee-tbl">
                                                             <thead>
                                                                 <tr>
-                                                                    <th width="46px"><input class="form-check-input " type="checkbox"
+                                                                    <th width="36px" style="padding-right: 4px;"><input class="form-check-input " type="checkbox"
                                                                             name="Main_Checkbox" id="selectAll"><span class="resize"></span>
                                                                     </th>
                                                                     <th>First Name<span class="resize"></span></th>
@@ -888,7 +888,7 @@
                                                             </thead>
                                                             <tbody>
                                                                 <tr>
-                                                                    <td><input class="form-check-input check-input" type="checkbox"
+                                                                    <td style="padding-right: 4px;"><input class="form-check-input check-input" type="checkbox"
                                                                             id="formCheck1"><span class="resize"></span></td>
                                                                     <td><a class="tbl-link" href="register-user.php">AmarNath</a><span class="resize"></span></td>
                                                                     <td>M<span class="resize"></span></td>
@@ -907,7 +907,7 @@
                                                                     </td>
                                                                 </tr>
                                                                 <tr>
-                                                                    <td><input class="form-check-input check-input" type="checkbox"
+                                                                    <td style="padding-right: 4px;"><input class="form-check-input check-input" type="checkbox"
                                                                             id="formCheck2"><span class="resize"></span></td>
                                                                     <td><a class="tbl-link" href="register-user.php">AmarNath</a><span class="resize"></span></td>
                                                                     <td>M<span class="resize"></span></td>
@@ -926,7 +926,7 @@
                                                                     </td>
                                                                 </tr>
                                                                 <tr>
-                                                                    <td><input class="form-check-input check-input" type="checkbox"
+                                                                    <td style="padding-right: 4px;"><input class="form-check-input check-input" type="checkbox"
                                                                             id="formCheck3"><span class="resize"></span></td>
                                                                     <td><a class="tbl-link" href="register-user.php">AmarNath</a><span class="resize"></span></td>
                                                                     <td>M<span class="resize"></span></td>
@@ -1213,7 +1213,7 @@
                                                             <a class="dropdown-item" href="#"><i class="bx bxs-archive-out me-2"
                                                                     aria-hidden="true"></i>Unarchive</a>
                                                             <div class="dropdown-divider"></div>
-                                                            <a class="dropdown-item" href="#"><i class="bx bxs-trash-alt me-2"
+                                                            <a class="dropdown-item" href="#" data-bs-toggle="modal" data-bs-target="#alert-delete"><i class="bx bxs-trash-alt me-2"
                                                                     aria-hidden="true"></i>Delete</a>
                                                         </div>
                                                     </div>
@@ -1540,7 +1540,7 @@
                                                         <table id="event-table" class="table table-resizable attendee-tbl">
                                                             <thead>
                                                                 <tr>
-                                                                    <th width="46px"><input class="form-check-input " type="checkbox"
+                                                                    <th width="36px" style="padding-right: 4px;"><input class="form-check-input " type="checkbox"
                                                                             name="Main_Checkbox" id="selectAll"><span class="resize"></span>
                                                                     </th>
                                                                     <th>First Name<span class="resize"></span></th>
@@ -1554,7 +1554,7 @@
                                                             </thead>
                                                             <tbody>
                                                                 <tr>
-                                                                    <td><input class="form-check-input check-input" type="checkbox"
+                                                                    <td style="padding-right: 4px;"><input class="form-check-input check-input" type="checkbox"
                                                                             id="formCheck1"><span class="resize"></span></td>
                                                                     <td>AmarNath<span class="resize"></span></td>
                                                                     <td>M<span class="resize"></span></td>
@@ -1573,7 +1573,7 @@
                                                                     </td>
                                                                 </tr>
                                                                 <tr>
-                                                                    <td><input class="form-check-input check-input" type="checkbox"
+                                                                    <td style="padding-right: 4px;"><input class="form-check-input check-input" type="checkbox"
                                                                             id="formCheck2"><span class="resize"></span></td>
                                                                     <td>AmarNath<span class="resize"></span></td>
                                                                     <td>M<span class="resize"></span></td>
@@ -1592,7 +1592,7 @@
                                                                     </td>
                                                                 </tr>
                                                                 <tr>
-                                                                    <td><input class="form-check-input check-input" type="checkbox"
+                                                                    <td style="padding-right: 4px;"><input class="form-check-input check-input" type="checkbox"
                                                                             id="formCheck3"><span class="resize"></span></td>
                                                                     <td>AmarNath<span class="resize"></span></td>
                                                                     <td>M<span class="resize"></span></td>
@@ -2015,7 +2015,7 @@
                                                             <a class="dropdown-item" href="#"><i class="bx bxs-archive-out me-2"
                                                                     aria-hidden="true"></i>Unarchive</a>
                                                             <div class="dropdown-divider"></div>
-                                                            <a class="dropdown-item" href="#"><i class="bx bxs-trash-alt me-2"
+                                                            <a class="dropdown-item" href="#" data-bs-toggle="modal" data-bs-target="#alert-delete"><i class="bx bxs-trash-alt me-2"
                                                                     aria-hidden="true"></i>Delete</a>
                                                         </div>
                                                     </div>
@@ -2361,7 +2361,7 @@
                                                         <table id="event-table" class="table table-resizable table-striped">
                                                             <thead>
                                                                 <tr>
-                                                                    <th width="46px"><input class="form-check-input " type="checkbox" name="Main_Checkbox"
+                                                                    <th width="36px" style="padding-right: 4px;"><input class="form-check-input " type="checkbox" name="Main_Checkbox"
                                                                         id="selectAll"><span class="resize"></span></th>
                                                                     <th>Name<span class="resize"></span></th>
                                                                     <th>Email<span class="resize"></span></th>
@@ -2374,7 +2374,7 @@
                                                             </thead>
                                                             <tbody>
                                                                 <tr>
-                                                                    <td><input class="form-check-input check-input" type="checkbox" id="formCheck1"><span class="resize"></span></td>
+                                                                    <td style="padding-right: 4px;"><input class="form-check-input check-input" type="checkbox" id="formCheck1"><span class="resize"></span></td>
                                                                     <td>
                                                                         <div class="responsible">
                                                                             <img src="assets/images/users/avatar-7.jpg" alt="" class="avatar-sm rounded-circle">
@@ -2409,12 +2409,12 @@
                                                                         <span class="resize"></span>
                                                                     </td>
                                                                     <td class="text-end">
-                                                                        <a href="#" class="delete-member" data-bs-toggle="modal" data-bs-target="#delete-alert"><i class="bx bx-trash"></i></a>
+                                                                        <a href="#" class="delete-member" data-bs-toggle="modal" data-bs-target="#alert-delete"><i class="bx bx-trash"></i></a>
                                                                         <span class="resize"></span>
                                                                     </td>
                                                                 </tr>
                                                                 <tr>
-                                                                    <td><input class="form-check-input check-input" type="checkbox" id="formCheck2"><span class="resize"></span></td>
+                                                                    <td style="padding-right: 4px;"><input class="form-check-input check-input" type="checkbox" id="formCheck2"><span class="resize"></span></td>
                                                                 <td>
                                                                         <div class="responsible">
                                                                             <img src="assets/images/users/avatar-7.jpg" alt="" class="avatar-sm rounded-circle">
@@ -2450,7 +2450,7 @@
                                                                         <span class="resize"></span>
                                                                     </td>
                                                                     <td class="text-end">
-                                                                        <a href="#" class="delete-member" data-bs-toggle="modal" data-bs-target="#delete-alert"><i class="bx bx-trash"></i></a>
+                                                                        <a href="#" class="delete-member" data-bs-toggle="modal" data-bs-target="#alert-delete"><i class="bx bx-trash"></i></a>
                                                                         <span class="resize"></span>
                                                                     </td>
                                                                 </tr>
@@ -2460,7 +2460,7 @@
                                                                     </td>
                                                                 </tr>
                                                                 <tr>
-                                                                    <td><input class="form-check-input check-input" type="checkbox" id="formCheck1"><span class="resize"></span></td>
+                                                                    <td style="padding-right: 4px;"><input class="form-check-input check-input" type="checkbox" id="formCheck1"><span class="resize"></span></td>
                                                                     <td>
                                                                         <div class="responsible">
                                                                             <img src="assets/images/users/avatar-7.jpg" alt="" class="avatar-sm rounded-circle">
@@ -2496,7 +2496,7 @@
                                                                         <span class="resize"></span>
                                                                     </td>
                                                                     <td class="text-end">
-                                                                        <a href="#" class="delete-member" data-bs-toggle="modal" data-bs-target="#delete-alert"><i class="bx bx-trash"></i></a>
+                                                                        <a href="#" class="delete-member" data-bs-toggle="modal" data-bs-target="#alert-delete"><i class="bx bx-trash"></i></a>
                                                                         <span class="resize"></span>
                                                                     </td>
                                                                 </tr>
@@ -2551,7 +2551,7 @@
                                                                                         class="fas fa-envelope me-2"></i>Send
                                                                                     Mail</a>
                                                                                 <div class="dropdown-divider"></div>                                                                      
-                                                                                <a class="dropdown-item" href="#"><i class="fas fa-trash me-2"></i>Delete</a>
+                                                                                <a class="dropdown-item" href="#" data-bs-toggle="modal" data-bs-target="#alert-delete"><i class="fas fa-trash me-2"></i>Delete</a>
                                                                             </div>
                                                                         </div>
 
@@ -2590,7 +2590,7 @@
                                                                                         class="fas fa-envelope me-2"></i>Send
                                                                                     Mail</a>
                                                                                 <div class="dropdown-divider"></div>
-                                                                                <a class="dropdown-item" href="#"><i class="fas fa-trash me-2"></i>Delete</a>
+                                                                                <a class="dropdown-item" href="#" data-bs-toggle="modal" data-bs-target="#alert-delete"><i class="fas fa-trash me-2"></i>Delete</a>
 
                                                                             </div>
                                                                         </div>
@@ -2629,7 +2629,7 @@
                                                                                         class="fas fa-envelope me-2"></i>Send
                                                                                     Mail</a>
                                                                                 <div class="dropdown-divider"></div>
-                                                                                <a class="dropdown-item" href="#"><i class="fas fa-trash me-2"></i>Delete</a>
+                                                                                <a class="dropdown-item" href="#" data-bs-toggle="modal" data-bs-target="#alert-delete"><i class="fas fa-trash me-2"></i>Delete</a>
 
                                                                             </div>
                                                                         </div>
@@ -2668,7 +2668,7 @@
                                                                                         class="fas fa-envelope me-2"></i>Send
                                                                                     Mail</a>
                                                                                 <div class="dropdown-divider"></div>
-                                                                                <a class="dropdown-item" href="#"><i class="fas fa-trash me-2"></i>Delete</a>
+                                                                                <a class="dropdown-item" href="#" data-bs-toggle="modal" data-bs-target="#alert-delete"><i class="fas fa-trash me-2"></i>Delete</a>
 
                                                                             </div>
                                                                         </div>
@@ -2707,7 +2707,7 @@
                                                                                         class="fas fa-envelope me-2"></i>Send
                                                                                     Mail</a>
                                                                                 <div class="dropdown-divider"></div>
-                                                                                <a class="dropdown-item" href="#"><i class="fas fa-trash me-2"></i>Delete</a>
+                                                                                <a class="dropdown-item" href="#" data-bs-toggle="modal" data-bs-target="#alert-delete"><i class="fas fa-trash me-2"></i>Delete</a>
 
                                                                             </div>
                                                                         </div>
@@ -2744,7 +2744,7 @@
                                                                                         class="fas fa-envelope me-2"></i>Send
                                                                                     Mail</a>
                                                                                 <div class="dropdown-divider"></div>
-                                                                                <a class="dropdown-item" href="#"><i class="fas fa-trash me-2"></i>Delete</a>
+                                                                                <a class="dropdown-item" href="#" data-bs-toggle="modal" data-bs-target="#alert-delete"><i class="fas fa-trash me-2"></i>Delete</a>
 
                                                                             </div>
                                                                         </div>
@@ -2784,7 +2784,7 @@
                                                                                         class="fas fa-envelope me-2"></i>Send
                                                                                     Mail</a>
                                                                                 <div class="dropdown-divider"></div>
-                                                                                <a class="dropdown-item" href="#"><i class="fas fa-trash me-2"></i>Delete</a>
+                                                                                <a class="dropdown-item" href="#" data-bs-toggle="modal" data-bs-target="#alert-delete"><i class="fas fa-trash me-2"></i>Delete</a>
 
                                                                             </div>
                                                                         </div>
@@ -2823,7 +2823,7 @@
                                                                                         class="fas fa-envelope me-2"></i>Send
                                                                                     Mail</a>
                                                                                 <div class="dropdown-divider"></div>
-                                                                                <a class="dropdown-item" href="#"><i class="fas fa-trash me-2"></i>Delete</a>
+                                                                                <a class="dropdown-item" href="#" data-bs-toggle="modal" data-bs-target="#alert-delete"><i class="fas fa-trash me-2"></i>Delete</a>
 
                                                                             </div>
                                                                         </div>
@@ -2904,7 +2904,7 @@
                                                             <a class="dropdown-item" href="#"><i class="bx bxs-archive-out me-2"
                                                                     aria-hidden="true"></i>Unarchive</a>
                                                             <div class="dropdown-divider"></div>
-                                                            <a class="dropdown-item" href="#"><i class="bx bxs-trash-alt me-2"
+                                                            <a class="dropdown-item" href="#" data-bs-toggle="modal" data-bs-target="#alert-delete"><i class="bx bxs-trash-alt me-2"
                                                                     aria-hidden="true"></i>Delete</a>
                                                         </div>
                                                     </div>
@@ -3972,7 +3972,7 @@
                                                             <a class="dropdown-item" href="#"><i class="bx bxs-archive-out me-2"
                                                                     aria-hidden="true"></i>Unarchive</a>
                                                             <div class="dropdown-divider"></div>
-                                                            <a class="dropdown-item" href="#"><i class="bx bxs-trash-alt me-2"
+                                                            <a class="dropdown-item" href="#" data-bs-toggle="modal" data-bs-target="#alert-delete"><i class="bx bxs-trash-alt me-2"
                                                                     aria-hidden="true"></i>Delete</a>
                                                         </div>
                                                     </div>
@@ -4318,7 +4318,7 @@
                                                         <table id="event-table" class="table table-resizable table-striped">
                                                             <thead>
                                                                 <tr>
-                                                                    <th width="46px"><input class="form-check-input " type="checkbox" name="Main_Checkbox"
+                                                                    <th width="36px" style="padding-right: 4px;"><input class="form-check-input " type="checkbox" name="Main_Checkbox"
                                                                         id="selectAll"><span class="resize"></span></th>
                                                                     <th>Form name<span class="resize"></span></th>
                                                                     <th width="30%">Created By<span class="resize"></span></th>
@@ -4330,7 +4330,7 @@
                                                             </thead>
                                                             <tbody>
                                                                 <tr>
-                                                                    <td><input class="form-check-input check-input" type="checkbox" id="formCheck1"><span class="resize"></span></td>
+                                                                    <td style="padding-right: 4px;"><input class="form-check-input check-input" type="checkbox" id="formCheck1"><span class="resize"></span></td>
                                                                     <td>Getintouch<span class="resize"></span></td>
                                                                     <td>
                                                                         <div class="responsible">
@@ -4362,7 +4362,7 @@
                                                                     </td>
                                                                 </tr>
                                                                 <tr>
-                                                                    <td><input class="form-check-input check-input" type="checkbox" id="formCheck1"><span class="resize"></span></td>
+                                                                    <td style="padding-right: 4px;"><input class="form-check-input check-input" type="checkbox" id="formCheck1"><span class="resize"></span></td>
                                                                     <td>Getintouch<span class="resize"></span></td>
                                                                     <td>
                                                                         <div class="responsible">
@@ -4448,7 +4448,7 @@
                                                                                         class="fas fa-envelope me-2"></i>Send
                                                                                     Mail</a>
                                                                                 <div class="dropdown-divider"></div>                                                                      
-                                                                                <a class="dropdown-item" href="#"><i class="fas fa-trash me-2"></i>Delete</a>
+                                                                                <a class="dropdown-item" href="#" data-bs-toggle="modal" data-bs-target="#alert-delete"><i class="fas fa-trash me-2"></i>Delete</a>
                                                                             </div>
                                                                         </div>
 
@@ -4487,7 +4487,7 @@
                                                                                         class="fas fa-envelope me-2"></i>Send
                                                                                     Mail</a>
                                                                                 <div class="dropdown-divider"></div>
-                                                                                <a class="dropdown-item" href="#"><i class="fas fa-trash me-2"></i>Delete</a>
+                                                                                <a class="dropdown-item" href="#" data-bs-toggle="modal" data-bs-target="#alert-delete"><i class="fas fa-trash me-2"></i>Delete</a>
 
                                                                             </div>
                                                                         </div>
@@ -4526,7 +4526,7 @@
                                                                                         class="fas fa-envelope me-2"></i>Send
                                                                                     Mail</a>
                                                                                 <div class="dropdown-divider"></div>
-                                                                                <a class="dropdown-item" href="#"><i class="fas fa-trash me-2"></i>Delete</a>
+                                                                                <a class="dropdown-item" href="#" data-bs-toggle="modal" data-bs-target="#alert-delete"><i class="fas fa-trash me-2"></i>Delete</a>
 
                                                                             </div>
                                                                         </div>
@@ -4565,7 +4565,7 @@
                                                                                         class="fas fa-envelope me-2"></i>Send
                                                                                     Mail</a>
                                                                                 <div class="dropdown-divider"></div>
-                                                                                <a class="dropdown-item" href="#"><i class="fas fa-trash me-2"></i>Delete</a>
+                                                                                <a class="dropdown-item" href="#" data-bs-toggle="modal" data-bs-target="#alert-delete"><i class="fas fa-trash me-2"></i>Delete</a>
 
                                                                             </div>
                                                                         </div>
@@ -4604,7 +4604,7 @@
                                                                                         class="fas fa-envelope me-2"></i>Send
                                                                                     Mail</a>
                                                                                 <div class="dropdown-divider"></div>
-                                                                                <a class="dropdown-item" href="#"><i class="fas fa-trash me-2"></i>Delete</a>
+                                                                                <a class="dropdown-item" href="#" data-bs-toggle="modal" data-bs-target="#alert-delete"><i class="fas fa-trash me-2"></i>Delete</a>
 
                                                                             </div>
                                                                         </div>
@@ -4641,7 +4641,7 @@
                                                                                         class="fas fa-envelope me-2"></i>Send
                                                                                     Mail</a>
                                                                                 <div class="dropdown-divider"></div>
-                                                                                <a class="dropdown-item" href="#"><i class="fas fa-trash me-2"></i>Delete</a>
+                                                                                <a class="dropdown-item" href="#" data-bs-toggle="modal" data-bs-target="#alert-delete"><i class="fas fa-trash me-2"></i>Delete</a>
 
                                                                             </div>
                                                                         </div>
@@ -4681,7 +4681,7 @@
                                                                                         class="fas fa-envelope me-2"></i>Send
                                                                                     Mail</a>
                                                                                 <div class="dropdown-divider"></div>
-                                                                                <a class="dropdown-item" href="#"><i class="fas fa-trash me-2"></i>Delete</a>
+                                                                                <a class="dropdown-item" href="#" data-bs-toggle="modal" data-bs-target="#alert-delete"><i class="fas fa-trash me-2"></i>Delete</a>
 
                                                                             </div>
                                                                         </div>
@@ -4720,7 +4720,7 @@
                                                                                         class="fas fa-envelope me-2"></i>Send
                                                                                     Mail</a>
                                                                                 <div class="dropdown-divider"></div>
-                                                                                <a class="dropdown-item" href="#"><i class="fas fa-trash me-2"></i>Delete</a>
+                                                                                <a class="dropdown-item" href="#" data-bs-toggle="modal" data-bs-target="#alert-delete"><i class="fas fa-trash me-2"></i>Delete</a>
 
                                                                             </div>
                                                                         </div>
@@ -6208,7 +6208,7 @@
                                                         <option value="7">Sunday</option>
                                                     </select>
                                                 </td>
-                                                <td> <a href="#" class="remove-tr"><i class="bx bx-trash"></i></a></td>
+                                                <td> <a href="#" class="remove-tr" data-bs-toggle="modal" data-bs-target="#alert-delete"><i class="bx bx-trash"></i></a></td>
                                                
                                             </tr>
                                             <tr>
@@ -6226,7 +6226,7 @@
                                                         <option value="7">Sunday</option>
                                                     </select>
                                                 </td>
-                                                <td> <a href="#" class="remove-tr"><i class="bx bx-trash"></i></a></td>
+                                                <td> <a href="#" class="remove-tr" data-bs-toggle="modal" data-bs-target="#alert-delete"><i class="bx bx-trash"></i></a></td>
                                             </tr>
                                             <tr>
                                                 <td>
@@ -6243,7 +6243,7 @@
                                                         <option value="7">Sunday</option>
                                                     </select>
                                                 </td>
-                                                <td> <a href="#" class="remove-tr"><i class="bx bx-trash"></i></a></td>
+                                                <td> <a href="#" class="remove-tr" data-bs-toggle="modal" data-bs-target="#alert-delete"><i class="bx bx-trash"></i></a></td>
                                             </tr>
                                             <tr>
                                                 <td>
@@ -6260,7 +6260,7 @@
                                                         <option value="7">Sunday</option>
                                                     </select>
                                                 </td>
-                                                <td> <a href="#" class="remove-tr"><i class="bx bx-trash"></i></a></td>
+                                                <td> <a href="#" class="remove-tr" data-bs-toggle="modal" data-bs-target="#alert-delete"><i class="bx bx-trash"></i></a></td>
                                             </tr>
                                             <tr>
                                                 <td>
@@ -6277,7 +6277,7 @@
                                                         <option value="7">Sunday</option>
                                                     </select>
                                                 </td>
-                                                <td> <a href="#" class="remove-tr"><i class="bx bx-trash"></i></a></td>
+                                                <td> <a href="#" class="remove-tr" data-bs-toggle="modal" data-bs-target="#alert-delete"><i class="bx bx-trash"></i></a></td>
                                             </tr>
                                             <tr>
                                                 <td>
@@ -6294,7 +6294,7 @@
                                                         <option value="7">Sunday</option>
                                                     </select>
                                                 </td>
-                                                <td> <a href="#" class="remove-tr"><i class="bx bx-trash"></i></a></td>
+                                                <td> <a href="#" class="remove-tr" data-bs-toggle="modal" data-bs-target="#alert-delete"><i class="bx bx-trash"></i></a></td>
                                             </tr>
                                             <tr>
                                                 <td>
@@ -6311,7 +6311,7 @@
                                                         <option value="7">Sunday</option>
                                                     </select>
                                                 </td>
-                                                <td> <a href="#" class="remove-tr"><i class="bx bx-trash"></i></a></td>
+                                                <td> <a href="#" class="remove-tr" data-bs-toggle="modal" data-bs-target="#alert-delete"><i class="bx bx-trash"></i></a></td>
                                             </tr>
                                             <tr>
                                                 <td>
@@ -6328,7 +6328,7 @@
                                                         <option value="7">Sunday</option>
                                                     </select>
                                                 </td>
-                                                <td> <a href="#" class="remove-tr"><i class="bx bx-trash"></i></a></td>
+                                                <td> <a href="#" class="remove-tr" data-bs-toggle="modal" data-bs-target="#alert-delete"><i class="bx bx-trash"></i></a></td>
                                             </tr>
                                             <tr>
                                                 <td>
@@ -6345,7 +6345,7 @@
                                                         <option value="7">Sunday</option>
                                                     </select>
                                                 </td>
-                                                <td> <a href="#" class="remove-tr"><i class="bx bx-trash"></i></a></td>
+                                                <td> <a href="#" class="remove-tr" data-bs-toggle="modal" data-bs-target="#alert-delete"><i class="bx bx-trash"></i></a></td>
                                             </tr>
                                             <tr>
                                                 <td>
@@ -6362,7 +6362,7 @@
                                                         <option value="7">Sunday</option>
                                                     </select>
                                                 </td>
-                                                <td> <a href="#" class="remove-tr"><i class="bx bx-trash"></i></a></td>
+                                                <td> <a href="#" class="remove-tr" data-bs-toggle="modal" data-bs-target="#alert-delete"><i class="bx bx-trash"></i></a></td>
                                             </tr>
                                             <tr>
                                                 <td>
@@ -6379,7 +6379,7 @@
                                                         <option value="7">Sunday</option>
                                                     </select>
                                                 </td>
-                                                <td> <a href="#" class="remove-tr"><i class="bx bx-trash"></i></a></td>
+                                                <td> <a href="#" class="remove-tr" data-bs-toggle="modal" data-bs-target="#alert-delete"><i class="bx bx-trash"></i></a></td>
                                             </tr>
                                             <tr>
                                                 <td>
@@ -6396,7 +6396,7 @@
                                                         <option value="7">Sunday</option>
                                                     </select>
                                                 </td>
-                                                <td> <a href="#" class="remove-tr"><i class="bx bx-trash"></i></a></td>
+                                                <td> <a href="#" class="remove-tr" data-bs-toggle="modal" data-bs-target="#alert-delete"><i class="bx bx-trash"></i></a></td>
                                             </tr>
                                             <tr>
                                                 <td>
@@ -6413,7 +6413,7 @@
                                                         <option value="7">Sunday</option>
                                                     </select>
                                                 </td>
-                                                <td> <a href="#" class="remove-tr"><i class="bx bx-trash"></i></a></td>
+                                                <td> <a href="#" class="remove-tr" data-bs-toggle="modal" data-bs-target="#alert-delete"><i class="bx bx-trash"></i></a></td>
                                             </tr>
                                             <tr>
                                                 <td>
@@ -6430,7 +6430,7 @@
                                                         <option value="7">Sunday</option>
                                                     </select>
                                                 </td>
-                                                <td> <a href="#" class="remove-tr"><i class="bx bx-trash"></i></a></td>
+                                                <td> <a href="#" class="remove-tr" data-bs-toggle="modal" data-bs-target="#alert-delete"><i class="bx bx-trash"></i></a></td>
                                             </tr>
                                             <tr>
                                                 <td>
@@ -6447,7 +6447,7 @@
                                                         <option value="7">Sunday</option>
                                                     </select>
                                                 </td>
-                                                <td> <a href="#" class="remove-tr"><i class="bx bx-trash"></i></a></td>
+                                                <td> <a href="#" class="remove-tr" data-bs-toggle="modal" data-bs-target="#alert-delete"><i class="bx bx-trash"></i></a></td>
                                             </tr>
     
                                         </tbody>
@@ -6471,25 +6471,27 @@
     </div>
 
     
-    <div id="delete-alert" class="modal fade" tabindex="-1" aria-labelledby="..." aria-hidden="true" style="display: none;">
+    <div id="alert-delete" class="modal fade" tabindex="-1" aria-labelledby="..." aria-hidden="true"
+    style="display: none;">
         <div class="modal-dialog modal-confirm modal-dialog-centered modal-sm">
             <div class="modal-content">
                 <div class="modal-header">
                     <div class="icon-box red">
                         <i class="mdi mdi-alert"></i>
-                    </div>				
+                    </div>
                 </div>
                 <div class="modal-body">
-                    <p class="text-center">Are you sure you want to Delete ?</p>
+                    <p class="text-center">Are you sure you want to delete ?</p>
                 </div>
                 <div class="modal-footer d-flex justify-content-center">
                     <button class="btn yes-btn successful-btn" data-bs-dismiss="modal">Yes</button>
-                    <button class="btn cancel-button" data-bs-dismiss="modal">No</button>
+                    <button class="btn cancel-button" data-bs-target="#event-create" data-bs-toggle="modal"
+                        data-bs-dismiss="modal">No</button>
 
                 </div>
             </div>
         </div>
-    </div>  
+    </div> 
 
         <script>
             const viewBtn = document.querySelector(".view-modal"),

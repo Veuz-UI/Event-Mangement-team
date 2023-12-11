@@ -91,7 +91,7 @@
                                         <a class="dropdown-item" href="#"><i class="bx bxs-archive-out me-2"
                                                 aria-hidden="true"></i>Unarchive</a>
                                         <div class="dropdown-divider"></div>
-                                        <a class="dropdown-item" href="#"><i class="bx bxs-trash-alt me-2"
+                                        <a class="dropdown-item" href="#" data-bs-toggle="modal" data-bs-target="#alert-delete"><i class="bx bxs-trash-alt me-2"
                                                 aria-hidden="true"></i>Delete</a>
                                     </div>
                                 </div>
@@ -435,7 +435,7 @@
                                 <table id="event-table" class="table table-striped table-resizable mb-0">
                                     <thead>
                                         <tr>
-                                            <th width="46px"><input class="form-check-input " type="checkbox" name="Main_Checkbox"
+                                            <th width="36px" style="padding-right: 4px;"><input class="form-check-input " type="checkbox" name="Main_Checkbox"
                                                 id="selectAll"><span class="resize"></span></th>
                                             <th>S/NO<span class="resize"></span></th>
                                             <th>Role Name<span class="resize"></span></th>
@@ -446,7 +446,7 @@
                                     </thead>
                                     <tbody class="table-content">
                                         <tr>
-                                            <td><input class="form-check-input check-input" type="checkbox" id="formCheck1"><span class="resize"></span></td>
+                                            <td style="padding-right: 4px;"><input class="form-check-input check-input" type="checkbox" id="formCheck1"><span class="resize"></span></td>
                                             <td>
                                                 <h6>1</h6><span class="resize"></span>
                                             </td>                                
@@ -461,7 +461,7 @@
                                                 <button class="non-actv-btn" data-bs-toggle="modal" data-bs-target="#add-role">
                                                     <i class="bx bxs-pencil cursor-pntr"></i>
                                                 </button>
-                                                <button class="non-actv-btn" data-bs-toggle="modal" data-bs-target="#">
+                                                <button class="non-actv-btn" data-bs-toggle="modal" data-bs-target="#alert-delete">
                                                     <i class="bx bx-trash cursor-pntr"></i>
                                                 </button>
                                                 <span class="resize"></span>
@@ -469,7 +469,7 @@
 
                                         </tr>
                                         <tr>
-                                            <td><input class="form-check-input check-input" type="checkbox" id="formCheck2"><span class="resize"></span></td>
+                                            <td style="padding-right: 4px;"><input class="form-check-input check-input" type="checkbox" id="formCheck2"><span class="resize"></span></td>
                                             <td>
                                                 <h6>1</h6><span class="resize"></span>
                                             </td>                                
@@ -484,7 +484,7 @@
                                                 <button class="non-actv-btn" data-bs-toggle="modal" data-bs-target="#add-role">
                                                     <i class="bx bxs-pencil cursor-pntr"></i>
                                                 </button>
-                                                <button class="non-actv-btn" data-bs-toggle="modal" data-bs-target="#">
+                                                <button class="non-actv-btn" data-bs-toggle="modal" data-bs-target="#alert-delete">
                                                     <i class="bx bx-trash cursor-pntr"></i>
                                                 </button>
                                                 <span class="resize"></span>
@@ -543,7 +543,7 @@
                                                                 Mail</a>
                                                             <div class="dropdown-divider">
                                                             </div>
-                                                            <a class="dropdown-item" href="#"><i
+                                                            <a class="dropdown-item" href="#" data-bs-toggle="modal" data-bs-target="#alert-delete"><i
                                                                     class="fas fa-trash me-2"></i>Delete</a>
                                                         </div>
                                                     </div>
@@ -582,7 +582,7 @@
                                                                 Mail</a>
                                                             <div class="dropdown-divider">
                                                             </div>
-                                                            <a class="dropdown-item" href="#"><i
+                                                            <a class="dropdown-item" href="#" data-bs-toggle="modal" data-bs-target="#alert-delete"><i
                                                                     class="fas fa-trash me-2"></i>Delete</a>
                                                         </div>
                                                     </div>
@@ -621,7 +621,7 @@
                                                                 Mail</a>
                                                             <div class="dropdown-divider">
                                                             </div>
-                                                            <a class="dropdown-item" href="#"><i
+                                                            <a class="dropdown-item" href="#" data-bs-toggle="modal" data-bs-target="#alert-delete"><i
                                                                     class="fas fa-trash me-2"></i>Delete</a>
                                                         </div>
                                                     </div>
@@ -660,7 +660,7 @@
                                                                 Mail</a>
                                                             <div class="dropdown-divider">
                                                             </div>
-                                                            <a class="dropdown-item" href="#"><i
+                                                            <a class="dropdown-item" href="#" data-bs-toggle="modal" data-bs-target="#alert-delete"><i
                                                                     class="fas fa-trash me-2"></i>Delete</a>
                                                         </div>
                                                     </div>
@@ -699,7 +699,7 @@
                                                                 Mail</a>
                                                             <div class="dropdown-divider">
                                                             </div>
-                                                            <a class="dropdown-item" href="#"><i
+                                                            <a class="dropdown-item" href="#" data-bs-toggle="modal" data-bs-target="#alert-delete"><i
                                                                     class="fas fa-trash me-2"></i>Delete</a>
                                                         </div>
                                                     </div>
@@ -738,7 +738,7 @@
                                                                 Mail</a>
                                                             <div class="dropdown-divider">
                                                             </div>
-                                                            <a class="dropdown-item" href="#"><i
+                                                            <a class="dropdown-item" href="#" data-bs-toggle="modal" data-bs-target="#alert-delete"><i
                                                                     class="fas fa-trash me-2"></i>Delete</a>
                                                         </div>
                                                     </div>
@@ -777,7 +777,7 @@
                                                                 Mail</a>
                                                             <div class="dropdown-divider">
                                                             </div>
-                                                            <a class="dropdown-item" href="#"><i
+                                                            <a class="dropdown-item" href="#" data-bs-toggle="modal" data-bs-target="#alert-delete"><i
                                                                     class="fas fa-trash me-2"></i>Delete</a>
                                                         </div>
                                                     </div>
@@ -816,7 +816,7 @@
                                                                 Mail</a>
                                                             <div class="dropdown-divider">
                                                             </div>
-                                                            <a class="dropdown-item" href="#"><i
+                                                            <a class="dropdown-item" href="#" data-bs-toggle="modal" data-bs-target="#alert-delete"><i
                                                                     class="fas fa-trash me-2"></i>Delete</a>
                                                         </div>
                                                     </div>
@@ -855,7 +855,7 @@
                                                                 Mail</a>
                                                             <div class="dropdown-divider">
                                                             </div>
-                                                            <a class="dropdown-item" href="#"><i
+                                                            <a class="dropdown-item" href="#" data-bs-toggle="modal" data-bs-target="#alert-delete"><i
                                                                     class="fas fa-trash me-2"></i>Delete</a>
                                                         </div>
                                                     </div>
@@ -894,7 +894,7 @@
                                                                 Mail</a>
                                                             <div class="dropdown-divider">
                                                             </div>
-                                                            <a class="dropdown-item" href="#"><i
+                                                            <a class="dropdown-item" href="#" data-bs-toggle="modal" data-bs-target="#alert-delete"><i
                                                                     class="fas fa-trash me-2"></i>Delete</a>
                                                         </div>
                                                     </div>
@@ -1288,7 +1288,27 @@
             </div>
         </div>
     </div>
+    <div id="alert-delete" class="modal fade" tabindex="-1" aria-labelledby="..." aria-hidden="true"
+            style="display: none;">
+            <div class="modal-dialog modal-confirm modal-dialog-centered modal-sm">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <div class="icon-box red">
+                            <i class="mdi mdi-alert"></i>
+                        </div>
+                    </div>
+                    <div class="modal-body">
+                        <p class="text-center">Are you sure you want to delete ?</p>
+                    </div>
+                    <div class="modal-footer d-flex justify-content-center">
+                        <button class="btn yes-btn successful-btn" data-bs-dismiss="modal">Yes</button>
+                        <button class="btn cancel-button" data-bs-target="#event-create" data-bs-toggle="modal"
+                            data-bs-dismiss="modal">No</button>
 
+                    </div>
+                </div>
+            </div>
+    </div>
 
     <!-- JAVASCRIPT -->
     <script src="assets/libs/jquery/jquery.min.js"></script>

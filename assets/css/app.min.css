@@ -5688,7 +5688,12 @@ table.dataTable.dtr-inline.collapsed>tbody>tr>td.dtr-control:before {
 }
 
 .login-form .form-control {
-    border-color: #eff2f7;
+    /* border-color: #eff2f7; */
+    border-color: #ebebeb;
+}
+
+.login-form .btn-light{
+    border-color: #ebebeb;
 }
 
 .register-form .form-control {
@@ -12688,4 +12693,8 @@ table .avatar-sm{
 
 .mul-select{
     width: 100%;
+}
+
+.modal-confirm .icon-box.green{
+    background-color: #09bc8a;
 }
