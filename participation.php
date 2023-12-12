@@ -1328,9 +1328,9 @@
                                 <div class="input-group">
 
                                     <select class="form-select light-btn">
-                                        <option value="BT" selected="">Twitter</option>
-                                        <option value="ET">Facebook</option>
-                                        <option value="LT">Instagram</option>
+                                            <option value="BT" selected=""> &#xf39e</option>
+                                            <option value="ET"> &#xf16d</option>
+                                            <option value="LT"> &#xe61b</option>
                                     </select>
                                     <input type="text" class="form-control" aria-label="Text input with dropdown button"
                                         id="dropdown-on-both" placeholder="https://www.twitter.com/xyz">
@@ -1340,27 +1340,30 @@
                                     </div>
                                 </div>
                                 <div class="social-media-out social-media-overflw my-2">
-                                    <div class="input-group">
-                                        <div class="input-group-text bg-primary text-white font-size-15"><i
-                                                class="bx bxl-facebook"></i></div>
-                                        <input type="text" class="form-control" id="autoSizingInputGroup"
-                                            placeholder="https://www.facebook.com/xyz">
-                                        <button class="bx bx-trash delete-icn" data-bs-toggle="modal" data-bs-target="#alert-delete"></button>
-                                    </div>
-                                    <div class="input-group my-2">
-                                        <div class="input-group-text bg-pink text-white font-size-15"><i
-                                                class="bx bxl-instagram"></i></div>
-                                        <input type="text" class="form-control" id="autoSizingInputGroup"
-                                            placeholder="https://www.instagram.com/xyz">
-                                        <button class="bx bx-trash delete-icn" data-bs-toggle="modal" data-bs-target="#alert-delete"></button>
-                                    </div>
-                                    <div class="input-group">
-                                        <div class="input-group-text bg-info text-white font-size-15"><i
-                                                class="bx bxl-twitter"></i></div>
-                                        <input type="text" class="form-control" id="autoSizingInputGroup"
-                                            placeholder="https://www.twitter.com/xyz">
-                                        <button class="bx bx-trash delete-icn" data-bs-toggle="modal" data-bs-target="#alert-delete"></button>
-                                    </div>
+                                        <div class="input-group">
+                                            <div class="input-group-text bg-primary text-white">
+                                                <i class="fa-brands fa-facebook-f"></i>
+                                            </div>
+                                            <input type="text" class="form-control" id="autoSizingInputGroup"
+                                                placeholder="https://www.facebook.com/xyz">
+                                            <button class="bx bx-trash delete-icn" data-bs-toggle="modal" data-bs-target="#alert-delete"></button>
+                                        </div>
+                                        <div class="input-group my-2">
+                                            <div class="input-group-text bg-pink text-white">
+                                                <i class="fa-brands fa-instagram"></i>
+                                            </div>
+                                            <input type="text" class="form-control" id="autoSizingInputGroup"
+                                                placeholder="https://www.instagram.com/xyz">
+                                            <button class="bx bx-trash delete-icn" data-bs-toggle="modal" data-bs-target="#alert-delete"></button>
+                                        </div>
+                                        <div class="input-group">
+                                            <div class="input-group-text bg-info text-white">
+                                                <i class="fa-brands fa-x-twitter"></i>
+                                            </div>
+                                            <input type="text" class="form-control" id="autoSizingInputGroup"
+                                                placeholder="https://www.twitter.com/xyz">
+                                            <button class="bx bx-trash delete-icn" data-bs-toggle="modal" data-bs-target="#alert-delete"></button>
+                                        </div>
                                 </div>
                             </div>
                         </div>
@@ -1401,6 +1404,7 @@
     </div>
 
     <!-- JAVASCRIPT -->
+    <script src="https://kit.fontawesome.com/16b0815225.js" crossorigin="anonymous"></script>
     <script src="assets/libs/jquery/jquery.min.js"></script>
     <script src="assets/libs/multiselect/choices.min.js"></script>
     <script src="assets/libs/bootstrap/js/bootstrap.bundle.min.js"></script>

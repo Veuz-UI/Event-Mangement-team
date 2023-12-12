@@ -6160,7 +6160,7 @@
         <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
             <div class="modal-content">
                 <div class="modal-header">
-                    <h5 class="modal-title" id="staticBackdropLabel"> <img src="assets/images/users.svg" alt=""><span>Attendees IN</span></h5>
+                    <h5 class="modal-title" id="staticBackdropLabel"> <img src="assets/images/import.svg" alt=""><span>Attendees IN</span></h5>
                     <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                 </div>
                 <div class="modal-body">
@@ -6197,15 +6197,14 @@
                                                 <td>
                                                    Name
                                                 </td>
-                                                <td>
-                                                    <select class="limitedNumbChosen" multiple="true">
-                                                        <option value="1">Monday</option>
-                                                        <option value="2">Tuesday</option>
-                                                        <option value="3">Wednesday</option>
-                                                        <option value="4">Thursday</option>
-                                                        <option value="5">Friday</option>
-                                                        <option value="6">Saturday</option>
-                                                        <option value="7">Sunday</option>
+                                                <td class="field-slct">
+                                                    <select multiple class="mul-select">
+                                                        <option selected>Kebab</option>
+                                                        <option>Pizza</option>
+                                                        <option>Taco</option>
+                                                        <option selected>Kofte</option>
+                                                        <option selected>Burger</option>
+                                                        <option>Chicken</option>
                                                     </select>
                                                 </td>
                                                 <td> <a href="#" class="remove-tr" data-bs-toggle="modal" data-bs-target="#alert-delete"><i class="bx bx-trash"></i></a></td>
@@ -6215,15 +6214,14 @@
                                                 <td>
                                                     Email
                                                 </td>
-                                                <td>
-                                                    <select class="limitedNumbChosen" multiple="true">
-                                                        <option value="1">Monday</option>
-                                                        <option value="2">Tuesday</option>
-                                                        <option value="3">Wednesday</option>
-                                                        <option value="4">Thursday</option>
-                                                        <option value="5">Friday</option>
-                                                        <option value="6">Saturday</option>
-                                                        <option value="7">Sunday</option>
+                                                <td class="field-slct">
+                                                    <select multiple class="mul-select">
+                                                        <option selected>Kebab</option>
+                                                        <option>Pizza</option>
+                                                        <option>Taco</option>
+                                                        <option selected>Kofte</option>
+                                                        <option selected>Burger</option>
+                                                        <option>Chicken</option>
                                                     </select>
                                                 </td>
                                                 <td> <a href="#" class="remove-tr" data-bs-toggle="modal" data-bs-target="#alert-delete"><i class="bx bx-trash"></i></a></td>
@@ -6232,15 +6230,14 @@
                                                 <td>
                                                     Dob
                                                 </td>
-                                                <td>
-                                                    <select class="limitedNumbChosen" multiple="true">
-                                                        <option value="1">Monday</option>
-                                                        <option value="2">Tuesday</option>
-                                                        <option value="3">Wednesday</option>
-                                                        <option value="4">Thursday</option>
-                                                        <option value="5">Friday</option>
-                                                        <option value="6">Saturday</option>
-                                                        <option value="7">Sunday</option>
+                                                <td class="field-slct">
+                                                    <select multiple class="mul-select">
+                                                        <option selected>Kebab</option>
+                                                        <option>Pizza</option>
+                                                        <option>Taco</option>
+                                                        <option selected>Kofte</option>
+                                                        <option selected>Burger</option>
+                                                        <option>Chicken</option>
                                                     </select>
                                                 </td>
                                                 <td> <a href="#" class="remove-tr" data-bs-toggle="modal" data-bs-target="#alert-delete"><i class="bx bx-trash"></i></a></td>
@@ -6249,15 +6246,14 @@
                                                 <td>
                                                    Name
                                                 </td>
-                                                <td>
-                                                    <select class="limitedNumbChosen" multiple="true">
-                                                        <option value="1">Monday</option>
-                                                        <option value="2">Tuesday</option>
-                                                        <option value="3">Wednesday</option>
-                                                        <option value="4">Thursday</option>
-                                                        <option value="5">Friday</option>
-                                                        <option value="6">Saturday</option>
-                                                        <option value="7">Sunday</option>
+                                                <td class="field-slct">
+                                                    <select multiple class="mul-select">
+                                                        <option selected>Kebab</option>
+                                                        <option>Pizza</option>
+                                                        <option>Taco</option>
+                                                        <option selected>Kofte</option>
+                                                        <option selected>Burger</option>
+                                                        <option>Chicken</option>
                                                     </select>
                                                 </td>
                                                 <td> <a href="#" class="remove-tr" data-bs-toggle="modal" data-bs-target="#alert-delete"><i class="bx bx-trash"></i></a></td>
@@ -6266,15 +6262,14 @@
                                                 <td>
                                                     Email
                                                 </td>
-                                                <td>
-                                                    <select class="limitedNumbChosen" multiple="true">
-                                                        <option value="1">Monday</option>
-                                                        <option value="2">Tuesday</option>
-                                                        <option value="3">Wednesday</option>
-                                                        <option value="4">Thursday</option>
-                                                        <option value="5">Friday</option>
-                                                        <option value="6">Saturday</option>
-                                                        <option value="7">Sunday</option>
+                                                <td class="field-slct">
+                                                    <select multiple class="mul-select">
+                                                        <option selected>Kebab</option>
+                                                        <option>Pizza</option>
+                                                        <option>Taco</option>
+                                                        <option selected>Kofte</option>
+                                                        <option selected>Burger</option>
+                                                        <option>Chicken</option>
                                                     </select>
                                                 </td>
                                                 <td> <a href="#" class="remove-tr" data-bs-toggle="modal" data-bs-target="#alert-delete"><i class="bx bx-trash"></i></a></td>
@@ -6283,15 +6278,14 @@
                                                 <td>
                                                     Dob
                                                 </td>
-                                                <td>
-                                                    <select class="limitedNumbChosen" multiple="true">
-                                                        <option value="1">Monday</option>
-                                                        <option value="2">Tuesday</option>
-                                                        <option value="3">Wednesday</option>
-                                                        <option value="4">Thursday</option>
-                                                        <option value="5">Friday</option>
-                                                        <option value="6">Saturday</option>
-                                                        <option value="7">Sunday</option>
+                                                <td class="field-slct">
+                                                    <select multiple class="mul-select">
+                                                        <option selected>Kebab</option>
+                                                        <option>Pizza</option>
+                                                        <option>Taco</option>
+                                                        <option selected>Kofte</option>
+                                                        <option selected>Burger</option>
+                                                        <option>Chicken</option>
                                                     </select>
                                                 </td>
                                                 <td> <a href="#" class="remove-tr" data-bs-toggle="modal" data-bs-target="#alert-delete"><i class="bx bx-trash"></i></a></td>
@@ -6300,15 +6294,14 @@
                                                 <td>
                                                    Name
                                                 </td>
-                                                <td>
-                                                    <select class="limitedNumbChosen" multiple="true">
-                                                        <option value="1">Monday</option>
-                                                        <option value="2">Tuesday</option>
-                                                        <option value="3">Wednesday</option>
-                                                        <option value="4">Thursday</option>
-                                                        <option value="5">Friday</option>
-                                                        <option value="6">Saturday</option>
-                                                        <option value="7">Sunday</option>
+                                                <td class="field-slct">
+                                                    <select multiple class="mul-select">
+                                                        <option selected>Kebab</option>
+                                                        <option>Pizza</option>
+                                                        <option>Taco</option>
+                                                        <option selected>Kofte</option>
+                                                        <option selected>Burger</option>
+                                                        <option>Chicken</option>
                                                     </select>
                                                 </td>
                                                 <td> <a href="#" class="remove-tr" data-bs-toggle="modal" data-bs-target="#alert-delete"><i class="bx bx-trash"></i></a></td>
@@ -6317,15 +6310,14 @@
                                                 <td>
                                                     Email
                                                 </td>
-                                                <td>
-                                                    <select class="limitedNumbChosen" multiple="true">
-                                                        <option value="1">Monday</option>
-                                                        <option value="2">Tuesday</option>
-                                                        <option value="3">Wednesday</option>
-                                                        <option value="4">Thursday</option>
-                                                        <option value="5">Friday</option>
-                                                        <option value="6">Saturday</option>
-                                                        <option value="7">Sunday</option>
+                                                <td class="field-slct">
+                                                    <select multiple class="mul-select">
+                                                        <option selected>Kebab</option>
+                                                        <option>Pizza</option>
+                                                        <option>Taco</option>
+                                                        <option selected>Kofte</option>
+                                                        <option selected>Burger</option>
+                                                        <option>Chicken</option>
                                                     </select>
                                                 </td>
                                                 <td> <a href="#" class="remove-tr" data-bs-toggle="modal" data-bs-target="#alert-delete"><i class="bx bx-trash"></i></a></td>
@@ -6334,15 +6326,14 @@
                                                 <td>
                                                     Dob
                                                 </td>
-                                                <td>
-                                                    <select class="limitedNumbChosen" multiple="true">
-                                                        <option value="1">Monday</option>
-                                                        <option value="2">Tuesday</option>
-                                                        <option value="3">Wednesday</option>
-                                                        <option value="4">Thursday</option>
-                                                        <option value="5">Friday</option>
-                                                        <option value="6">Saturday</option>
-                                                        <option value="7">Sunday</option>
+                                                <td class="field-slct">
+                                                    <select multiple class="mul-select">
+                                                        <option selected>Kebab</option>
+                                                        <option>Pizza</option>
+                                                        <option>Taco</option>
+                                                        <option selected>Kofte</option>
+                                                        <option selected>Burger</option>
+                                                        <option>Chicken</option>
                                                     </select>
                                                 </td>
                                                 <td> <a href="#" class="remove-tr" data-bs-toggle="modal" data-bs-target="#alert-delete"><i class="bx bx-trash"></i></a></td>
@@ -6351,15 +6342,14 @@
                                                 <td>
                                                    Name
                                                 </td>
-                                                <td>
-                                                    <select class="limitedNumbChosen" multiple="true">
-                                                        <option value="1">Monday</option>
-                                                        <option value="2">Tuesday</option>
-                                                        <option value="3">Wednesday</option>
-                                                        <option value="4">Thursday</option>
-                                                        <option value="5">Friday</option>
-                                                        <option value="6">Saturday</option>
-                                                        <option value="7">Sunday</option>
+                                                <td class="field-slct">
+                                                    <select multiple class="mul-select">
+                                                        <option selected>Kebab</option>
+                                                        <option>Pizza</option>
+                                                        <option>Taco</option>
+                                                        <option selected>Kofte</option>
+                                                        <option selected>Burger</option>
+                                                        <option>Chicken</option>
                                                     </select>
                                                 </td>
                                                 <td> <a href="#" class="remove-tr" data-bs-toggle="modal" data-bs-target="#alert-delete"><i class="bx bx-trash"></i></a></td>
@@ -6368,15 +6358,14 @@
                                                 <td>
                                                     Email
                                                 </td>
-                                                <td>
-                                                    <select class="limitedNumbChosen" multiple="true">
-                                                        <option value="1">Monday</option>
-                                                        <option value="2">Tuesday</option>
-                                                        <option value="3">Wednesday</option>
-                                                        <option value="4">Thursday</option>
-                                                        <option value="5">Friday</option>
-                                                        <option value="6">Saturday</option>
-                                                        <option value="7">Sunday</option>
+                                                <td class="field-slct">
+                                                    <select multiple class="mul-select">
+                                                        <option selected>Kebab</option>
+                                                        <option>Pizza</option>
+                                                        <option>Taco</option>
+                                                        <option selected>Kofte</option>
+                                                        <option selected>Burger</option>
+                                                        <option>Chicken</option>
                                                     </select>
                                                 </td>
                                                 <td> <a href="#" class="remove-tr" data-bs-toggle="modal" data-bs-target="#alert-delete"><i class="bx bx-trash"></i></a></td>
@@ -6385,15 +6374,14 @@
                                                 <td>
                                                     Dob
                                                 </td>
-                                                <td>
-                                                    <select class="limitedNumbChosen" multiple="true">
-                                                        <option value="1">Monday</option>
-                                                        <option value="2">Tuesday</option>
-                                                        <option value="3">Wednesday</option>
-                                                        <option value="4">Thursday</option>
-                                                        <option value="5">Friday</option>
-                                                        <option value="6">Saturday</option>
-                                                        <option value="7">Sunday</option>
+                                                <td class="field-slct">
+                                                    <select multiple class="mul-select">
+                                                        <option selected>Kebab</option>
+                                                        <option>Pizza</option>
+                                                        <option>Taco</option>
+                                                        <option selected>Kofte</option>
+                                                        <option selected>Burger</option>
+                                                        <option>Chicken</option>
                                                     </select>
                                                 </td>
                                                 <td> <a href="#" class="remove-tr" data-bs-toggle="modal" data-bs-target="#alert-delete"><i class="bx bx-trash"></i></a></td>
@@ -6402,15 +6390,14 @@
                                                 <td>
                                                    Name
                                                 </td>
-                                                <td>
-                                                    <select class="limitedNumbChosen" multiple="true">
-                                                        <option value="1">Monday</option>
-                                                        <option value="2">Tuesday</option>
-                                                        <option value="3">Wednesday</option>
-                                                        <option value="4">Thursday</option>
-                                                        <option value="5">Friday</option>
-                                                        <option value="6">Saturday</option>
-                                                        <option value="7">Sunday</option>
+                                                <td class="field-slct">
+                                                    <select multiple class="mul-select">
+                                                        <option selected>Kebab</option>
+                                                        <option>Pizza</option>
+                                                        <option>Taco</option>
+                                                        <option selected>Kofte</option>
+                                                        <option selected>Burger</option>
+                                                        <option>Chicken</option>
                                                     </select>
                                                 </td>
                                                 <td> <a href="#" class="remove-tr" data-bs-toggle="modal" data-bs-target="#alert-delete"><i class="bx bx-trash"></i></a></td>
@@ -6419,15 +6406,14 @@
                                                 <td>
                                                     Email
                                                 </td>
-                                                <td>
-                                                    <select class="limitedNumbChosen" multiple="true">
-                                                        <option value="1">Monday</option>
-                                                        <option value="2">Tuesday</option>
-                                                        <option value="3">Wednesday</option>
-                                                        <option value="4">Thursday</option>
-                                                        <option value="5">Friday</option>
-                                                        <option value="6">Saturday</option>
-                                                        <option value="7">Sunday</option>
+                                                <td class="field-slct">
+                                                    <select multiple class="mul-select">
+                                                        <option selected>Kebab</option>
+                                                        <option>Pizza</option>
+                                                        <option>Taco</option>
+                                                        <option selected>Kofte</option>
+                                                        <option selected>Burger</option>
+                                                        <option>Chicken</option>
                                                     </select>
                                                 </td>
                                                 <td> <a href="#" class="remove-tr" data-bs-toggle="modal" data-bs-target="#alert-delete"><i class="bx bx-trash"></i></a></td>
@@ -6436,15 +6422,14 @@
                                                 <td>
                                                     Dob
                                                 </td>
-                                                <td>
-                                                    <select class="limitedNumbChosen" multiple="true">
-                                                        <option value="1">Monday</option>
-                                                        <option value="2">Tuesday</option>
-                                                        <option value="3">Wednesday</option>
-                                                        <option value="4">Thursday</option>
-                                                        <option value="5">Friday</option>
-                                                        <option value="6">Saturday</option>
-                                                        <option value="7">Sunday</option>
+                                                <td class="field-slct">
+                                                    <select multiple class="mul-select">
+                                                        <option selected>Kebab</option>
+                                                        <option>Pizza</option>
+                                                        <option>Taco</option>
+                                                        <option selected>Kofte</option>
+                                                        <option selected>Burger</option>
+                                                        <option>Chicken</option>
                                                     </select>
                                                 </td>
                                                 <td> <a href="#" class="remove-tr" data-bs-toggle="modal" data-bs-target="#alert-delete"><i class="bx bx-trash"></i></a></td>
@@ -6744,17 +6729,26 @@
 
 <!-- import select -->
 <script>
+        $(".mul-select").select2({
+            tags: true
+        });
+    
+        $("ul.select2-selection__rendered").sortable({
+            containment: 'parent'
+        });
+    </script>
+<!-- <script>
     $(document).ready(function(){
   $(".limitedNumbChosen").chosen({
 		max_selected_options: 1,
     placeholder_text_multiple: "Search here"
 	})
 	.bind("chosen:maxselected", function (){
-		// window.alert("You reached your limited number of selections which is 2 selections!");
+		
 	})
 
 });
-</script>
+</script> -->
 <script>
     $('textarea#summernote').summernote({
         placeholder: 'Hello bootstrap 4',

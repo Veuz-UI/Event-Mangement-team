@@ -3095,6 +3095,38 @@ input[type=checkbox].tui-full-calendar-checkbox-round+span {
     margin-top: 5px
 }
 
+.select2-container{
+    z-index: 10000;
+}
+
+.field-slct .select2-container{
+    width: 100% !important;
+    background-color: white;
+    border-radius: 3px;
+}
+
+.field-slct .select2-selection{
+    min-height: 20px !important;
+    display: flex;
+}
+
+.field-slct .select2-selection__rendered{
+    padding: 0px 6px !important;
+    margin-top: 2px !important;
+    margin-bottom: 2px !important;
+}
+
+.field-slct .select2-selection__rendered li{
+    padding: 0 7px !important;
+    margin-top: 0px !important;
+    font-size: 12px;
+    font-weight: 600;
+}
+
+.field-slct .select2-search__field{
+    margin-top: 0px !important;
+}
+
 .select2-container .select2-selection--single {
     background-color: var(--bs-input-bg);
     border: 1px solid var(--bs-input-border-color);
@@ -9146,6 +9178,18 @@ table.dataTable.dtr-inline.collapsed>tbody>tr>td.dtr-control:before {
 
 .social-media-out .input-group-text{
     padding: 3px 10px;
+    width: 35px;
+    font-size: 13px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.social-inputgrp .light-btn{
+    font-family: "Font Awesome 6 Brands";
+    max-width: 60px;
+    font-size: 13px;
 }
 
 .social-media-out .form-control{
