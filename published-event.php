@@ -1986,7 +1986,7 @@
                                                                     </div>
                                                                     <div class="dropdown-menu"
                                                                         aria-labelledby="dropdownMenuButton">
-                                                                        <a class="dropdown-item" href="#"><i
+                                                                        <a class="dropdown-item" href="#" data-bs-toggle="modal" data-bs-target="#import-upload"><i
                                                                                 class="fas fa-download me-2"></i>Import</a>
                                                                         <div class="dropdown-divider"></div>
                                                                         <a class="dropdown-item" href="#"><i
@@ -2877,7 +2877,7 @@
                                                     </div>
                                                     <div class="dropdown-menu"
                                                         aria-labelledby="dropdownMenuButton">
-                                                        <a class="dropdown-item" href="#"><i
+                                                        <a class="dropdown-item" href="#" data-bs-toggle="modal" data-bs-target="#import-upload"><i
                                                                 class="fas fa-download me-2"></i>Import</a>
                                                         <div class="dropdown-divider"></div>
                                                         <a class="dropdown-item" href="#"><i
@@ -3492,7 +3492,7 @@
                                                                     </div>
                                                                     <div class="dropdown-menu"
                                                                         aria-labelledby="dropdownMenuButton">
-                                                                        <a class="dropdown-item" href="#"><i
+                                                                        <a class="dropdown-item" href="#" data-bs-toggle="modal" data-bs-target="#import-upload"><i
                                                                                 class="fas fa-download me-2"></i>Import</a>
                                                                         <div class="dropdown-divider"></div>
                                                                         <a class="dropdown-item" href="#"><i
@@ -3943,7 +3943,7 @@
                                                     </div>
                                                     <div class="dropdown-menu"
                                                         aria-labelledby="dropdownMenuButton">
-                                                        <a class="dropdown-item" href="#"><i
+                                                        <a class="dropdown-item" href="#" data-bs-toggle="modal" data-bs-target="#import-upload"><i
                                                                 class="fas fa-download me-2"></i>Import</a>
                                                         <div class="dropdown-divider"></div>
                                                         <a class="dropdown-item" href="#"><i
@@ -5320,7 +5320,7 @@
         <div class="modal-dialog modal-dialog-centered modal-md" role="document">
             <div class="modal-content">
                 <div class="modal-header">
-                    <h5 class="modal-title" id="staticBackdropLabel"> <img src="assets/images/users.svg" alt=""><span>Attendees IN</span></h5>
+                    <h5 class="modal-title" id="staticBackdropLabel"> <img src="assets/images/users.svg" alt="" style="width: 22px;"><span>Attendees IN</span></h5>
                     <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                 </div>
                 <div class="modal-body">
@@ -5506,28 +5506,28 @@
                 <div class="modal-body">
                     <div class="row">
                         <div class="col-md-12">
-                            <div id="uploadArea" class="upload-area">
-                                <div id="dropZoon" class="upload-area__drop-zoon drop-zoon">
+                            <div id="uploadArea1" class="upload-area" onclick="importDifferentFile(1)">
+                                <div id="dropZoon1" class="upload-area__drop-zoon drop-zoon">
                                     <span class="drop-zoon__icon">
                                         <i class='bx bxs-file-image'></i>
                                     </span>
                                     <p class="drop-zoon__paragraph">Drop your file here or Click to browse</p>
-                                    <span id="loadingText" class="drop-zoon__loading-text">Please Wait</span>
-                                    <img src="" alt="Preview Image" id="previewImage" class="drop-zoon__preview-image"
+                                    <span id="loadingText1" class="drop-zoon__loading-text">Please Wait</span>
+                                    <img src="" alt="Preview Image" id="previewImage1" class="drop-zoon__preview-image"
                                         draggable="false">
-                                    <input type="file" id="fileInput" class="drop-zoon__file-input" accept="image/*">
+                                    <input type="file" id="fileInput1" class="drop-zoon__file-input" accept="image/*">
                                 </div>
 
-                                <div id="fileDetails" class="upload-area__file-details file-details">
+                                <div id="fileDetails1" class="upload-area__file-details file-details">
                                     <h3 class="file-details__title">Uploaded File</h3>
 
-                                    <div id="uploadedFile" class="uploaded-file">
+                                    <div id="uploadedFile1" class="uploaded-file">
                                         <div class="uploaded-file__icon-container">
                                             <i class='bx bxs-file-blank uploaded-file__icon'></i>
                                             <span class="uploaded-file__icon-text"></span>
                                         </div>
 
-                                        <div id="uploadedFileInfo" class="uploaded-file__info">
+                                        <div id="uploadedFileInfo1" class="uploaded-file__info">
                                             <span class="uploaded-file__name">Proejct 1</span>
                                             <span class="uploaded-file__counter">0%</span>
                                         </div>
@@ -5947,59 +5947,6 @@
         </div>
     </div>
 
-    <div class="modal common-modal fade" id="import-upload" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" role="dialog" aria-labelledby="staticBackdropLabel" aria-hidden="true">
-        <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
-            <div class="modal-content">
-                <div class="modal-header1">
-                    <div class="header-logo-img">
-                        <img src="assets/images/logo.png" alt="">
-                    </div>
-                    <div class="modal-header-info">
-                        <h2>Cyber park event</h2>
-                        <h6><i class="bx bx-calendar"></i> Aug 03-05, 2023</h6>
-                    </div>
-             
-                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                </div>
-                <div class="modal-body">
-                    <div id="uploadArea" class="upload-area">
-                        <div id="dropZoon" class="upload-area__drop-zoon drop-zoon">
-                            <span class="drop-zoon__icon">
-                                <i class='bx bxs-file-image'></i>
-                            </span>
-                            <p class="drop-zoon__paragraph">Drop your file here or Click to browse</p>
-                            <span id="loadingText" class="drop-zoon__loading-text">Please Wait</span>
-                            <img src="" alt="Preview Image" id="previewImage" class="drop-zoon__preview-image"
-                                draggable="false">
-                            <input type="file" id="fileInput" class="drop-zoon__file-input" accept="image/*">
-                        </div>
-
-                        <div id="fileDetails" class="upload-area__file-details file-details">
-                            <h3 class="file-details__title">Uploaded File</h3>
-
-                            <div id="uploadedFile" class="uploaded-file">
-                                <div class="uploaded-file__icon-container">
-                                    <i class='bx bxs-file-blank uploaded-file__icon'></i>
-                                    <span class="uploaded-file__icon-text"></span>
-                                </div>
-
-                                <div id="uploadedFileInfo" class="uploaded-file__info">
-                                    <span class="uploaded-file__name">Proejct 1</span>
-                                    <span class="uploaded-file__counter">0%</span>
-                                </div>
-                            </div>
-                        </div>
-
-                    </div>
-
-                </div>
-                <div class="modal-footer justify-content-end">
-                    <a href="#"><button  data-bs-target="#upload-inpt" data-bs-toggle="modal" data-bs-dismiss="modal" type="button" class="btn btn-primary  br-50 btn-md">Next</button></a>
-                </div>
-            </div>
-        </div>
-    </div>
-
     <div class="modal common-modal fade" id="export-modal" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" role="dialog" aria-labelledby="staticBackdropLabel" aria-hidden="true">
         <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
             <div class="modal-content">
@@ -6156,11 +6103,62 @@
         </div>
     </div> 
 
+
+    <div class="modal common-modal fade" id="import-upload" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" role="dialog" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+            <div class="modal-content">
+                <div class="modal-header1">
+                    <div class="header-logo-img">
+                        <img src="assets/images/logo.png" alt="">
+                    </div>
+                    <div class="modal-header-info">
+                        <h2>Cyber park event</h2>
+                        <h6><i class="bx bx-calendar"></i> Aug 03-05, 2023</h6>
+                    </div>
+             
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <div class="upload-area" id="uploadArea2" onclick="importDifferentFile(2)">
+                        <div class="upload-area__drop-zoon drop-zoon" id="dropZoon2">
+                            <span class="drop-zoon__icon">
+                                <i class='bx bxs-file-image'></i>
+                            </span>
+                            <p class="drop-zoon__paragraph">Drop your file here or Click to browse</p>
+                            <span class="drop-zoon__loading-text" id="loadingText2">Please Wait</span>
+                            <img src="" alt="Preview Image" class="drop-zoon__preview-image" id="previewImage2" draggable="false">
+                            <input type="file" class="drop-zoon__file-input" id="fileInput2" accept="image/*">
+                        </div>
+
+                        <div class="upload-area__file-details file-details" id="fileDetails2">
+                            <h3 class="file-details__title">Uploaded File</h3>
+
+                            <div class="uploaded-file" id="uploadedFile2">
+                                <div class="uploaded-file__icon-container">
+                                    <i class='bx bxs-file-blank uploaded-file__icon'></i>
+                                    <span class="uploaded-file__icon-text"></span>
+                                </div>
+
+                                <div class="uploaded-file__info" id="uploadedFileInfo2">
+                                    <span class="uploaded-file__name">Project 1</span>
+                                    <span class="uploaded-file__counter">0%</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="modal-footer justify-content-end">
+                    <a href="#"><button  data-bs-target="#upload-inpt" data-bs-toggle="modal" data-bs-dismiss="modal" type="button" class="btn btn-primary  br-50 btn-md">Next</button></a>
+                </div>
+            </div>
+        </div>
+    </div>
     <div class="modal fade" id="upload-inpt" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" role="dialog" aria-labelledby="staticBackdropLabel" aria-hidden="true">
         <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
             <div class="modal-content">
                 <div class="modal-header">
-                    <h5 class="modal-title" id="staticBackdropLabel"> <img src="assets/images/import.svg" alt=""><span>Attendees IN</span></h5>
+                    <h5 class="modal-title" id="staticBackdropLabel"> <img src="assets/images/import.svg" alt="" style="width: 22px;"><span>Attendees IN</span></h5>
                     <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                 </div>
                 <div class="modal-body">
@@ -6198,13 +6196,13 @@
                                                    Name
                                                 </td>
                                                 <td class="field-slct">
-                                                    <select multiple class="mul-select">
-                                                        <option selected>Kebab</option>
-                                                        <option>Pizza</option>
-                                                        <option>Taco</option>
-                                                        <option selected>Kofte</option>
-                                                        <option selected>Burger</option>
-                                                        <option>Chicken</option>
+                                                    <select multiple class="single-select">
+                                                        <option disabled>Select an option</option>
+                                                        <option selected>Option1</option>
+                                                        <option>Option2</option>
+                                                        <option>Option3</option>
+                                                        <option>Option4</option>
+                                                       
                                                     </select>
                                                 </td>
                                                 <td> <a href="#" class="remove-tr" data-bs-toggle="modal" data-bs-target="#alert-delete"><i class="bx bx-trash"></i></a></td>
@@ -6215,13 +6213,13 @@
                                                     Email
                                                 </td>
                                                 <td class="field-slct">
-                                                    <select multiple class="mul-select">
-                                                        <option selected>Kebab</option>
-                                                        <option>Pizza</option>
-                                                        <option>Taco</option>
-                                                        <option selected>Kofte</option>
-                                                        <option selected>Burger</option>
-                                                        <option>Chicken</option>
+                                                    <select multiple class="single-select">
+                                                        <option disabled>Select an option</option>
+                                                        <option selected>Option1</option>
+                                                        <option>Option2</option>
+                                                        <option>Option3</option>
+                                                        <option>Option4</option>
+                                                       
                                                     </select>
                                                 </td>
                                                 <td> <a href="#" class="remove-tr" data-bs-toggle="modal" data-bs-target="#alert-delete"><i class="bx bx-trash"></i></a></td>
@@ -6231,13 +6229,13 @@
                                                     Dob
                                                 </td>
                                                 <td class="field-slct">
-                                                    <select multiple class="mul-select">
-                                                        <option selected>Kebab</option>
-                                                        <option>Pizza</option>
-                                                        <option>Taco</option>
-                                                        <option selected>Kofte</option>
-                                                        <option selected>Burger</option>
-                                                        <option>Chicken</option>
+                                                    <select multiple class="single-select">
+                                                        <option disabled>Select an option</option>
+                                                        <option selected>Option1</option>
+                                                        <option>Option2</option>
+                                                        <option>Option3</option>
+                                                        <option>Option4</option>
+                                                       
                                                     </select>
                                                 </td>
                                                 <td> <a href="#" class="remove-tr" data-bs-toggle="modal" data-bs-target="#alert-delete"><i class="bx bx-trash"></i></a></td>
@@ -6247,13 +6245,13 @@
                                                    Name
                                                 </td>
                                                 <td class="field-slct">
-                                                    <select multiple class="mul-select">
-                                                        <option selected>Kebab</option>
-                                                        <option>Pizza</option>
-                                                        <option>Taco</option>
-                                                        <option selected>Kofte</option>
-                                                        <option selected>Burger</option>
-                                                        <option>Chicken</option>
+                                                    <select multiple class="single-select">
+                                                        <option disabled>Select an option</option>
+                                                        <option selected>Option1</option>
+                                                        <option>Option2</option>
+                                                        <option>Option3</option>
+                                                        <option>Option4</option>
+                                                       
                                                     </select>
                                                 </td>
                                                 <td> <a href="#" class="remove-tr" data-bs-toggle="modal" data-bs-target="#alert-delete"><i class="bx bx-trash"></i></a></td>
@@ -6263,13 +6261,13 @@
                                                     Email
                                                 </td>
                                                 <td class="field-slct">
-                                                    <select multiple class="mul-select">
-                                                        <option selected>Kebab</option>
-                                                        <option>Pizza</option>
-                                                        <option>Taco</option>
-                                                        <option selected>Kofte</option>
-                                                        <option selected>Burger</option>
-                                                        <option>Chicken</option>
+                                                    <select multiple class="single-select">
+                                                        <option disabled>Select an option</option>
+                                                        <option selected>Option1</option>
+                                                        <option>Option2</option>
+                                                        <option>Option3</option>
+                                                        <option>Option4</option>
+                                                       
                                                     </select>
                                                 </td>
                                                 <td> <a href="#" class="remove-tr" data-bs-toggle="modal" data-bs-target="#alert-delete"><i class="bx bx-trash"></i></a></td>
@@ -6279,13 +6277,13 @@
                                                     Dob
                                                 </td>
                                                 <td class="field-slct">
-                                                    <select multiple class="mul-select">
-                                                        <option selected>Kebab</option>
-                                                        <option>Pizza</option>
-                                                        <option>Taco</option>
-                                                        <option selected>Kofte</option>
-                                                        <option selected>Burger</option>
-                                                        <option>Chicken</option>
+                                                    <select multiple class="single-select">
+                                                        <option disabled>Select an option</option>
+                                                        <option selected>Option1</option>
+                                                        <option>Option2</option>
+                                                        <option>Option3</option>
+                                                        <option>Option4</option>
+                                                       
                                                     </select>
                                                 </td>
                                                 <td> <a href="#" class="remove-tr" data-bs-toggle="modal" data-bs-target="#alert-delete"><i class="bx bx-trash"></i></a></td>
@@ -6295,13 +6293,13 @@
                                                    Name
                                                 </td>
                                                 <td class="field-slct">
-                                                    <select multiple class="mul-select">
-                                                        <option selected>Kebab</option>
-                                                        <option>Pizza</option>
-                                                        <option>Taco</option>
-                                                        <option selected>Kofte</option>
-                                                        <option selected>Burger</option>
-                                                        <option>Chicken</option>
+                                                    <select multiple class="single-select">
+                                                        <option disabled>Select an option</option>
+                                                        <option selected>Option1</option>
+                                                        <option>Option2</option>
+                                                        <option>Option3</option>
+                                                        <option>Option4</option>
+                                                       
                                                     </select>
                                                 </td>
                                                 <td> <a href="#" class="remove-tr" data-bs-toggle="modal" data-bs-target="#alert-delete"><i class="bx bx-trash"></i></a></td>
@@ -6311,13 +6309,13 @@
                                                     Email
                                                 </td>
                                                 <td class="field-slct">
-                                                    <select multiple class="mul-select">
-                                                        <option selected>Kebab</option>
-                                                        <option>Pizza</option>
-                                                        <option>Taco</option>
-                                                        <option selected>Kofte</option>
-                                                        <option selected>Burger</option>
-                                                        <option>Chicken</option>
+                                                    <select multiple class="single-select">
+                                                        <option disabled>Select an option</option>
+                                                        <option selected>Option1</option>
+                                                        <option>Option2</option>
+                                                        <option>Option3</option>
+                                                        <option>Option4</option>
+                                                       
                                                     </select>
                                                 </td>
                                                 <td> <a href="#" class="remove-tr" data-bs-toggle="modal" data-bs-target="#alert-delete"><i class="bx bx-trash"></i></a></td>
@@ -6327,13 +6325,13 @@
                                                     Dob
                                                 </td>
                                                 <td class="field-slct">
-                                                    <select multiple class="mul-select">
-                                                        <option selected>Kebab</option>
-                                                        <option>Pizza</option>
-                                                        <option>Taco</option>
-                                                        <option selected>Kofte</option>
-                                                        <option selected>Burger</option>
-                                                        <option>Chicken</option>
+                                                    <select multiple class="single-select">
+                                                        <option disabled>Select an option</option>
+                                                        <option selected>Option1</option>
+                                                        <option>Option2</option>
+                                                        <option>Option3</option>
+                                                        <option>Option4</option>
+                                                       
                                                     </select>
                                                 </td>
                                                 <td> <a href="#" class="remove-tr" data-bs-toggle="modal" data-bs-target="#alert-delete"><i class="bx bx-trash"></i></a></td>
@@ -6343,13 +6341,13 @@
                                                    Name
                                                 </td>
                                                 <td class="field-slct">
-                                                    <select multiple class="mul-select">
-                                                        <option selected>Kebab</option>
-                                                        <option>Pizza</option>
-                                                        <option>Taco</option>
-                                                        <option selected>Kofte</option>
-                                                        <option selected>Burger</option>
-                                                        <option>Chicken</option>
+                                                    <select multiple class="single-select">
+                                                        <option disabled>Select an option</option>
+                                                        <option selected>Option1</option>
+                                                        <option>Option2</option>
+                                                        <option>Option3</option>
+                                                        <option>Option4</option>
+                                                       
                                                     </select>
                                                 </td>
                                                 <td> <a href="#" class="remove-tr" data-bs-toggle="modal" data-bs-target="#alert-delete"><i class="bx bx-trash"></i></a></td>
@@ -6359,13 +6357,13 @@
                                                     Email
                                                 </td>
                                                 <td class="field-slct">
-                                                    <select multiple class="mul-select">
-                                                        <option selected>Kebab</option>
-                                                        <option>Pizza</option>
-                                                        <option>Taco</option>
-                                                        <option selected>Kofte</option>
-                                                        <option selected>Burger</option>
-                                                        <option>Chicken</option>
+                                                    <select multiple class="single-select">
+                                                        <option disabled>Select an option</option>
+                                                        <option selected>Option1</option>
+                                                        <option>Option2</option>
+                                                        <option>Option3</option>
+                                                        <option>Option4</option>
+                                                       
                                                     </select>
                                                 </td>
                                                 <td> <a href="#" class="remove-tr" data-bs-toggle="modal" data-bs-target="#alert-delete"><i class="bx bx-trash"></i></a></td>
@@ -6375,13 +6373,13 @@
                                                     Dob
                                                 </td>
                                                 <td class="field-slct">
-                                                    <select multiple class="mul-select">
-                                                        <option selected>Kebab</option>
-                                                        <option>Pizza</option>
-                                                        <option>Taco</option>
-                                                        <option selected>Kofte</option>
-                                                        <option selected>Burger</option>
-                                                        <option>Chicken</option>
+                                                    <select multiple class="single-select">
+                                                        <option disabled>Select an option</option>
+                                                        <option selected>Option1</option>
+                                                        <option>Option2</option>
+                                                        <option>Option3</option>
+                                                        <option>Option4</option>
+                                                       
                                                     </select>
                                                 </td>
                                                 <td> <a href="#" class="remove-tr" data-bs-toggle="modal" data-bs-target="#alert-delete"><i class="bx bx-trash"></i></a></td>
@@ -6391,13 +6389,13 @@
                                                    Name
                                                 </td>
                                                 <td class="field-slct">
-                                                    <select multiple class="mul-select">
-                                                        <option selected>Kebab</option>
-                                                        <option>Pizza</option>
-                                                        <option>Taco</option>
-                                                        <option selected>Kofte</option>
-                                                        <option selected>Burger</option>
-                                                        <option>Chicken</option>
+                                                    <select multiple class="single-select">
+                                                        <option disabled>Select an option</option>
+                                                        <option selected>Option1</option>
+                                                        <option>Option2</option>
+                                                        <option>Option3</option>
+                                                        <option>Option4</option>
+                                                       
                                                     </select>
                                                 </td>
                                                 <td> <a href="#" class="remove-tr" data-bs-toggle="modal" data-bs-target="#alert-delete"><i class="bx bx-trash"></i></a></td>
@@ -6407,13 +6405,13 @@
                                                     Email
                                                 </td>
                                                 <td class="field-slct">
-                                                    <select multiple class="mul-select">
-                                                        <option selected>Kebab</option>
-                                                        <option>Pizza</option>
-                                                        <option>Taco</option>
-                                                        <option selected>Kofte</option>
-                                                        <option selected>Burger</option>
-                                                        <option>Chicken</option>
+                                                    <select multiple class="single-select">
+                                                        <option disabled>Select an option</option>
+                                                        <option selected>Option1</option>
+                                                        <option>Option2</option>
+                                                        <option>Option3</option>
+                                                        <option>Option4</option>
+                                                       
                                                     </select>
                                                 </td>
                                                 <td> <a href="#" class="remove-tr" data-bs-toggle="modal" data-bs-target="#alert-delete"><i class="bx bx-trash"></i></a></td>
@@ -6423,13 +6421,13 @@
                                                     Dob
                                                 </td>
                                                 <td class="field-slct">
-                                                    <select multiple class="mul-select">
-                                                        <option selected>Kebab</option>
-                                                        <option>Pizza</option>
-                                                        <option>Taco</option>
-                                                        <option selected>Kofte</option>
-                                                        <option selected>Burger</option>
-                                                        <option>Chicken</option>
+                                                    <select multiple class="single-select">
+                                                        <option disabled>Select an option</option>
+                                                        <option selected>Option1</option>
+                                                        <option>Option2</option>
+                                                        <option>Option3</option>
+                                                        <option>Option4</option>
+                                                       
                                                     </select>
                                                 </td>
                                                 <td> <a href="#" class="remove-tr" data-bs-toggle="modal" data-bs-target="#alert-delete"><i class="bx bx-trash"></i></a></td>
@@ -6593,16 +6591,20 @@
             })
         </script>
 
+
+
 <script>
-    // upload image
-    const uploadArea = document.querySelector('#uploadArea')
-    const dropZoon = document.querySelector('#dropZoon');
-    const loadingText = document.querySelector('#loadingText');
-    const fileInput = document.querySelector('#fileInput');
-    const previewImage = document.querySelector('#previewImage');
-    const fileDetails = document.querySelector('#fileDetails');
-    const uploadedFile = document.querySelector('#uploadedFile');
-    const uploadedFileInfo = document.querySelector('#uploadedFileInfo');
+ 
+function importDifferentFile(imgval) {
+
+    const uploadArea = document.querySelector('#uploadArea' + imgval)
+    const dropZoon = document.querySelector('#dropZoon' + imgval);
+    const loadingText = document.querySelector('#loadingText' + imgval);
+    const fileInput = document.querySelector('#fileInput' + imgval);
+    const previewImage = document.querySelector('#previewImage' + imgval);
+    const fileDetails = document.querySelector('#fileDetails' + imgval);
+    const uploadedFile = document.querySelector('#uploadedFile' + imgval);
+    const uploadedFileInfo = document.querySelector('#uploadedFileInfo' + imgval);
     const uploadedFileName = document.querySelector('.uploaded-file__name');
     const uploadedFileIconText = document.querySelector('.uploaded-file__icon-text');
     const uploadedFileCounter = document.querySelector('.uploaded-file__counter');
@@ -6629,13 +6631,8 @@
         uploadFile(file);
     });
 
-    dropZoon.addEventListener('click', function (event) {
-        fileInput.click();
-    });
-
-
+    fileInput.click()
     fileInput.addEventListener('change', function (event) {
-
         const file = event.target.files[0];
         uploadFile(file);
     });
@@ -6709,7 +6706,10 @@
             return alert('Please make sure to upload An Image File Type');
         };
     };
+}
+   
 </script>
+
 
 <script>
     $(".drpdwn-menu-btn").click(function () {
@@ -6732,11 +6732,17 @@
         $(".mul-select").select2({
             tags: true
         });
+
+        $(".single-select").select2({
+            tags: true,
+            maximumSelectionLength: 1,
+            placeholder: "Select an option" 
+        });
     
         $("ul.select2-selection__rendered").sortable({
             containment: 'parent'
         });
-    </script>
+</script>
 <!-- <script>
     $(document).ready(function(){
   $(".limitedNumbChosen").chosen({

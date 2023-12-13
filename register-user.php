@@ -99,10 +99,10 @@
                                 <div class="col-md-3">
                                     <div class="img-upload-form">
                                         <img src="assets/images/users/avatar-7.jpg" id="upld-image1">
-                                        <i class="bx bxs-pencil" onclick="makeimg(1)" ;></i>
+                                        <i class="bx bxs-pencil edit-user-image" onclick="makeimg(1)" ;></i>
                                         <input type="file" oninput="previewFile(1)" accept="image/*"
                                             id="imgfile1" />
-                                      
+                                            <i class="bx bxs-trash delete-user-image" onclick="deleteimg(1)" ;></i>
                                     </div>
                                 </div>
                            
@@ -981,27 +981,34 @@
 
 
             <!-- img-upload form -->
-            <script>
-                function makeimg(val1) {
-        
-                    document.getElementById("imgfile" + val1).click();
-                }
-        
-                function previewFile(value) {
-        
-                    const preview = document.getElementById('upld-image' + value);
-                    const file = document.getElementById("imgfile" + value).files[0];
-                    const reader = new FileReader();
-        
-                    reader.addEventListener("load", function () {
-                        preview.src = reader.result;
-                    }, false);
-        
-                    if (file) {
-                        reader.readAsDataURL(file);
-                    }
-                }
-            </script>
+    <script>
+        function makeimg(val1) {
+
+            document.getElementById("imgfile" + val1).click();
+        }
+
+        function previewFile(value) {
+
+            const preview = document.getElementById('upld-image' + value);
+            const file = document.getElementById("imgfile" + value).files[0];
+            const reader = new FileReader();
+
+            reader.addEventListener("load", function () {
+                preview.src = reader.result;
+            }, false);
+
+            if (file) {
+                reader.readAsDataURL(file);
+            }
+        }
+        function deleteimg(value) {
+            const preview = document.getElementById('upld-image' + value);
+            preview.src = 'assets/images/users/default.png';
+
+            const fileInput = document.getElementById("imgfile" + value);
+            fileInput.value = null;
+        }
+    </script>
         <script>
         $(function() {
             setTimeout(function() {

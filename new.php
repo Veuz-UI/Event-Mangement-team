@@ -26,14 +26,14 @@
 
 
 
-    <select multiple class="mul-select">
-        <option selected>Kebab</option>
-        <option>Pizza</option>
-        <option>Taco</option>
-        <option selected>Kofte</option>
-        <option selected>Burger</option>
-        <option>Chicken</option>
-      </select>
+<select multiple class="mul-select">
+    <option selected>Kebab</option>
+    <option>Pizza</option>
+    <option>Taco</option>
+    <option selected>Kofte</option>
+    <option selected>Burger</option>
+    <option>Chicken</option>
+</select>
 
 
 
@@ -62,14 +62,14 @@
         <script src="assets/js/pages/mdb.min.js"></script>
         <script src="assets/js/summernote-bs4.js"></script>
         <script src="assets/js/app.js"></script>
-<script>
-    $("select").select2({
-        tags: true
-    });
-
-    $("ul.select2-selection__rendered").sortable({
-        containment: 'parent'
-    });
-</script>
+        <script>
+        $(".mul-select").select2({
+            tags: true
+        });
+    
+        $("ul.select2-selection__rendered").sortable({
+            containment: 'parent'
+        });
+    </script>
 </body>
 </html>

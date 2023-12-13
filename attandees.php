@@ -13,6 +13,8 @@
     <link href="assets/libs/spectrum-colorpicker2/spectrum.min.css" rel="stylesheet" type="text/css">
     <link href="assets/libs/bootstrap-timepicker/css/bootstrap-timepicker.min.css" rel="stylesheet" type="text/css">
     <link href="assets/libs/datepicker/datepicker.min.css" rel="stylesheet">
+    <link href="assets/libs/select2/css/chosen.min.css" rel="stylesheet">
+    <link href="assets/libs/select2/css/select2.min.css" rel="stylesheet">
     <link href="assets/css/bootstrap.min.css" id="bootstrap-style" rel="stylesheet" type="text/css" />
     <link href="assets/css/icons.min.css" rel="stylesheet" type="text/css" />
     <link href="assets/css/app.min.css" id="app-style" rel="stylesheet" type="text/css" />
@@ -1128,8 +1130,7 @@
         </div>
     </div>
 
-    <div class="modal common-modal fade" id="import-upload" data-bs-backdrop="static" data-bs-keyboard="false"
-        tabindex="-1" role="dialog" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+    <div class="modal common-modal fade" id="import-upload" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" role="dialog" aria-labelledby="staticBackdropLabel" aria-hidden="true">
         <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
             <div class="modal-content">
                 <div class="modal-header1">
@@ -1140,56 +1141,50 @@
                         <h2>Cyber park event</h2>
                         <h6><i class="bx bx-calendar"></i> Aug 03-05, 2023</h6>
                     </div>
-
+             
                     <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                 </div>
                 <div class="modal-body">
-                    <div id="uploadArea" class="upload-area">
-                        <div id="dropZoon" class="upload-area__drop-zoon drop-zoon">
+                    <div class="upload-area" id="uploadArea2" onclick="importDifferentFile(2)">
+                        <div class="upload-area__drop-zoon drop-zoon" id="dropZoon2">
                             <span class="drop-zoon__icon">
                                 <i class='bx bxs-file-image'></i>
                             </span>
                             <p class="drop-zoon__paragraph">Drop your file here or Click to browse</p>
-                            <span id="loadingText" class="drop-zoon__loading-text">Please Wait</span>
-                            <img src="" alt="Preview Image" id="previewImage" class="drop-zoon__preview-image"
-                                draggable="false">
-                            <input type="file" id="fileInput" class="drop-zoon__file-input" accept="image/*">
+                            <span class="drop-zoon__loading-text" id="loadingText2">Please Wait</span>
+                            <img src="" alt="Preview Image" class="drop-zoon__preview-image" id="previewImage2" draggable="false">
+                            <input type="file" class="drop-zoon__file-input" id="fileInput2" accept="image/*">
                         </div>
 
-                        <div id="fileDetails" class="upload-area__file-details file-details">
+                        <div class="upload-area__file-details file-details" id="fileDetails2">
                             <h3 class="file-details__title">Uploaded File</h3>
 
-                            <div id="uploadedFile" class="uploaded-file">
+                            <div class="uploaded-file" id="uploadedFile2">
                                 <div class="uploaded-file__icon-container">
                                     <i class='bx bxs-file-blank uploaded-file__icon'></i>
                                     <span class="uploaded-file__icon-text"></span>
                                 </div>
 
-                                <div id="uploadedFileInfo" class="uploaded-file__info">
-                                    <span class="uploaded-file__name">Proejct 1</span>
+                                <div class="uploaded-file__info" id="uploadedFileInfo2">
+                                    <span class="uploaded-file__name">Project 1</span>
                                     <span class="uploaded-file__counter">0%</span>
                                 </div>
                             </div>
                         </div>
-
                     </div>
 
                 </div>
                 <div class="modal-footer justify-content-end">
-                    <a href="#"><button data-bs-target="#upload-inpt" data-bs-toggle="modal" data-bs-dismiss="modal"
-                            type="button" class="btn btn-primary text-uppercase br-50 btn-md">Next</button></a>
+                    <a href="#"><button  data-bs-target="#upload-inpt" data-bs-toggle="modal" data-bs-dismiss="modal" type="button" class="btn btn-primary  br-50 btn-md">Next</button></a>
                 </div>
             </div>
         </div>
     </div>
-
-    <div class="modal fade" id="upload-inpt" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
-        role="dialog" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+    <div class="modal fade" id="upload-inpt" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" role="dialog" aria-labelledby="staticBackdropLabel" aria-hidden="true">
         <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
             <div class="modal-content">
                 <div class="modal-header">
-                    <h5 class="modal-title" id="staticBackdropLabel"> <img src="assets/images/users.svg"
-                            alt=""><span>Attendees IN</span></h5>
+                    <h5 class="modal-title" id="staticBackdropLabel"> <img src="assets/images/import.svg" alt="" style="width: 22px;"><span>Attendees IN</span></h5>
                     <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                 </div>
                 <div class="modal-body">
@@ -1197,21 +1192,18 @@
                         <div class="col-md-12">
                             <div class="form-grp">
                                 <div class="alrt-bx alert alert-danger alert-dismissible fade show" role="alert">
-                                    <h6><span class="alert-link">XL Line No 8 :</span>Invalid username</h6>
-                                    <button type="button" class="btn-close" data-bs-dismiss="alert"
-                                        aria-label="Close"></button>
+                                     <h6><span class="alert-link">XL Line No 8 :</span>Invalid username</h6>
+                                     <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
                                 </div>
-
-                            </div>
+                              
+                             </div>
                             <div class="field-btns">
-                                <button type="button"
-                                    class="btn btn-secondary waves-effect waves-light btn-sm text-uppercase br-50 small">
+                                <button type="button"class="btn btn-secondary waves-effect waves-light btn-sm text-uppercase br-50 small">
                                     <i class="bx bx-upload font-size-16 align-middle me-1"></i>Upload</button>
 
-                                <button type="button"
-                                    class="btn btn-outline-secondary btn-export waves-effect waves-light btn-sm text-uppercase br-50 small">
-                                    Test
-                                </button>
+                                    <button type="button" class="btn btn-outline-secondary btn-export waves-effect waves-light btn-sm text-uppercase br-50 small">
+                                       Test
+                                    </button>
                             </div>
                             <div class="event-table attendee-in response-tbl">
                                 <div class="table-responsive">
@@ -1221,283 +1213,266 @@
                                                 <th>Excel Field</th>
                                                 <th style="width: 400px;">Field</th>
                                                 <th style="width: 30px;"></th>
-
+                                               
                                             </tr>
                                         </thead>
                                         <tbody>
                                             <tr>
                                                 <td>
-                                                    Name
+                                                   Name
                                                 </td>
-                                                <td>
-                                                    <select class="limitedNumbChosen" multiple="true">
-                                                        <option value="1">Monday</option>
-                                                        <option value="2">Tuesday</option>
-                                                        <option value="3">Wednesday</option>
-                                                        <option value="4">Thursday</option>
-                                                        <option value="5">Friday</option>
-                                                        <option value="6">Saturday</option>
-                                                        <option value="7">Sunday</option>
+                                                <td class="field-slct">
+                                                    <select multiple class="single-select">
+                                                        <option disabled>Select an option</option>
+                                                        <option selected>Option1</option>
+                                                        <option>Option2</option>
+                                                        <option>Option3</option>
+                                                        <option>Option4</option>
+                                                       
                                                     </select>
                                                 </td>
-                                                <td> <a href="#" class="remove-tr"><i class="bx bx-trash"></i></a></td>
-
+                                                <td> <a href="#" class="remove-tr" data-bs-toggle="modal" data-bs-target="#alert-delete"><i class="bx bx-trash"></i></a></td>
+                                               
                                             </tr>
                                             <tr>
                                                 <td>
                                                     Email
                                                 </td>
-                                                <td>
-                                                    <select class="limitedNumbChosen" multiple="true">
-                                                        <option value="1">Monday</option>
-                                                        <option value="2">Tuesday</option>
-                                                        <option value="3">Wednesday</option>
-                                                        <option value="4">Thursday</option>
-                                                        <option value="5">Friday</option>
-                                                        <option value="6">Saturday</option>
-                                                        <option value="7">Sunday</option>
+                                                <td class="field-slct">
+                                                    <select multiple class="single-select">
+                                                        <option disabled>Select an option</option>
+                                                        <option selected>Option1</option>
+                                                        <option>Option2</option>
+                                                        <option>Option3</option>
+                                                        <option>Option4</option>
+                                                       
                                                     </select>
                                                 </td>
-                                                <td> <a href="#" class="remove-tr"><i class="bx bx-trash"></i></a></td>
+                                                <td> <a href="#" class="remove-tr" data-bs-toggle="modal" data-bs-target="#alert-delete"><i class="bx bx-trash"></i></a></td>
                                             </tr>
                                             <tr>
                                                 <td>
                                                     Dob
                                                 </td>
-                                                <td>
-                                                    <select class="limitedNumbChosen" multiple="true">
-                                                        <option value="1">Monday</option>
-                                                        <option value="2">Tuesday</option>
-                                                        <option value="3">Wednesday</option>
-                                                        <option value="4">Thursday</option>
-                                                        <option value="5">Friday</option>
-                                                        <option value="6">Saturday</option>
-                                                        <option value="7">Sunday</option>
+                                                <td class="field-slct">
+                                                    <select multiple class="single-select">
+                                                        <option disabled>Select an option</option>
+                                                        <option selected>Option1</option>
+                                                        <option>Option2</option>
+                                                        <option>Option3</option>
+                                                        <option>Option4</option>
+                                                       
                                                     </select>
                                                 </td>
-                                                <td> <a href="#" class="remove-tr"><i class="bx bx-trash"></i></a></td>
+                                                <td> <a href="#" class="remove-tr" data-bs-toggle="modal" data-bs-target="#alert-delete"><i class="bx bx-trash"></i></a></td>
                                             </tr>
                                             <tr>
                                                 <td>
-                                                    Name
+                                                   Name
                                                 </td>
-                                                <td>
-                                                    <select class="limitedNumbChosen" multiple="true">
-                                                        <option value="1">Monday</option>
-                                                        <option value="2">Tuesday</option>
-                                                        <option value="3">Wednesday</option>
-                                                        <option value="4">Thursday</option>
-                                                        <option value="5">Friday</option>
-                                                        <option value="6">Saturday</option>
-                                                        <option value="7">Sunday</option>
+                                                <td class="field-slct">
+                                                    <select multiple class="single-select">
+                                                        <option disabled>Select an option</option>
+                                                        <option selected>Option1</option>
+                                                        <option>Option2</option>
+                                                        <option>Option3</option>
+                                                        <option>Option4</option>
+                                                       
                                                     </select>
                                                 </td>
-                                                <td> <a href="#" class="remove-tr"><i class="bx bx-trash"></i></a></td>
+                                                <td> <a href="#" class="remove-tr" data-bs-toggle="modal" data-bs-target="#alert-delete"><i class="bx bx-trash"></i></a></td>
                                             </tr>
                                             <tr>
                                                 <td>
                                                     Email
                                                 </td>
-                                                <td>
-                                                    <select class="limitedNumbChosen" multiple="true">
-                                                        <option value="1">Monday</option>
-                                                        <option value="2">Tuesday</option>
-                                                        <option value="3">Wednesday</option>
-                                                        <option value="4">Thursday</option>
-                                                        <option value="5">Friday</option>
-                                                        <option value="6">Saturday</option>
-                                                        <option value="7">Sunday</option>
+                                                <td class="field-slct">
+                                                    <select multiple class="single-select">
+                                                        <option disabled>Select an option</option>
+                                                        <option selected>Option1</option>
+                                                        <option>Option2</option>
+                                                        <option>Option3</option>
+                                                        <option>Option4</option>
+                                                       
                                                     </select>
                                                 </td>
-                                                <td> <a href="#" class="remove-tr"><i class="bx bx-trash"></i></a></td>
+                                                <td> <a href="#" class="remove-tr" data-bs-toggle="modal" data-bs-target="#alert-delete"><i class="bx bx-trash"></i></a></td>
                                             </tr>
                                             <tr>
                                                 <td>
                                                     Dob
                                                 </td>
-                                                <td>
-                                                    <select class="limitedNumbChosen" multiple="true">
-                                                        <option value="1">Monday</option>
-                                                        <option value="2">Tuesday</option>
-                                                        <option value="3">Wednesday</option>
-                                                        <option value="4">Thursday</option>
-                                                        <option value="5">Friday</option>
-                                                        <option value="6">Saturday</option>
-                                                        <option value="7">Sunday</option>
+                                                <td class="field-slct">
+                                                    <select multiple class="single-select">
+                                                        <option disabled>Select an option</option>
+                                                        <option selected>Option1</option>
+                                                        <option>Option2</option>
+                                                        <option>Option3</option>
+                                                        <option>Option4</option>
+                                                       
                                                     </select>
                                                 </td>
-                                                <td> <a href="#" class="remove-tr"><i class="bx bx-trash"></i></a></td>
+                                                <td> <a href="#" class="remove-tr" data-bs-toggle="modal" data-bs-target="#alert-delete"><i class="bx bx-trash"></i></a></td>
                                             </tr>
                                             <tr>
                                                 <td>
-                                                    Name
+                                                   Name
                                                 </td>
-                                                <td>
-                                                    <select class="limitedNumbChosen" multiple="true">
-                                                        <option value="1">Monday</option>
-                                                        <option value="2">Tuesday</option>
-                                                        <option value="3">Wednesday</option>
-                                                        <option value="4">Thursday</option>
-                                                        <option value="5">Friday</option>
-                                                        <option value="6">Saturday</option>
-                                                        <option value="7">Sunday</option>
+                                                <td class="field-slct">
+                                                    <select multiple class="single-select">
+                                                        <option disabled>Select an option</option>
+                                                        <option selected>Option1</option>
+                                                        <option>Option2</option>
+                                                        <option>Option3</option>
+                                                        <option>Option4</option>
+                                                       
                                                     </select>
                                                 </td>
-                                                <td> <a href="#" class="remove-tr"><i class="bx bx-trash"></i></a></td>
+                                                <td> <a href="#" class="remove-tr" data-bs-toggle="modal" data-bs-target="#alert-delete"><i class="bx bx-trash"></i></a></td>
                                             </tr>
                                             <tr>
                                                 <td>
                                                     Email
                                                 </td>
-                                                <td>
-                                                    <select class="limitedNumbChosen" multiple="true">
-                                                        <option value="1">Monday</option>
-                                                        <option value="2">Tuesday</option>
-                                                        <option value="3">Wednesday</option>
-                                                        <option value="4">Thursday</option>
-                                                        <option value="5">Friday</option>
-                                                        <option value="6">Saturday</option>
-                                                        <option value="7">Sunday</option>
+                                                <td class="field-slct">
+                                                    <select multiple class="single-select">
+                                                        <option disabled>Select an option</option>
+                                                        <option selected>Option1</option>
+                                                        <option>Option2</option>
+                                                        <option>Option3</option>
+                                                        <option>Option4</option>
+                                                       
                                                     </select>
                                                 </td>
-                                                <td> <a href="#" class="remove-tr"><i class="bx bx-trash"></i></a></td>
+                                                <td> <a href="#" class="remove-tr" data-bs-toggle="modal" data-bs-target="#alert-delete"><i class="bx bx-trash"></i></a></td>
                                             </tr>
                                             <tr>
                                                 <td>
                                                     Dob
                                                 </td>
-                                                <td>
-                                                    <select class="limitedNumbChosen" multiple="true">
-                                                        <option value="1">Monday</option>
-                                                        <option value="2">Tuesday</option>
-                                                        <option value="3">Wednesday</option>
-                                                        <option value="4">Thursday</option>
-                                                        <option value="5">Friday</option>
-                                                        <option value="6">Saturday</option>
-                                                        <option value="7">Sunday</option>
+                                                <td class="field-slct">
+                                                    <select multiple class="single-select">
+                                                        <option disabled>Select an option</option>
+                                                        <option selected>Option1</option>
+                                                        <option>Option2</option>
+                                                        <option>Option3</option>
+                                                        <option>Option4</option>
+                                                       
                                                     </select>
                                                 </td>
-                                                <td> <a href="#" class="remove-tr"><i class="bx bx-trash"></i></a></td>
+                                                <td> <a href="#" class="remove-tr" data-bs-toggle="modal" data-bs-target="#alert-delete"><i class="bx bx-trash"></i></a></td>
                                             </tr>
                                             <tr>
                                                 <td>
-                                                    Name
+                                                   Name
                                                 </td>
-                                                <td>
-                                                    <select class="limitedNumbChosen" multiple="true">
-                                                        <option value="1">Monday</option>
-                                                        <option value="2">Tuesday</option>
-                                                        <option value="3">Wednesday</option>
-                                                        <option value="4">Thursday</option>
-                                                        <option value="5">Friday</option>
-                                                        <option value="6">Saturday</option>
-                                                        <option value="7">Sunday</option>
+                                                <td class="field-slct">
+                                                    <select multiple class="single-select">
+                                                        <option disabled>Select an option</option>
+                                                        <option selected>Option1</option>
+                                                        <option>Option2</option>
+                                                        <option>Option3</option>
+                                                        <option>Option4</option>
+                                                       
                                                     </select>
                                                 </td>
-                                                <td> <a href="#" class="remove-tr"><i class="bx bx-trash"></i></a></td>
+                                                <td> <a href="#" class="remove-tr" data-bs-toggle="modal" data-bs-target="#alert-delete"><i class="bx bx-trash"></i></a></td>
                                             </tr>
                                             <tr>
                                                 <td>
                                                     Email
                                                 </td>
-                                                <td>
-                                                    <select class="limitedNumbChosen" multiple="true">
-                                                        <option value="1">Monday</option>
-                                                        <option value="2">Tuesday</option>
-                                                        <option value="3">Wednesday</option>
-                                                        <option value="4">Thursday</option>
-                                                        <option value="5">Friday</option>
-                                                        <option value="6">Saturday</option>
-                                                        <option value="7">Sunday</option>
+                                                <td class="field-slct">
+                                                    <select multiple class="single-select">
+                                                        <option disabled>Select an option</option>
+                                                        <option selected>Option1</option>
+                                                        <option>Option2</option>
+                                                        <option>Option3</option>
+                                                        <option>Option4</option>
+                                                       
                                                     </select>
                                                 </td>
-                                                <td> <a href="#" class="remove-tr"><i class="bx bx-trash"></i></a></td>
+                                                <td> <a href="#" class="remove-tr" data-bs-toggle="modal" data-bs-target="#alert-delete"><i class="bx bx-trash"></i></a></td>
                                             </tr>
                                             <tr>
                                                 <td>
                                                     Dob
                                                 </td>
-                                                <td>
-                                                    <select class="limitedNumbChosen" multiple="true">
-                                                        <option value="1">Monday</option>
-                                                        <option value="2">Tuesday</option>
-                                                        <option value="3">Wednesday</option>
-                                                        <option value="4">Thursday</option>
-                                                        <option value="5">Friday</option>
-                                                        <option value="6">Saturday</option>
-                                                        <option value="7">Sunday</option>
+                                                <td class="field-slct">
+                                                    <select multiple class="single-select">
+                                                        <option disabled>Select an option</option>
+                                                        <option selected>Option1</option>
+                                                        <option>Option2</option>
+                                                        <option>Option3</option>
+                                                        <option>Option4</option>
+                                                       
                                                     </select>
                                                 </td>
-                                                <td> <a href="#" class="remove-tr"><i class="bx bx-trash"></i></a></td>
+                                                <td> <a href="#" class="remove-tr" data-bs-toggle="modal" data-bs-target="#alert-delete"><i class="bx bx-trash"></i></a></td>
                                             </tr>
                                             <tr>
                                                 <td>
-                                                    Name
+                                                   Name
                                                 </td>
-                                                <td>
-                                                    <select class="limitedNumbChosen" multiple="true">
-                                                        <option value="1">Monday</option>
-                                                        <option value="2">Tuesday</option>
-                                                        <option value="3">Wednesday</option>
-                                                        <option value="4">Thursday</option>
-                                                        <option value="5">Friday</option>
-                                                        <option value="6">Saturday</option>
-                                                        <option value="7">Sunday</option>
+                                                <td class="field-slct">
+                                                    <select multiple class="single-select">
+                                                        <option disabled>Select an option</option>
+                                                        <option selected>Option1</option>
+                                                        <option>Option2</option>
+                                                        <option>Option3</option>
+                                                        <option>Option4</option>
+                                                       
                                                     </select>
                                                 </td>
-                                                <td> <a href="#" class="remove-tr"><i class="bx bx-trash"></i></a></td>
+                                                <td> <a href="#" class="remove-tr" data-bs-toggle="modal" data-bs-target="#alert-delete"><i class="bx bx-trash"></i></a></td>
                                             </tr>
                                             <tr>
                                                 <td>
                                                     Email
                                                 </td>
-                                                <td>
-                                                    <select class="limitedNumbChosen" multiple="true">
-                                                        <option value="1">Monday</option>
-                                                        <option value="2">Tuesday</option>
-                                                        <option value="3">Wednesday</option>
-                                                        <option value="4">Thursday</option>
-                                                        <option value="5">Friday</option>
-                                                        <option value="6">Saturday</option>
-                                                        <option value="7">Sunday</option>
+                                                <td class="field-slct">
+                                                    <select multiple class="single-select">
+                                                        <option disabled>Select an option</option>
+                                                        <option selected>Option1</option>
+                                                        <option>Option2</option>
+                                                        <option>Option3</option>
+                                                        <option>Option4</option>
+                                                       
                                                     </select>
                                                 </td>
-                                                <td> <a href="#" class="remove-tr"><i class="bx bx-trash"></i></a></td>
+                                                <td> <a href="#" class="remove-tr" data-bs-toggle="modal" data-bs-target="#alert-delete"><i class="bx bx-trash"></i></a></td>
                                             </tr>
                                             <tr>
                                                 <td>
                                                     Dob
                                                 </td>
-                                                <td>
-                                                    <select class="limitedNumbChosen" multiple="true">
-                                                        <option value="1">Monday</option>
-                                                        <option value="2">Tuesday</option>
-                                                        <option value="3">Wednesday</option>
-                                                        <option value="4">Thursday</option>
-                                                        <option value="5">Friday</option>
-                                                        <option value="6">Saturday</option>
-                                                        <option value="7">Sunday</option>
+                                                <td class="field-slct">
+                                                    <select multiple class="single-select">
+                                                        <option disabled>Select an option</option>
+                                                        <option selected>Option1</option>
+                                                        <option>Option2</option>
+                                                        <option>Option3</option>
+                                                        <option>Option4</option>
+                                                       
                                                     </select>
                                                 </td>
-                                                <td> <a href="#" class="remove-tr"><i class="bx bx-trash"></i></a></td>
+                                                <td> <a href="#" class="remove-tr" data-bs-toggle="modal" data-bs-target="#alert-delete"><i class="bx bx-trash"></i></a></td>
                                             </tr>
-
+    
                                         </tbody>
                                     </table>
                                 </div>
                             </div>
                         </div>
-
-
+                      
+                        
                     </div>
-
+                    
                 </div>
                 <div class="modal-footer">
-
-                    <button type="button" class="btn btn-light text-uppercase br-50 btn-md" data-bs-dismiss="modal"
-                        data-bs-target="#import-upload" data-bs-toggle="modal">Back</button>
-                    <button data-bs-dismiss="modal" type="button"
-                        class="btn btn-primary text-uppercase br-50 btn-md">Save</button>
+                  
+                    <button type="button" class="btn btn-light br-50 btn-md" data-bs-dismiss="modal" data-bs-target="#import-upload" data-bs-toggle="modal">Back</button>
+                    <button data-bs-dismiss="modal" type="button" class="btn btn-primary br-50 btn-md">Save</button>
                 </div>
 
             </div>
@@ -1544,10 +1519,11 @@
                     </div>
                 </div>
             </div>
-        </div>
+    </div>
 
     <!-- JAVASCRIPT -->
     <script src="assets/libs/jquery/jquery.min.js"></script>
+    <script src="assets/libs/select2/js/chosen.jquery.min.js"></script>
     <script src="assets/libs/bootstrap/js/bootstrap.bundle.min.js"></script>
     <script src="assets/libs/metismenu/metisMenu.min.js"></script>
     <script src="assets/libs/simplebar/simplebar.min.js"></script>
@@ -1629,123 +1605,138 @@
 
         })
     </script>
+<script>
+ 
+ function importDifferentFile(imgval) {
+ 
+     const uploadArea = document.querySelector('#uploadArea' + imgval)
+     const dropZoon = document.querySelector('#dropZoon' + imgval);
+     const loadingText = document.querySelector('#loadingText' + imgval);
+     const fileInput = document.querySelector('#fileInput' + imgval);
+     const previewImage = document.querySelector('#previewImage' + imgval);
+     const fileDetails = document.querySelector('#fileDetails' + imgval);
+     const uploadedFile = document.querySelector('#uploadedFile' + imgval);
+     const uploadedFileInfo = document.querySelector('#uploadedFileInfo' + imgval);
+     const uploadedFileName = document.querySelector('.uploaded-file__name');
+     const uploadedFileIconText = document.querySelector('.uploaded-file__icon-text');
+     const uploadedFileCounter = document.querySelector('.uploaded-file__counter');
+     const imagesTypes = [
+         "jpeg",
+         "png",
+         "svg",
+         "gif"
+     ];
+ 
+     dropZoon.addEventListener('dragover', function (event) {
+         event.preventDefault();
+         dropZoon.classList.add('drop-zoon--over');
+     });
+ 
+     dropZoon.addEventListener('dragleave', function (event) {
+         dropZoon.classList.remove('drop-zoon--over');
+     });
+ 
+     dropZoon.addEventListener('drop', function (event) {
+         event.preventDefault();
+         dropZoon.classList.remove('drop-zoon--over');
+         const file = event.dataTransfer.files[0];
+         uploadFile(file);
+     });
+ 
+     fileInput.click()
+     fileInput.addEventListener('change', function (event) {
+         const file = event.target.files[0];
+         uploadFile(file);
+     });
+ 
+     function uploadFile(file) {
+         const fileReader = new FileReader();
+         const fileType = file.type;
+         const fileSize = file.size;
+ 
+         if (fileValidate(fileType, fileSize)) {
+             dropZoon.classList.add('drop-zoon--Uploaded');
+             loadingText.style.display = "block";
+             previewImage.style.display = 'none';
+             uploadedFile.classList.remove('uploaded-file--open');
+             uploadedFileInfo.classList.remove('uploaded-file__info--active');
+ 
+             fileReader.addEventListener('load', function () {
+                 setTimeout(function () {
+                     uploadArea.classList.add('upload-area--open');
+                     loadingText.style.display = "none";
+                     previewImage.style.display = 'block';
+                     fileDetails.classList.add('file-details--open');
+                     uploadedFile.classList.add('uploaded-file--open');
+                     uploadedFileInfo.classList.add('uploaded-file__info--active');
+                 }, 500);
+ 
+                 previewImage.setAttribute('src', fileReader.result);
+                 uploadedFileName.innerHTML = file.name;
+ 
+                 progressMove();
+             });
+ 
+             fileReader.readAsDataURL(file);
+         } else {
+ 
+             this;
+ 
+         };
+     };
+ 
+ 
+     function progressMove() {
+         let counter = 0;
+         setTimeout(() => {
+             let counterIncrease = setInterval(() => {
+                 if (counter === 100) {
+                     clearInterval(counterIncrease);
+                 } else {
+                     counter = counter + 10;
+                     uploadedFileCounter.innerHTML = `${counter}%`
+                 }
+             }, 100);
+         }, 600);
+     };
+ 
+     function fileValidate(fileType, fileSize) {
+         let isImage = imagesTypes.filter((type) => fileType.indexOf(`image/${type}`) !== -1);
+         if (isImage[0] === 'jpeg') {
+             uploadedFileIconText.innerHTML = 'jpg';
+         } else {
+             uploadedFileIconText.innerHTML = isImage[0];
+         };
+ 
+         if (isImage.length !== 0) {
+             if (fileSize <= 2000000) {
+                 return true;
+             } else {
+                 return alert('Please Your File Should be 2 Megabytes or Less');
+             };
+         } else {
+             return alert('Please make sure to upload An Image File Type');
+         };
+     };
+ }
+    
+ </script>
 
-    <script>
-        // upload image
-        const uploadArea = document.querySelector('#uploadArea')
-        const dropZoon = document.querySelector('#dropZoon');
-        const loadingText = document.querySelector('#loadingText');
-        const fileInput = document.querySelector('#fileInput');
-        const previewImage = document.querySelector('#previewImage');
-        const fileDetails = document.querySelector('#fileDetails');
-        const uploadedFile = document.querySelector('#uploadedFile');
-        const uploadedFileInfo = document.querySelector('#uploadedFileInfo');
-        const uploadedFileName = document.querySelector('.uploaded-file__name');
-        const uploadedFileIconText = document.querySelector('.uploaded-file__icon-text');
-        const uploadedFileCounter = document.querySelector('.uploaded-file__counter');
-        const imagesTypes = [
-            "jpeg",
-            "png",
-            "svg",
-            "gif"
-        ];
-
-        dropZoon.addEventListener('dragover', function (event) {
-            event.preventDefault();
-            dropZoon.classList.add('drop-zoon--over');
+<script>
+        $(".mul-select").select2({
+            tags: true,
+            maximumSelectionLength: 1
         });
 
-        dropZoon.addEventListener('dragleave', function (event) {
-            dropZoon.classList.remove('drop-zoon--over');
+        $(".single-select").select2({
+            tags: true,
+            maximumSelectionLength: 1,
+            placeholder: "Select an option" 
         });
-
-        dropZoon.addEventListener('drop', function (event) {
-            event.preventDefault();
-            dropZoon.classList.remove('drop-zoon--over');
-            const file = event.dataTransfer.files[0];
-            uploadFile(file);
+    
+        $("ul.select2-selection__rendered").sortable({
+            containment: 'parent'
         });
-
-        dropZoon.addEventListener('click', function (event) {
-            fileInput.click();
-        });
-
-
-        fileInput.addEventListener('change', function (event) {
-
-            const file = event.target.files[0];
-            uploadFile(file);
-        });
-
-        function uploadFile(file) {
-            const fileReader = new FileReader();
-            const fileType = file.type;
-            const fileSize = file.size;
-
-            if (fileValidate(fileType, fileSize)) {
-                dropZoon.classList.add('drop-zoon--Uploaded');
-                loadingText.style.display = "block";
-                previewImage.style.display = 'none';
-                uploadedFile.classList.remove('uploaded-file--open');
-                uploadedFileInfo.classList.remove('uploaded-file__info--active');
-
-                fileReader.addEventListener('load', function () {
-                    setTimeout(function () {
-                        uploadArea.classList.add('upload-area--open');
-                        loadingText.style.display = "none";
-                        previewImage.style.display = 'block';
-                        fileDetails.classList.add('file-details--open');
-                        uploadedFile.classList.add('uploaded-file--open');
-                        uploadedFileInfo.classList.add('uploaded-file__info--active');
-                    }, 500);
-
-                    previewImage.setAttribute('src', fileReader.result);
-                    uploadedFileName.innerHTML = file.name;
-
-                    progressMove();
-                });
-
-                fileReader.readAsDataURL(file);
-            } else {
-
-                this;
-
-            };
-        };
-
-
-        function progressMove() {
-            let counter = 0;
-            setTimeout(() => {
-                let counterIncrease = setInterval(() => {
-                    if (counter === 100) {
-                        clearInterval(counterIncrease);
-                    } else {
-                        counter = counter + 10;
-                        uploadedFileCounter.innerHTML = `${counter}%`
-                    }
-                }, 100);
-            }, 600);
-        };
-
-        function fileValidate(fileType, fileSize) {
-            let isImage = imagesTypes.filter((type) => fileType.indexOf(`image/${type}`) !== -1);
-            if (isImage[0] === 'jpeg') {
-                uploadedFileIconText.innerHTML = 'jpg';
-            } else {
-                uploadedFileIconText.innerHTML = isImage[0];
-            };
-
-            if (isImage.length !== 0) {
-                if (fileSize <= 2000000) {
-                    return true;
-                } else {
-                    return alert('Please Your File Should be 2 Megabytes or Less');
-                };
-            } else {
-                return alert('Please make sure to upload An Image File Type');
-            };
-        };
     </script>
     <!-- <script>
     $('#selectAll').click(function (e) {
