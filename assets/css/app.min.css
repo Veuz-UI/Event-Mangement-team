@@ -12823,3 +12823,120 @@ table .avatar-sm{
     opacity: 1;
     transition: 1s;
 }
+
+.setting-section {
+    display: flex;
+    width: 100%;
+}
+
+.settings-sidebar {
+    min-height: 95vh;
+    background-color: #fff;
+    width: 300px;
+    border-right: 1px solid #ebebeb;
+}
+
+.settings-nav {
+    display: block;
+    border: 0px;
+}
+
+.settings-details {
+    width: calc(100% - 300px);
+    padding: 30px 30px;
+}
+
+.settings-details .settings-tab {
+    background-color: white;
+    padding: 0px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 15px rgb(0 0 0 / 10%);
+    position: relative;
+}
+
+.settings-details .settings-tab .settings-tab-pane{
+    height: 86.5vh;
+}
+
+.settings-details .tbl-overflow-hide{
+    height: 75vh;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+
+.settings-details .settings-tab .user-pad{
+    padding-top: 12px;
+}
+
+.settings-details .settings-tab .bootom-nav{
+    position: absolute !important;
+    border-radius: 0px 0px 5px 5px;
+}
+
+.settings-nav .nav-item.show .nav-link, .settings-nav .nav-link.active{
+    border-left: 0px;
+    border-right: 0px;
+    color: white;
+    background-color: #193567;
+    border-top: 1px solid #ebebeb;
+    border-bottom: 1px solid #ebebeb;
+    border-radius: 0px;
+    transition: 1s;
+}
+
+.settings-nav .nav-link{
+    font-size: 15px;
+    letter-spacing: -.2px;
+    color: #222;
+    font-weight: 400;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    border-left: 0px;
+    border-right: 0px;
+    border-top: 1px solid #ebebeb;
+    border-bottom: 1px solid #ebebeb;
+    padding: 10px 20px;
+    transition: 1s;
+}
+
+.settings-nav .nav-link i{
+    font-size: 20px;
+}
+
+.settings-nav .nav-link:hover{
+    border-left: 0px;
+    border-right: 0px;
+    border-color: #ebebeb !important; 
+    color: white;
+    background-color: #193567;
+    border-radius: 0px;
+    transition: 1s;
+}
+
+.settings-nav .nav-link:focus{
+    border-left: 0px;
+    border-right: 0px;
+    border-color: #ebebeb !important;
+    color: white;
+    background-color: #193567;
+    border-radius: 0px;
+    transition: 1s;
+}
+
+.password-form{
+    padding: 45px;
+    width: 500px;
+    border: 1px solid #ebebeb;
+    border-radius: 10px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.password-form h3{
+    text-align: center;
+    margin-bottom: 30px;
+    font-weight: 700;
+}
