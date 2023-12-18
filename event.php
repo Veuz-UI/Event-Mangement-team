@@ -648,7 +648,7 @@
 
                                                         <div class="col-lg-8 ps-0">
                                                             <div class="kanban-content">
-                                                                <h4>Conference for architects</h4>
+                                                                <h4><a href="published-event.php">Conference for architects</a></h4>
                                                                 <div
                                                                     class="location-div-kanban d-flex align-items-center">
                                                                     <img src="assets/images/location1.svg" alt="">
@@ -717,7 +717,7 @@
 
                                                         <div class="col-lg-8 ps-0">
                                                             <div class="kanban-content">
-                                                                <h4>Conference for architects</h4>
+                                                                <h4><a href="published-event.php">Conference for architects</a></h4>
                                                                 <div
                                                                     class="location-div-kanban d-flex align-items-center">
                                                                     <img src="assets/images/location1.svg" alt="">
@@ -786,7 +786,7 @@
 
                                                         <div class="col-lg-8 ps-0">
                                                             <div class="kanban-content">
-                                                                <h4>Conference for architects</h4>
+                                                                <h4><a href="published-event.php">Conference for architects</a></h4>
                                                                 <div
                                                                     class="location-div-kanban d-flex align-items-center">
                                                                     <img src="assets/images/location1.svg" alt="">
@@ -895,7 +895,7 @@
 
                                                         <div class="col-lg-8 ps-0">
                                                             <div class="kanban-content">
-                                                                <h4>Conference for architects</h4>
+                                                                <h4><a href="published-event.php">Conference for architects</a></h4>
                                                                 <div
                                                                     class="location-div-kanban d-flex align-items-center">
                                                                     <img src="assets/images/location1.svg" alt="">
@@ -964,7 +964,7 @@
 
                                                         <div class="col-lg-8 ps-0">
                                                             <div class="kanban-content">
-                                                                <h4>Conference for architects</h4>
+                                                                <h4><a href="published-event.php">Conference for architects</a></h4>
                                                                 <div
                                                                     class="location-div-kanban d-flex align-items-center">
                                                                     <img src="assets/images/location1.svg" alt="">
@@ -1033,7 +1033,7 @@
 
                                                         <div class="col-lg-8 ps-0">
                                                             <div class="kanban-content">
-                                                                <h4>Conference for architects</h4>
+                                                                <h4><a href="published-event.php">Conference for architects</a></h4>
                                                                 <div
                                                                     class="location-div-kanban d-flex align-items-center">
                                                                     <img src="assets/images/location1.svg" alt="">
@@ -1102,7 +1102,7 @@
 
                                                         <div class="col-lg-8 ps-0">
                                                             <div class="kanban-content">
-                                                                <h4>Conference for architects</h4>
+                                                                <h4><a href="published-event.php">Conference for architects</a></h4>
                                                                 <div
                                                                     class="location-div-kanban d-flex align-items-center">
                                                                     <img src="assets/images/location1.svg" alt="">
@@ -1170,7 +1170,7 @@
 
                                                         <div class="col-lg-8 ps-0">
                                                             <div class="kanban-content">
-                                                                <h4>Conference for architects</h4>
+                                                                <h4><a href="published-event.php">Conference for architects</a></h4>
                                                                 <div
                                                                     class="location-div-kanban d-flex align-items-center">
                                                                     <img src="assets/images/location1.svg" alt="">
@@ -1277,7 +1277,7 @@
 
                                                         <div class="col-lg-8 ps-0">
                                                             <div class="kanban-content">
-                                                                <h4>Conference for architects</h4>
+                                                                <h4><a href="published-event.php">Conference for architects</a></h4>
                                                                 <div
                                                                     class="location-div-kanban d-flex align-items-center">
                                                                     <img src="assets/images/location1.svg" alt="">
@@ -1346,7 +1346,7 @@
 
                                                         <div class="col-lg-8 ps-0">
                                                             <div class="kanban-content">
-                                                                <h4>Conference for architects</h4>
+                                                                <h4><a href="published-event.php">Conference for architects</a></h4>
                                                                 <div
                                                                     class="location-div-kanban d-flex align-items-center">
                                                                     <img src="assets/images/location1.svg" alt="">
@@ -1415,7 +1415,7 @@
 
                                                         <div class="col-lg-8 ps-0">
                                                             <div class="kanban-content">
-                                                                <h4>Conference for architects</h4>
+                                                                <h4><a href="published-event.php">Conference for architects</a></h4>
                                                                 <div
                                                                     class="location-div-kanban d-flex align-items-center">
                                                                     <img src="assets/images/location1.svg" alt="">
@@ -1522,7 +1522,7 @@
 
                                                         <div class="col-lg-8 ps-0">
                                                             <div class="kanban-content">
-                                                                <h4>Conference for architects</h4>
+                                                                <h4><a href="published-event.php">Conference for architects</a></h4>
                                                                 <div
                                                                     class="location-div-kanban d-flex align-items-center">
                                                                     <img src="assets/images/location1.svg" alt="">
@@ -1591,7 +1591,7 @@
 
                                                         <div class="col-lg-8 ps-0">
                                                             <div class="kanban-content">
-                                                                <h4>Conference for architects</h4>
+                                                                <h4><a href="published-event.php">Conference for architects</a></h4>
                                                                 <div
                                                                     class="location-div-kanban d-flex align-items-center">
                                                                     <img src="assets/images/location1.svg" alt="">
@@ -1660,7 +1660,7 @@
 
                                                         <div class="col-lg-8 ps-0">
                                                             <div class="kanban-content">
-                                                                <h4>Conference for architects</h4>
+                                                                <h4><a href="published-event.php">Conference for architects</a></h4>
                                                                 <div
                                                                     class="location-div-kanban d-flex align-items-center">
                                                                     <img src="assets/images/location1.svg" alt="">
@@ -1729,7 +1729,7 @@
 
                                                         <div class="col-lg-8 ps-0">
                                                             <div class="kanban-content">
-                                                                <h4>Conference for architects</h4>
+                                                                <h4><a href="published-event.php">Conference for architects</a></h4>
                                                                 <div
                                                                     class="location-div-kanban d-flex align-items-center">
                                                                     <img src="assets/images/location1.svg" alt="">
@@ -1798,7 +1798,7 @@
 
                                                         <div class="col-lg-8 ps-0">
                                                             <div class="kanban-content">
-                                                                <h4>Conference for architects</h4>
+                                                                <h4><a href="published-event.php">Conference for architects</a></h4>
                                                                 <div
                                                                     class="location-div-kanban d-flex align-items-center">
                                                                     <img src="assets/images/location1.svg" alt="">
@@ -1905,7 +1905,7 @@
 
                                                         <div class="col-lg-8 ps-0">
                                                             <div class="kanban-content">
-                                                                <h4>Conference for architects</h4>
+                                                                <h4><a href="published-event.php">Conference for architects</a></h4>
                                                                 <div
                                                                     class="location-div-kanban d-flex align-items-center">
                                                                     <img src="assets/images/location1.svg" alt="">
@@ -1974,7 +1974,7 @@
 
                                                         <div class="col-lg-8 ps-0">
                                                             <div class="kanban-content">
-                                                                <h4>Conference for architects</h4>
+                                                                <h4><a href="published-event.php">Conference for architects</a></h4>
                                                                 <div
                                                                     class="location-div-kanban d-flex align-items-center">
                                                                     <img src="assets/images/location1.svg" alt="">
@@ -2043,7 +2043,7 @@
 
                                                         <div class="col-lg-8 ps-0">
                                                             <div class="kanban-content">
-                                                                <h4>Conference for architects</h4>
+                                                                <h4><a href="published-event.php">Conference for architects</a></h4>
                                                                 <div
                                                                     class="location-div-kanban d-flex align-items-center">
                                                                     <img src="assets/images/location1.svg" alt="">
@@ -2112,7 +2112,7 @@
 
                                                         <div class="col-lg-8 ps-0">
                                                             <div class="kanban-content">
-                                                                <h4>Conference for architects</h4>
+                                                                <h4><a href="published-event.php">Conference for architects</a></h4>
                                                                 <div
                                                                     class="location-div-kanban d-flex align-items-center">
                                                                     <img src="assets/images/location1.svg" alt="">
@@ -2184,7 +2184,7 @@
                                         <tr>
                                             <td style="padding-right: 4px;"><input class="form-check-input check-input" type="checkbox"
                                                     id="formCheck1"><span class="resize"></span></td>
-                                            <td><a href="#" class="link-color">Business workshops</a><span
+                                            <td><a href="published-event.php" class="link-color">Business workshops</a><span
                                                     class="resize"></span></td>
                                             <td>Business workshops<span class="resize"></span></td>
                                             <td>
@@ -2218,7 +2218,7 @@
                                         <tr>
                                             <td style="padding-right: 4px;"><input class="form-check-input check-input" type="checkbox"
                                                     id="formCheck2"><span class="resize"></span></td>
-                                            <td><a href="#" class="link-color">OpenWood Collection Online</a><span
+                                            <td><a href="published-event.php" class="link-color">OpenWood Collection Online</a><span
                                                     class="resize"></span></td>
                                             <td>Angeles Convention Center<span class="resize"></span></td>
                                             <td>
@@ -2253,7 +2253,7 @@
                                         <tr>
                                             <td style="padding-right: 4px;"><input class="form-check-input check-input" type="checkbox"
                                                     id="formCheck3"><span class="resize"></span></td>
-                                            <td><a href="#" class="link-color">Business workshops</a><span
+                                            <td><a href="published-event.php" class="link-color">Business workshops</a><span
                                                     class="resize"></span></td>
                                             <td>Business workshops<span class="resize"></span></td>
                                             <td>
@@ -2288,7 +2288,7 @@
                                         <tr>
                                             <td style="padding-right: 4px;"><input class="form-check-input check-input" type="checkbox"
                                                     id="formCheck1"><span class="resize"></span></td>
-                                            <td><a href="#" class="link-color">OpenWood Collection Online</a><span
+                                            <td><a href="published-event.php" class="link-color">OpenWood Collection Online</a><span
                                                     class="resize"></span></td>
                                             <td>Angeles Convention Center<span class="resize"></span></td>
                                             <td>
@@ -2329,12 +2329,12 @@
                                 <div class="total-count">
                                     <h6>Total Count : <span>10</span></h6>
                                     <ul>
-                                        <li><a href="#"><i class="bx bx-chevron-left"></i></a></li>
                                         <li><a href="#"><i class="bx bx-chevrons-left"></i></a></li>
+                                        <li><a href="#"><i class="bx bx-chevron-left"></i></a></li>
                                         <li class="active"><a href="#"><span>1</span></a></li>
                                         <li><a href="#"><span>2</span></a></li>
-                                        <li><a href="#"><i class="bx bx-chevrons-right"></i></a></li>
                                         <li><a href="#"><i class="bx bx-chevron-right"></i></a></li>
+                                        <li><a href="#"><i class="bx bx-chevrons-right"></i></a></li>
                                     </ul>
                                 </div>
                             </div>
@@ -2363,7 +2363,7 @@
                                                     </div>
                                                 </div>
                                                 <div class="event-scndbx">
-                                                    <h3>Conference for architects</h3>
+                                                    <a href="published-event.php"><h3>Conference for architects</h3></a>
                                                     <div class="location-div">
                                                         <img src="assets/images/location.svg" alt="">
                                                         <span>Location Not Added</span>
@@ -2422,7 +2422,7 @@
                                                     </div>
                                                 </div>
                                                 <div class="event-scndbx">
-                                                    <h3>Conference for architects</h3>
+                                                    <a href="published-event.php"><h3>Conference for architects</h3></a>
                                                     <div class="location-div">
                                                         <img src="assets/images/location.svg" alt="">
                                                         <span>Location Not Added</span>
@@ -2481,7 +2481,7 @@
                                                     </div>
                                                 </div>
                                                 <div class="event-scndbx">
-                                                    <h3>Conference for architects</h3>
+                                                    <a href="published-event.php"><h3>Conference for architects</h3></a>
                                                     <div class="location-div">
                                                         <img src="assets/images/location.svg" alt="">
                                                         <span>Location Not Added</span>
@@ -2540,7 +2540,7 @@
                                                     </div>
                                                 </div>
                                                 <div class="event-scndbx">
-                                                    <h3>Conference for architects</h3>
+                                                    <a href="published-event.php"><h3>Conference for architects</h3></a>
                                                     <div class="location-div">
                                                         <img src="assets/images/location.svg" alt="">
                                                         <span>Location Not Added</span>
@@ -2599,7 +2599,7 @@
                                                     </div>
                                                 </div>
                                                 <div class="event-scndbx">
-                                                    <h3>Conference for architects</h3>
+                                                    <a href="published-event.php"><h3>Conference for architects</h3></a>
                                                     <div class="location-div">
                                                         <img src="assets/images/location.svg" alt="">
                                                         <span>Location Not Added</span>
@@ -2650,12 +2650,12 @@
                                 <div class="total-count">
                                     <h6>Total Count : <span>10</span></h6>
                                     <ul>
-                                        <li><a href="#"><i class="bx bx-chevron-left"></i></a></li>
                                         <li><a href="#"><i class="bx bx-chevrons-left"></i></a></li>
+                                        <li><a href="#"><i class="bx bx-chevron-left"></i></a></li>
                                         <li class="active"><a href="#"><span>1</span></a></li>
                                         <li><a href="#"><span>2</span></a></li>
-                                        <li><a href="#"><i class="bx bx-chevrons-right"></i></a></li>
                                         <li><a href="#"><i class="bx bx-chevron-right"></i></a></li>
+                                        <li><a href="#"><i class="bx bx-chevrons-right"></i></a></li>
                                     </ul>
                                 </div>
                             </div>
@@ -3696,10 +3696,10 @@
         <script src="assets/libs/node-waves/waves.min.js"></script>
         <script src="assets/js/pages/popper.min.js"></script>
         <script src="assets/js/pages/bootstrap.min.js"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/web-animations/2.3.1/web-animations.min.js"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/hammer.js/2.0.8/hammer.min.js"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/muuri/0.5.3/muuri.min.js"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/store.js/1.3.14/store.min.js"></script>
+        <script src="assets/libs/muuri/web-animations.min.js"></script>
+        <script src="assets/libs/muuri/hammer.min.js"></script>
+        <script src="assets/libs/muuri/muuri.min.js"></script>
+        <script src="assets/libs/muuri/store.min.js"></script>
         <script src="assets/libs/datepicker/semantic.min.js"></script>
 
         <script src="assets/libs/select2/js/select2.min.js"></script>

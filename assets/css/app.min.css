@@ -8120,6 +8120,10 @@ table.dataTable.dtr-inline.collapsed>tbody>tr>td.dtr-control:before {
     .nav-bottom-hr {
         margin: 0px;
     }
+    .bank-settings {
+        width: 80% !important;
+    }
+
 }
 
 @media (max-width: 1366px) {
@@ -8183,6 +8187,9 @@ table.dataTable.dtr-inline.collapsed>tbody>tr>td.dtr-control:before {
     }
     .team-tab-content {
         overflow: auto;
+    }
+    .bank-settings {
+        width: 90% !important;
     }
 }
 
@@ -9465,7 +9472,11 @@ height: 20px;
     padding: 0px 10px;
     transition: 1s;
 }
-.attandee-crfrm-btn:hover{
+.attandee-crfrm-btn:active{
+    background-color: #09BC8A;
+    transition: 1s;
+}
+.attandee-crfrm-btn:hover, .attandee-crfrm-btn:focus{
     background-color: #09BC8A;
     transition: 1s;
 }
@@ -9477,7 +9488,7 @@ height: 20px;
     padding: 0px 10px;
 }
 .modal-header1{
-    padding: 12px 2rem 10px;
+    padding: 12px 1.5rem 10px;
     display: flex;
     align-items: center;
     border-bottom: 1px solid #ebebeb;
@@ -11002,6 +11013,9 @@ font-size: 16px;
 font-weight: 600;
 margin-bottom: 10px;
 }
+.kanban-content h4 a{
+    color: #023897  !important;
+}
 .location-div-kanban img{
 width: 15px;
 margin-right: 5px;
@@ -11912,6 +11926,7 @@ table .avatar-sm{
 #btn-new-event{
     font-size: 14px;
     padding: 5px 10px;
+    border-radius: 3px;
 }
 
 .btn-suc{
@@ -12843,7 +12858,7 @@ table .avatar-sm{
 
 .settings-details {
     width: calc(100% - 300px);
-    padding: 30px 30px;
+    padding: 25px;
 }
 
 .settings-details .settings-tab {
@@ -12855,11 +12870,11 @@ table .avatar-sm{
 }
 
 .settings-details .settings-tab .settings-tab-pane{
-    height: 86.5vh;
+    height: 87.5vh;
 }
 
 .settings-details .tbl-overflow-hide{
-    height: 75vh;
+    height: 76vh;
     overflow-y: auto;
     overflow-x: hidden;
 }
@@ -13002,7 +13017,7 @@ table .avatar-sm{
 }
 
 .tbl-overflow-hide1{
-    height: 71vh;
+    height: 72vh;
     overflow: auto;
 }
 
@@ -13022,3 +13037,70 @@ table .avatar-sm{
 .search-inpt:hover .filter-megadropdown input {
     border-color: #ebebeb !important;
 }
+
+.card-box-bank{
+    background-image: url(../images/atm/ab-bg.svg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+   }
+   .bank-card{
+    height: 220px;
+    width: 405px;
+    border-radius: 10px;
+    border: 1px solid #FFF;
+    background: rgba(255, 255, 255, 0.01);
+    backdrop-filter: blur(30px);
+    padding: 20px;
+   }
+   .bank-card h5{
+    color: #fff;
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 10px;
+   }
+   .bank-card img{
+    width: 68px;
+    margin-top: 10px;
+   }
+   .bank-card label{
+    color: #d9d9d9;
+    font-size: 12px;
+    margin: 0;
+   }
+   .bank-card h6 {
+    color: #fff;
+    font-size: 15px;
+    font-weight: 500;
+    margin-top: 3px;
+    }
+    .bank-dtils{
+    padding: 10px 25px;
+    border: 1px solid #ebebeb;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+    }
+    .brdr-btm{
+        margin-bottom: 10px;
+    }
+    .accnt-dtils h5{
+        font-size: 20px;
+        font-weight: 600;
+        margin: 12px 0px;
+    }
+
+    .bank-settings{
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%);
+        width: 65%;
+        border-radius: 15px;
+    }

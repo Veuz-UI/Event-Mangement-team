@@ -123,14 +123,14 @@
                     <li class="nav-item" role="presentation">
                         <a class="nav-link active" data-bs-toggle="tab" href="#nav1" role="tab" aria-selected="true">
                             <i class="bx bx-user"></i>
-                            <span>Users</span>                          
+                            <span>User Management</span>                          
                         </a>                      
                     </li>
                     <li class="nav-item" role="presentation">
                         <a class="nav-link" data-bs-toggle="tab" href="#nav2" role="tab" aria-selected="false"
                             tabindex="-1">
                             <i class="bx bx-grid-alt"></i>
-                            <span>Role</span>
+                            <span>Role Management</span>
                         </a>
                     </li>
                     <li class="nav-item mega-menu-div" role="presentation">
@@ -4204,7 +4204,109 @@
                                 </div> 
                             </div>
                             <div class="tab-pane pb-0" id="conf-tab6" role="tabpanel">
-
+                                <div class="bank-settings">
+                                    <div class="row gx-0">
+                                        <div class="col-lg-6">
+                                            <div class="card register-detail-card h-100 bank-dtils">
+                                                <div class="card-header status-edit-head brdr-btm">
+                                                    <div class="accnt-dtils">
+                                                        <h5>Bank Account</h5>
+                                                    </div>
+                                                    <a href="#" id="onclck-edit-btn" class="edit-modl pe-0"><i class="bx bx-edit-alt"></i>Edit</a>
+                                                </div>
+                                                <div class="">
+                                                    <div class="row">
+                                                        <div class="col-md-12">
+                                                            <div class="row">
+                                                                <div class="col-md-12">
+                                                                    <div class="form-grp">
+                                                                        <label class="form-label">Account Name</label>
+                                                                        <input id="edit-input" class="form-control" type="text" placeholder="Account Name" value="Bisharu Rahman">                                        
+                                                                    </div>
+                                                                </div>
+                                                                <div class="col-md-12">
+                                                                    <div class="form-grp">
+                                                                        <label class="form-label">Email</label>
+                                                                        <input id="edit-input" class="form-control" type="text" Value="bisharu@gmail.com" placeholder="Email">                                        
+                                                                    </div>
+                                                                </div>
+                                                                <div class="col-md-12">
+                                                                    <div class="form-grp">
+                                                                        <label class="form-label">Account Type</label>
+                                                                        <select class="form-control" required="" name="account_type" id="account_type">
+                                                                            <option value="empty" selected="">Select account type</option> 
+                                                                            <option value="Private Limited">Private Limited</option>
+                                                                            <option value="Proprietorship">Proprietorship</option>
+                                                                            <option value="Partnership">Partnership</option>
+                                                                            <option value="Individual">Individual</option> 
+                                                                            <option value="Public Limited">Public Limited</option>
+                                                                            <option value="LLP">LLP</option>
+                                                                            <option value="Trust">Trust</option>
+                                                                            <option value="Society">Society</option>
+                                                                            <option value="NGO">NGO</option>
+                                                                        </select>                                       
+                                                                    </div>
+                                                                </div>
+                                                                <div class="col-md-12">
+                                                                    <div class="form-grp">
+                                                                        <label class="form-label">Branch IFSC Code</label>
+                                                                        <input id="edit-input" class="form-control" type="text" Value="SBIN0070188" placeholder="Branch IFSC Code">                                         
+                                                                    </div>
+                                                                </div>
+                                                                <div class="col-md-12">
+                                                                    <div class="form-grp">
+                                                                        <label class="form-label">Account Number</label>
+                                                                        <input id="edit-input" class="form-control" type="text" Value="670533446798" placeholder="Account Number">                                        
+                                                                    </div>
+                                                                </div>
+                                                                <div class="col-md-12">
+                                                                    <div class="form-grp">
+                                                                        <label class="form-label">Re-Enter Account Number</label>
+                                                                        <input id="edit-input" class="form-control" type="text" Value="670533446798" placeholder="Re-Enter Account Number">                                        
+                                                                    </div>
+                                                                </div>
+                                                                <div class="col-md-12">
+                                                                    <div class="form-grp">
+                                                                        <label class="form-label">Beneficiary Name</label>
+                                                                        <input id="edit-input" class="form-control" type="text" Value="Arshad" placeholder="Beneficiary Name">                                        
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div> 
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-6">
+                                            <div class="card-box-bank">
+                                                <div class="bank-card">
+                                                    <h5>EVENT CARD</h5>
+                                                    <img src="assets/images/atm/chip.png" alt="" class="img-fluid">
+                                                    <div class="row mt-3">
+                                                        <div class="col-lg-6">
+                                                            <label for="">Account Name</label>
+                                                            <h6>Bishru Rahman</h6>
+                                                        </div>
+                                                        <div class="col-lg-6">
+                                                            <label for="">Email</label>
+                                                            <h6>bishru@gmail.com</h6>
+                                                        </div>
+                                                    </div>
+                                                    <div class="row mt-2">
+                                                        <div class="col-lg-6">
+                                                            <label for="">IFSC Code</label>
+                                                            <h6>0235478</h6>
+                                                        </div>
+                                                        <div class="col-lg-6">
+                                                            <label for="">Account Number</label>
+                                                            <h6>125478965555</h6>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
                             </div>
                             <div class="tab-pane pb-0" id="conf-tab7" role="tabpanel">
                                 <div class="conf-settings">
@@ -5554,6 +5656,11 @@
             $(".appnd_role_minus_btn").click(function() {
                     $(this).parent().parent().remove();
                 });
+    </script>
+    <script>
+        $('#onclck-edit-btn').click(function(){
+        $('#edit-input').focus();
+    });
     </script>
 </body>
 
