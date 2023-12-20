@@ -9228,7 +9228,7 @@
                             margin: -28px auto 15px;
                         }
                         .empty-image{
-                            width: 40%;
+                            width: 22%;
                             margin-top: -15px;
                         }
                         .uploaded_file_view.show .empty-image{
@@ -9256,7 +9256,7 @@
                                 </div>
                                 <div class="error_msg"></div>
                                 <div class="uploaded_file_view" id="uploaded_view">
-                                    <img src="assets/images/empty-img1.jpg" alt="" class="empty-image">
+                                    <img src="assets/images/empty-img2.jpg" alt="" class="empty-image">
                                 </div>
                             </div>
                         </main>
@@ -9518,6 +9518,36 @@
                 </div>
                 <div class="modal-body">
                     <div class="row">
+                        <div class="col-md-12">
+                            <label class="form-label">Upload Image</label>
+                            <div class="upload-area" id="uploadArea3" onclick="importDifferentFile(3)">
+                                <div class="upload-area__drop-zoon drop-zoon" id="dropZoon3">
+                                    <span class="drop-zoon__icon">
+                                        <i class='bx bxs-file-image'></i>
+                                    </span>
+                                    <p class="drop-zoon__paragraph">Drop your file here or Click to browse</p>
+                                    <span class="drop-zoon__loading-text" id="loadingText3">Please Wait</span>
+                                    <img src="" alt="Preview Image" class="drop-zoon__preview-image" id="previewImage3" draggable="false">
+                                    <input type="file" class="drop-zoon__file-input" id="fileInput3" accept="image/*">
+                                </div>
+        
+                                <div class="upload-area__file-details file-details" id="fileDetails3">
+                                    <!-- <h3 class="file-details__title">Uploaded File</h3> -->
+        
+                                    <div class="uploaded-file pb-0" id="uploadedFile3">
+                                        <!-- <div class="uploaded-file__icon-container">
+                                            <i class='bx bxs-file-blank uploaded-file__icon'></i>
+                                            <span class="uploaded-file__icon-text"></span>
+                                        </div> -->
+        
+                                        <div class="uploaded-file__info upload-dnone" id="uploadedFileInfo3">
+                                            <!-- <span class="uploaded-file__name">Project 1</span> -->
+                                            <span class="uploaded-file__counter">0%</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                         <div class="col-md-6">
                             <div class="form-grp">
                                 <label class="form-label">Session Type</label>
