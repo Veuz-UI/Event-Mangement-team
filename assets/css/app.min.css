@@ -12301,3 +12301,18 @@ table .avatar-sm{
 .bx-trash:hover{
     color: #F14C4C;
 }
+
+.register-details{
+    background-color: #ebebeb;
+    height: 100vh;
+}
+
+.register-details .card{
+    margin: 10px;
+}
+
+.register-detail-card .card-header{
+    padding: 0px;
+    border-bottom: 1px solid #ebebeb;
+    background-color: #fff;
+}
