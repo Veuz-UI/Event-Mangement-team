@@ -13,6 +13,8 @@
     <link href="assets/libs/spectrum-colorpicker2/spectrum.min.css" rel="stylesheet" type="text/css">
     <link href="assets/libs/bootstrap-timepicker/css/bootstrap-timepicker.min.css" rel="stylesheet" type="text/css">
     <link href="assets/libs/datepicker/datepicker.min.css" rel="stylesheet">
+    <link href="assets/libs/select2/css/chosen.min.css" rel="stylesheet">
+    <link href="assets/libs/select2/css/select2.min.css" rel="stylesheet">
     <link href="assets/css/bootstrap.min.css" id="bootstrap-style" rel="stylesheet" type="text/css" />
     <link href="assets/css/icons.min.css" rel="stylesheet" type="text/css" />
     <link href="assets/css/app.min.css" id="app-style" rel="stylesheet" type="text/css" />
@@ -64,7 +66,7 @@
                                 </div>
                                 <div class="dropdown-menu"
                                     aria-labelledby="dropdownMenuButton">
-                                    <a class="dropdown-item" href="#"><i
+                                    <a class="dropdown-item" href="#" data-bs-toggle="modal" data-bs-target="#import-upload"><i
                                             class="fas fa-download me-2"></i>Import</a>
                                     <div class="dropdown-divider"></div>
                                     <a class="dropdown-item" href="#"><i
@@ -93,7 +95,7 @@
                                         <a class="dropdown-item" href="#"><i class="bx bxs-archive-out me-2"
                                                 aria-hidden="true"></i>Unarchive</a>
                                         <div class="dropdown-divider"></div>
-                                        <a class="dropdown-item" href="#"><i class="bx bxs-trash-alt me-2"
+                                        <a class="dropdown-item" href="#" data-bs-toggle="modal" data-bs-target="#alert-delete"><i class="bx bxs-trash-alt me-2"
                                                 aria-hidden="true"></i>Delete</a>
                                     </div>
                                 </div>
@@ -438,7 +440,7 @@
                                     <table id="event-table" class="table table-resizable table-striped mb-0">
                                         <thead>
                                             <tr>
-                                                <th width="46px"><input class="form-check-input " type="checkbox" name="Main_Checkbox"
+                                                <th width="36px" style="padding-right: 4px;"><input class="form-check-input " type="checkbox" name="Main_Checkbox"
                                                 id="selectAll"><span class="resize"></span></th>
                                                 <th>Ticket ID<span class="resize"></span></th>
                                                 <th>Name<span class="resize"></span></th>
@@ -451,7 +453,7 @@
                                         </thead>
                                         <tbody>
                                             <tr>
-                                                <td><input class="form-check-input check-input" type="checkbox" id="formCheck1"><span class="resize"></span></td>
+                                                <td style="padding-right: 4px;"><input class="form-check-input check-input" type="checkbox" id="formCheck1"><span class="resize"></span></td>
                                                 <td>
                                                     KZQ-ZVDRT-613
                                                 </td>
@@ -470,14 +472,14 @@
                                                     <a href="exam-answers.php"><a href="exam-answers.php"><button type="button" class="btn btn-soft-primary waves-effect waves-light attandee-crfrm-btn">Go to Result</button></a></a>
                                                 </td>
                                                 <td class="text-end">
-                                                    <a href="#" class="delete-member" data-bs-toggle="modal" data-bs-target="#delete-alert"><i class="bx bx-trash"></i></a>
+                                                    <a href="#" class="delete-member" data-bs-toggle="modal" data-bs-target="#alert-delete"><i class="bx bx-trash"></i></a>
                                                     <span class="resize"></span>
                                                 </td>
 
 
                                             </tr>
                                             <tr>
-                                                <td><input class="form-check-input check-input" type="checkbox" id="formCheck1"><span class="resize"></span></td>
+                                                <td style="padding-right: 4px;"><input class="form-check-input check-input" type="checkbox" id="formCheck1"><span class="resize"></span></td>
                                                 <td>
                                                     KZQ-ZVDRT-613
                                                 </td>
@@ -496,14 +498,14 @@
                                                     <a href="exam-answers.php"><button type="button" class="btn btn-soft-primary waves-effect waves-light attandee-crfrm-btn">Go to Result</button></a>
                                                 </td>
                                                 <td class="text-end">
-                                                    <a href="#" class="delete-member" data-bs-toggle="modal" data-bs-target="#delete-alert"><i class="bx bx-trash"></i></a>
+                                                    <a href="#" class="delete-member" data-bs-toggle="modal" data-bs-target="#alert-delete"><i class="bx bx-trash"></i></a>
                                                     <span class="resize"></span>
                                                 </td>
 
 
                                             </tr>
                                             <tr>
-                                                <td><input class="form-check-input check-input" type="checkbox" id="formCheck1"><span class="resize"></span></td>
+                                                <td style="padding-right: 4px;"><input class="form-check-input check-input" type="checkbox" id="formCheck1"><span class="resize"></span></td>
                                                 <td>
                                                     KZQ-ZVDRT-613
                                                 </td>
@@ -522,14 +524,14 @@
                                                     <a href="exam-answers.php"><button type="button" class="btn btn-soft-primary waves-effect waves-light attandee-crfrm-btn">Go to Result</button></a>
                                                 </td>
                                                 <td class="text-end">
-                                                    <a href="#" class="delete-member" data-bs-toggle="modal" data-bs-target="#delete-alert"><i class="bx bx-trash"></i></a>
+                                                    <a href="#" class="delete-member" data-bs-toggle="modal" data-bs-target="#alert-delete"><i class="bx bx-trash"></i></a>
                                                     <span class="resize"></span>
                                                 </td>
 
 
                                             </tr>
                                             <tr>
-                                                <td><input class="form-check-input check-input" type="checkbox" id="formCheck1"><span class="resize"></span></td>
+                                                <td style="padding-right: 4px;"><input class="form-check-input check-input" type="checkbox" id="formCheck1"><span class="resize"></span></td>
                                                 <td>
                                                     KZQ-ZVDRT-613
                                                 </td>
@@ -548,7 +550,7 @@
                                                     <a href="exam-answers.php"><button type="button" class="btn btn-soft-primary waves-effect waves-light attandee-crfrm-btn">Go to Result</button></a>
                                                 </td>
                                                 <td class="text-end">
-                                                    <a href="#" class="delete-member" data-bs-toggle="modal" data-bs-target="#delete-alert"><i class="bx bx-trash"></i></a>
+                                                    <a href="#" class="delete-member" data-bs-toggle="modal" data-bs-target="#alert-delete"><i class="bx bx-trash"></i></a>
                                                     <span class="resize"></span>
                                                 </td>
 
@@ -604,7 +606,7 @@
                                                                     class="fas fa-envelope me-2"></i>Send
                                                                 Mail</a>
                                                             <div class="dropdown-divider"></div>                                                                      
-                                                            <a class="dropdown-item" href="#"><i class="fas fa-trash me-2"></i>Delete</a>
+                                                            <a class="dropdown-item" href="#" data-bs-toggle="modal" data-bs-target="#alert-delete"><i class="fas fa-trash me-2"></i>Delete</a>
                                                         </div>
                                                     </div>
 
@@ -643,7 +645,7 @@
                                                                     class="fas fa-envelope me-2"></i>Send
                                                                 Mail</a>
                                                             <div class="dropdown-divider"></div>
-                                                            <a class="dropdown-item" href="#"><i class="fas fa-trash me-2"></i>Delete</a>
+                                                            <a class="dropdown-item" href="#" data-bs-toggle="modal" data-bs-target="#alert-delete"><i class="fas fa-trash me-2"></i>Delete</a>
 
                                                         </div>
                                                     </div>
@@ -682,7 +684,7 @@
                                                                     class="fas fa-envelope me-2"></i>Send
                                                                 Mail</a>
                                                             <div class="dropdown-divider"></div>
-                                                            <a class="dropdown-item" href="#"><i class="fas fa-trash me-2"></i>Delete</a>
+                                                            <a class="dropdown-item" href="#" data-bs-toggle="modal" data-bs-target="#alert-delete"><i class="fas fa-trash me-2"></i>Delete</a>
 
                                                         </div>
                                                     </div>
@@ -721,7 +723,7 @@
                                                                     class="fas fa-envelope me-2"></i>Send
                                                                 Mail</a>
                                                             <div class="dropdown-divider"></div>
-                                                            <a class="dropdown-item" href="#"><i class="fas fa-trash me-2"></i>Delete</a>
+                                                            <a class="dropdown-item" href="#" data-bs-toggle="modal" data-bs-target="#alert-delete"><i class="fas fa-trash me-2"></i>Delete</a>
 
                                                         </div>
                                                     </div>
@@ -760,7 +762,7 @@
                                                                     class="fas fa-envelope me-2"></i>Send
                                                                 Mail</a>
                                                             <div class="dropdown-divider"></div>
-                                                            <a class="dropdown-item" href="#"><i class="fas fa-trash me-2"></i>Delete</a>
+                                                            <a class="dropdown-item" href="#" data-bs-toggle="modal" data-bs-target="#alert-delete"><i class="fas fa-trash me-2"></i>Delete</a>
 
                                                         </div>
                                                     </div>
@@ -797,7 +799,7 @@
                                                                     class="fas fa-envelope me-2"></i>Send
                                                                 Mail</a>
                                                             <div class="dropdown-divider"></div>
-                                                            <a class="dropdown-item" href="#"><i class="fas fa-trash me-2"></i>Delete</a>
+                                                            <a class="dropdown-item" href="#" data-bs-toggle="modal" data-bs-target="#alert-delete"><i class="fas fa-trash me-2"></i>Delete</a>
 
                                                         </div>
                                                     </div>
@@ -837,7 +839,7 @@
                                                                     class="fas fa-envelope me-2"></i>Send
                                                                 Mail</a>
                                                             <div class="dropdown-divider"></div>
-                                                            <a class="dropdown-item" href="#"><i class="fas fa-trash me-2"></i>Delete</a>
+                                                            <a class="dropdown-item" href="#" data-bs-toggle="modal" data-bs-target="#alert-delete"><i class="fas fa-trash me-2"></i>Delete</a>
 
                                                         </div>
                                                     </div>
@@ -876,7 +878,7 @@
                                                                     class="fas fa-envelope me-2"></i>Send
                                                                 Mail</a>
                                                             <div class="dropdown-divider"></div>
-                                                            <a class="dropdown-item" href="#"><i class="fas fa-trash me-2"></i>Delete</a>
+                                                            <a class="dropdown-item" href="#" data-bs-toggle="modal" data-bs-target="#alert-delete"><i class="fas fa-trash me-2"></i>Delete</a>
 
                                                         </div>
                                                     </div>
@@ -915,7 +917,7 @@
                                                                     class="fas fa-envelope me-2"></i>Send
                                                                 Mail</a>
                                                             <div class="dropdown-divider"></div>
-                                                            <a class="dropdown-item" href="#"><i class="fas fa-trash me-2"></i>Delete</a>
+                                                            <a class="dropdown-item" href="#" data-bs-toggle="modal" data-bs-target="#alert-delete"><i class="fas fa-trash me-2"></i>Delete</a>
 
                                                         </div>
                                                     </div>
@@ -954,7 +956,7 @@
                                                                     class="fas fa-envelope me-2"></i>Send
                                                                 Mail</a>
                                                             <div class="dropdown-divider"></div>
-                                                            <a class="dropdown-item" href="#"><i class="fas fa-trash me-2"></i>Delete</a>
+                                                            <a class="dropdown-item" href="#" data-bs-toggle="modal" data-bs-target="#alert-delete"><i class="fas fa-trash me-2"></i>Delete</a>
 
                                                         </div>
                                                     </div>
@@ -991,7 +993,7 @@
                                                                     class="fas fa-envelope me-2"></i>Send
                                                                 Mail</a>
                                                             <div class="dropdown-divider"></div>
-                                                            <a class="dropdown-item" href="#"><i class="fas fa-trash me-2"></i>Delete</a>
+                                                            <a class="dropdown-item" href="#" data-bs-toggle="modal" data-bs-target="#alert-delete"><i class="fas fa-trash me-2"></i>Delete</a>
 
                                                         </div>
                                                     </div>
@@ -1031,7 +1033,7 @@
                                                                     class="fas fa-envelope me-2"></i>Send
                                                                 Mail</a>
                                                             <div class="dropdown-divider"></div>
-                                                            <a class="dropdown-item" href="#"><i class="fas fa-trash me-2"></i>Delete</a>
+                                                            <a class="dropdown-item" href="#" data-bs-toggle="modal" data-bs-target="#alert-delete"><i class="fas fa-trash me-2"></i>Delete</a>
 
                                                         </div>
                                                     </div>
@@ -1070,7 +1072,7 @@
                                                                     class="fas fa-envelope me-2"></i>Send
                                                                 Mail</a>
                                                             <div class="dropdown-divider"></div>
-                                                            <a class="dropdown-item" href="#"><i class="fas fa-trash me-2"></i>Delete</a>
+                                                            <a class="dropdown-item" href="#" data-bs-toggle="modal" data-bs-target="#alert-delete"><i class="fas fa-trash me-2"></i>Delete</a>
 
                                                         </div>
                                                     </div>
@@ -1109,7 +1111,7 @@
                                                                     class="fas fa-envelope me-2"></i>Send
                                                                 Mail</a>
                                                             <div class="dropdown-divider"></div>
-                                                            <a class="dropdown-item" href="#"><i class="fas fa-trash me-2"></i>Delete</a>
+                                                            <a class="dropdown-item" href="#" data-bs-toggle="modal" data-bs-target="#alert-delete"><i class="fas fa-trash me-2"></i>Delete</a>
 
                                                         </div>
                                                     </div>
@@ -1148,7 +1150,7 @@
                                                                     class="fas fa-envelope me-2"></i>Send
                                                                 Mail</a>
                                                             <div class="dropdown-divider"></div>
-                                                            <a class="dropdown-item" href="#"><i class="fas fa-trash me-2"></i>Delete</a>
+                                                            <a class="dropdown-item" href="#" data-bs-toggle="modal" data-bs-target="#alert-delete"><i class="fas fa-trash me-2"></i>Delete</a>
 
                                                         </div>
                                                     </div>
@@ -1187,200 +1189,381 @@
     </div>
 
 
-
-
-    <!-- Modal -->
-    <div class="modal fade" id="invite-speaker" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
-        role="dialog" aria-labelledby="staticBackdropLabel" aria-hidden="true">
-        <div class="modal-dialog modal-dialog-centered modal-xl" role="document">
+    <div class="modal common-modal fade" id="import-upload" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" role="dialog" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
             <div class="modal-content">
-                <div class="modal-header">
-                    <h5 class="modal-title" id="staticBackdropLabel"> <img src="assets/images/users.svg"
-                            alt=""><span>Add Speakers</span></h5>
+                <div class="modal-header1">
+                    <div class="header-logo-img">
+                        <img src="assets/images/logo.png" alt="">
+                    </div>
+                    <div class="modal-header-info">
+                        <h2>Cyber park event</h2>
+                        <h6><i class="bx bx-calendar"></i> Aug 03-05, 2023</h6>
+                    </div>
+             
                     <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                 </div>
-                <div class="modal-body user-sqr">
-                    <div class="row">
-                        <div class="col-md-10">
-                            <div class="row">
-                                <div class="col-md-4">
-                                    <div class="form-grp mb-1">
-                                        <label class="form-label">First Name</label>
-                                        <input type="text" class="form-control">
-                                    </div>
-                                </div>
-                                <div class="col-md-4">
-                                    <div class="form-grp mb-1">
-                                        <label class="form-label">Last Name</label>
-                                        <input type="text" class="form-control">
-                                    </div>
-                                </div>
-                                <div class="col-md-4">
-                                    <div class="form-grp mb-1">
-                                        <label class="form-label">Email</label>
-                                        <input type="text" class="form-control">
-                                    </div>
-                                </div>
-                                <div class="col-md-12">
-                                    <div class="form-check form-radio-outline form-radio-danger evnt-radio mb-2">
-                                        <input class="form-check-input" type="checkbox" name="formRadio6" id="formRadio5" autocompleted="">
-                                        <label class="form-check-label" for="formRadio6">
-                                            Feature this speaker
-                                        </label>
-                                    </div>
+                <div class="modal-body">
+                    <div class="upload-area" id="uploadArea2" onclick="importDifferentFile(2)">
+                        <div class="upload-area__drop-zoon drop-zoon" id="dropZoon2">
+                            <span class="drop-zoon__icon">
+                                <i class='bx bxs-file-image'></i>
+                            </span>
+                            <p class="drop-zoon__paragraph">Drop your file here or Click to browse</p>
+                            <span class="drop-zoon__loading-text" id="loadingText2">Please Wait</span>
+                            <img src="" alt="Preview Image" class="drop-zoon__preview-image" id="previewImage2" draggable="false">
+                            <input type="file" class="drop-zoon__file-input" id="fileInput2" accept="image/*">
+                        </div>
+
+                        <div class="upload-area__file-details file-details" id="fileDetails2">
+                            <h3 class="file-details__title">Uploaded File</h3>
+
+                            <div class="uploaded-file" id="uploadedFile2">
+                                <div class="uploaded-file__icon-container">
+                                    <i class='bx bxs-file-blank uploaded-file__icon'></i>
+                                    <span class="uploaded-file__icon-text"></span>
                                 </div>
 
-                                <div class="col-md-3">
-                                    <div class="form-grp">
-                                        <label class="form-label">Country</label>
-                                        <div class="select-inp">
-                                            <select class="form-control">
-
-                                                <option value="AK">India</option>
-                                                <option value="HI">Usa</option>
-
-                                            </select>
-                                            <i class="fas fa-chevron-down"></i>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-md-3">
-                                    <div class="form-grp">
-                                        <label class="form-label">Role</label>
-                                        <div class="select-inp">
-                                            <select class="form-control">
-
-                                                <option value="AK">Speaker</option>
-                                                <option value="HI">Guest Speaker</option>
-
-                                            </select>
-                                            <i class="fas fa-chevron-down"></i>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-md-3">
-                                    <div class="form-grp">
-                                        <label class="form-label">Designation</label>
-                                        <input type="text" class="form-control">
-                                    </div>
-                                </div>
-                                <div class="col-md-3">
-                                    <div class="form-grp">
-                                        <label class="form-label">Organization</label>
-                                        <input type="text" class="form-control">
-                                    </div>
+                                <div class="uploaded-file__info" id="uploadedFileInfo2">
+                                    <span class="uploaded-file__name">Project 1</span>
+                                    <span class="uploaded-file__counter">0%</span>
                                 </div>
                             </div>
                         </div>
-                        <div class="col-md-2">
-                            <div class="img-upload-form">
-                                <img src="assets/images/users/default.png" id="upld-image1">
-                                <i class="bx bxs-pencil" onclick="makeimg(1)" ;></i>
-                                <input type="file" oninput="previewFile(1)" accept="image/*" id="imgfile1" />
-
-                            </div>
-                        </div>
-
-
-
-                        <div class="col-md-10">
-                            <div class="form-grp">
-                                <label class="form-label">Skills</label>
-                                <div class="bs-example form-control mb-1">
-                                    <input type="text" id="#inputTag" value="" data-role="tagsinput">
-                                </div>
-                                <span>Use space to separate multiple skills</span>
-                            </div>
-                        </div>
-
-                        <div class="col-md-12">
-                            <div class="form-grp">
-                                <label class="form-label">Speaker Description</label>
-                                <textarea id="summernote" class="form-control"></textarea>
-                            </div>
-                        </div>
-                        <div class="col-md-6">
-                            <div class="row">
-                                <div class="col-md-6">
-                                    <div class="form-grp">
-                                        <label class="form-label">Telephone No</label>
-                                        <input type="text" class="form-control">
-                                    </div>
-                                </div>
-                                <div class="col-md-6">
-                                    <div class="form-grp">
-                                        <label class="form-label">Alternate Telephone No</label>
-                                        <input type="text" class="form-control">
-                                    </div>
-                                </div>
-                            </div>
-
-
-                            <div class="form-grp">
-                                <label class="form-label">Address</label>
-                                <textarea name="" id="" cols="30" rows="2" class="form-control"></textarea>
-                            </div>
-                        </div>
-                        <div class="col-md-6">
-                            <div class="form-grp social-inputgrp">
-                                <label class="form-label">Social Pages / Handles</label>
-
-                                <div class="input-group">
-
-                                    <select class="form-select light-btn">
-                                        <option value="BT" selected="">Twitter</option>
-                                        <option value="ET">Facebook</option>
-                                        <option value="LT">Instagram</option>
-                                    </select>
-                                    <input type="text" class="form-control" aria-label="Text input with dropdown button"
-                                        id="dropdown-on-both" placeholder="https://www.twitter.com/xyz">
-                                    <div class="input-group-append">
-                                        <button type="button"
-                                            class="btn btn-primary waves-effect waves-light ">ADD</button>
-                                    </div>
-                                </div>
-                                <div class="social-media-out social-media-overflw my-2">
-                                    <div class="input-group">
-                                        <div class="input-group-text bg-primary text-white font-size-15"><i
-                                                class="bx bxl-facebook"></i></div>
-                                        <input type="text" class="form-control" id="autoSizingInputGroup"
-                                            placeholder="https://www.facebook.com/xyz">
-                                        <button class="bx bx-trash delete-icn"></button>
-                                    </div>
-                                    <div class="input-group my-2">
-                                        <div class="input-group-text bg-pink text-white font-size-15"><i
-                                                class="bx bxl-instagram"></i></div>
-                                        <input type="text" class="form-control" id="autoSizingInputGroup"
-                                            placeholder="https://www.instagram.com/xyz">
-                                        <button class="bx bx-trash delete-icn"></button>
-                                    </div>
-                                    <div class="input-group">
-                                        <div class="input-group-text bg-info text-white font-size-15"><i
-                                                class="bx bxl-twitter"></i></div>
-                                        <input type="text" class="form-control" id="autoSizingInputGroup"
-                                            placeholder="https://www.twitter.com/xyz">
-                                        <button class="bx bx-trash delete-icn"></button>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-
-
                     </div>
 
-
                 </div>
-                <div class="modal-footer">
-
-                    <button type="button" class="btn btn-light  br-50 btn-md" data-bs-dismiss="modal">Close</button>
-                    <a href="#"><button type="button" class="btn btn-primary  br-50 btn-md">Done</button></a>
+                <div class="modal-footer justify-content-end">
+                    <a href="#"><button  data-bs-target="#upload-inpt" data-bs-toggle="modal" data-bs-dismiss="modal" type="button" class="btn btn-primary  br-50 btn-md">Next</button></a>
                 </div>
             </div>
         </div>
     </div>
+    <div class="modal fade" id="upload-inpt" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" role="dialog" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="staticBackdropLabel"> <img src="assets/images/import.svg" alt="" style="width: 22px;"><span>Attendees IN</span></h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <div class="form-grp">
+                                <div class="alrt-bx alert alert-danger alert-dismissible fade show" role="alert">
+                                     <h6><span class="alert-link">XL Line No 8 :</span>Invalid username</h6>
+                                     <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+                                </div>
+                              
+                             </div>
+                            <div class="field-btns">
+                                <button type="button"class="btn btn-secondary waves-effect waves-light btn-sm text-uppercase br-50 small">
+                                    <i class="bx bx-upload font-size-16 align-middle me-1"></i>Upload</button>
 
+                                    <button type="button" class="btn btn-outline-secondary btn-export waves-effect waves-light btn-sm text-uppercase br-50 small">
+                                       Test
+                                    </button>
+                            </div>
+                            <div class="event-table attendee-in response-tbl">
+                                <div class="table-responsive">
+                                    <table id="event-table" class="table table-striped attendee-today-tbl field-tbl">
+                                        <thead>
+                                            <tr>
+                                                <th>Excel Field</th>
+                                                <th style="width: 400px;">Field</th>
+                                                <th style="width: 30px;"></th>
+                                               
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            <tr>
+                                                <td>
+                                                   Name
+                                                </td>
+                                                <td class="field-slct">
+                                                    <select multiple class="single-select">
+                                                        <option disabled>Select an option</option>
+                                                        <option selected>Option1</option>
+                                                        <option>Option2</option>
+                                                        <option>Option3</option>
+                                                        <option>Option4</option>
+                                                       
+                                                    </select>
+                                                </td>
+                                                <td> <a href="#" class="remove-tr" data-bs-toggle="modal" data-bs-target="#alert-delete"><i class="bx bx-trash"></i></a></td>
+                                               
+                                            </tr>
+                                            <tr>
+                                                <td>
+                                                    Email
+                                                </td>
+                                                <td class="field-slct">
+                                                    <select multiple class="single-select">
+                                                        <option disabled>Select an option</option>
+                                                        <option selected>Option1</option>
+                                                        <option>Option2</option>
+                                                        <option>Option3</option>
+                                                        <option>Option4</option>
+                                                       
+                                                    </select>
+                                                </td>
+                                                <td> <a href="#" class="remove-tr" data-bs-toggle="modal" data-bs-target="#alert-delete"><i class="bx bx-trash"></i></a></td>
+                                            </tr>
+                                            <tr>
+                                                <td>
+                                                    Dob
+                                                </td>
+                                                <td class="field-slct">
+                                                    <select multiple class="single-select">
+                                                        <option disabled>Select an option</option>
+                                                        <option selected>Option1</option>
+                                                        <option>Option2</option>
+                                                        <option>Option3</option>
+                                                        <option>Option4</option>
+                                                       
+                                                    </select>
+                                                </td>
+                                                <td> <a href="#" class="remove-tr" data-bs-toggle="modal" data-bs-target="#alert-delete"><i class="bx bx-trash"></i></a></td>
+                                            </tr>
+                                            <tr>
+                                                <td>
+                                                   Name
+                                                </td>
+                                                <td class="field-slct">
+                                                    <select multiple class="single-select">
+                                                        <option disabled>Select an option</option>
+                                                        <option selected>Option1</option>
+                                                        <option>Option2</option>
+                                                        <option>Option3</option>
+                                                        <option>Option4</option>
+                                                       
+                                                    </select>
+                                                </td>
+                                                <td> <a href="#" class="remove-tr" data-bs-toggle="modal" data-bs-target="#alert-delete"><i class="bx bx-trash"></i></a></td>
+                                            </tr>
+                                            <tr>
+                                                <td>
+                                                    Email
+                                                </td>
+                                                <td class="field-slct">
+                                                    <select multiple class="single-select">
+                                                        <option disabled>Select an option</option>
+                                                        <option selected>Option1</option>
+                                                        <option>Option2</option>
+                                                        <option>Option3</option>
+                                                        <option>Option4</option>
+                                                       
+                                                    </select>
+                                                </td>
+                                                <td> <a href="#" class="remove-tr" data-bs-toggle="modal" data-bs-target="#alert-delete"><i class="bx bx-trash"></i></a></td>
+                                            </tr>
+                                            <tr>
+                                                <td>
+                                                    Dob
+                                                </td>
+                                                <td class="field-slct">
+                                                    <select multiple class="single-select">
+                                                        <option disabled>Select an option</option>
+                                                        <option selected>Option1</option>
+                                                        <option>Option2</option>
+                                                        <option>Option3</option>
+                                                        <option>Option4</option>
+                                                       
+                                                    </select>
+                                                </td>
+                                                <td> <a href="#" class="remove-tr" data-bs-toggle="modal" data-bs-target="#alert-delete"><i class="bx bx-trash"></i></a></td>
+                                            </tr>
+                                            <tr>
+                                                <td>
+                                                   Name
+                                                </td>
+                                                <td class="field-slct">
+                                                    <select multiple class="single-select">
+                                                        <option disabled>Select an option</option>
+                                                        <option selected>Option1</option>
+                                                        <option>Option2</option>
+                                                        <option>Option3</option>
+                                                        <option>Option4</option>
+                                                       
+                                                    </select>
+                                                </td>
+                                                <td> <a href="#" class="remove-tr" data-bs-toggle="modal" data-bs-target="#alert-delete"><i class="bx bx-trash"></i></a></td>
+                                            </tr>
+                                            <tr>
+                                                <td>
+                                                    Email
+                                                </td>
+                                                <td class="field-slct">
+                                                    <select multiple class="single-select">
+                                                        <option disabled>Select an option</option>
+                                                        <option selected>Option1</option>
+                                                        <option>Option2</option>
+                                                        <option>Option3</option>
+                                                        <option>Option4</option>
+                                                       
+                                                    </select>
+                                                </td>
+                                                <td> <a href="#" class="remove-tr" data-bs-toggle="modal" data-bs-target="#alert-delete"><i class="bx bx-trash"></i></a></td>
+                                            </tr>
+                                            <tr>
+                                                <td>
+                                                    Dob
+                                                </td>
+                                                <td class="field-slct">
+                                                    <select multiple class="single-select">
+                                                        <option disabled>Select an option</option>
+                                                        <option selected>Option1</option>
+                                                        <option>Option2</option>
+                                                        <option>Option3</option>
+                                                        <option>Option4</option>
+                                                       
+                                                    </select>
+                                                </td>
+                                                <td> <a href="#" class="remove-tr" data-bs-toggle="modal" data-bs-target="#alert-delete"><i class="bx bx-trash"></i></a></td>
+                                            </tr>
+                                            <tr>
+                                                <td>
+                                                   Name
+                                                </td>
+                                                <td class="field-slct">
+                                                    <select multiple class="single-select">
+                                                        <option disabled>Select an option</option>
+                                                        <option selected>Option1</option>
+                                                        <option>Option2</option>
+                                                        <option>Option3</option>
+                                                        <option>Option4</option>
+                                                       
+                                                    </select>
+                                                </td>
+                                                <td> <a href="#" class="remove-tr" data-bs-toggle="modal" data-bs-target="#alert-delete"><i class="bx bx-trash"></i></a></td>
+                                            </tr>
+                                            <tr>
+                                                <td>
+                                                    Email
+                                                </td>
+                                                <td class="field-slct">
+                                                    <select multiple class="single-select">
+                                                        <option disabled>Select an option</option>
+                                                        <option selected>Option1</option>
+                                                        <option>Option2</option>
+                                                        <option>Option3</option>
+                                                        <option>Option4</option>
+                                                       
+                                                    </select>
+                                                </td>
+                                                <td> <a href="#" class="remove-tr" data-bs-toggle="modal" data-bs-target="#alert-delete"><i class="bx bx-trash"></i></a></td>
+                                            </tr>
+                                            <tr>
+                                                <td>
+                                                    Dob
+                                                </td>
+                                                <td class="field-slct">
+                                                    <select multiple class="single-select">
+                                                        <option disabled>Select an option</option>
+                                                        <option selected>Option1</option>
+                                                        <option>Option2</option>
+                                                        <option>Option3</option>
+                                                        <option>Option4</option>
+                                                       
+                                                    </select>
+                                                </td>
+                                                <td> <a href="#" class="remove-tr" data-bs-toggle="modal" data-bs-target="#alert-delete"><i class="bx bx-trash"></i></a></td>
+                                            </tr>
+                                            <tr>
+                                                <td>
+                                                   Name
+                                                </td>
+                                                <td class="field-slct">
+                                                    <select multiple class="single-select">
+                                                        <option disabled>Select an option</option>
+                                                        <option selected>Option1</option>
+                                                        <option>Option2</option>
+                                                        <option>Option3</option>
+                                                        <option>Option4</option>
+                                                       
+                                                    </select>
+                                                </td>
+                                                <td> <a href="#" class="remove-tr" data-bs-toggle="modal" data-bs-target="#alert-delete"><i class="bx bx-trash"></i></a></td>
+                                            </tr>
+                                            <tr>
+                                                <td>
+                                                    Email
+                                                </td>
+                                                <td class="field-slct">
+                                                    <select multiple class="single-select">
+                                                        <option disabled>Select an option</option>
+                                                        <option selected>Option1</option>
+                                                        <option>Option2</option>
+                                                        <option>Option3</option>
+                                                        <option>Option4</option>
+                                                       
+                                                    </select>
+                                                </td>
+                                                <td> <a href="#" class="remove-tr" data-bs-toggle="modal" data-bs-target="#alert-delete"><i class="bx bx-trash"></i></a></td>
+                                            </tr>
+                                            <tr>
+                                                <td>
+                                                    Dob
+                                                </td>
+                                                <td class="field-slct">
+                                                    <select multiple class="single-select">
+                                                        <option disabled>Select an option</option>
+                                                        <option selected>Option1</option>
+                                                        <option>Option2</option>
+                                                        <option>Option3</option>
+                                                        <option>Option4</option>
+                                                       
+                                                    </select>
+                                                </td>
+                                                <td> <a href="#" class="remove-tr" data-bs-toggle="modal" data-bs-target="#alert-delete"><i class="bx bx-trash"></i></a></td>
+                                            </tr>
+    
+                                        </tbody>
+                                    </table>
+                                </div>
+                            </div>
+                        </div>
+                      
+                        
+                    </div>
+                    
+                </div>
+                <div class="modal-footer">
+                  
+                    <button type="button" class="btn btn-light br-50 btn-md" data-bs-dismiss="modal" data-bs-target="#import-upload" data-bs-toggle="modal">Back</button>
+                    <button data-bs-dismiss="modal" type="button" class="btn btn-primary br-50 btn-md">Save</button>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal -->
+
+    <div id="alert-delete" class="modal fade" tabindex="-1" aria-labelledby="..." aria-hidden="true"
+            style="display: none;">
+            <div class="modal-dialog modal-confirm modal-dialog-centered modal-sm">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <div class="icon-box red">
+                            <i class="mdi mdi-alert"></i>
+                        </div>
+                    </div>
+                    <div class="modal-body">
+                        <p class="text-center">Are you sure you want to delete ?</p>
+                    </div>
+                    <div class="modal-footer d-flex justify-content-center">
+                        <button class="btn yes-btn successful-btn" data-bs-dismiss="modal">Yes</button>
+                        <button class="btn cancel-button" data-bs-target="#event-create" data-bs-toggle="modal"
+                            data-bs-dismiss="modal">No</button>
+
+                    </div>
+                </div>
+            </div>
+    </div>
 
     <!-- JAVASCRIPT -->
+    <script src="https://kit.fontawesome.com/16b0815225.js" crossorigin="anonymous"></script>
     <script src="assets/libs/jquery/jquery.min.js"></script>
     <script src="assets/libs/multiselect/choices.min.js"></script>
     <script src="assets/libs/bootstrap/js/bootstrap.bundle.min.js"></script>
@@ -1410,25 +1593,7 @@
 
             <!-- img-upload form -->
 
-            <script>
-            function makeimg() {
-                document.getElementById("imgfile").click();
-            }
 
-            function previewFile() {
-                const preview = document.getElementById('upld-image');
-                const file = document.getElementById("imgfile").files[0];
-                const reader = new FileReader();
-
-                reader.addEventListener("load", function () {
-                    preview.src = reader.result;
-                }, false);
-
-                if (file) {
-                    reader.readAsDataURL(file);
-                }
-            }
-        </script>
         <script>
         $(function() {
             setTimeout(function() {
@@ -1524,6 +1689,135 @@
     });
 
 </script>
+<script>
+    function importDifferentFile(imgval) {
+
+        const uploadArea = document.querySelector('#uploadArea' + imgval)
+        const dropZoon = document.querySelector('#dropZoon' + imgval);
+        const loadingText = document.querySelector('#loadingText' + imgval);
+        const fileInput = document.querySelector('#fileInput' + imgval);
+        const previewImage = document.querySelector('#previewImage' + imgval);
+        const fileDetails = document.querySelector('#fileDetails' + imgval);
+        const uploadedFile = document.querySelector('#uploadedFile' + imgval);
+        const uploadedFileInfo = document.querySelector('#uploadedFileInfo' + imgval);
+        const uploadedFileName = document.querySelector('.uploaded-file__name');
+        const uploadedFileIconText = document.querySelector('.uploaded-file__icon-text');
+        const uploadedFileCounter = document.querySelector('.uploaded-file__counter');
+        const imagesTypes = [
+            "jpeg",
+            "png",
+            "svg",
+            "gif"
+        ];
+
+        dropZoon.addEventListener('dragover', function (event) {
+            event.preventDefault();
+            dropZoon.classList.add('drop-zoon--over');
+        });
+
+        dropZoon.addEventListener('dragleave', function (event) {
+            dropZoon.classList.remove('drop-zoon--over');
+        });
+
+        dropZoon.addEventListener('drop', function (event) {
+            event.preventDefault();
+            dropZoon.classList.remove('drop-zoon--over');
+            const file = event.dataTransfer.files[0];
+            uploadFile(file);
+        });
+
+        fileInput.click()
+        fileInput.addEventListener('change', function (event) {
+            const file = event.target.files[0];
+            uploadFile(file);
+        });
+
+        function uploadFile(file) {
+            const fileReader = new FileReader();
+            const fileType = file.type;
+            const fileSize = file.size;
+
+            if (fileValidate(fileType, fileSize)) {
+                dropZoon.classList.add('drop-zoon--Uploaded');
+                loadingText.style.display = "block";
+                previewImage.style.display = 'none';
+                uploadedFile.classList.remove('uploaded-file--open');
+                uploadedFileInfo.classList.remove('uploaded-file__info--active');
+
+                fileReader.addEventListener('load', function () {
+                    setTimeout(function () {
+                        uploadArea.classList.add('upload-area--open');
+                        loadingText.style.display = "none";
+                        previewImage.style.display = 'block';
+                        fileDetails.classList.add('file-details--open');
+                        uploadedFile.classList.add('uploaded-file--open');
+                        uploadedFileInfo.classList.add('uploaded-file__info--active');
+                    }, 500);
+
+                    previewImage.setAttribute('src', fileReader.result);
+                    uploadedFileName.innerHTML = file.name;
+
+                    progressMove();
+                });
+
+                fileReader.readAsDataURL(file);
+            } else {
+
+                this;
+
+            };
+        };
+
+
+        function progressMove() {
+            let counter = 0;
+            setTimeout(() => {
+                let counterIncrease = setInterval(() => {
+                    if (counter === 100) {
+                        clearInterval(counterIncrease);
+                    } else {
+                        counter = counter + 10;
+                        uploadedFileCounter.innerHTML = `${counter}%`
+                    }
+                }, 100);
+            }, 600);
+        };
+
+        function fileValidate(fileType, fileSize) {
+            let isImage = imagesTypes.filter((type) => fileType.indexOf(`image/${type}`) !== -1);
+            if (isImage[0] === 'jpeg') {
+                uploadedFileIconText.innerHTML = 'jpg';
+            } else {
+                uploadedFileIconText.innerHTML = isImage[0];
+            };
+
+            if (isImage.length !== 0) {
+                if (fileSize <= 2000000) {
+                    return true;
+                } else {
+                    return alert('Please Your File Should be 2 Megabytes or Less');
+                };
+            } else {
+                return alert('Please make sure to upload An Image File Type');
+            };
+        };
+    } 
+</script>
+<script>
+        $(".mul-select").select2({
+            tags: true
+        });
+
+        $(".single-select").select2({
+            tags: true,
+            maximumSelectionLength: 1,
+            placeholder: "Select an option" 
+        });
+    
+        $("ul.select2-selection__rendered").sortable({
+            containment: 'parent'
+        });
+    </script>
 </body>
 
 </html>

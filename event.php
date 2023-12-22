@@ -15,6 +15,8 @@
         <link href="assets/libs/bootstrap-timepicker/css/bootstrap-timepicker.min.css" rel="stylesheet" type="text/css">
         <!-- <link href="assets/libs/datepicker/datepicker.min.css" rel="stylesheet"> -->
         <link href="assets/css/bootstrap.min.css" id="bootstrap-style" rel="stylesheet" type="text/css" />
+        <link href="assets/libs/select2/css/chosen.min.css" rel="stylesheet">
+        <link href="assets/libs/select2/css/select2.min.css" rel="stylesheet">
         <link href="assets/css/icons.min.css" rel="stylesheet" type="text/css" />
         <link href="assets/css/app.min.css" id="app-style" rel="stylesheet" type="text/css" />
         <link href="assets/libs/calendar/fullcalendar.css" rel="stylesheet">
@@ -79,7 +81,7 @@
                                             <i class="fas fa-cog"></i>
                                         </div>
                                         <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                                            <a class="dropdown-item" href="#"><i class="fas fa-upload me-2"></i>Import
+                                            <a class="dropdown-item" href="#" data-bs-toggle="modal" data-bs-target="#import-upload"><i class="fas fa-upload me-2"></i>Import
                                                 Records</a>
                                             <div class="dropdown-divider"></div>
                                             <a class="dropdown-item" href="#"><i class="fas fa-download me-2"></i>Export
@@ -182,7 +184,7 @@
                                                 <a class="dropdown-item" href="#"><i class="bx bxs-archive-out me-2"
                                                         aria-hidden="true"></i>Unarchive</a>
                                                 <div class="dropdown-divider"></div>
-                                                <a class="dropdown-item" href="#"><i class="bx bxs-trash-alt me-2"
+                                                <a class="dropdown-item" href="#" data-bs-toggle="modal" data-bs-target="#alert-delete"><i class="bx bxs-trash-alt me-2"
                                                         aria-hidden="true"></i>Delete</a>
                                             </div>
                                         </div>
@@ -606,7 +608,7 @@
                                                     <div class="dropdown-divider"></div>
                                                     <a class="dropdown-item" href="#">Automations</a>
                                                     <div class="dropdown-divider"></div>
-                                                    <a class="dropdown-item" href="#">Delete</a>
+                                                    <a class="dropdown-item" href="#" data-bs-toggle="modal" data-bs-target="#alert-delete">Delete</a>
                                                     <div class="dropdown-divider"></div>
                                                     <a class="dropdown-item" href="#">Archive All</a>
                                                     <div class="dropdown-divider"></div>
@@ -646,7 +648,7 @@
 
                                                         <div class="col-lg-8 ps-0">
                                                             <div class="kanban-content">
-                                                                <h4>Conference for architects</h4>
+                                                                <h4><a href="published-event.php">Conference for architects</a></h4>
                                                                 <div
                                                                     class="location-div-kanban d-flex align-items-center">
                                                                     <img src="assets/images/location1.svg" alt="">
@@ -715,7 +717,7 @@
 
                                                         <div class="col-lg-8 ps-0">
                                                             <div class="kanban-content">
-                                                                <h4>Conference for architects</h4>
+                                                                <h4><a href="published-event.php">Conference for architects</a></h4>
                                                                 <div
                                                                     class="location-div-kanban d-flex align-items-center">
                                                                     <img src="assets/images/location1.svg" alt="">
@@ -784,7 +786,7 @@
 
                                                         <div class="col-lg-8 ps-0">
                                                             <div class="kanban-content">
-                                                                <h4>Conference for architects</h4>
+                                                                <h4><a href="published-event.php">Conference for architects</a></h4>
                                                                 <div
                                                                     class="location-div-kanban d-flex align-items-center">
                                                                     <img src="assets/images/location1.svg" alt="">
@@ -853,7 +855,7 @@
                                                     <div class="dropdown-divider"></div>
                                                     <a class="dropdown-item" href="#">Automations</a>
                                                     <div class="dropdown-divider"></div>
-                                                    <a class="dropdown-item" href="#">Delete</a>
+                                                    <a class="dropdown-item" href="#" data-bs-toggle="modal" data-bs-target="#alert-delete">Delete</a>
                                                     <div class="dropdown-divider"></div>
                                                     <a class="dropdown-item" href="#">Archive All</a>
                                                     <div class="dropdown-divider"></div>
@@ -893,7 +895,7 @@
 
                                                         <div class="col-lg-8 ps-0">
                                                             <div class="kanban-content">
-                                                                <h4>Conference for architects</h4>
+                                                                <h4><a href="published-event.php">Conference for architects</a></h4>
                                                                 <div
                                                                     class="location-div-kanban d-flex align-items-center">
                                                                     <img src="assets/images/location1.svg" alt="">
@@ -962,7 +964,7 @@
 
                                                         <div class="col-lg-8 ps-0">
                                                             <div class="kanban-content">
-                                                                <h4>Conference for architects</h4>
+                                                                <h4><a href="published-event.php">Conference for architects</a></h4>
                                                                 <div
                                                                     class="location-div-kanban d-flex align-items-center">
                                                                     <img src="assets/images/location1.svg" alt="">
@@ -1031,7 +1033,7 @@
 
                                                         <div class="col-lg-8 ps-0">
                                                             <div class="kanban-content">
-                                                                <h4>Conference for architects</h4>
+                                                                <h4><a href="published-event.php">Conference for architects</a></h4>
                                                                 <div
                                                                     class="location-div-kanban d-flex align-items-center">
                                                                     <img src="assets/images/location1.svg" alt="">
@@ -1100,7 +1102,7 @@
 
                                                         <div class="col-lg-8 ps-0">
                                                             <div class="kanban-content">
-                                                                <h4>Conference for architects</h4>
+                                                                <h4><a href="published-event.php">Conference for architects</a></h4>
                                                                 <div
                                                                     class="location-div-kanban d-flex align-items-center">
                                                                     <img src="assets/images/location1.svg" alt="">
@@ -1168,7 +1170,7 @@
 
                                                         <div class="col-lg-8 ps-0">
                                                             <div class="kanban-content">
-                                                                <h4>Conference for architects</h4>
+                                                                <h4><a href="published-event.php">Conference for architects</a></h4>
                                                                 <div
                                                                     class="location-div-kanban d-flex align-items-center">
                                                                     <img src="assets/images/location1.svg" alt="">
@@ -1236,7 +1238,7 @@
                                                     <div class="dropdown-divider"></div>
                                                     <a class="dropdown-item" href="#">Automations</a>
                                                     <div class="dropdown-divider"></div>
-                                                    <a class="dropdown-item" href="#">Delete</a>
+                                                    <a class="dropdown-item" href="#" data-bs-toggle="modal" data-bs-target="#alert-delete">Delete</a>
                                                     <div class="dropdown-divider"></div>
                                                     <a class="dropdown-item" href="#">Archive All</a>
                                                     <div class="dropdown-divider"></div>
@@ -1275,7 +1277,7 @@
 
                                                         <div class="col-lg-8 ps-0">
                                                             <div class="kanban-content">
-                                                                <h4>Conference for architects</h4>
+                                                                <h4><a href="published-event.php">Conference for architects</a></h4>
                                                                 <div
                                                                     class="location-div-kanban d-flex align-items-center">
                                                                     <img src="assets/images/location1.svg" alt="">
@@ -1344,7 +1346,7 @@
 
                                                         <div class="col-lg-8 ps-0">
                                                             <div class="kanban-content">
-                                                                <h4>Conference for architects</h4>
+                                                                <h4><a href="published-event.php">Conference for architects</a></h4>
                                                                 <div
                                                                     class="location-div-kanban d-flex align-items-center">
                                                                     <img src="assets/images/location1.svg" alt="">
@@ -1413,7 +1415,7 @@
 
                                                         <div class="col-lg-8 ps-0">
                                                             <div class="kanban-content">
-                                                                <h4>Conference for architects</h4>
+                                                                <h4><a href="published-event.php">Conference for architects</a></h4>
                                                                 <div
                                                                     class="location-div-kanban d-flex align-items-center">
                                                                     <img src="assets/images/location1.svg" alt="">
@@ -1481,7 +1483,7 @@
                                                     <div class="dropdown-divider"></div>
                                                     <a class="dropdown-item" href="#">Automations</a>
                                                     <div class="dropdown-divider"></div>
-                                                    <a class="dropdown-item" href="#">Delete</a>
+                                                    <a class="dropdown-item" href="#" data-bs-toggle="modal" data-bs-target="#alert-delete">Delete</a>
                                                     <div class="dropdown-divider"></div>
                                                     <a class="dropdown-item" href="#">Archive All</a>
                                                     <div class="dropdown-divider"></div>
@@ -1520,7 +1522,7 @@
 
                                                         <div class="col-lg-8 ps-0">
                                                             <div class="kanban-content">
-                                                                <h4>Conference for architects</h4>
+                                                                <h4><a href="published-event.php">Conference for architects</a></h4>
                                                                 <div
                                                                     class="location-div-kanban d-flex align-items-center">
                                                                     <img src="assets/images/location1.svg" alt="">
@@ -1589,7 +1591,7 @@
 
                                                         <div class="col-lg-8 ps-0">
                                                             <div class="kanban-content">
-                                                                <h4>Conference for architects</h4>
+                                                                <h4><a href="published-event.php">Conference for architects</a></h4>
                                                                 <div
                                                                     class="location-div-kanban d-flex align-items-center">
                                                                     <img src="assets/images/location1.svg" alt="">
@@ -1658,7 +1660,7 @@
 
                                                         <div class="col-lg-8 ps-0">
                                                             <div class="kanban-content">
-                                                                <h4>Conference for architects</h4>
+                                                                <h4><a href="published-event.php">Conference for architects</a></h4>
                                                                 <div
                                                                     class="location-div-kanban d-flex align-items-center">
                                                                     <img src="assets/images/location1.svg" alt="">
@@ -1727,7 +1729,7 @@
 
                                                         <div class="col-lg-8 ps-0">
                                                             <div class="kanban-content">
-                                                                <h4>Conference for architects</h4>
+                                                                <h4><a href="published-event.php">Conference for architects</a></h4>
                                                                 <div
                                                                     class="location-div-kanban d-flex align-items-center">
                                                                     <img src="assets/images/location1.svg" alt="">
@@ -1796,7 +1798,7 @@
 
                                                         <div class="col-lg-8 ps-0">
                                                             <div class="kanban-content">
-                                                                <h4>Conference for architects</h4>
+                                                                <h4><a href="published-event.php">Conference for architects</a></h4>
                                                                 <div
                                                                     class="location-div-kanban d-flex align-items-center">
                                                                     <img src="assets/images/location1.svg" alt="">
@@ -1864,7 +1866,7 @@
                                                     <div class="dropdown-divider"></div>
                                                     <a class="dropdown-item" href="#">Automations</a>
                                                     <div class="dropdown-divider"></div>
-                                                    <a class="dropdown-item" href="#">Delete</a>
+                                                    <a class="dropdown-item" href="#" data-bs-toggle="modal" data-bs-target="#alert-delete">Delete</a>
                                                     <div class="dropdown-divider"></div>
                                                     <a class="dropdown-item" href="#">Archive All</a>
                                                     <div class="dropdown-divider"></div>
@@ -1903,7 +1905,7 @@
 
                                                         <div class="col-lg-8 ps-0">
                                                             <div class="kanban-content">
-                                                                <h4>Conference for architects</h4>
+                                                                <h4><a href="published-event.php">Conference for architects</a></h4>
                                                                 <div
                                                                     class="location-div-kanban d-flex align-items-center">
                                                                     <img src="assets/images/location1.svg" alt="">
@@ -1972,7 +1974,7 @@
 
                                                         <div class="col-lg-8 ps-0">
                                                             <div class="kanban-content">
-                                                                <h4>Conference for architects</h4>
+                                                                <h4><a href="published-event.php">Conference for architects</a></h4>
                                                                 <div
                                                                     class="location-div-kanban d-flex align-items-center">
                                                                     <img src="assets/images/location1.svg" alt="">
@@ -2041,7 +2043,7 @@
 
                                                         <div class="col-lg-8 ps-0">
                                                             <div class="kanban-content">
-                                                                <h4>Conference for architects</h4>
+                                                                <h4><a href="published-event.php">Conference for architects</a></h4>
                                                                 <div
                                                                     class="location-div-kanban d-flex align-items-center">
                                                                     <img src="assets/images/location1.svg" alt="">
@@ -2110,7 +2112,7 @@
 
                                                         <div class="col-lg-8 ps-0">
                                                             <div class="kanban-content">
-                                                                <h4>Conference for architects</h4>
+                                                                <h4><a href="published-event.php">Conference for architects</a></h4>
                                                                 <div
                                                                     class="location-div-kanban d-flex align-items-center">
                                                                     <img src="assets/images/location1.svg" alt="">
@@ -2163,7 +2165,7 @@
                                 <table id="event-table" class="table table-resizable table-striped">
                                     <thead>
                                         <tr>
-                                            <th width="46px"><input class="form-check-input " type="checkbox"
+                                            <th width="36px" style="padding-right: 4px;"><input class="form-check-input " type="checkbox"
                                                     name="Main_Checkbox" id="selectAll"><span class="resize"></span>
                                             </th>
                                             <th>Event<span class="resize"></span></th>
@@ -2180,9 +2182,9 @@
                                     </thead>
                                     <tbody>
                                         <tr>
-                                            <td><input class="form-check-input check-input" type="checkbox"
+                                            <td style="padding-right: 4px;"><input class="form-check-input check-input" type="checkbox"
                                                     id="formCheck1"><span class="resize"></span></td>
-                                            <td><a href="#" class="link-color">Business workshops</a><span
+                                            <td><a href="published-event.php" class="link-color">Business workshops</a><span
                                                     class="resize"></span></td>
                                             <td>Business workshops<span class="resize"></span></td>
                                             <td>
@@ -2207,17 +2209,16 @@
                                                             class="fas fa-ellipsis-v dots"></i></a>
                                                     <div class="dropdown-menu dropdown-menu-sm">
                                                         <a class="dropdown-item" href="conference.php">Edit</a>
-                                                        <a class="dropdown-item" href="#" data-bs-toggle="modal"
-                                                            data-bs-target="#trash-popup">Trash</a>
+                                                        <a class="dropdown-item" href="#" data-bs-toggle="modal" data-bs-target="#alert-delete">Trash</a>
                                                     </div>
                                                 </div>
                                                 <span class="resize"></span>
                                             </td>
                                         </tr>
                                         <tr>
-                                            <td><input class="form-check-input check-input" type="checkbox"
+                                            <td style="padding-right: 4px;"><input class="form-check-input check-input" type="checkbox"
                                                     id="formCheck2"><span class="resize"></span></td>
-                                            <td><a href="#" class="link-color">OpenWood Collection Online</a><span
+                                            <td><a href="published-event.php" class="link-color">OpenWood Collection Online</a><span
                                                     class="resize"></span></td>
                                             <td>Angeles Convention Center<span class="resize"></span></td>
                                             <td>
@@ -2243,17 +2244,16 @@
                                                             class="fas fa-ellipsis-v dots"></i></a>
                                                     <div class="dropdown-menu dropdown-menu-sm">
                                                         <a class="dropdown-item" href="conference.php">Edit</a>
-                                                        <a class="dropdown-item" href="#" data-bs-toggle="modal"
-                                                            data-bs-target="#trash-popup">Trash</a>
+                                                        <a class="dropdown-item" href="#" data-bs-toggle="modal" data-bs-target="#alert-delete">Trash</a>
                                                     </div>
                                                 </div>
                                                 <span class="resize"></span>
                                             </td>
                                         </tr>
                                         <tr>
-                                            <td><input class="form-check-input check-input" type="checkbox"
+                                            <td style="padding-right: 4px;"><input class="form-check-input check-input" type="checkbox"
                                                     id="formCheck3"><span class="resize"></span></td>
-                                            <td><a href="#" class="link-color">Business workshops</a><span
+                                            <td><a href="published-event.php" class="link-color">Business workshops</a><span
                                                     class="resize"></span></td>
                                             <td>Business workshops<span class="resize"></span></td>
                                             <td>
@@ -2279,17 +2279,16 @@
                                                             class="fas fa-ellipsis-v dots"></i></a>
                                                     <div class="dropdown-menu dropdown-menu-sm">
                                                         <a class="dropdown-item" href="conference.php">Edit</a>
-                                                        <a class="dropdown-item" href="#" data-bs-toggle="modal"
-                                                            data-bs-target="#trash-popup">Trash</a>
+                                                        <a class="dropdown-item" href="#" data-bs-toggle="modal" data-bs-target="#alert-delete">Trash</a>
                                                     </div>
                                                 </div>
                                                 <span class="resize"></span>
                                             </td>
                                         </tr>
                                         <tr>
-                                            <td><input class="form-check-input check-input" type="checkbox"
+                                            <td style="padding-right: 4px;"><input class="form-check-input check-input" type="checkbox"
                                                     id="formCheck1"><span class="resize"></span></td>
-                                            <td><a href="#" class="link-color">OpenWood Collection Online</a><span
+                                            <td><a href="published-event.php" class="link-color">OpenWood Collection Online</a><span
                                                     class="resize"></span></td>
                                             <td>Angeles Convention Center<span class="resize"></span></td>
                                             <td>
@@ -2315,8 +2314,7 @@
                                                             class="fas fa-ellipsis-v dots"></i></a>
                                                     <div class="dropdown-menu dropdown-menu-sm">
                                                         <a class="dropdown-item" href="conference.php">Edit</a>
-                                                        <a class="dropdown-item" href="#" data-bs-toggle="modal"
-                                                            data-bs-target="#trash-popup">Trash</a>
+                                                        <a class="dropdown-item" href="#" data-bs-toggle="modal" data-bs-target="#alert-delete">Trash</a>
                                                     </div>
                                                 </div>
                                                 <span class="resize"></span>
@@ -2331,12 +2329,12 @@
                                 <div class="total-count">
                                     <h6>Total Count : <span>10</span></h6>
                                     <ul>
-                                        <li><a href="#"><i class="bx bx-chevron-left"></i></a></li>
                                         <li><a href="#"><i class="bx bx-chevrons-left"></i></a></li>
+                                        <li><a href="#"><i class="bx bx-chevron-left"></i></a></li>
                                         <li class="active"><a href="#"><span>1</span></a></li>
                                         <li><a href="#"><span>2</span></a></li>
-                                        <li><a href="#"><i class="bx bx-chevrons-right"></i></a></li>
                                         <li><a href="#"><i class="bx bx-chevron-right"></i></a></li>
+                                        <li><a href="#"><i class="bx bx-chevrons-right"></i></a></li>
                                     </ul>
                                 </div>
                             </div>
@@ -2354,8 +2352,7 @@
                                                                 class="fas fa-ellipsis-v dots"></i></a>
                                                         <div class="dropdown-menu dropdown-menu-sm">
                                                             <a class="dropdown-item" href="conference.php">Edit</a>
-                                                            <a class="dropdown-item" href="#" data-bs-toggle="modal"
-                                                                data-bs-target="#trash-popup">Trash</a>
+                                                            <a class="dropdown-item" href="#" data-bs-toggle="modal" data-bs-target="#alert-delete">Trash</a>
                                                         </div>
                                                     </div>
 
@@ -2366,7 +2363,7 @@
                                                     </div>
                                                 </div>
                                                 <div class="event-scndbx">
-                                                    <h3>Conference for architects</h3>
+                                                    <a href="published-event.php"><h3>Conference for architects</h3></a>
                                                     <div class="location-div">
                                                         <img src="assets/images/location.svg" alt="">
                                                         <span>Location Not Added</span>
@@ -2414,7 +2411,7 @@
                                                                 class="fas fa-ellipsis-v dots"></i></a>
                                                         <div class="dropdown-menu dropdown-menu-sm">
                                                             <a class="dropdown-item" href="conference.php">Edit</a>
-                                                            <a class="dropdown-item" href="#">Trash</a>
+                                                            <a class="dropdown-item" href="#" data-bs-toggle="modal" data-bs-target="#alert-delete">Trash</a>
                                                         </div>
                                                     </div>
 
@@ -2425,7 +2422,7 @@
                                                     </div>
                                                 </div>
                                                 <div class="event-scndbx">
-                                                    <h3>Conference for architects</h3>
+                                                    <a href="published-event.php"><h3>Conference for architects</h3></a>
                                                     <div class="location-div">
                                                         <img src="assets/images/location.svg" alt="">
                                                         <span>Location Not Added</span>
@@ -2473,7 +2470,7 @@
                                                                 class="fas fa-ellipsis-v dots"></i></a>
                                                         <div class="dropdown-menu dropdown-menu-sm">
                                                             <a class="dropdown-item" href="conference.php">Edit</a>
-                                                            <a class="dropdown-item" href="#">Trash</a>
+                                                            <a class="dropdown-item" href="#" data-bs-toggle="modal" data-bs-target="#alert-delete">Trash</a>
                                                         </div>
                                                     </div>
 
@@ -2484,7 +2481,7 @@
                                                     </div>
                                                 </div>
                                                 <div class="event-scndbx">
-                                                    <h3>Conference for architects</h3>
+                                                    <a href="published-event.php"><h3>Conference for architects</h3></a>
                                                     <div class="location-div">
                                                         <img src="assets/images/location.svg" alt="">
                                                         <span>Location Not Added</span>
@@ -2532,7 +2529,7 @@
                                                                 class="fas fa-ellipsis-v dots"></i></a>
                                                         <div class="dropdown-menu dropdown-menu-sm">
                                                             <a class="dropdown-item" href="conference.php">Edit</a>
-                                                            <a class="dropdown-item" href="#">Trash</a>
+                                                            <a class="dropdown-item" href="#" data-bs-toggle="modal" data-bs-target="#alert-delete">Trash</a>
                                                         </div>
                                                     </div>
 
@@ -2543,7 +2540,7 @@
                                                     </div>
                                                 </div>
                                                 <div class="event-scndbx">
-                                                    <h3>Conference for architects</h3>
+                                                    <a href="published-event.php"><h3>Conference for architects</h3></a>
                                                     <div class="location-div">
                                                         <img src="assets/images/location.svg" alt="">
                                                         <span>Location Not Added</span>
@@ -2591,7 +2588,7 @@
                                                                 class="fas fa-ellipsis-v dots"></i></a>
                                                         <div class="dropdown-menu dropdown-menu-sm">
                                                             <a class="dropdown-item" href="conference.php">Edit</a>
-                                                            <a class="dropdown-item" href="#">Trash</a>
+                                                            <a class="dropdown-item" href="#" data-bs-toggle="modal" data-bs-target="#alert-delete">Trash</a>
                                                         </div>
                                                     </div>
 
@@ -2602,7 +2599,7 @@
                                                     </div>
                                                 </div>
                                                 <div class="event-scndbx">
-                                                    <h3>Conference for architects</h3>
+                                                    <a href="published-event.php"><h3>Conference for architects</h3></a>
                                                     <div class="location-div">
                                                         <img src="assets/images/location.svg" alt="">
                                                         <span>Location Not Added</span>
@@ -2653,12 +2650,12 @@
                                 <div class="total-count">
                                     <h6>Total Count : <span>10</span></h6>
                                     <ul>
-                                        <li><a href="#"><i class="bx bx-chevron-left"></i></a></li>
                                         <li><a href="#"><i class="bx bx-chevrons-left"></i></a></li>
+                                        <li><a href="#"><i class="bx bx-chevron-left"></i></a></li>
                                         <li class="active"><a href="#"><span>1</span></a></li>
                                         <li><a href="#"><span>2</span></a></li>
-                                        <li><a href="#"><i class="bx bx-chevrons-right"></i></a></li>
                                         <li><a href="#"><i class="bx bx-chevron-right"></i></a></li>
+                                        <li><a href="#"><i class="bx bx-chevrons-right"></i></a></li>
                                     </ul>
                                 </div>
                             </div>
@@ -3036,66 +3033,580 @@
             </div>
         </div>
 
-     <!-- Modal Add event -->
-   <div class="modal fade none-border" id="event-modal" tabindex="-1">
-                <div class="modal-dialog modal-dialog-centered">
-                    <div class="modal-content">
-                        <div class="modal-header">
-                            <h5 class="title-category modal-title">Add Event</h5>
-                            <button type="button" class="btn-close close1" data-dismiss="modal" aria-label="Close"></button>
+        <div id="alert-delete" class="modal fade" tabindex="-1" aria-labelledby="..." aria-hidden="true"
+            style="display: none;">
+            <div class="modal-dialog modal-confirm modal-dialog-centered modal-sm">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <div class="icon-box red">
+                            <i class="mdi mdi-alert"></i>
                         </div>
-                        <div class="modal-body"></div>
-                        <div class="modal-footer">
+                    </div>
+                    <div class="modal-body">
+                        <p class="text-center">Are you sure you want to delete ?</p>
+                    </div>
+                    <div class="modal-footer d-flex justify-content-center">
+                        <button class="btn yes-btn successful-btn" data-bs-dismiss="modal">Yes</button>
+                        <button class="btn cancel-button" data-bs-target="#event-create" data-bs-toggle="modal"
+                            data-bs-dismiss="modal">No</button>
 
-                           
-                            <button type="button" class="cancel-btn btn btn-light br-50 btn-md close1" data-dismiss="modal">Close</button>
-                            <button type="button" class="btn btn-primary br-50 btn-md save-event">Create event</button>
-                            <button type="button" class="cancel-btn btn btn-light br-50 btn-md delete-event px-2" data-dismiss="modal"><i class="bx bx-trash-alt font-size-15"></i></button>
-                        </div>
                     </div>
                 </div>
             </div>
+        </div>
 
-            <!-- Modal Add Category -->
-            <div class="modal fade none-border" id="add-category" tabindex="-1">
-                <div class="modal-dialog modal-dialog-centered">
-                    <div class="modal-content">
-                        <div class="modal-header">
-                            <h5 class="title-category modal-title">Add a category</h5>
-                            <button type="button" class="btn-close" data-dismiss="modal" aria-label="Close"></button>
+        <div id="alert-success" class="modal fade" tabindex="-1" aria-labelledby="..." aria-hidden="true"
+            style="display: none;">
+            <div class="modal-dialog modal-confirm modal-dialog-centered modal-sm">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <div class="icon-box green">
+                            <i class="mdi mdi-check"></i>
                         </div>
-                        <div class="modal-body">
-                            <form>
-                                <div class="row">
-                                    <div class="col-md-12">
-                                        <label class="control-label">Category Name</label>
-                                        <input class="form-control form-white" placeholder="Enter name" type="text" name="category-name">
-                                    </div>
-                                    <div class="col-md-12 mt-3">
-                                        <label class="control-label">Choose Category Color</label>
-                                        <div class="select-inp">
-                                        <select class="form-control form-white" data-placeholder="Choose a color..." name="category-color">
-                                                <option value="success">Success</option>
-                                                <option value="danger">Danger</option>
-                                                <option value="primary">Primary</option>
-                                                <option value="warning">Warning</option>
-                                                <option value="inverse">Inverse</option>
-                                            </select>
-                                            <i class="fas fa-chevron-down"></i>
-                                        </div>
+                    </div>
+                    <div class="modal-body">
+                        <p class="text-center">Your message has been sent successfully</p>
+                    </div>
+                   
+                </div>
+            </div>
+        </div>
+
+        <!-- Modal Add event -->
+        <div class="modal fade none-border" id="event-modal" tabindex="-1">
+            <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="title-category modal-title">Add Event</h5>
+                        <button type="button" class="btn-close close1" data-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body"></div>
+                    <div class="modal-footer">
+
+                        
+                        <button type="button" class="cancel-btn btn btn-light br-50 btn-md close1" data-dismiss="modal">Close</button>
+                        <button type="button" class="btn btn-primary br-50 btn-md save-event">Create event</button>
+                        <button type="button" class="cancel-btn btn btn-light br-50 btn-md delete-event px-2" data-dismiss="modal"><i class="bx bx-trash-alt font-size-15"></i></button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Modal Add Category -->
+        <div class="modal fade none-border" id="add-category" tabindex="-1">
+            <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="title-category modal-title">Add a category</h5>
+                        <button type="button" class="btn-close" data-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <form>
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <label class="control-label">Category Name</label>
+                                    <input class="form-control form-white" placeholder="Enter name" type="text" name="category-name">
+                                </div>
+                                <div class="col-md-12 mt-3">
+                                    <label class="control-label">Choose Category Color</label>
+                                    <div class="select-inp">
+                                    <select class="form-control form-white" data-placeholder="Choose a color..." name="category-color">
+                                            <option value="success">Success</option>
+                                            <option value="danger">Danger</option>
+                                            <option value="primary">Primary</option>
+                                            <option value="warning">Warning</option>
+                                            <option value="inverse">Inverse</option>
+                                        </select>
+                                        <i class="fas fa-chevron-down"></i>
                                     </div>
                                 </div>
-                            </form>
-                        </div>
-                        <div class="modal-footer">
-                            <button type="button" class="cancel-btn btn btn-light br-50 btn-md" data-dismiss="modal">Close</button>
-                            <button type="button" class="btn btn-primary br-50 btn-md save-category" data-dismiss="modal">Save</button>
-                    
-                        </div>
+                            </div>
+                        </form>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="cancel-btn btn btn-light br-50 btn-md" data-dismiss="modal">Close</button>
+                        <button type="button" class="btn btn-primary br-50 btn-md save-category" data-dismiss="modal">Save</button>
+                
                     </div>
                 </div>
             </div>
-            <!-- END MODAL -->
+        </div>
+        <!-- END MODAL -->
+
+
+        <div class="modal fade" id="alerts-modal" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" role="dialog" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="staticBackdropLabel"><span>Alerts</span></h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <div class="alert-grp">
+                            <div class="form-grp">
+                                <div class="alrt-bx alert alert-danger">
+                                    <h6><span class="alert-link">XL Line No 8 :</span>Invalid username</h6>
+                                </div>
+                            </div>
+                            <div class="form-grp">
+                                <div class="alrt-bx alert alert-danger">
+                                    <h6><span class="alert-link">XL Line No 8 :</span>Invalid username</h6>
+                                </div>
+                            </div>
+                            <div class="form-grp">
+                                <div class="alrt-bx alert alert-danger">
+                                    <h6><span class="alert-link">XL Line No 8 :</span>Invalid username</h6>
+                                </div>
+                            </div>
+                            <div class="form-grp">
+                                <div class="alrt-bx alert alert-danger">
+                                    <h6><span class="alert-link">XL Line No 8 :</span>Invalid username</h6>
+                                </div>
+                            </div>
+                            <div class="form-grp">
+                                <div class="alrt-bx alert alert-danger">
+                                    <h6><span class="alert-link">XL Line No 8 :</span>Invalid username</h6>
+                                </div>
+                            </div>
+                            <div class="form-grp">
+                                <div class="alrt-bx alert alert-danger">
+                                    <h6><span class="alert-link">XL Line No 8 :</span>Invalid username</h6>
+                                </div>
+                            </div>
+                            <div class="form-grp">
+                                <div class="alrt-bx alert alert-danger">
+                                    <h6><span class="alert-link">XL Line No 8 :</span>Invalid username</h6>
+                                </div>
+                            </div>
+                            <div class="form-grp">
+                                <div class="alrt-bx alert alert-danger">
+                                    <h6><span class="alert-link">XL Line No 8 :</span>Invalid username</h6>
+                                </div>
+                            </div>
+                            <div class="form-grp">
+                                <div class="alrt-bx alert alert-danger">
+                                    <h6><span class="alert-link">XL Line No 8 :</span>Invalid username</h6>
+                                </div>
+                            </div>
+                            <div class="form-grp">
+                                <div class="alrt-bx alert alert-danger">
+                                    <h6><span class="alert-link">XL Line No 8 :</span>Invalid username</h6>
+                                </div>
+                            </div>
+                            <div class="form-grp">
+                                <div class="alrt-bx alert alert-danger">
+                                    <h6><span class="alert-link">XL Line No 8 :</span>Invalid username</h6>
+                                </div>
+                            </div>
+                            <div class="form-grp">
+                                <div class="alrt-bx alert alert-danger">
+                                    <h6><span class="alert-link">XL Line No 8 :</span>Invalid username</h6>
+                                </div>
+                            </div>
+                            <div class="form-grp">
+                                <div class="alrt-bx alert alert-danger">
+                                    <h6><span class="alert-link">XL Line No 8 :</span>Invalid username</h6>
+                                </div>
+                            </div>
+                            <div class="form-grp">
+                                <div class="alrt-bx alert alert-danger">
+                                    <h6><span class="alert-link">XL Line No 8 :</span>Invalid username</h6>
+                                </div>
+                            </div>
+                            <div class="form-grp">
+                                <div class="alrt-bx alert alert-danger">
+                                    <h6><span class="alert-link">XL Line No 8 :</span>Invalid username</h6>
+                                </div>
+                            </div>
+                            <div class="form-grp">
+                                <div class="alrt-bx alert alert-danger">
+                                    <h6><span class="alert-link">XL Line No 8 :</span>Invalid username</h6>
+                                </div>
+                            </div>
+                        </div>
+                        
+                    </div>
+    
+                </div>
+            </div>
+        </div>
+
+
+
+        <div class="alert alert-success alert-dismissible succ-alert" role="alert">
+            <img src="assets/images/gif-success.gif"> You are successfully checked in.
+            <button type="button" class="alert-close" data-dismiss="alert" aria-label="Close">
+                <span aria-hidden="true">X</span>
+            </button>
+        </div>
+
+
+
+
+        <div class="modal common-modal fade" id="import-upload" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" role="dialog" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+            <div class="modal-content">
+                <div class="modal-header1">
+                    <div class="header-logo-img">
+                        <img src="assets/images/logo.png" alt="">
+                    </div>
+                    <div class="modal-header-info">
+                        <h2>Cyber park event</h2>
+                        <h6><i class="bx bx-calendar"></i> Aug 03-05, 2023</h6>
+                    </div>
+             
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <div class="upload-area" id="uploadArea2" onclick="importDifferentFile(2)">
+                        <div class="upload-area__drop-zoon drop-zoon" id="dropZoon2">
+                            <span class="drop-zoon__icon">
+                                <i class='bx bxs-file-image'></i>
+                            </span>
+                            <p class="drop-zoon__paragraph">Drop your file here or Click to browse</p>
+                            <span class="drop-zoon__loading-text" id="loadingText2">Please Wait</span>
+                            <img src="" alt="Preview Image" class="drop-zoon__preview-image" id="previewImage2" draggable="false">
+                            <input type="file" class="drop-zoon__file-input" id="fileInput2" accept="image/*">
+                        </div>
+
+                        <div class="upload-area__file-details file-details" id="fileDetails2">
+                            <h3 class="file-details__title">Uploaded File</h3>
+
+                            <div class="uploaded-file" id="uploadedFile2">
+                                <div class="uploaded-file__icon-container">
+                                    <i class='bx bxs-file-blank uploaded-file__icon'></i>
+                                    <span class="uploaded-file__icon-text"></span>
+                                </div>
+
+                                <div class="uploaded-file__info" id="uploadedFileInfo2">
+                                    <span class="uploaded-file__name">Project 1</span>
+                                    <span class="uploaded-file__counter">0%</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="modal-footer justify-content-end">
+                    <a href="#"><button  data-bs-target="#upload-inpt" data-bs-toggle="modal" data-bs-dismiss="modal" type="button" class="btn btn-primary  br-50 btn-md">Next</button></a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade" id="upload-inpt" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" role="dialog" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="staticBackdropLabel"> <img src="assets/images/import.svg" alt="" style="width: 22px;"><span>Attendees IN</span></h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <div class="form-grp">
+                                <div class="alrt-bx alert alert-danger alert-dismissible fade show" role="alert">
+                                     <h6><span class="alert-link">XL Line No 8 :</span>Invalid username</h6>
+                                     <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+                                </div>
+                              
+                             </div>
+                            <div class="field-btns">
+                                <button type="button"class="btn btn-secondary waves-effect waves-light btn-sm text-uppercase br-50 small">
+                                    <i class="bx bx-upload font-size-16 align-middle me-1"></i>Upload</button>
+
+                                    <button type="button" class="btn btn-outline-secondary btn-export waves-effect waves-light btn-sm text-uppercase br-50 small">
+                                       Test
+                                    </button>
+                            </div>
+                            <div class="event-table attendee-in response-tbl">
+                                <div class="table-responsive">
+                                    <table id="event-table" class="table table-striped attendee-today-tbl field-tbl">
+                                        <thead>
+                                            <tr>
+                                                <th>Excel Field</th>
+                                                <th style="width: 400px;">Field</th>
+                                                <th style="width: 30px;"></th>
+                                               
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            <tr>
+                                                <td>
+                                                   Name
+                                                </td>
+                                                <td class="field-slct">
+                                                    <select multiple class="single-select">
+                                                        <option disabled>Select an option</option>
+                                                        <option selected>Option1</option>
+                                                        <option>Option2</option>
+                                                        <option>Option3</option>
+                                                        <option>Option4</option>
+                                                       
+                                                    </select>
+                                                </td>
+                                                <td> <a href="#" class="remove-tr" data-bs-toggle="modal" data-bs-target="#alert-delete"><i class="bx bx-trash"></i></a></td>
+                                               
+                                            </tr>
+                                            <tr>
+                                                <td>
+                                                    Email
+                                                </td>
+                                                <td class="field-slct">
+                                                    <select multiple class="single-select">
+                                                        <option disabled>Select an option</option>
+                                                        <option selected>Option1</option>
+                                                        <option>Option2</option>
+                                                        <option>Option3</option>
+                                                        <option>Option4</option>
+                                                       
+                                                    </select>
+                                                </td>
+                                                <td> <a href="#" class="remove-tr" data-bs-toggle="modal" data-bs-target="#alert-delete"><i class="bx bx-trash"></i></a></td>
+                                            </tr>
+                                            <tr>
+                                                <td>
+                                                    Dob
+                                                </td>
+                                                <td class="field-slct">
+                                                    <select multiple class="single-select">
+                                                        <option disabled>Select an option</option>
+                                                        <option selected>Option1</option>
+                                                        <option>Option2</option>
+                                                        <option>Option3</option>
+                                                        <option>Option4</option>
+                                                       
+                                                    </select>
+                                                </td>
+                                                <td> <a href="#" class="remove-tr" data-bs-toggle="modal" data-bs-target="#alert-delete"><i class="bx bx-trash"></i></a></td>
+                                            </tr>
+                                            <tr>
+                                                <td>
+                                                   Name
+                                                </td>
+                                                <td class="field-slct">
+                                                    <select multiple class="single-select">
+                                                        <option disabled>Select an option</option>
+                                                        <option selected>Option1</option>
+                                                        <option>Option2</option>
+                                                        <option>Option3</option>
+                                                        <option>Option4</option>
+                                                       
+                                                    </select>
+                                                </td>
+                                                <td> <a href="#" class="remove-tr" data-bs-toggle="modal" data-bs-target="#alert-delete"><i class="bx bx-trash"></i></a></td>
+                                            </tr>
+                                            <tr>
+                                                <td>
+                                                    Email
+                                                </td>
+                                                <td class="field-slct">
+                                                    <select multiple class="single-select">
+                                                        <option disabled>Select an option</option>
+                                                        <option selected>Option1</option>
+                                                        <option>Option2</option>
+                                                        <option>Option3</option>
+                                                        <option>Option4</option>
+                                                       
+                                                    </select>
+                                                </td>
+                                                <td> <a href="#" class="remove-tr" data-bs-toggle="modal" data-bs-target="#alert-delete"><i class="bx bx-trash"></i></a></td>
+                                            </tr>
+                                            <tr>
+                                                <td>
+                                                    Dob
+                                                </td>
+                                                <td class="field-slct">
+                                                    <select multiple class="single-select">
+                                                        <option disabled>Select an option</option>
+                                                        <option selected>Option1</option>
+                                                        <option>Option2</option>
+                                                        <option>Option3</option>
+                                                        <option>Option4</option>
+                                                       
+                                                    </select>
+                                                </td>
+                                                <td> <a href="#" class="remove-tr" data-bs-toggle="modal" data-bs-target="#alert-delete"><i class="bx bx-trash"></i></a></td>
+                                            </tr>
+                                            <tr>
+                                                <td>
+                                                   Name
+                                                </td>
+                                                <td class="field-slct">
+                                                    <select multiple class="single-select">
+                                                        <option disabled>Select an option</option>
+                                                        <option selected>Option1</option>
+                                                        <option>Option2</option>
+                                                        <option>Option3</option>
+                                                        <option>Option4</option>
+                                                       
+                                                    </select>
+                                                </td>
+                                                <td> <a href="#" class="remove-tr" data-bs-toggle="modal" data-bs-target="#alert-delete"><i class="bx bx-trash"></i></a></td>
+                                            </tr>
+                                            <tr>
+                                                <td>
+                                                    Email
+                                                </td>
+                                                <td class="field-slct">
+                                                    <select multiple class="single-select">
+                                                        <option disabled>Select an option</option>
+                                                        <option selected>Option1</option>
+                                                        <option>Option2</option>
+                                                        <option>Option3</option>
+                                                        <option>Option4</option>
+                                                       
+                                                    </select>
+                                                </td>
+                                                <td> <a href="#" class="remove-tr" data-bs-toggle="modal" data-bs-target="#alert-delete"><i class="bx bx-trash"></i></a></td>
+                                            </tr>
+                                            <tr>
+                                                <td>
+                                                    Dob
+                                                </td>
+                                                <td class="field-slct">
+                                                    <select multiple class="single-select">
+                                                        <option disabled>Select an option</option>
+                                                        <option selected>Option1</option>
+                                                        <option>Option2</option>
+                                                        <option>Option3</option>
+                                                        <option>Option4</option>
+                                                       
+                                                    </select>
+                                                </td>
+                                                <td> <a href="#" class="remove-tr" data-bs-toggle="modal" data-bs-target="#alert-delete"><i class="bx bx-trash"></i></a></td>
+                                            </tr>
+                                            <tr>
+                                                <td>
+                                                   Name
+                                                </td>
+                                                <td class="field-slct">
+                                                    <select multiple class="single-select">
+                                                        <option disabled>Select an option</option>
+                                                        <option selected>Option1</option>
+                                                        <option>Option2</option>
+                                                        <option>Option3</option>
+                                                        <option>Option4</option>
+                                                       
+                                                    </select>
+                                                </td>
+                                                <td> <a href="#" class="remove-tr" data-bs-toggle="modal" data-bs-target="#alert-delete"><i class="bx bx-trash"></i></a></td>
+                                            </tr>
+                                            <tr>
+                                                <td>
+                                                    Email
+                                                </td>
+                                                <td class="field-slct">
+                                                    <select multiple class="single-select">
+                                                        <option disabled>Select an option</option>
+                                                        <option selected>Option1</option>
+                                                        <option>Option2</option>
+                                                        <option>Option3</option>
+                                                        <option>Option4</option>
+                                                       
+                                                    </select>
+                                                </td>
+                                                <td> <a href="#" class="remove-tr" data-bs-toggle="modal" data-bs-target="#alert-delete"><i class="bx bx-trash"></i></a></td>
+                                            </tr>
+                                            <tr>
+                                                <td>
+                                                    Dob
+                                                </td>
+                                                <td class="field-slct">
+                                                    <select multiple class="single-select">
+                                                        <option disabled>Select an option</option>
+                                                        <option selected>Option1</option>
+                                                        <option>Option2</option>
+                                                        <option>Option3</option>
+                                                        <option>Option4</option>
+                                                       
+                                                    </select>
+                                                </td>
+                                                <td> <a href="#" class="remove-tr" data-bs-toggle="modal" data-bs-target="#alert-delete"><i class="bx bx-trash"></i></a></td>
+                                            </tr>
+                                            <tr>
+                                                <td>
+                                                   Name
+                                                </td>
+                                                <td class="field-slct">
+                                                    <select multiple class="single-select">
+                                                        <option disabled>Select an option</option>
+                                                        <option selected>Option1</option>
+                                                        <option>Option2</option>
+                                                        <option>Option3</option>
+                                                        <option>Option4</option>
+                                                       
+                                                    </select>
+                                                </td>
+                                                <td> <a href="#" class="remove-tr" data-bs-toggle="modal" data-bs-target="#alert-delete"><i class="bx bx-trash"></i></a></td>
+                                            </tr>
+                                            <tr>
+                                                <td>
+                                                    Email
+                                                </td>
+                                                <td class="field-slct">
+                                                    <select multiple class="single-select">
+                                                        <option disabled>Select an option</option>
+                                                        <option selected>Option1</option>
+                                                        <option>Option2</option>
+                                                        <option>Option3</option>
+                                                        <option>Option4</option>
+                                                       
+                                                    </select>
+                                                </td>
+                                                <td> <a href="#" class="remove-tr" data-bs-toggle="modal" data-bs-target="#alert-delete"><i class="bx bx-trash"></i></a></td>
+                                            </tr>
+                                            <tr>
+                                                <td>
+                                                    Dob
+                                                </td>
+                                                <td class="field-slct">
+                                                    <select multiple class="single-select">
+                                                        <option disabled>Select an option</option>
+                                                        <option selected>Option1</option>
+                                                        <option>Option2</option>
+                                                        <option>Option3</option>
+                                                        <option>Option4</option>
+                                                       
+                                                    </select>
+                                                </td>
+                                                <td> <a href="#" class="remove-tr" data-bs-toggle="modal" data-bs-target="#alert-delete"><i class="bx bx-trash"></i></a></td>
+                                            </tr>
+    
+                                        </tbody>
+                                    </table>
+                                </div>
+                            </div>
+                        </div>
+                      
+                        
+                    </div>
+                    
+                </div>
+                <div class="modal-footer">
+                  
+                    <button type="button" class="btn btn-light br-50 btn-md" data-bs-dismiss="modal" data-bs-target="#import-upload" data-bs-toggle="modal">Back</button>
+                    <button data-bs-dismiss="modal" type="button" class="btn btn-primary br-50 btn-md">Save</button>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
         <!-- JAVASCRIPT -->
@@ -3185,10 +3696,10 @@
         <script src="assets/libs/node-waves/waves.min.js"></script>
         <script src="assets/js/pages/popper.min.js"></script>
         <script src="assets/js/pages/bootstrap.min.js"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/web-animations/2.3.1/web-animations.min.js"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/hammer.js/2.0.8/hammer.min.js"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/muuri/0.5.3/muuri.min.js"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/store.js/1.3.14/store.min.js"></script>
+        <script src="assets/libs/muuri/web-animations.min.js"></script>
+        <script src="assets/libs/muuri/hammer.min.js"></script>
+        <script src="assets/libs/muuri/muuri.min.js"></script>
+        <script src="assets/libs/muuri/store.min.js"></script>
         <script src="assets/libs/datepicker/semantic.min.js"></script>
 
         <script src="assets/libs/select2/js/select2.min.js"></script>
@@ -3465,6 +3976,137 @@
         });
     });
 </script>
+<script>
+        $(".mul-select").select2({
+            tags: true
+        });
+
+        $(".single-select").select2({
+            tags: true,
+            maximumSelectionLength: 1,
+            placeholder: "Select an option" 
+        });
+    
+        $("ul.select2-selection__rendered").sortable({
+            containment: 'parent'
+        });
+    </script>
+    <script>
+ 
+ function importDifferentFile(imgval) {
+ 
+     const uploadArea = document.querySelector('#uploadArea' + imgval)
+     const dropZoon = document.querySelector('#dropZoon' + imgval);
+     const loadingText = document.querySelector('#loadingText' + imgval);
+     const fileInput = document.querySelector('#fileInput' + imgval);
+     const previewImage = document.querySelector('#previewImage' + imgval);
+     const fileDetails = document.querySelector('#fileDetails' + imgval);
+     const uploadedFile = document.querySelector('#uploadedFile' + imgval);
+     const uploadedFileInfo = document.querySelector('#uploadedFileInfo' + imgval);
+     const uploadedFileName = document.querySelector('.uploaded-file__name');
+     const uploadedFileIconText = document.querySelector('.uploaded-file__icon-text');
+     const uploadedFileCounter = document.querySelector('.uploaded-file__counter');
+     const imagesTypes = [
+         "jpeg",
+         "png",
+         "svg",
+         "gif"
+     ];
+ 
+     dropZoon.addEventListener('dragover', function (event) {
+         event.preventDefault();
+         dropZoon.classList.add('drop-zoon--over');
+     });
+ 
+     dropZoon.addEventListener('dragleave', function (event) {
+         dropZoon.classList.remove('drop-zoon--over');
+     });
+ 
+     dropZoon.addEventListener('drop', function (event) {
+         event.preventDefault();
+         dropZoon.classList.remove('drop-zoon--over');
+         const file = event.dataTransfer.files[0];
+         uploadFile(file);
+     });
+ 
+     fileInput.click()
+     fileInput.addEventListener('change', function (event) {
+         const file = event.target.files[0];
+         uploadFile(file);
+     });
+ 
+     function uploadFile(file) {
+         const fileReader = new FileReader();
+         const fileType = file.type;
+         const fileSize = file.size;
+ 
+         if (fileValidate(fileType, fileSize)) {
+             dropZoon.classList.add('drop-zoon--Uploaded');
+             loadingText.style.display = "block";
+             previewImage.style.display = 'none';
+             uploadedFile.classList.remove('uploaded-file--open');
+             uploadedFileInfo.classList.remove('uploaded-file__info--active');
+ 
+             fileReader.addEventListener('load', function () {
+                 setTimeout(function () {
+                     uploadArea.classList.add('upload-area--open');
+                     loadingText.style.display = "none";
+                     previewImage.style.display = 'block';
+                     fileDetails.classList.add('file-details--open');
+                     uploadedFile.classList.add('uploaded-file--open');
+                     uploadedFileInfo.classList.add('uploaded-file__info--active');
+                 }, 500);
+ 
+                 previewImage.setAttribute('src', fileReader.result);
+                 uploadedFileName.innerHTML = file.name;
+ 
+                 progressMove();
+             });
+ 
+             fileReader.readAsDataURL(file);
+         } else {
+ 
+             this;
+ 
+         };
+     };
+ 
+ 
+     function progressMove() {
+         let counter = 0;
+         setTimeout(() => {
+             let counterIncrease = setInterval(() => {
+                 if (counter === 100) {
+                     clearInterval(counterIncrease);
+                 } else {
+                     counter = counter + 10;
+                     uploadedFileCounter.innerHTML = `${counter}%`
+                 }
+             }, 100);
+         }, 600);
+     };
+ 
+     function fileValidate(fileType, fileSize) {
+         let isImage = imagesTypes.filter((type) => fileType.indexOf(`image/${type}`) !== -1);
+         if (isImage[0] === 'jpeg') {
+             uploadedFileIconText.innerHTML = 'jpg';
+         } else {
+             uploadedFileIconText.innerHTML = isImage[0];
+         };
+ 
+         if (isImage.length !== 0) {
+             if (fileSize <= 2000000) {
+                 return true;
+             } else {
+                 return alert('Please Your File Should be 2 Megabytes or Less');
+             };
+         } else {
+             return alert('Please make sure to upload An Image File Type');
+         };
+     };
+ }
+    
+ </script>
 
     </body>
 
