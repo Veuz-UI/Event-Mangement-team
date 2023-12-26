@@ -6866,15 +6866,20 @@ fieldset:disabled .btn {
 
     .modal-lg,
     .modal-xl {
+<<<<<<< HEAD
         --bs-modal-width: 700px;
     }
     .modal-xxl{
         --bs-modal-width: 800px;
+=======
+        --bs-modal-width: 700px
+>>>>>>> bf1668519c9cce631e2e113ecab9ff8d870175f0
     }
 }
 
 @media (min-width:1200px) {
     .modal-xl {
+<<<<<<< HEAD
         --bs-modal-width: 1140px;
     }
     .modal-xxl{
@@ -6885,6 +6890,9 @@ fieldset:disabled .btn {
 @media (min-width:1600px) {
     .modal-xxl{
         --bs-modal-width: 1300px;
+=======
+        --bs-modal-width: 1140px
+>>>>>>> bf1668519c9cce631e2e113ecab9ff8d870175f0
     }
 }
 

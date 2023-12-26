@@ -21,12 +21,18 @@
     <link href="assets/css/icons.min.css" rel="stylesheet" type="text/css" />
     <link href="assets/css/app.min.css" id="app-style" rel="stylesheet" type="text/css" />
     <link href="assets/css/aos.css" rel="stylesheet">
+<<<<<<< HEAD
     <link rel="stylesheet" href="https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+=======
+>>>>>>> bf1668519c9cce631e2e113ecab9ff8d870175f0
 
 </head>
 
 <body class="ovrflw">
+<<<<<<< HEAD
 
+=======
+>>>>>>> bf1668519c9cce631e2e113ecab9ff8d870175f0
     <style>
         .team-tab-content{
             overflow: auto;
@@ -49,7 +55,11 @@
         .choices {
             position: relative;
             margin-bottom: 0px;
+<<<<<<< HEAD
             z-index: 1000;
+=======
+            z-index: 10000;
+>>>>>>> bf1668519c9cce631e2e113ecab9ff8d870175f0
         }
         
         .choices__input {
@@ -130,7 +140,11 @@
                                     <h4>Survey Title</h4>
                                     <ul class="breadcrump-inner">
                                         <li><a href="home.php">Home</a> /</li>
+<<<<<<< HEAD
                                         <li>Survey Management</li>
+=======
+                                        <li>Register User Details</li>
+>>>>>>> bf1668519c9cce631e2e113ecab9ff8d870175f0
                                     </ul>
                                 </div>
 
@@ -177,7 +191,11 @@
                                         </div>                                      
                                     </div>
                                 </div>
+<<<<<<< HEAD
                                 <div class="col-md-4 hide">
+=======
+                                <div class="col-md-4">
+>>>>>>> bf1668519c9cce631e2e113ecab9ff8d870175f0
                                     <div class="form-grp">
                                         <label class="form-label">Language</label>
                                         <select class="form-control" id="choices-multiple-remove-button" placeholder="Select" multiple>
@@ -222,11 +240,15 @@
                                                 <span>Initial Fields</span>
                                             </a>
                                         </li>
+<<<<<<< HEAD
                                         <li class="nav-item">
                                             <a class="nav-link" data-bs-toggle="tab" href="#evnt-tab5" role="tab">
                                                 <span>Options</span>
                                             </a>
                                         </li>
+=======
+                                        
+>>>>>>> bf1668519c9cce631e2e113ecab9ff8d870175f0
         
                                     </ul>
                                 </div>
@@ -270,6 +292,7 @@
                                 <div class="col-md-8 col-lap-8 border-right">
                                     <div class="tab-content">
                                         <div class="tab-pane active" id="evnt-tab1" role="tabpanel">
+<<<<<<< HEAD
                                             <div class="row team-tab-content">
                                                 <div class="col-md-12">
                                                     <div class="speaker-header">
@@ -1286,6 +1309,20 @@
                                                 </div>
                                             </div>
                                         </div>
+=======
+                                            
+                                        </div>
+                                        <div class="tab-pane" id="evnt-tab2" role="tabpanel">
+                                        
+                                        </div>
+                                        <div class="tab-pane" id="evnt-tab3" role="tabpanel">
+                                        
+                                        </div>
+                                        <div class="tab-pane" id="evnt-tab4" role="tabpanel">
+                                          
+                                        </div>
+                                        
+>>>>>>> bf1668519c9cce631e2e113ecab9ff8d870175f0
                                     </div>
                                    
                                 
@@ -1418,6 +1455,7 @@
 
 
 
+<<<<<<< HEAD
 
     <div class="modal fade" id="add-question" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" role="dialog" aria-labelledby="staticBackdropLabel" aria-hidden="true">
         <div class="modal-dialog modal-dialog-centered modal-xxl" role="document">
@@ -2452,11 +2490,439 @@
                                                     </div>
                                                 </div>
                                             </div>
+=======
+    <div class="modal common-modal fade" id="add-poll" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" role="dialog" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="staticBackdropLabel"> <img src="assets/images/users.svg" alt=""><span>Create Poll</span></h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body poll-modal">
+                    <div class="row">
+                        <div class="col-lg-12">
+                            <div class="form-grp">
+                                <label class="form-label">Poll Title</label>
+                                <input class="form-control" type="text" placeholder="Title">
+                               
+                            </div>
+                        </div>
+                        <div class="col-lg-12">
+                            <div class="form-grp boothprice-labels">
+                                <label class="form-label">Pagination</label>
+                                <div class="row">
+                                    <div class="col-md-4">
+                                        <div class="form-check form-radio-outline form-radio-danger">
+                                            <input class="form-check-input" type="radio" name="formRadio" id="formRadio1">
+                                            <label class="form-check-label" for="formRadio1">
+                                                One page per question
+                                            </label>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <div class="form-check form-radio-outline form-radio-danger">
+                                            <input class="form-check-input" type="radio" name="formRadio" id="formRadio2">
+                                            <label class="form-check-label" for="formRadio2">
+                                                One page with all the questions
+                                            </label>
+                                        </div>
+                                    </div>
+                                </div>
+                               
+                               
+                            </div>
+                        </div>
+                   
+                    </div>
+                    <div class="question-overflow">
+                        <div class="question-bx">
+                            <div class="row">
+                                <div class="col-lg-12">
+                                    <div class="form-grp">
+                                        <div class="d-flex justify-content-between">
+                                            <label class="form-label">Question</label>
+                                            <a href="#" class="dlt-link"> <i class="bx bxs-trash-alt"></i></a>
+        
+                                        </div>
+                                      
+                                        <textarea name="" id="" cols="30" rows="2" class="form-control" placeholder="Enter the poll question here"></textarea>
+                                       
+                                    </div>
+                                </div>
+                                <div class="col-lg-12">
+                                    <div class="form-grp boothprice-labels">
+                                        <label class="form-label">Poll Type</label>
+                                        <div class="row">
+                                            <div class="col-md-3">
+                                                <div class="form-check form-radio-outline form-radio-danger">
+                                                    <input class="form-check-input polltype" type="radio" name="polltype" id="formRadio3" value="1" checked>
+                                                    <label class="form-check-label" for="formRadio3">
+                                                        Single Choice
+                                                    </label>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-3">
+                                                <div class="form-check form-radio-outline form-radio-danger">
+                                                    <input class="form-check-input polltype" type="radio" name="polltype" id="formRadio4" value="2">
+                                                    <label class="form-check-label" for="formRadio4">
+                                                        Multiple Choice
+                                                    </label>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-3">
+                                                <div class="form-check form-radio-outline form-radio-danger">
+                                                    <input class="form-check-input polltype" type="radio" name="polltype" id="formRadio5" value="3">
+                                                    <label class="form-check-label" for="formRadio5">
+                                                        Rating
+                                                    </label>
+                                                </div>
+                                            </div>
+                                        </div>
+                                       
+                                       
+                                    </div>
+                                </div>
+                                <div class="col-lg-12">
+                                    <div class="form-grp poll-answers poll-desc" id="polltype1">
+                                        <div class="d-flex justify-content-between">
+                                            <label class="form-label">Answers</label>
+                                            <a href="#" class="clr-link add-answer-btn"> <i class="fas fa-plus-circle"></i></a>
+        
+                                        </div>
+                                        <div class="input-group mb-2">
+                                            <input type="text" class="form-control" placeholder="Option 1">
+                                            <div class="input-group uploadFile1">
+                                                <div class="input-group-append">
+                                                    <span class="input-group-text">
+                                                        <svg width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                            <path d="M12.9077 6.85704L7.23439 12.2077C6.53936 12.8632 5.59671 13.2314 4.6138 13.2314C3.63088 13.2314 2.68823 12.8632 1.9932 12.2077C1.29818 11.5522 0.907715 10.6632 0.907715 9.73615C0.907715 8.80914 1.29818 7.9201 1.9932 7.2646L7.66653 1.91394C8.12988 1.47695 8.75831 1.23145 9.41359 1.23145C10.0689 1.23145 10.6973 1.47695 11.1607 1.91394C11.624 2.35094 11.8843 2.94364 11.8843 3.56164C11.8843 4.17965 11.624 4.77235 11.1607 5.20934L5.48115 10.56C5.24948 10.7785 4.93526 10.9012 4.60762 10.9012C4.27998 10.9012 3.96577 10.7785 3.73409 10.56C3.50242 10.3415 3.37226 10.0452 3.37226 9.73615C3.37226 9.42714 3.50242 9.1308 3.73409 8.9123L8.97528 3.97502" stroke="#495057" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"/>
+                                                        </svg>
+                                                    </span>
+                                                </div>
+                                                <input type="file" accept="image/*,.pdf,.txt,.doc,.docx," class="inputfile form-control mb-0" >
+                                                
+                                            </div>
+                                            <button class="btn btn-secondary" type="button" id="inputGroupFileAddon04"><i class="bx bx-x"></i></button>
+                                          </div>
+                                          <div class="input-group mb-2">
+                                            <input type="text" class="form-control" placeholder="Option 2">
+                                            <div class="input-group uploadFile1">
+                                                <div class="input-group-append">
+                                                    <span class="input-group-text">
+                                                        <svg width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                            <path d="M12.9077 6.85704L7.23439 12.2077C6.53936 12.8632 5.59671 13.2314 4.6138 13.2314C3.63088 13.2314 2.68823 12.8632 1.9932 12.2077C1.29818 11.5522 0.907715 10.6632 0.907715 9.73615C0.907715 8.80914 1.29818 7.9201 1.9932 7.2646L7.66653 1.91394C8.12988 1.47695 8.75831 1.23145 9.41359 1.23145C10.0689 1.23145 10.6973 1.47695 11.1607 1.91394C11.624 2.35094 11.8843 2.94364 11.8843 3.56164C11.8843 4.17965 11.624 4.77235 11.1607 5.20934L5.48115 10.56C5.24948 10.7785 4.93526 10.9012 4.60762 10.9012C4.27998 10.9012 3.96577 10.7785 3.73409 10.56C3.50242 10.3415 3.37226 10.0452 3.37226 9.73615C3.37226 9.42714 3.50242 9.1308 3.73409 8.9123L8.97528 3.97502" stroke="#495057" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"/>
+                                                        </svg>
+                                                    </span>
+                                                </div>
+                                                <input type="file" accept="image/*,.pdf,.txt,.doc,.docx," class="inputfile form-control mb-0" >
+                                                
+                                            </div>
+                                            <button class="btn btn-secondary" type="button" id="inputGroupFileAddon04"><i class="bx bx-x"></i></button>
+                                          </div>
+                                          <div class="input-group mb-2">
+                                            <input type="text" class="form-control" placeholder="Option 3">
+                                            <div class="input-group uploadFile1">
+                                                <div class="input-group-append">
+                                                    <span class="input-group-text">
+                                                        <svg width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                            <path d="M12.9077 6.85704L7.23439 12.2077C6.53936 12.8632 5.59671 13.2314 4.6138 13.2314C3.63088 13.2314 2.68823 12.8632 1.9932 12.2077C1.29818 11.5522 0.907715 10.6632 0.907715 9.73615C0.907715 8.80914 1.29818 7.9201 1.9932 7.2646L7.66653 1.91394C8.12988 1.47695 8.75831 1.23145 9.41359 1.23145C10.0689 1.23145 10.6973 1.47695 11.1607 1.91394C11.624 2.35094 11.8843 2.94364 11.8843 3.56164C11.8843 4.17965 11.624 4.77235 11.1607 5.20934L5.48115 10.56C5.24948 10.7785 4.93526 10.9012 4.60762 10.9012C4.27998 10.9012 3.96577 10.7785 3.73409 10.56C3.50242 10.3415 3.37226 10.0452 3.37226 9.73615C3.37226 9.42714 3.50242 9.1308 3.73409 8.9123L8.97528 3.97502" stroke="#495057" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"/>
+                                                        </svg>
+                                                    </span>
+                                                </div>
+                                                <input type="file" accept="image/*,.pdf,.txt,.doc,.docx," class="inputfile form-control mb-0" >
+                                                
+                                            </div>
+                                            <button class="btn btn-secondary" type="button" id="inputGroupFileAddon04"><i class="bx bx-x"></i></button>
+                                          </div>
+                                         
+                                    </div>
+                                </div>
+                                <div class="col-lg-12">
+                                    <div class="form-grp poll-answers poll-desc" id="polltype2" style="display: none;">
+                                        <div class="d-flex justify-content-between">
+                                            <label class="form-label">Answers</label>
+                                            <a href="#" class="clr-link add-answer-btn"> <i class="fas fa-plus-circle"></i></a>
+        
+                                        </div>
+                                        <div class="input-group mb-2">
+                                            <input type="text" class="form-control" placeholder="Option 1">
+                                            <div class="input-group uploadFile1">
+                                                <div class="input-group-append">
+                                                    <span class="input-group-text">
+                                                        <svg width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                            <path d="M12.9077 6.85704L7.23439 12.2077C6.53936 12.8632 5.59671 13.2314 4.6138 13.2314C3.63088 13.2314 2.68823 12.8632 1.9932 12.2077C1.29818 11.5522 0.907715 10.6632 0.907715 9.73615C0.907715 8.80914 1.29818 7.9201 1.9932 7.2646L7.66653 1.91394C8.12988 1.47695 8.75831 1.23145 9.41359 1.23145C10.0689 1.23145 10.6973 1.47695 11.1607 1.91394C11.624 2.35094 11.8843 2.94364 11.8843 3.56164C11.8843 4.17965 11.624 4.77235 11.1607 5.20934L5.48115 10.56C5.24948 10.7785 4.93526 10.9012 4.60762 10.9012C4.27998 10.9012 3.96577 10.7785 3.73409 10.56C3.50242 10.3415 3.37226 10.0452 3.37226 9.73615C3.37226 9.42714 3.50242 9.1308 3.73409 8.9123L8.97528 3.97502" stroke="#495057" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"/>
+                                                        </svg>
+                                                    </span>
+                                                </div>
+                                                <input type="file" accept="image/*,.pdf,.txt,.doc,.docx," class="inputfile form-control mb-0" >
+                                                
+                                            </div>
+                                            <button class="btn btn-secondary" type="button" id="inputGroupFileAddon04"><i class="bx bx-x"></i></button>
+                                          </div>
+                                          <div class="input-group mb-2">
+                                            <input type="text" class="form-control" placeholder="Option 2">
+                                            <div class="input-group uploadFile1">
+                                                <div class="input-group-append">
+                                                    <span class="input-group-text">
+                                                        <svg width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                            <path d="M12.9077 6.85704L7.23439 12.2077C6.53936 12.8632 5.59671 13.2314 4.6138 13.2314C3.63088 13.2314 2.68823 12.8632 1.9932 12.2077C1.29818 11.5522 0.907715 10.6632 0.907715 9.73615C0.907715 8.80914 1.29818 7.9201 1.9932 7.2646L7.66653 1.91394C8.12988 1.47695 8.75831 1.23145 9.41359 1.23145C10.0689 1.23145 10.6973 1.47695 11.1607 1.91394C11.624 2.35094 11.8843 2.94364 11.8843 3.56164C11.8843 4.17965 11.624 4.77235 11.1607 5.20934L5.48115 10.56C5.24948 10.7785 4.93526 10.9012 4.60762 10.9012C4.27998 10.9012 3.96577 10.7785 3.73409 10.56C3.50242 10.3415 3.37226 10.0452 3.37226 9.73615C3.37226 9.42714 3.50242 9.1308 3.73409 8.9123L8.97528 3.97502" stroke="#495057" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"/>
+                                                        </svg>
+                                                    </span>
+                                                </div>
+                                                <input type="file" accept="image/*,.pdf,.txt,.doc,.docx," class="inputfile form-control mb-0" >
+                                                
+                                            </div>
+                                            <button class="btn btn-secondary" type="button" id="inputGroupFileAddon04"><i class="bx bx-x"></i></button>
+                                          </div>
+                                          <div class="input-group mb-2">
+                                            <input type="text" class="form-control" placeholder="Option 3">
+                                            <div class="input-group uploadFile1">
+                                                <div class="input-group-append">
+                                                    <span class="input-group-text">
+                                                        <svg width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                            <path d="M12.9077 6.85704L7.23439 12.2077C6.53936 12.8632 5.59671 13.2314 4.6138 13.2314C3.63088 13.2314 2.68823 12.8632 1.9932 12.2077C1.29818 11.5522 0.907715 10.6632 0.907715 9.73615C0.907715 8.80914 1.29818 7.9201 1.9932 7.2646L7.66653 1.91394C8.12988 1.47695 8.75831 1.23145 9.41359 1.23145C10.0689 1.23145 10.6973 1.47695 11.1607 1.91394C11.624 2.35094 11.8843 2.94364 11.8843 3.56164C11.8843 4.17965 11.624 4.77235 11.1607 5.20934L5.48115 10.56C5.24948 10.7785 4.93526 10.9012 4.60762 10.9012C4.27998 10.9012 3.96577 10.7785 3.73409 10.56C3.50242 10.3415 3.37226 10.0452 3.37226 9.73615C3.37226 9.42714 3.50242 9.1308 3.73409 8.9123L8.97528 3.97502" stroke="#495057" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"/>
+                                                        </svg>
+                                                    </span>
+                                                </div>
+                                                <input type="file" accept="image/*,.pdf,.txt,.doc,.docx," class="inputfile form-control mb-0" >
+                                                
+                                            </div>
+                                            <button class="btn btn-secondary" type="button" id="inputGroupFileAddon04"><i class="bx bx-x"></i></button>
+                                          </div>
+                                         
+                                    </div>
+                                </div>
+                                <div class="col-lg-3">
+                                    <div class="form-grp poll-rating poll-desc" id="polltype3" style="display: none;">
+                                        <label class="form-label">No of Stars</label>
+                                        <select class="form-select form-control form-select-sm" aria-label=".form-select-sm example">
+                                            <option value="3star">3 Star</option>
+                                            <option value="5star" selected>5 Star</option>
+                                            <option value="10star">10 Star</option>                          
+                                         
+                                        </select>
+                                         
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                  
+                   <div class="add-answer add-qstn">
+                    <div class="row">
+                        <div class="col-md-3">
+                            <a href="#" class="qstn-add"><i class="bx bx-plus-circle"></i> Add Question</a>
+                        </div>
+                        <div class="col-md-9 poll-tymes">
+                            <div class="form-grp me-3">
+                                <label class="form-label">Survey Time</label>
+                                <input class="form-control" type="text" placeholder="00:00:00" style="width: 90px;">                              
+                            </div>
+                            <div class="form-grp me-1">
+                                <label class="form-label">Voting Time</label>
+                                <input class="form-control" type="text" placeholder="00:00:00" style="width: 90px;">                              
+                            </div>
+                        </div>
+                    </div>
+                  
+                  </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-light br-50 btn-md" data-bs-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-primary br-50 btn-md ms-1">Save</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade" id="share-qr" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" role="dialog" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="staticBackdropLabel"><span>Share QR</span></h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <div class="field">
+                        <i class="url-icon uil uil-link"></i>
+                        <input type="text" class="copy-box" readonly value="example.com/share-link">
+                        <button class="copy-box-button">Copy</button>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="attendees-in" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" role="dialog" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-md" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="staticBackdropLabel"> <img src="assets/images/users.svg" alt="" style="width: 22px;"><span>Attendees IN</span></h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <div class="row">
+                        <div class="col-lg-12 attendee-img-box d-flex align-items-center justify-content-between">
+                            <div class="d-flex align-items-center">
+                                <img src="assets/images/users/avatar-1.jpg">
+                                <h6>Mohammed Shefin</h6>
+                            </div>
+                            <h4>Ticket Type: Premium</h4>
+                        </div>
+                        <hr class="bottom-line">
+                        <div class="col-lg-12 attendee-img-box d-flex align-items-center justify-content-between">
+                            <div class="d-flex align-items-center">
+                                <img src="assets/images/users/avatar-1.jpg">
+                                <h6>Amarnath</h6>
+                            </div>
+                            <h4>Ticket Type: Premium</h4>
+                        </div>
+                        <hr class="bottom-line">
+                        <div class="col-lg-12 attendee-img-box d-flex align-items-center justify-content-between">
+                            <div class="d-flex align-items-center">
+                                <img src="assets/images/users/avatar-1.jpg">
+                                <h6>Muzafar</h6>
+                            </div>
+                            <h4>Ticket Type: Premium</h4>
+                        </div>
+                        <hr class="bottom-line">
+                        <div class="col-lg-12 attendee-img-box d-flex align-items-center justify-content-between">
+                            <div class="d-flex align-items-center">
+                                <img src="assets/images/users/avatar-1.jpg">
+                                <h6>Bisharu</h6>
+                            </div>
+                            <h4>Ticket Type: Premium</h4>
+                        </div>
+                        <hr class="bottom-line">
+                        <div class="col-lg-12 attendee-img-box d-flex align-items-center justify-content-between">
+                            <div class="d-flex align-items-center">
+                                <img src="assets/images/users/avatar-1.jpg">
+                                <h6>Nasim P</h6>
+                            </div>
+                            <h4>Ticket Type: Premium</h4>
+                        </div>
+                        <hr class="bottom-line">
+                        <div class="col-lg-12 attendee-img-box d-flex align-items-center justify-content-between">
+                            <div class="d-flex align-items-center">
+                                <img src="assets/images/users/avatar-1.jpg">
+                                <h6>Mohammed Arshad</h6>
+                            </div>
+                            <h4>Ticket Type: Premium</h4>
+                        </div>
+                        <hr class="bottom-line">
+                        <div class="col-lg-12 attendee-img-box d-flex align-items-center justify-content-between">
+                            <div class="d-flex align-items-center">
+                                <img src="assets/images/users/avatar-1.jpg">
+                                <h6>Anirudh</h6>
+                            </div>
+                            <h4>Ticket Type: Premium</h4>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+
+    <div class="modal fade" id="invite-members" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" role="dialog" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="staticBackdropLabel"> <img src="assets/images/users.svg" alt=""><span>Add Member</span></h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <div class="row">
+                        <div class="col-md-12">
+                        <!-- <div class="empty-bx">
+                            <img src="assets/images/empty.gif" alt="">
+                        </div> -->
+                         
+                            <div class="tm-member-div">
+                                
+                                <div class="tm-member-bx d-flex rounded">
+                                    <img src="assets/images/users/avatar-4.jpg" alt="" class="avatar-md rounded me-3">
+                                    <div class="flex-grow-1">
+                                        <h5>Stephen Hadley</h5>
+                                        <p><i class="bx bx-envelope align-middle"></i> stephen@gmail.com</p>
+                                        <p class="mb-0"><i class="bx bx-phone-call align-middle"></i> 966 22334455</p>
+                                    </div>
+                                    <div class="tm-membr-check">
+                                        <div class="form-check">
+                                            <input class="form-check-input" type="checkbox" id="formCheck2">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="tm-member-bx d-flex rounded">
+                                    <img src="assets/images/users/default.png" alt="" class="avatar-md border-1 rounded me-3">
+                                    <div class="flex-grow-1">
+                                        <h5>Stephen Hadley</h5>
+                                        <p><i class="bx bx-envelope align-middle"></i> stephen@gmail.com</p>
+                                        <p class="mb-0"><i class="bx bx-phone-call align-middle"></i> 966 22334455</p>
+                                    </div>
+                                    <div class="tm-membr-check">
+                                        <div class="form-check">
+                                            <input class="form-check-input" type="checkbox" id="formCheck1">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="tm-member-bx d-flex rounded">
+                                    <img src="assets/images/users/avatar-4.jpg" alt="" class="avatar-md rounded me-3">
+                                    <div class="flex-grow-1">
+                                        <h5>Stephen Hadley</h5>
+                                        <p><i class="bx bx-envelope align-middle"></i> stephen@gmail.com</p>
+                                        <p class="mb-0"><i class="bx bx-phone-call align-middle"></i> 966 22334455</p>
+                                    </div>
+                                    <div class="tm-membr-check">
+                                        <div class="form-check">
+                                            <input class="form-check-input" type="checkbox" id="formCheck3">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="tm-member-bx d-flex rounded">
+                                    <img src="assets/images/users/avatar-4.jpg" alt="" class="avatar-md rounded me-3">
+                                    <div class="flex-grow-1">
+                                        <h5>Stephen Hadley</h5>
+                                        <p><i class="bx bx-envelope align-middle"></i> stephen@gmail.com</p>
+                                        <p class="mb-0"><i class="bx bx-phone-call align-middle"></i> 966 22334455</p>
+                                    </div>
+                                    <div class="tm-membr-check">
+                                        <div class="form-check">
+                                            <input class="form-check-input" type="checkbox" id="formCheck3">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="tm-member-bx d-flex rounded">
+                                    <img src="assets/images/users/avatar-4.jpg" alt="" class="avatar-md rounded me-3">
+                                    <div class="flex-grow-1">
+                                        <h5>Stephen Hadley</h5>
+                                        <p><i class="bx bx-envelope align-middle"></i> stephen@gmail.com</p>
+                                        <p class="mb-0"><i class="bx bx-phone-call align-middle"></i> 966 22334455</p>
+                                    </div>
+                                    <div class="tm-membr-check">
+                                        <div class="form-check">
+                                            <input class="form-check-input" type="checkbox" id="formCheck3">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="tm-member-bx d-flex rounded">
+                                    <img src="assets/images/users/avatar-4.jpg" alt="" class="avatar-md rounded me-3">
+                                    <div class="flex-grow-1">
+                                        <h5>Stephen Hadley</h5>
+                                        <p><i class="bx bx-envelope align-middle"></i> stephen@gmail.com</p>
+                                        <p class="mb-0"><i class="bx bx-phone-call align-middle"></i> 966 22334455</p>
+                                    </div>
+                                    <div class="tm-membr-check">
+                                        <div class="form-check">
+                                            <input class="form-check-input" type="checkbox" id="formCheck3">
+>>>>>>> bf1668519c9cce631e2e113ecab9ff8d870175f0
                                         </div>
                                     </div>
                                 </div>
                             </div>
                         </div>
+<<<<<<< HEAD
 
 
 
@@ -2469,6 +2935,328 @@
 
                 </div>
                 <div class="modal-footer">            
+=======
+                    </div>
+                  
+                    
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-primary  br-50 btn-md">Add</button>
+                    <button type="button" class="btn btn-light  br-50 btn-md" data-bs-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="add-logo" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" role="dialog" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="staticBackdropLabel"><span>Add Logo</span></h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <div id="uploadArea1" class="upload-area" onclick="importDifferentFile(1)">
+                                <div id="dropZoon1" class="upload-area__drop-zoon drop-zoon">
+                                    <span class="drop-zoon__icon">
+                                        <i class='bx bxs-file-image'></i>
+                                    </span>
+                                    <p class="drop-zoon__paragraph">Drop your file here or Click to browse</p>
+                                    <span id="loadingText1" class="drop-zoon__loading-text">Please Wait</span>
+                                    <img src="" alt="Preview Image" id="previewImage1" class="drop-zoon__preview-image"
+                                        draggable="false">
+                                    <input type="file" id="fileInput1" class="drop-zoon__file-input" accept="image/*">
+                                </div>
+
+                                <div id="fileDetails1" class="upload-area__file-details file-details">
+                                    <h3 class="file-details__title">Uploaded File</h3>
+
+                                    <div id="uploadedFile1" class="uploaded-file">
+                                        <div class="uploaded-file__icon-container">
+                                            <i class='bx bxs-file-blank uploaded-file__icon'></i>
+                                            <span class="uploaded-file__icon-text"></span>
+                                        </div>
+
+                                        <div id="uploadedFileInfo1" class="uploaded-file__info">
+                                            <span class="uploaded-file__name">Proejct 1</span>
+                                            <span class="uploaded-file__counter">0%</span>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                  
+                    
+                </div>
+                <div class="modal-footer">
+                 
+                    <button type="button" class="btn btn-light br-50 btn-md" data-bs-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-primary br-50 btn-md">Add</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="add-terms" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" role="dialog" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="staticBackdropLabel"><span>Terms and Policies</span></h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <div class="form-grp term-condition mb-0">
+                                <textarea id="summernote" class="form-control"></textarea>
+                            </div>
+                        </div>
+                    </div>
+                  
+                    
+                </div>
+                <div class="modal-footer">
+                    
+                    <button type="button" class="btn btn-light  br-50 btn-md" data-bs-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-primary  br-50 btn-md">Add</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="event-create" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" role="dialog" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="staticBackdropLabel"> <img src="assets/images/calendar-modal.svg" alt=""><span>Create your Event</span></h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <div class="form-grp">
+                        <label class="form-label">Event name<span>*</span></label>
+                        <input class="form-control" type="text" placeholder="Enter here">
+                    </div>
+                    <div class="form-grp">
+                        <label class="form-label">Select Language</label>
+                        <div class="select-inp">
+                            <select class="form-control">
+                                        
+                            <option value="AK">English</option>
+                            <option value="HI">Arabic</option>                          
+                            <option value="CA">Spanish</option>
+                            <option value="NV">Hindi</option>                        
+                    </select>
+                            <i class="fas fa-chevron-down"></i>
+                        </div>
+
+                    </div>
+                    <div class="form-grp">
+                        <label class="form-label">Event Type</label>
+                        <div class="row event-type radio-check-function">
+                            <div class="col-md-4">
+                                <div class="form-check active">
+                                    <input class="form-check-input" type="radio" name="formRadios" id="formRadios1" checked="">
+                                    <label class="form-check-label" for="formRadios1">
+                                    Location Based
+                                </label>
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="form-check">
+                                    <input class="form-check-input" type="radio" name="formRadios" id="formRadios1">
+                                    <label class="form-check-label" for="formRadios1">
+                                    Online Event
+                                </label>
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="form-check">
+                                    <input class="form-check-input" type="radio" name="formRadios" id="formRadios1">
+                                    <label class="form-check-label" for="formRadios1">
+                                    Hybrid Event
+                                </label>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="form-grp">
+                        <div class="row">
+                            <div class="col-md-6">
+                                <label class="form-label">Start Date</label>
+                                <div class="input-group" id="datepicker2">
+                                    <input type="text" class="form-control" placeholder="dd M, yyyy" value="01 Sep, 2023" data-date-format="dd M, yyyy" data-date-container='#datepicker2' data-provide="datepicker" data-date-autoclose="true">
+
+                                    <span class="input-group-text"><img src="assets/images/input-cal.svg" alt=""></span>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <label class="form-label">Start Time</label>
+                                <div class="input-group" id="timepicker-input-group1">
+                                    <input id="timepicker" type="text" class="form-control" data-provide="timepicker">
+                                    <span class="input-group-text"><img src="assets/images/input-time.svg" alt=""></span>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="mb-2">
+                        <div class="row">
+                            <div class="col-md-6">
+                                <label class="form-label">End Date</label>
+                                <div class="input-group" id="datepicker2">
+                                    <input type="text" class="form-control" placeholder="dd M, yyyy" value="05 Sep, 2023" data-date-format="dd M, yyyy" data-date-container='#datepicker2' data-provide="datepicker" data-date-autoclose="true">
+
+                                    <span class="input-group-text"><img src="assets/images/input-cal.svg" alt=""></span>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <label class="form-label">End Time</label>
+                                <div class="input-group" id="timepicker-input-group1">
+                                    <input id="timepicker2" type="text" class="form-control" data-provide="timepicker">
+                                    <span class="input-group-text"><img src="assets/images/input-time.svg" alt=""></span>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <a href="conference.php"><button type="button" class="btn btn-primary  br-50 btn-md">Create</button></a>
+                    <button type="button" class="btn btn-light  br-50 btn-md" data-bs-dismiss="modal">Cancel</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal common-modal fade" id="add-attandee" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" role="dialog" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="staticBackdropLabel"> <img src="assets/images/users.svg" alt=""><span>Add Attendee</span></h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <div class="row">
+                        <div class="col-lg-6">
+                            <div class="form-grp">
+                                <label class="form-label">Name</label>
+                                <input class="form-control" type="text" placeholder="Enter Name">
+                                <div class="form-check form-radio-outline form-radio-danger evnt-radio mt-1">
+                                    <input class="form-check-input" type="checkbox" name="formRadio6" id="formRadio1">
+                                    <label class="form-check-label" for="formRadio1">
+                                    Don't clear this field
+                                    </label>
+                                </div>
+                               
+                            </div>
+                        </div>
+                        <div class="col-lg-6">
+                            <div class="form-grp">
+                                <label class="form-label">Email</label>
+                                <input class="form-control" type="text" placeholder="Enter Email">
+                                <div class="form-check form-radio-outline form-radio-danger evnt-radio mt-1">
+                                    <input class="form-check-input" type="checkbox" name="formRadio6" id="formRadio2">
+                                    <label class="form-check-label" for="formRadio2">
+                                    Don't clear this field
+                                    </label>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-6">
+                            <div class="form-grp">
+                                <label class="form-label">Mobile No</label>
+                                <input class="form-control" type="text" placeholder="Enter mobile number">
+                                <div class="form-check form-radio-outline form-radio-danger evnt-radio mt-1">
+                                    <input class="form-check-input" type="checkbox" name="formRadio6" id="formRadio3">
+                                    <label class="form-check-label" for="formRadio3">
+                                    Don't clear this field
+                                    </label>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-6">
+                            <div class="form-grp">
+                                <label class="form-label">Comapany Name</label>
+                                <input class="form-control" type="text" placeholder="Enter company name">
+                                <div class="form-check form-radio-outline form-radio-danger evnt-radio mt-1">
+                                    <input class="form-check-input" type="checkbox" name="formRadio6" id="formRadio4">
+                                    <label class="form-check-label" for="formRadio4">
+                                    Don't clear this field
+                                    </label>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-6">
+                            <div class="form-grp">
+                                <label class="form-label">Event</label>
+
+
+                                <select class="form-select form-control form-select-sm" aria-label=".form-select-sm example">
+                                    <option selected>Event2</option>
+                                    <option value="AK">Event1</option>
+                                    <option value="HI">Event2</option>                          
+                                    <option value="CA">Event3</option>
+                                    <option value="NV">Event4</option>  
+                                  </select>
+                                  <div class="form-check form-radio-outline form-radio-danger evnt-radio mt-1">
+                                    <input class="form-check-input" type="checkbox" name="formRadio6" id="formRadio5">
+                                    <label class="form-check-label" for="formRadio5">
+                                    Don't clear this field
+                                    </label>
+                                </div>
+
+                            </div>
+                        </div>
+
+                        <div class="col-lg-6">
+                            <div class="form-grp">
+                                <label class="form-label">Booked by</label>
+
+                                <select class="form-select form-control form-select-sm" aria-label=".form-select-sm example">
+                                    <option value="AK">Navab</option>
+                                    <option value="HI">Amar</option>                          
+                                    <option value="CA">Nasim</option>
+                                    <option value="NV">Bishru</option>  
+                                  </select>
+                                  <div class="form-check form-radio-outline form-radio-danger evnt-radio mt-1">
+                                    <input class="form-check-input" type="checkbox" name="formRadio6" id="formRadio6">
+                                    <label class="form-check-label" for="formRadio6">
+                                    Don't clear this field
+                                    </label>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-5">
+                            <div class="form-grp">
+                                <label class="form-label">Ticket Type</label>
+
+                                <select class="form-select form-control form-select-sm" aria-label=".form-select-sm example">
+                                    <option value="AK">Premium</option>
+                                    <option value="HI">Gold</option>                          
+                                    <option value="CA">Platinium</option>
+                                    <option value="NV">Silver</option>  
+                                  </select>
+                                  <div class="form-check form-radio-outline form-radio-danger evnt-radio mt-1">
+                                    <input class="form-check-input" type="checkbox" name="formRadio6" id="formRadio7">
+                                    <label class="form-check-label" for="formRadio7">
+                                    Don't clear this field
+                                    </label>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="modal-footer">
+                   
+                   
+>>>>>>> bf1668519c9cce631e2e113ecab9ff8d870175f0
                     <button type="button" class="btn btn-light br-50 btn-md" data-bs-dismiss="modal">Close</button>
                     <div class="d-flex">
                     <a href="#"><button type="button" class="btn btn-primary br-50 btn-md">Save and Close</button></a>
@@ -2479,6 +3267,141 @@
         </div>
     </div>
 
+<<<<<<< HEAD
+=======
+    <div class="modal common-modal fade" id="add-registeruser" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" role="dialog" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="staticBackdropLabel"> <img src="assets/images/users.svg" alt=""><span>Add Register User</span></h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <div class="row">
+                        <div class="col-lg-6">
+                            <div class="form-grp">
+                                <label class="form-label">Name</label>
+                                <input class="form-control" type="text" placeholder="Enter Name">
+                                <div class="form-check form-radio-outline form-radio-danger evnt-radio mt-1">
+                                    <input class="form-check-input" type="checkbox" name="formRadio6" id="formRadio1">
+                                    <label class="form-check-label" for="formRadio1">
+                                    Don't clear this field
+                                    </label>
+                                </div>
+                               
+                            </div>
+                        </div>
+                        <div class="col-lg-6">
+                            <div class="form-grp">
+                                <label class="form-label">Email</label>
+                                <input class="form-control" type="text" placeholder="Enter Email">
+                                <div class="form-check form-radio-outline form-radio-danger evnt-radio mt-1">
+                                    <input class="form-check-input" type="checkbox" name="formRadio6" id="formRadio2">
+                                    <label class="form-check-label" for="formRadio2">
+                                    Don't clear this field
+                                    </label>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-6">
+                            <div class="form-grp">
+                                <label class="form-label">Mobile No</label>
+                                <input class="form-control" type="text" placeholder="Enter mobile number">
+                                <div class="form-check form-radio-outline form-radio-danger evnt-radio mt-1">
+                                    <input class="form-check-input" type="checkbox" name="formRadio6" id="formRadio3">
+                                    <label class="form-check-label" for="formRadio3">
+                                    Don't clear this field
+                                    </label>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-6">
+                            <div class="form-grp">
+                                <label class="form-label">Comapany Name</label>
+                                <input class="form-control" type="text" placeholder="Enter company name">
+                                <div class="form-check form-radio-outline form-radio-danger evnt-radio mt-1">
+                                    <input class="form-check-input" type="checkbox" name="formRadio6" id="formRadio4">
+                                    <label class="form-check-label" for="formRadio4">
+                                    Don't clear this field
+                                    </label>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-6">
+                            <div class="form-grp">
+                                <label class="form-label">Event</label>
+
+
+                                <select class="form-select form-control form-select-sm" aria-label=".form-select-sm example">
+                                    <option selected>Event2</option>
+                                    <option value="AK">Event1</option>
+                                    <option value="HI">Event2</option>                          
+                                    <option value="CA">Event3</option>
+                                    <option value="NV">Event4</option>  
+                                  </select>
+                                  <div class="form-check form-radio-outline form-radio-danger evnt-radio mt-1">
+                                    <input class="form-check-input" type="checkbox" name="formRadio6" id="formRadio5">
+                                    <label class="form-check-label" for="formRadio5">
+                                    Don't clear this field
+                                    </label>
+                                </div>
+
+                            </div>
+                        </div>
+
+                        <div class="col-lg-6">
+                            <div class="form-grp">
+                                <label class="form-label">Booked by</label>
+
+                                <select class="form-select form-control form-select-sm" aria-label=".form-select-sm example">
+                                    <option value="AK">Navab</option>
+                                    <option value="HI">Amar</option>                          
+                                    <option value="CA">Nasim</option>
+                                    <option value="NV">Bishru</option>  
+                                  </select>
+                                  <div class="form-check form-radio-outline form-radio-danger evnt-radio mt-1">
+                                    <input class="form-check-input" type="checkbox" name="formRadio6" id="formRadio6">
+                                    <label class="form-check-label" for="formRadio6">
+                                    Don't clear this field
+                                    </label>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-5">
+                            <div class="form-grp">
+                                <label class="form-label">Ticket Type</label>
+
+                                <select class="form-select form-control form-select-sm" aria-label=".form-select-sm example">
+                                    <option value="AK">Premium</option>
+                                    <option value="HI">Gold</option>                          
+                                    <option value="CA">Platinium</option>
+                                    <option value="NV">Silver</option>  
+                                  </select>
+                                  <div class="form-check form-radio-outline form-radio-danger evnt-radio mt-1">
+                                    <input class="form-check-input" type="checkbox" name="formRadio6" id="formRadio7">
+                                    <label class="form-check-label" for="formRadio7">
+                                    Don't clear this field
+                                    </label>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="modal-footer">
+                   
+                   
+                    <button type="button" class="btn btn-light br-50 btn-md" data-bs-dismiss="modal">Close</button>
+                    <div class="d-flex">
+                    <a href="#"><button type="button" class="btn btn-primary br-50 btn-md">Save and Close</button></a>
+                    <a href="#"><button type="button" class="btn btn-primary br-50 btn-md ms-1">Save and New</button></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+>>>>>>> bf1668519c9cce631e2e113ecab9ff8d870175f0
 
     <div class="modal common-modal fade" id="export-modal" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" role="dialog" aria-labelledby="staticBackdropLabel" aria-hidden="true">
         <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
@@ -2986,7 +3909,43 @@
         </div>
     </div>
 
+<<<<<<< HEAD
 
+=======
+    <div class="modal fade" id="add-announcement" aria-hidden="true" aria-labelledby="..." tabindex="-1">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">New Announcement</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <div class="form-grp">
+                        <label class="form-label">Title<span>*</span></label>
+                        <input class="form-control" type="text" placeholder="">
+                    </div>
+                   
+                    <div class="form-grp mb-0">
+                        <label class="form-label">Message<span>*</span></label>
+                        <textarea id="formmessage" class="form-control" rows="3" placeholder=""></textarea>
+                        <div class="form-check form-radio-outline form-radio-danger evnt-radio mt-2">
+                            <input class="form-check-input" type="checkbox" name="announcement1" id="announcement1" autocompleted="">
+                            <label class="form-check-label" for="announcement1">
+                                Allow Comments
+                            </label>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-footer">
+
+                    <button type="button" class="btn btn-light  br-50 btn-md"data-bs-dismiss="modal">Cancel</button>
+
+                    <button class="btn btn-primary  br-50 btn-md" data-bs-dismiss="modal">Save</button>
+                </div>
+            </div>
+        </div>
+    </div>
+>>>>>>> bf1668519c9cce631e2e113ecab9ff8d870175f0
 
     
     <div id="alert-delete" class="modal fade" tabindex="-1" aria-labelledby="..." aria-hidden="true"
@@ -3003,7 +3962,11 @@
                 </div>
                 <div class="modal-footer d-flex justify-content-center">
                     <button class="btn yes-btn successful-btn" data-bs-dismiss="modal">Yes</button>
+<<<<<<< HEAD
                     <button class="btn cancel-button"
+=======
+                    <button class="btn cancel-button" data-bs-target="#event-create" data-bs-toggle="modal"
+>>>>>>> bf1668519c9cce631e2e113ecab9ff8d870175f0
                         data-bs-dismiss="modal">No</button>
 
                 </div>
@@ -3042,7 +4005,10 @@
 
         <!-- JAVASCRIPT -->
         <script src="assets/libs/jquery/jquery.min.js"></script>
+<<<<<<< HEAD
         <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+=======
+>>>>>>> bf1668519c9cce631e2e113ecab9ff8d870175f0
         <script src="assets/libs/select2/js/chosen.jquery.min.js"></script>
         <script src="assets/libs/bootstrap/js/bootstrap.bundle.min.js"></script>
         <script src="assets/libs/metismenu/metisMenu.min.js"></script>
@@ -3356,17 +4322,217 @@ function importDifferentFile(imgval) {
 
     $(function () {
 
+<<<<<<< HEAD
         $("#evnt-tab1").on("click", function () {
             $(".row-selected").toggle($(this).find(".check-input:checked").length > 0);
         })
 
+=======
+        $("#evnt-tab2").on("click", function () {
+            $(".row-selected").toggle($(this).find(".check-input:checked").length > 0);
+        })
+        $("#evnt-tab3").on("click", function () {
+            $(".row-selected").toggle($(this).find(".check-input:checked").length > 0);
+        })
+        $("#evnt-tab5").on("click", function () {
+            $(".row-selected").toggle($(this).find(".check-input:checked").length > 0);
+        })
+        $("#evnt-tab7").on("click", function () {
+            $(".row-selected").toggle($(this).find(".check-input:checked").length > 0);
+        })
+>>>>>>> bf1668519c9cce631e2e113ecab9ff8d870175f0
         
         $('input[name="Main_Checkbox"]').on("click", function () {
             $('.check-input').prop('checked', this.checked);
         });
     });
 </script>
+<<<<<<< HEAD
 
+=======
+<script>
+
+
+
+
+
+    $(document).on('click','.poll-answers .input-group .btn', function(){
+        $(this).parent().fadeOut(500);
+    });
+    $(document).on('click','.question-bx .dlt-link', function(){
+        $(this).closest('.question-bx').fadeOut(500);
+    });
+    $(document).on('click','.add-answer-btn', function(){
+        newRowAdd =
+                '<div class="input-group mb-2"><input type="text" class="form-control" placeholder="Option 1"><div class="input-group uploadFile1"><div class="input-group-append"><span class="input-group-text"><svg width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M12.9077 6.85704L7.23439 12.2077C6.53936 12.8632 5.59671 13.2314 4.6138 13.2314C3.63088 13.2314 2.68823 12.8632 1.9932 12.2077C1.29818 11.5522 0.907715 10.6632 0.907715 9.73615C0.907715 8.80914 1.29818 7.9201 1.9932 7.2646L7.66653 1.91394C8.12988 1.47695 8.75831 1.23145 9.41359 1.23145C10.0689 1.23145 10.6973 1.47695 11.1607 1.91394C11.624 2.35094 11.8843 2.94364 11.8843 3.56164C11.8843 4.17965 11.624 4.77235 11.1607 5.20934L5.48115 10.56C5.24948 10.7785 4.93526 10.9012 4.60762 10.9012C4.27998 10.9012 3.96577 10.7785 3.73409 10.56C3.50242 10.3415 3.37226 10.0452 3.37226 9.73615C3.37226 9.42714 3.50242 9.1308 3.73409 8.9123L8.97528 3.97502" stroke="#495057" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"/></svg></span></div><input type="file" accept="image/*,.pdf,.txt,.doc,.docx," class="inputfile form-control mb-0" ></div><button class="btn btn-secondary" type="button" id="inputGroupFileAddon04"><i class="bx bx-x"></i></button></div>' ;
+ 
+            $(this).closest('.poll-answers').append(newRowAdd);
+    });
+     
+        $(document).ready(function() {
+            $(document).on('click','.polltype', function(){
+                $(this).prop("checked", true)
+                var txt = $(this).val();
+                $(this).closest(".question-bx").find(".poll-desc").hide();
+                $(this).closest(".question-bx").find("#polltype" + txt).show();
+            });
+        });
+
+
+        var i = 1
+
+        $(".add-qstn .qstn-add").click(function () {
+
+           
+            newRowAddqstn =
+                '<div class="question-bx">' +
+                            '<div class="row">' +
+                               '<div class="col-lg-12">' +
+                                    '<div class="form-grp">' +
+                                        '<div class="d-flex justify-content-between">' +
+                                            '<label class="form-label">Question</label>' +
+                                            '<a href="#" class="dlt-link"> <i class="bx bxs-trash-alt"></i></a>' +       
+                                        '</div>' +
+                                      
+                                        '<textarea name="" id="" cols="30" rows="2" class="form-control" placeholder="Enter the poll question here"></textarea>' +
+                                       
+                                    '</div>' +
+                                '</div>' +
+                                '<div class="col-lg-12">' +
+                                    '<div class="form-grp boothprice-labels">' +
+                                        '<label class="form-label">Poll Type</label>' +
+                                        '<div class="row">' +
+                                            '<div class="col-md-3">' +
+                                                '<div class="form-check form-radio-outline form-radio-danger">' +
+                                                    '<input class="form-check-input polltype" type="radio" name="polltype'+i+'" id="formRadio3'+i+'" value="1" checked>' +
+                                                    '<label class="form-check-label" for="formRadio3'+i+'">Single Choice</label>' +
+                                                '</div>' +
+                                            '</div>' +
+                                            '<div class="col-md-3">' +
+                                                '<div class="form-check form-radio-outline form-radio-danger">' +
+                                                    '<input class="form-check-input polltype" type="radio" name="polltype'+i+'" id="formRadio4'+i+'" value="2">' +
+                                                    '<label class="form-check-label" for="formRadio4'+i+'">Multiple Choice</label>' +
+                                                '</div>' +
+                                            '</div>' +
+                                            '<div class="col-md-3">' +
+                                                '<div class="form-check form-radio-outline form-radio-danger">' +
+                                                    '<input class="form-check-input polltype" type="radio" name="polltype'+i+'" id="formRadio5'+i+'" value="3">' +
+                                                   '<label class="form-check-label" for="formRadio5'+i+'">Rating</label>' +
+                                                '</div>' +
+                                            '</div>' +
+                                       ' </div>' +
+                                       
+                                       
+                                    '</div>' +
+                                '</div>' +
+                                '<div class="col-lg-12">' +
+                                    '<div class="form-grp poll-answers poll-desc" id="polltype1">' +
+                                        '<div class="d-flex justify-content-between">' +
+                                            '<label class="form-label">Answers</label>' +
+                                            '<a href="#" class="clr-link add-answer-btn"> <i class="fas fa-plus-circle"></i></a>' +
+        
+                                        '</div>' +
+                                        '<div class="input-group mb-2">' +
+                                            '<input type="text" class="form-control" placeholder="Option 1">' +
+                                            '<div class="input-group uploadFile1">' +
+                                                '<div class="input-group-append">' +
+                                                    '<span class="input-group-text"><svg width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M12.9077 6.85704L7.23439 12.2077C6.53936 12.8632 5.59671 13.2314 4.6138 13.2314C3.63088 13.2314 2.68823 12.8632 1.9932 12.2077C1.29818 11.5522 0.907715 10.6632 0.907715 9.73615C0.907715 8.80914 1.29818 7.9201 1.9932 7.2646L7.66653 1.91394C8.12988 1.47695 8.75831 1.23145 9.41359 1.23145C10.0689 1.23145 10.6973 1.47695 11.1607 1.91394C11.624 2.35094 11.8843 2.94364 11.8843 3.56164C11.8843 4.17965 11.624 4.77235 11.1607 5.20934L5.48115 10.56C5.24948 10.7785 4.93526 10.9012 4.60762 10.9012C4.27998 10.9012 3.96577 10.7785 3.73409 10.56C3.50242 10.3415 3.37226 10.0452 3.37226 9.73615C3.37226 9.42714 3.50242 9.1308 3.73409 8.9123L8.97528 3.97502" stroke="#495057" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"/></svg></span>' +
+                                                '</div>' +
+                                                '<input type="file" accept="image/*,.pdf,.txt,.doc,.docx," class="inputfile form-control mb-0" >' +
+                                                
+                                            '</div>' +                                    
+                                            '<button class="btn btn-secondary" type="button" id="inputGroupFileAddon04"><i class="bx bx-x"></i></button>' +
+                                          '</div>' +
+                                          '<div class="input-group mb-2">' +
+                                            '<input type="text" class="form-control" placeholder="Option 2">' +
+                                            '<div class="input-group uploadFile1">' +
+                                                '<div class="input-group-append">' +
+                                                    '<span class="input-group-text"><svg width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M12.9077 6.85704L7.23439 12.2077C6.53936 12.8632 5.59671 13.2314 4.6138 13.2314C3.63088 13.2314 2.68823 12.8632 1.9932 12.2077C1.29818 11.5522 0.907715 10.6632 0.907715 9.73615C0.907715 8.80914 1.29818 7.9201 1.9932 7.2646L7.66653 1.91394C8.12988 1.47695 8.75831 1.23145 9.41359 1.23145C10.0689 1.23145 10.6973 1.47695 11.1607 1.91394C11.624 2.35094 11.8843 2.94364 11.8843 3.56164C11.8843 4.17965 11.624 4.77235 11.1607 5.20934L5.48115 10.56C5.24948 10.7785 4.93526 10.9012 4.60762 10.9012C4.27998 10.9012 3.96577 10.7785 3.73409 10.56C3.50242 10.3415 3.37226 10.0452 3.37226 9.73615C3.37226 9.42714 3.50242 9.1308 3.73409 8.9123L8.97528 3.97502" stroke="#495057" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"/></svg></span>' +
+                                                '</div>' +
+                                                '<input type="file" accept="image/*,.pdf,.txt,.doc,.docx," class="inputfile form-control mb-0" >' +
+                                                
+                                            '</div>' +
+                                            '<button class="btn btn-secondary" type="button" id="inputGroupFileAddon04"><i class="bx bx-x"></i></button>' +
+                                          '</div>' +
+                                          '<div class="input-group mb-2">' +
+                                            '<input type="text" class="form-control" placeholder="Option 3">' +
+                                            '<div class="input-group uploadFile1">' +
+                                                '<div class="input-group-append">' +
+                                                    '<span class="input-group-text"><svg width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M12.9077 6.85704L7.23439 12.2077C6.53936 12.8632 5.59671 13.2314 4.6138 13.2314C3.63088 13.2314 2.68823 12.8632 1.9932 12.2077C1.29818 11.5522 0.907715 10.6632 0.907715 9.73615C0.907715 8.80914 1.29818 7.9201 1.9932 7.2646L7.66653 1.91394C8.12988 1.47695 8.75831 1.23145 9.41359 1.23145C10.0689 1.23145 10.6973 1.47695 11.1607 1.91394C11.624 2.35094 11.8843 2.94364 11.8843 3.56164C11.8843 4.17965 11.624 4.77235 11.1607 5.20934L5.48115 10.56C5.24948 10.7785 4.93526 10.9012 4.60762 10.9012C4.27998 10.9012 3.96577 10.7785 3.73409 10.56C3.50242 10.3415 3.37226 10.0452 3.37226 9.73615C3.37226 9.42714 3.50242 9.1308 3.73409 8.9123L8.97528 3.97502" stroke="#495057" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"/></svg></span>' +
+                                                '</div>' +
+                                                '<input type="file" accept="image/*,.pdf,.txt,.doc,.docx," class="inputfile form-control mb-0" >' +
+                                                
+                                            '</div>' +
+                                            '<button class="btn btn-secondary" type="button" id="inputGroupFileAddon04"><i class="bx bx-x"></i></button>' +
+                                          '</div>' +
+                                         
+                                    '</div>' +
+                                '</div>' +
+                                '<div class="col-lg-12">' +
+                                    '<div class="form-grp poll-answers poll-desc" id="polltype2" style="display: none;">' +
+                                       ' <div class="d-flex justify-content-between">' +
+                                            '<label class="form-label">Answers</label>' +
+                                            '<a href="#" class="clr-link add-answer-btn"> <i class="fas fa-plus-circle"></i></a>' +
+        
+                                        '</div>' +
+                                        '<div class="input-group mb-2">' +
+                                            '<input type="text" class="form-control" placeholder="Option 1">' +
+                                            '<div class="input-group uploadFile1">' +
+                                                '<div class="input-group-append">' +
+                                                    '<span class="input-group-text"><svg width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M12.9077 6.85704L7.23439 12.2077C6.53936 12.8632 5.59671 13.2314 4.6138 13.2314C3.63088 13.2314 2.68823 12.8632 1.9932 12.2077C1.29818 11.5522 0.907715 10.6632 0.907715 9.73615C0.907715 8.80914 1.29818 7.9201 1.9932 7.2646L7.66653 1.91394C8.12988 1.47695 8.75831 1.23145 9.41359 1.23145C10.0689 1.23145 10.6973 1.47695 11.1607 1.91394C11.624 2.35094 11.8843 2.94364 11.8843 3.56164C11.8843 4.17965 11.624 4.77235 11.1607 5.20934L5.48115 10.56C5.24948 10.7785 4.93526 10.9012 4.60762 10.9012C4.27998 10.9012 3.96577 10.7785 3.73409 10.56C3.50242 10.3415 3.37226 10.0452 3.37226 9.73615C3.37226 9.42714 3.50242 9.1308 3.73409 8.9123L8.97528 3.97502" stroke="#495057" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"/></svg></span>' +
+                                                '</div>' +
+                                                '<input type="file" accept="image/*,.pdf,.txt,.doc,.docx," class="inputfile form-control mb-0" >' +
+                                                
+                                            '</div>' +
+                                           ' <button class="btn btn-secondary" type="button" id="inputGroupFileAddon04"><i class="bx bx-x"></i></button>' +
+                                          '</div>' +
+                                          '<div class="input-group mb-2">' +
+                                            '<input type="text" class="form-control" placeholder="Option 2">' +
+                                            '<div class="input-group uploadFile1">' +
+                                                '<div class="input-group-append">' +
+                                                    '<span class="input-group-text"><svg width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M12.9077 6.85704L7.23439 12.2077C6.53936 12.8632 5.59671 13.2314 4.6138 13.2314C3.63088 13.2314 2.68823 12.8632 1.9932 12.2077C1.29818 11.5522 0.907715 10.6632 0.907715 9.73615C0.907715 8.80914 1.29818 7.9201 1.9932 7.2646L7.66653 1.91394C8.12988 1.47695 8.75831 1.23145 9.41359 1.23145C10.0689 1.23145 10.6973 1.47695 11.1607 1.91394C11.624 2.35094 11.8843 2.94364 11.8843 3.56164C11.8843 4.17965 11.624 4.77235 11.1607 5.20934L5.48115 10.56C5.24948 10.7785 4.93526 10.9012 4.60762 10.9012C4.27998 10.9012 3.96577 10.7785 3.73409 10.56C3.50242 10.3415 3.37226 10.0452 3.37226 9.73615C3.37226 9.42714 3.50242 9.1308 3.73409 8.9123L8.97528 3.97502" stroke="#495057" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"/></svg></span>' +
+                                                '</div>' +
+                                                '<input type="file" accept="image/*,.pdf,.txt,.doc,.docx," class="inputfile form-control mb-0" >' +
+                                                
+                                            '</div>' +
+                                           ' <button class="btn btn-secondary" type="button" id="inputGroupFileAddon04"><i class="bx bx-x"></i></button>' +
+                                          '</div>' +
+                                          '<div class="input-group mb-2">' +
+                                            '<input type="text" class="form-control" placeholder="Option 3">' +
+                                            '<div class="input-group uploadFile1">' +
+                                                '<div class="input-group-append">' +
+                                                    '<span class="input-group-text"><svg width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M12.9077 6.85704L7.23439 12.2077C6.53936 12.8632 5.59671 13.2314 4.6138 13.2314C3.63088 13.2314 2.68823 12.8632 1.9932 12.2077C1.29818 11.5522 0.907715 10.6632 0.907715 9.73615C0.907715 8.80914 1.29818 7.9201 1.9932 7.2646L7.66653 1.91394C8.12988 1.47695 8.75831 1.23145 9.41359 1.23145C10.0689 1.23145 10.6973 1.47695 11.1607 1.91394C11.624 2.35094 11.8843 2.94364 11.8843 3.56164C11.8843 4.17965 11.624 4.77235 11.1607 5.20934L5.48115 10.56C5.24948 10.7785 4.93526 10.9012 4.60762 10.9012C4.27998 10.9012 3.96577 10.7785 3.73409 10.56C3.50242 10.3415 3.37226 10.0452 3.37226 9.73615C3.37226 9.42714 3.50242 9.1308 3.73409 8.9123L8.97528 3.97502" stroke="#495057" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"/></svg></span>' +
+                                                '</div>' +
+                                                '<input type="file" accept="image/*,.pdf,.txt,.doc,.docx," class="inputfile form-control mb-0" >' +
+                                                
+                                            '</div>' +
+                                            '<button class="btn btn-secondary" type="button" id="inputGroupFileAddon04"><i class="bx bx-x"></i></button>' +
+                                         ' </div>' +
+                                         
+                                   ' </div>' +
+                                '</div>' +
+                                '<div class="col-lg-3">' +
+                                   ' <div class="form-grp poll-rating poll-desc" id="polltype3" style="display: none;">' +
+                                       ' <label class="form-label">No of Stars</label>' +
+                                       '<select class="form-select form-control form-select-sm" aria-label=".form-select-sm example">' +
+                                           '<option value="3star">3 Star</option>' +
+                                            '<option value="5star" selected>5 Star</option>' +
+                                            '<option value="10star">10 Star</option>' +                        
+                                         
+                                        '</select>' +
+                                       
+                                         
+                                    '</div>' +
+                                '</div>' +
+                            '</div>' +
+                        '</div>' ;
+            $('.question-overflow').append(newRowAddqstn);
+
+            i = i + 1
+        });
+                                            
+</script>
+>>>>>>> bf1668519c9cce631e2e113ecab9ff8d870175f0
 <script>
     $(document).ready(function () {
 
@@ -3381,6 +4547,7 @@ function importDifferentFile(imgval) {
     });
 </script>
 
+<<<<<<< HEAD
 
 <script>
     $(document).ready(function () {
@@ -3464,6 +4631,8 @@ function importDifferentFile(imgval) {
             })
  </script>
 
+=======
+>>>>>>> bf1668519c9cce631e2e113ecab9ff8d870175f0
 </body>
 
 </html>

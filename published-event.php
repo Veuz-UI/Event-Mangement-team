@@ -3935,8 +3935,13 @@
                                     <div class="col-md-12">
                                         <div class="speaker-header">
                                             <div class="speaker-btns">
+<<<<<<< HEAD
                                                <a href="survey.php"><button type="button" class="btn btn-primary waves-effect waves-light btn-sm br-50 small">Create Survey
                                                 </button></a> 
+=======
+                                                <button type="button" class="btn btn-primary waves-effect waves-light btn-sm br-50 small">Create Survey
+                                                </button>
+>>>>>>> bf1668519c9cce631e2e113ecab9ff8d870175f0
                                                 <div class="dropdown event-sett1">
                                                     <div class="event-settings dropdown-toggle" type="button" id="dropdownMenuButton"
                                                         data-bs-toggle="dropdown" aria-expanded="false">
@@ -4340,7 +4345,11 @@
                                                                     </td>
                                                                     <td class="text-end td-overflow">
                                                                         <div class="btn-group">
+<<<<<<< HEAD
                                                                             <button type="button" class="btn btn-light1 px-2 fw-medium" data-bs-toggle="modal" data-bs-target="#invite-speaker">More</button>
+=======
+                                                                            <button type="button" class="btn btn-light1 px-2" data-bs-toggle="modal" data-bs-target="#invite-speaker">More</button>
+>>>>>>> bf1668519c9cce631e2e113ecab9ff8d870175f0
                                                                             <button type="button" class="btn btn-light1 dropdown-toggle dropdown-toggle-split px-1" data-bs-toggle="dropdown" aria-expanded="false">
                                                                                 <i class="mdi mdi-chevron-down"></i>
                                                                             </button>
@@ -4376,7 +4385,11 @@
                                                                     </td>
                                                                     <td class="text-end td-overflow">
                                                                         <div class="btn-group">
+<<<<<<< HEAD
                                                                             <button type="button" class="btn btn-light1 px-2 fw-medium" data-bs-toggle="modal" data-bs-target="#invite-speaker">More</button>
+=======
+                                                                            <button type="button" class="btn btn-light1 px-2" data-bs-toggle="modal" data-bs-target="#invite-speaker">More</button>
+>>>>>>> bf1668519c9cce631e2e113ecab9ff8d870175f0
                                                                             <button type="button" class="btn btn-light1 dropdown-toggle dropdown-toggle-split px-1" data-bs-toggle="dropdown" aria-expanded="false">
                                                                                 <i class="mdi mdi-chevron-down"></i>
                                                                             </button>
@@ -4412,7 +4425,11 @@
                                                                     </td>
                                                                     <td class="text-end td-overflow">
                                                                         <div class="btn-group">
+<<<<<<< HEAD
                                                                             <button type="button" class="btn btn-light1 px-2 fw-medium" data-bs-toggle="modal" data-bs-target="#invite-speaker">More</button>
+=======
+                                                                            <button type="button" class="btn btn-light1 px-2" data-bs-toggle="modal" data-bs-target="#invite-speaker">More</button>
+>>>>>>> bf1668519c9cce631e2e113ecab9ff8d870175f0
                                                                             <button type="button" class="btn btn-light1 dropdown-toggle dropdown-toggle-split px-1" data-bs-toggle="dropdown" aria-expanded="false">
                                                                                 <i class="mdi mdi-chevron-down"></i>
                                                                             </button>

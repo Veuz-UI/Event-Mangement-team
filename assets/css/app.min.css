@@ -1671,7 +1671,11 @@ body[data-layout=horizontal][data-layout-size=boxed] .navbar-header {
 }
 
 .fw-medium {
+<<<<<<< HEAD
     font-weight: 500 !important;
+=======
+    font-weight: 500
+>>>>>>> bf1668519c9cce631e2e113ecab9ff8d870175f0
 }
 
 .social-list-item {
@@ -13932,6 +13936,7 @@ table .avatar-sm{
     display: flex;
     justify-content: space-between;
     padding: 0px 0px 0px 12px;
+<<<<<<< HEAD
 }
 .survey-detail-page .snd-msgs {
     height: 48vh;
@@ -14385,4 +14390,6 @@ table .avatar-sm{
     overflow-y: auto;
     overflow-x: hidden;
     padding-right: 4px;
+=======
+>>>>>>> bf1668519c9cce631e2e113ecab9ff8d870175f0
 }
