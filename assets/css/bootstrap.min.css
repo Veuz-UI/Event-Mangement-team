@@ -6866,13 +6866,25 @@ fieldset:disabled .btn {
 
     .modal-lg,
     .modal-xl {
-        --bs-modal-width: 700px
+        --bs-modal-width: 700px;
+    }
+    .modal-xxl{
+        --bs-modal-width: 800px;
     }
 }
 
 @media (min-width:1200px) {
     .modal-xl {
-        --bs-modal-width: 1140px
+        --bs-modal-width: 1140px;
+    }
+    .modal-xxl{
+        --bs-modal-width: 1160px;
+    }
+}
+
+@media (min-width:1600px) {
+    .modal-xxl{
+        --bs-modal-width: 1300px;
     }
 }
 

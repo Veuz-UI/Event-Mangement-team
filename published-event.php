@@ -4340,7 +4340,7 @@
                                                                     </td>
                                                                     <td class="text-end td-overflow">
                                                                         <div class="btn-group">
-                                                                            <button type="button" class="btn btn-light1 px-2" data-bs-toggle="modal" data-bs-target="#invite-speaker">More</button>
+                                                                            <button type="button" class="btn btn-light1 px-2 fw-medium" data-bs-toggle="modal" data-bs-target="#invite-speaker">More</button>
                                                                             <button type="button" class="btn btn-light1 dropdown-toggle dropdown-toggle-split px-1" data-bs-toggle="dropdown" aria-expanded="false">
                                                                                 <i class="mdi mdi-chevron-down"></i>
                                                                             </button>
@@ -4376,7 +4376,7 @@
                                                                     </td>
                                                                     <td class="text-end td-overflow">
                                                                         <div class="btn-group">
-                                                                            <button type="button" class="btn btn-light1 px-2" data-bs-toggle="modal" data-bs-target="#invite-speaker">More</button>
+                                                                            <button type="button" class="btn btn-light1 px-2 fw-medium" data-bs-toggle="modal" data-bs-target="#invite-speaker">More</button>
                                                                             <button type="button" class="btn btn-light1 dropdown-toggle dropdown-toggle-split px-1" data-bs-toggle="dropdown" aria-expanded="false">
                                                                                 <i class="mdi mdi-chevron-down"></i>
                                                                             </button>
@@ -4412,7 +4412,7 @@
                                                                     </td>
                                                                     <td class="text-end td-overflow">
                                                                         <div class="btn-group">
-                                                                            <button type="button" class="btn btn-light1 px-2" data-bs-toggle="modal" data-bs-target="#invite-speaker">More</button>
+                                                                            <button type="button" class="btn btn-light1 px-2 fw-medium" data-bs-toggle="modal" data-bs-target="#invite-speaker">More</button>
                                                                             <button type="button" class="btn btn-light1 dropdown-toggle dropdown-toggle-split px-1" data-bs-toggle="dropdown" aria-expanded="false">
                                                                                 <i class="mdi mdi-chevron-down"></i>
                                                                             </button>

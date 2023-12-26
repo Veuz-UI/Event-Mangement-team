@@ -130,7 +130,7 @@
                                     <h4>Survey Title</h4>
                                     <ul class="breadcrump-inner">
                                         <li><a href="home.php">Home</a> /</li>
-                                        <li>Register User Details</li>
+                                        <li>Survey Management</li>
                                     </ul>
                                 </div>
 
@@ -177,7 +177,7 @@
                                         </div>                                      
                                     </div>
                                 </div>
-                                <div class="col-md-4">
+                                <div class="col-md-4 hide">
                                     <div class="form-grp">
                                         <label class="form-label">Language</label>
                                         <select class="form-control" id="choices-multiple-remove-button" placeholder="Select" multiple>
@@ -222,7 +222,11 @@
                                                 <span>Initial Fields</span>
                                             </a>
                                         </li>
-                                        
+                                        <li class="nav-item">
+                                            <a class="nav-link" data-bs-toggle="tab" href="#evnt-tab5" role="tab">
+                                                <span>Options</span>
+                                            </a>
+                                        </li>
         
                                     </ul>
                                 </div>
@@ -696,11 +700,11 @@
                                             <div class="predefined">
                                                 <h6>Predefined fields : </h6>
                                                 <div class="pre-inputs">
-                                                    <button type="button" class="btn btn-input waves-effect waves-light ml-1" data-toggle="modal" data-target="#alert-modal">Add Email <i class="fa fa-plus ml-1" aria-hidden="true"></i></button>
-                                                    <button type="button" class="btn btn-input waves-effect waves-light ml-1">Add Gender <i class="fa fa-plus ml-1" aria-hidden="true"></i></button>
-                                                    <button type="button" class="btn btn-input waves-effect waves-light ml-1">Add Name <i class="fa fa-plus ml-1" aria-hidden="true"></i></button>
-                                                    <button type="button" class="btn btn-input waves-effect waves-light ml-1">Add Phone <i class="fa fa-plus ml-1" aria-hidden="true"></i></button>
-                                                    <button type="button" class="btn btn-input waves-effect waves-light ml-1">Add ID <i class="fa fa-plus ml-1" aria-hidden="true"></i></button>
+                                                    <button type="button" class="btn-input waves-effect waves-light ml-1" data-toggle="modal" data-target="#alert-modal">Add Email<i class="fa fa-plus ml-1" aria-hidden="true"></i></button>
+                                                    <button type="button" class="btn-input waves-effect waves-light ml-1">Add Gender<i class="fa fa-plus ml-1" aria-hidden="true"></i></button>
+                                                    <button type="button" class="btn-input waves-effect waves-light ml-1">Add Name<i class="fa fa-plus ml-1" aria-hidden="true"></i></button>
+                                                    <button type="button" class="btn-input waves-effect waves-light ml-1">Add Phone<i class="fa fa-plus ml-1" aria-hidden="true"></i></button>
+                                                    <button type="button" class="btn-input waves-effect waves-light ml-1">Add ID<i class="fa fa-plus ml-1" aria-hidden="true"></i></button>
                                                 </div>
                                             </div>
                                             <div class="qstn-options-div">
@@ -708,21 +712,21 @@
                                                     <thead>
                                                         <tr>
                                                           
-                                                            <th>Input Title</th>
-                                                            <th>Mandatory</th>
-                                                            <th>Unique Field</th>
-                                                            <th>Input Type</th>
+                                                            <th width="180px">Input Title</th>
+                                                            <th width="110px">Mandatory</th>
+                                                            <th width="110px">Unique Field</th>
+                                                            <th width="160px">Input Type</th>
                                                             <th>Inputs</th>
                                                             <th></th>
-                                                            <th></th>
-                                                            <th></th>
+                                                            <th width="60px"></th>
+                                                            <th width="30px"></th>
                                                         </tr>
                                                     </thead>
                                                     <tbody>
                                                         <tr>
                                                             <td>
                                                                 <input type="text" class="intial-text" placeholder="" value="Name">
-                                                                <span class="input-lang-modal">  <a href="#" data-toggle="modal" data-target="#language-modal">EN</a></span>
+                                                             
                                                             </td>
                                                             <td class="text-center">
                                                                 <input id="r-day" type="checkbox">
@@ -759,24 +763,24 @@
                                                                 <td colspan="2" class="colspan-show hide">
                                                                     <div class="selection-fld">
                                                                          <div class="gender-in-grp">
-                                                                             <div class="gender-inputs"><input type="text" class="form-control" value="Male"><span class="fa fa-trash-o mx-1"></span></div> 
-                                                                             <div class="gender-inputs"><input type="text" class="form-control" value="Female"><span class="fa fa-trash-o mx-1"></span></div> 
-                                                                             <div class="gender-inputs"><input type="text" class="form-control" value="Other"><span class="fa fa-trash-o mx-1"></span></div> 
+                                                                             <div class="gender-inputs"><input type="text" class="form-control" value="Male"><span class="bx bx-trash mx-1"></span></div> 
+                                                                             <div class="gender-inputs"><input type="text" class="form-control" value="Female"><span class="bx bx-trash mx-1"></span></div> 
+                                                                             <div class="gender-inputs"><input type="text" class="form-control" value="Other"><span class="bx bx-trash mx-1"></span></div> 
                                                                          </div>
                                                                          <a href="#" class="add-fld mr-1">Add +</a>
                                                                     </div>
                                                                     
                                                                  </td>
-                                                                <td>
+                                                                <td class="text-center">
                                                                     <div class="toggle-switch">
                                                                         <input id="toggle" class="toggle-input" type='checkbox' />
                                                                         <label for="toggle" class="toggle-label" />
                                                                     </div>
                                                                 </td>
-                                                                <td>
+                                                                <td class="text-center px-1">
                                                                     <div class="action-tbl d-flex justify-content-end">
 
-                                                                        <i class="fa fa-trash-o mx-1 " data-toggle="tooltip" data-placement="top" title="" data-original-title="Delete"></i>
+                                                                    <i class="bx bx-trash cursor-pntr mx-1" data-toggle="tooltip" data-placement="top" title="" data-original-title="Delete"></i>
 
                                                                     </div>
                                                                 </td>
@@ -784,7 +788,7 @@
                                                         <tr>
                                                             <td>
                                                                 <input type="text" class="intial-text" placeholder="" value="Email">
-                                                                <span class="input-lang-modal">  <a href="#" data-toggle="modal" data-target="#language-modal">EN</a></span>
+                                                               
                                                             </td>
                                                             <td class="text-center">
                                                                 <input id="r-day" type="checkbox">
@@ -821,24 +825,24 @@
                                                             <td colspan="2" class="colspan-show hide">
                                                                 <div class="selection-fld">
                                                                      <div class="gender-in-grp">
-                                                                         <div class="gender-inputs"><input type="text" class="form-control" value="Male"><span class="fa fa-trash-o mx-1"></span></div> 
-                                                                         <div class="gender-inputs"><input type="text" class="form-control" value="Female"><span class="fa fa-trash-o mx-1"></span></div> 
-                                                                         <div class="gender-inputs"><input type="text" class="form-control" value="Other"><span class="fa fa-trash-o mx-1"></span></div> 
+                                                                            <div class="gender-inputs"><input type="text" class="form-control" value="Male"><span class="bx bx-trash mx-1"></span></div> 
+                                                                             <div class="gender-inputs"><input type="text" class="form-control" value="Female"><span class="bx bx-trash mx-1"></span></div> 
+                                                                             <div class="gender-inputs"><input type="text" class="form-control" value="Other"><span class="bx bx-trash mx-1"></span></div> 
                                                                      </div>
                                                                      <a href="#" class="add-fld mr-1">Add +</a>
                                                                 </div>
                                                                 
                                                              </td>
-                                                            <td>
+                                                             <td class="text-center">
                                                                 <div class="toggle-switch">
                                                                     <input id="toggle" class="toggle-input" type='checkbox' />
                                                                     <label for="toggle" class="toggle-label" />
                                                                 </div>
                                                             </td>
-                                                            <td>
+                                                            <td class="text-center px-1">
                                                                 <div class="action-tbl d-flex justify-content-end">
 
-                                                                    <i class="fa fa-trash-o mx-1 " data-toggle="tooltip" data-placement="top" title="" data-original-title="Delete"></i>
+                                                                <i class="bx bx-trash cursor-pntr mx-1" data-toggle="tooltip" data-placement="top" title="" data-original-title="Delete"></i>
 
                                                                 </div>
                                                             </td>
@@ -846,7 +850,7 @@
                                                         <tr>
                                                             <td>
                                                                 <input type="text" class="intial-text" placeholder="" value="Gender">
-                                                                <span class="input-lang-modal">  <a href="#" data-toggle="modal" data-target="#language-modal">EN</a></span>
+                                                              
                                                             </td>
                                                             <td class="text-center">
                                                                 <input id="r-day" type="checkbox">
@@ -883,24 +887,24 @@
                                                             <td colspan="2" class="colspan-show">
                                                                <div class="selection-fld">
                                                                     <div class="gender-in-grp">
-                                                                        <div class="gender-inputs"><input type="text" class="form-control" value="Male"><span class="fa fa-trash-o mx-1"></span></div> 
-                                                                        <div class="gender-inputs"><input type="text" class="form-control" value="Female"><span class="fa fa-trash-o mx-1"></span></div> 
-                                                                        <div class="gender-inputs"><input type="text" class="form-control" value="Other"><span class="fa fa-trash-o mx-1"></span></div> 
+                                                                            <div class="gender-inputs"><input type="text" class="form-control" value="Male"><span class="bx bx-trash mx-1"></span></div> 
+                                                                             <div class="gender-inputs"><input type="text" class="form-control" value="Female"><span class="bx bx-trash mx-1"></span></div> 
+                                                                             <div class="gender-inputs"><input type="text" class="form-control" value="Other"><span class="bx bx-trash mx-1"></span></div> 
                                                                     </div>
                                                                     <a href="#" class="add-fld mr-1">Add +</a>
                                                                </div>
                                                                
                                                             </td>
-                                                            <td>
+                                                            <td class="text-center">
                                                                 <div class="toggle-switch">
                                                                     <input id="toggle" class="toggle-input" type='checkbox' />
                                                                     <label for="toggle" class="toggle-label" />
                                                                 </div>
                                                             </td>
-                                                            <td>
+                                                            <td class="text-center px-1">
                                                                 <div class="action-tbl d-flex justify-content-end">
 
-                                                                    <i class="fa fa-trash-o mx-1 " data-toggle="tooltip" data-placement="top" title="" data-original-title="Delete"></i>
+                                                                <i class="bx bx-trash cursor-pntr mx-1" data-toggle="tooltip" data-placement="top" title="" data-original-title="Delete"></i>
 
                                                                 </div>
                                                             </td>
@@ -908,7 +912,7 @@
                                                         <tr>
                                                             <td>
                                                                 <input type="text" class="intial-text" placeholder="" value="Phone">
-                                                                <span class="input-lang-modal">  <a href="#" data-toggle="modal" data-target="#language-modal">EN</a></span>
+                                                               
                                                             </td>
                                                             <td class="text-center">
                                                                 <input id="r-day" type="checkbox">
@@ -945,24 +949,24 @@
                                                             <td colspan="2" class="colspan-show hide">
                                                                 <div class="selection-fld">
                                                                      <div class="gender-in-grp">
-                                                                         <div class="gender-inputs"><input type="text" class="form-control" value="Male"><span class="fa fa-trash-o mx-1"></span></div> 
-                                                                         <div class="gender-inputs"><input type="text" class="form-control" value="Female"><span class="fa fa-trash-o mx-1"></span></div> 
-                                                                         <div class="gender-inputs"><input type="text" class="form-control" value="Other"><span class="fa fa-trash-o mx-1"></span></div> 
+                                                                            <div class="gender-inputs"><input type="text" class="form-control" value="Male"><span class="bx bx-trash mx-1"></span></div> 
+                                                                             <div class="gender-inputs"><input type="text" class="form-control" value="Female"><span class="bx bx-trash mx-1"></span></div> 
+                                                                             <div class="gender-inputs"><input type="text" class="form-control" value="Other"><span class="bx bx-trash mx-1"></span></div> 
                                                                      </div>
                                                                      <a href="#" class="add-fld mr-1">Add +</a>
                                                                 </div>
                                                                 
                                                              </td>
-                                                            <td>
+                                                             <td class="text-center">
                                                                 <div class="toggle-switch">
                                                                     <input id="toggle" class="toggle-input" type='checkbox' />
                                                                     <label for="toggle" class="toggle-label" />
                                                                 </div>
                                                             </td>
-                                                            <td>
+                                                            <td class="text-center px-1">
                                                                 <div class="action-tbl d-flex justify-content-end">
 
-                                                                    <i class="fa fa-trash-o mx-1 " data-toggle="tooltip" data-placement="top" title="" data-original-title="Delete"></i>
+                                                                <i class="bx bx-trash cursor-pntr mx-1" data-toggle="tooltip" data-placement="top" title="" data-original-title="Delete"></i>
 
                                                                 </div>
                                                             </td>
@@ -970,7 +974,7 @@
                                                         <tr>
                                                             <td>
                                                                 <input type="text" class="intial-text" placeholder="" value="ID">
-                                                                <span class="input-lang-modal">  <a href="#" data-toggle="modal" data-target="#language-modal">EN</a></span>
+                                                               
                                                             </td>
                                                             <td class="text-center">
                                                                 <input id="r-day" type="checkbox">
@@ -1007,24 +1011,24 @@
                                                             <td colspan="2" class="colspan-show hide">
                                                                 <div class="selection-fld">
                                                                      <div class="gender-in-grp">
-                                                                         <div class="gender-inputs"><input type="text" class="form-control" value="Male"><span class="fa fa-trash-o mx-1"></span></div> 
-                                                                         <div class="gender-inputs"><input type="text" class="form-control" value="Female"><span class="fa fa-trash-o mx-1"></span></div> 
-                                                                         <div class="gender-inputs"><input type="text" class="form-control" value="Other"><span class="fa fa-trash-o mx-1"></span></div> 
+                                                                            <div class="gender-inputs"><input type="text" class="form-control" value="Male"><span class="bx bx-trash mx-1"></span></div> 
+                                                                             <div class="gender-inputs"><input type="text" class="form-control" value="Female"><span class="bx bx-trash mx-1"></span></div> 
+                                                                             <div class="gender-inputs"><input type="text" class="form-control" value="Other"><span class="bx bx-trash mx-1"></span></div> 
                                                                      </div>
                                                                      <a href="#" class="add-fld mr-1">Add +</a>
                                                                 </div>
                                                                 
                                                              </td>
-                                                            <td>
+                                                             <td class="text-center">
                                                                 <div class="toggle-switch">
                                                                     <input id="toggle" class="toggle-input" type='checkbox' />
                                                                     <label for="toggle" class="toggle-label" />
                                                                 </div>
                                                             </td>
-                                                            <td>
+                                                            <td class="text-center px-1">
                                                                 <div class="action-tbl d-flex justify-content-end">
 
-                                                                    <i class="fa fa-trash-o mx-1 " data-toggle="tooltip" data-placement="top" title="" data-original-title="Delete"></i>
+                                                                    <i class="bx bx-trash cursor-pntr mx-1" data-toggle="tooltip" data-placement="top" title="" data-original-title="Delete"></i>
 
                                                                 </div>
                                                             </td>
@@ -1038,7 +1042,250 @@
                                          
                                             </div>
                                         </div>
+                                        <div class="tab-pane" id="evnt-tab5" role="tabpanel">
+                                            <div class="qstn-options-div">
+                                                <div class="row">
+                                                    <div class="col-lg-6">
+                                                        <div class="col-box">
+                                                            <h5>Questions</h5>
+                                                            <div class="box-shadow1">
+                                                                <div class="row mx-0">
+                                                                    <div class="col-md-3 br-right d-flex align-items-center">
+                                                                        <h6>Pagination</h6>
+                                                                    </div>
+                                                                    <div class="col-md-9 py-2 px-2 optn-form-group">
+                                                                        <div class="form-group">
+                                                                            <input type="radio" id="customer" name="pagination" checked>
+                                                                            <label for="customer">One page per question</label>
+                                                                        </div>
+                                                                        <div class="form-group">
+                                                                            <input type="radio" id="customer" name="pagination">
+                                                                            <label for="customer">One page per section</label>
+                                                                        </div>
+                                                                        <div class="form-group mb-0">
+                                                                            <input type="radio" id="customer" name="pagination">
+                                                                            <label for="customer">One page with all the questions</label>
+                                                                        </div>
+
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            <div class="box-shadow">
+                                                                <div class="row mx-0">
+                                                                    <div class="col-md-3 br-right d-flex align-items-center">
+                                                                        <h6>Display Progress as</h6>
+                                                                    </div>
+                                                                    <div class="col-md-9 py-2 px-2 optn-form-group">
+                                                                        <div class="form-group"><input type="radio" id="customer" name="progress" value="Percentage" checked=""><label>Percentage left</label></div>
+                                                                        <div class="form-group mb-0"><input type="radio" id="customer" name="progress" value="Number"><label>Number</label></div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+
+                                                            <div class="box-shadow">
+                                                                <div class="row mx-0">
+                                                                    <div class="col-md-3 br-right d-flex align-items-center">
+                                                                        <h6>Question Selection</h6>
+                                                                    </div>
+                                                                    <div class="col-md-9 py-2 px-2 optn-form-group">
+                                                                        <div class="form-group"><input type="radio" id="customer" name="qselection" value="All questions" checked=""><label>All questions</label></div>
+                                                                        <div class="form-group mb-0"><input type="radio" id="customer" name="qselection" value="Randomized per section"><label>Randomized</label></div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            <div class="box-shadow" style="border:none !important">
+                                                                <div class="row mx-0">
+                                                                    <div class="col-md-3 br-right d-flex align-items-center">
+                                                                        <h6>Back Button</h6>
+                                                                    </div>
+                                                                    <div class="col-md-9 py-2 px-2 optn-form-group">
+                                                                        <div class="form-group"><input id="r-day" type="checkbox" checked=""></div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+
+
+
+
+
+                                                        <div class="col-box">
+                                                            <h5>Time &amp; Scoring</h5>
+                                                            <div class="box-shadow1">
+                                                                <div class="row mx-0">
+                                                                    <div class="col-md-3 br-right d-flex align-items-center">
+                                                                        <h6>Exam Time Limit</h6>
+                                                                    </div>
+                                                                    <div class="col-md-9 py-2 px-2 optn-form-group">
+                                                                        <input type="checkbox" id="r-day">
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            <div class="box-shadow">
+                                                                <div class="row mx-0">
+                                                                    <div class="col-md-3 br-right d-flex align-items-center">
+                                                                        <h6>Scoring</h6>
+                                                                    </div>
+                                                                    <div class="col-md-9 py-2 px-2 optn-form-group">
+                                                                        <div class="form-group">
+                                                                            <input type="radio" id="customer" name="pagination" checked>
+                                                                            <label for="customer">No scoring                                                                                    </label>
+                                                                        </div>
+                                                                        <div class="form-group">
+                                                                            <input type="radio" id="customer" name="pagination">
+                                                                            <label for="customer">Scoring with answers at the end</label>
+                                                                        </div>
+                                                                        <div class="form-group">
+                                                                            <input type="radio" id="customer" name="pagination">
+                                                                            <label for="customer">Scoring without answers at the end
+                                                                            </label>
+                                                                        </div>
+                                                                        <div class="form-group mb-0">
+                                                                            <input type="radio" id="customer" name="pagination">
+                                                                            <label for="customer">Scoring only admin
+                                                                            </label>
+                                                                        </div>
+
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            <div class="box-shadow">
+                                                                <div class="row mx-0">
+                                                                    <div class="col-md-3 br-right d-flex align-items-center">
+                                                                        <h6>Required Score (%)</h6>
+                                                                    </div>
+                                                                    <div class="col-md-9 py-2 px-2 optn-form-group">
+                                                                        <input type="number" class="form-control input-date-num" value="80">
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+
+                                                            <div class="box-shadow" style="border: none !important;">
+                                                                <div class="row mx-0">
+                                                                    <div class="col-md-3 br-right d-flex align-items-center">
+                                                                        <h6>Is a Certification</h6>
+                                                                    </div>
+                                                                    <div class="col-md-9 py-2 px-2 optn-form-group">
+                                                                        <input type="checkbox" id="r-day">
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+
+                                                        </div>
+
+                                                    </div>
+
+
+                                                    <div class="col-md-6">
+                                                        <div class="col-box">
+                                                            <h5 class="mt-25-sm">Participants</h5>
+                                                            <div class="box-shadow1">
+                                                                <div class="row mx-0">
+                                                                    <div class="col-md-4 br-right d-flex align-items-center">
+                                                                        <h6>Access Mode</h6>
+                                                                    </div>
+                                                                    <div class="col-md-8 py-1 px-2 pl-0-sm">
+                                                                        <div class="select-inp width-class">
+                                                                            <select class="form-control">
                                         
+                                                                                <option value="0" selected="">Anyone with the link</option>
+                                                                                <option value="1">Invited people only</option>
+                                                                            </select>
+                                                                            <i class="fas fa-chevron-down"></i>
+                                                                        </div>
+                                                                      
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            <div class="box-shadow">
+                                                                <div class="row mx-0">
+                                                                    <div class="col-md-4 br-right d-flex align-items-center">
+                                                                        <h6>Require Login</h6>
+                                                                    </div>
+                                                                    <div class="col-md-8 py-1 px-2 pl-0-sm d-flex align-item-center"><input type="checkbox" id="r-day"></div>
+                                                                </div>
+                                                            </div>
+                                                            <div class="box-shadow">
+                                                                <div class="row mx-0">
+                                                                    <div class="col-md-4 br-right d-flex align-items-center">
+                                                                        <h6>Sequence number</h6>
+                                                                    </div>
+                                                                    <div class="col-md-8 py-1 px-2 pl-0-sm d-flex align-item-center"><input type="checkbox" id="r-day"></div>
+                                                                </div>
+                                                            </div>
+                                                            <div class="box-shadow">
+                                                                <div class="row mx-0">
+                                                                    <div class="col-md-4 br-right d-flex align-items-center">
+                                                                        <h6>Show percentage at the end</h6>
+                                                                    </div>
+                                                                    <div class="col-md-8 py-1 px-2 pl-0-sm d-flex align-item-center"><input type="checkbox" id="r-day"></div>
+                                                                </div>
+                                                            </div>
+                                                            <div class="box-shadow">
+                                                                <div class="row mx-0">
+                                                                    <div class="col-md-4 br-right d-flex align-items-center">
+                                                                        <h6>Location</h6>
+                                                                    </div>
+                                                                    <div class="col-md-8 py-1 px-2 pl-0-sm d-flex align-item-center"><input type="text" class="form-control" value=""></div>
+                                                                </div>
+                                                            </div>
+                                                            <div class="box-shadow">
+                                                                <div class="row mx-0">
+                                                                    <div class="col-md-4 br-right d-flex align-items-center">
+                                                                        <h6>Training Date</h6>
+                                                                    </div>
+                                                                    <div class="col-md-8 py-1 px-2 pl-0-sm d-flex align-item-center"><input name="training_date" type="date" class="form-control training_date" id="r-day1" value=""></div>
+                                                                </div>
+                                                            </div>
+                                                            <div class="box-shadow">
+                                                                <div class="row mx-0">
+                                                                    <div class="col-md-4 br-right d-flex align-items-center">
+                                                                        <h6>Expiry Date</h6>
+                                                                    </div>
+                                                                    <div class="col-md-8 py-1 px-2 pl-0-sm d-flex align-item-center"><input name="training_date" type="date" class="form-control training_date" id="r-day1" value=""></div>
+                                                                </div>
+                                                            </div>
+                                                            <div class="box-shadow">
+                                                                <div class="row mx-0">
+                                                                    <div class="col-md-4 br-right d-flex align-items-center">
+                                                                        <h6>Close Button </h6>
+                                                                    </div>
+                                                                    <div class="col-md-8 py-2 px-2 optn-form-group">
+
+                                                                        <div class="form-group"><input type="radio" id="customer" name="progress" value="Percentage" checked=""><label>No</label></div>
+                                                                        <div class="form-group mb-0"><input type="radio" id="customer" name="progress" value="Percentage" checked=""><label>Yes</label></div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            <div class="box-shadow">
+                                                                <div class="row mx-0">
+                                                                    <div class="col-md-4 br-right d-flex align-items-center">
+                                                                        <h6>Password Required </h6>
+                                                                    </div>
+                                                                    <div class="col-md-8 py-2 px-2 optn-form-group">
+                                                                        <div class="form-group"><input type="radio" id="r-day" name="closePass" value="0"><label>No</label></div>
+                                                                        <div class="form-group mb-0"><input type="radio" id="r-day" name="closePass" value="1" checked=""><label>Yes</label></div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            <div class="box-shadow" style="border:none;">
+                                                                <div class="row mx-0">
+                                                                    <div class="col-md-4 br-right d-flex align-items-center">
+                                                                        <h6>Close Password</h6>
+                                                                    </div>
+                                                                    <div class="col-md-8 py-1 px-2 pl-0-sm d-flex align-item-center"><input type="password" class="form-control" value="1234"></div>
+                                                                </div>
+
+                                                            </div>
+
+
+                                                        </div>
+
+
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
                                     </div>
                                    
                                 
@@ -1172,7 +1419,1065 @@
 
 
 
+    <div class="modal fade" id="add-question" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" role="dialog" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-xxl" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="staticBackdropLabel"> <img src="assets/images/survey/question.svg" alt="" style="width: 24px;"><span>Add a Question</span></h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body p-0">
+                    <div class="row mx-0">
+                        <div class="col-md-3 col-12 bg-light1">
+                            <h5>Question Type</h5>
+                            <div class="nav flex-column nav-pills" id="v-pills-tab" role="tablist" aria-orientation="vertical">
+                                <a data-id="1" class="nav-link qty-item active show" id="qtype1-tab" data-toggle="pill" href="#qtype1" role="tab" aria-controls="qtype1" aria-selected="true">Multiple choice: One answer</a>
+                                <a data-id="2" class="nav-link qty-item" id="qtype2-tab" data-toggle="pill" href="#qtype2" role="tab" aria-controls="qtype2" aria-selected="false">Multiple choice: Many answers</a>
+                                <a data-id="3" class="nav-link qty-item" id="qtype3-tab" data-toggle="pill" href="#qtype3" role="tab" aria-controls="qtype3" aria-selected="false">Multiple Lines Text Box</a>
+                                <a data-id="4" class="nav-link qty-item" id="qtype4-tab" data-toggle="pill" href="#qtype4" role="tab" aria-controls="qtype4" aria-selected="false">Single Line Text Box</a>
+                                <a data-id="5" class="nav-link qty-item" id="qtype5-tab" data-toggle="pill" href="#qtype5" role="tab" aria-controls="qtype5" aria-selected="false">Numerical Value</a>
+                                <a data-id="6" class="nav-link qty-item" id="qtype6-tab" data-toggle="pill" href="#qtype6" role="tab" aria-controls="qtype6" aria-selected="false">Date</a>
+                                <a data-id="7" class="nav-link qty-item" id="qtype7-tab" data-toggle="pill" href="#qtype7" role="tab" aria-controls="qtype7" aria-selected="false">Datetime</a>
+                                <a data-id="8" class="nav-link qty-item" id="qtype8-tab" data-toggle="pill" href="#qtype8" role="tab" aria-controls="qtype8" aria-selected="false">Matrix</a>
+                            </div>
 
+                            <img src="assets/images/survey/1.png" id="qstion-prev1" class="img-fluid previw-set qstion-prev-item qstion-first" style="">
+                            <img src="assets/images/survey/2.png" id="qstion-prev2" class="img-fluid previw-set qstion-prev-item" style="display: none;">
+                            <img src="assets/images/survey/3.png" id="qstion-prev3" class="img-fluid previw-set qstion-prev-item" style="display: none;">
+                            <img src="assets/images/survey/4.png" id="qstion-prev4" class="img-fluid previw-set qstion-prev-item" style="display: none;">
+                            <img src="assets/images/survey/5.png" id="qstion-prev5" class="img-fluid previw-set qstion-prev-item" style="display: none;">
+                            <img src="assets/images/survey/6.png" id="qstion-prev6" class="img-fluid previw-set qstion-prev-item" style="display: none;">
+                            <img src="assets/images/survey/7.png" id="qstion-prev7" class="img-fluid previw-set qstion-prev-item" style="display: none;">
+                            <img src="assets/images/survey/8.png" id="qstion-prev8" class="img-fluid previw-set qstion-prev-item" style="display: none;">
+
+                        </div>
+                        <div class="col-md-9 col-12 bg-modal-right">
+                            <input type="file" id="getFile" style="display:none" />
+                            <div class="tab-content" id="v-pills-tabContent">
+                                <div class="tab-pane fade active show" id="qtype1" role="tabpanel" aria-labelledby="qtype1-tab">
+                                    <div class="qstn-bx dropdown">
+                                        <h5>Question</h5>
+                                        <div>
+                                            <button type="button" class="input-modal-lang2 dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+                                            <i class="fas fa-paperclip"></i> 
+                                         </button>
+                                            <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                                                <a class="dropdown-item d-flex align-item-center" href="#" onclick="document.getElementById('getFile').click()">From Computer</a>
+                                                <a class="dropdown-item d-flex align-item-center" href="#">From Cloud</a>
+                                                <a class="dropdown-item d-flex align-item-center" href="#">A link to a URL</a>
+                                            </div>
+                                          
+                                        </div>
+                                    </div>
+                                  
+                                    <textarea name="" id="" cols="30" rows="3" class="form-control" placeholder="e.g. What is the basics of HTML"></textarea>
+                                    <div class="ans-tab">
+                                        <h5>Answer</h5>
+
+                                        <table class="table table-qstn ans-tbl-sm dt-responsive table-bordered nowrap table-padd" style="border-collapse: collapse; border-spacing: 0; width: 100%;">
+
+                                            <thead class="border-class">
+
+                                                <tr class="heading-text">
+                                                    <th>Choices</th>
+                                                    <th>Image</th>
+                                                    <th width="40px"></th>
+
+                                                </tr>
+                                            </thead>
+
+
+                                            <tbody class="body-textcls vertcle-center">
+                                                <tr>
+                                                    <td colspan="3">
+                                                        <a class="addq">
+                                                        Add a Line
+                                                    </a>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td>
+                                                        <input type="text" class="inputfile form-control mb-0" name="file" placeholder="Type here">
+
+                                                    </td>
+                                                    <td class="dropdown td-overflow">
+                                                        <button type="button" class="attach-btn dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+                                                      <i class="fas fa-paperclip mr-1"></i> <span>Add attachment</span> 
+                                                    </button>
+
+
+
+                                                        <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                                                            <a class="dropdown-item d-flex align-item-center" href="#" onclick="document.getElementById('getFile').click()">From Computer</a>
+                                                            <a class="dropdown-item d-flex align-item-center" href="#">From Cloud</a>
+                                                            <a class="dropdown-item d-flex align-item-center" href="#">A link to a URL</a>
+                                                        </div>
+
+
+
+                                              
+                                                    </td>
+                                                    <td class="text-center px-1">
+                                                        <i class="bx bx-trash mx-1 " data-toggle="tooltip" data-placement="top" title="" data-original-title="Delete" aria-hidden="true"></i>
+                                                    </td>
+                                                </tr>
+
+                                            </tbody>
+                                        </table>
+
+                                        <h5>Description</h5>
+                                        <textarea name="" id="" cols="30" rows="3" class="form-control" placeholder="e.g. Guidelines, instructions ... to help attendees answer"></textarea>
+
+                                        <h5>Options</h5>
+                                        <hr class="m-0">
+                                        <div class="row question-options">
+                                            <div class="col-md-6">
+                                                <h5>Answers</h5>
+
+                                                <div class="optn-div">
+                                                    <h6>Show Comments Field</h6>
+                                                    <div class="form-group d-flex align-items-center">
+                                                        <div class="toggle-switch">
+                                                            <input id="toggle" class="toggle-input" type="checkbox">
+                                                            <label for="toggle" class="toggle-label">
+                                                        </label></div>
+
+                                                    </div>
+                                                </div>
+
+
+
+                                            </div>
+                                            <div class="col-md-6">
+                                                <h5>Layout</h5>
+
+                                                <div class="optn-div">
+                                                    <h6>Conditional Display</h6>
+                                                    <div class="form-group d-flex align-items-center">
+                                                        <div class="toggle-switch">
+                                                            <input id="toggle" class="toggle-input" type="checkbox">
+                                                            <label for="toggle" class="toggle-label">
+                                                        </label></div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="row question-options">
+                                            <div class="col-md-6">
+                                                <h5>Constraints</h5>
+
+                                                <div class="optn-div">
+                                                    <h6>Mandatory Answer</h6>
+                                                    <div class="form-group d-flex align-items-center">
+                                                        <div class="toggle-switch">
+                                                            <input id="toggle" class="toggle-input" type="checkbox" checked="">
+                                                            <label for="toggle" class="toggle-label">
+                                                        </label></div>
+                                                    </div>
+                                                </div>
+                                                <div class="optn-div">
+                                                    <h6>Error Message</h6>
+                                                    <div class="d-flex align-items-center plachldr">
+                                                        <input type="text" class="form-control" placeholder="This question requires an answer.">
+                                                    </div>
+                                                </div>
+
+                                            </div>
+                                            <div class="col-md-6">
+                                                <h5>Live Session</h5>
+
+                                                <div class="optn-div">
+                                                    <h6>Question Time Limit</h6>
+                                                    <div class="form-group d-flex align-items-center">
+                                                        <div class="toggle-switch">
+                                                            <input id="toggle" class="toggle-input" type="checkbox" checked="">
+                                                            <label for="toggle" class="toggle-label">
+                                                        </label></div>
+
+                                                        <input type="text" class="form-control secnd-frm" placeholder="05"> Seconds
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                </div>
+                                <div class="tab-pane fade" id="qtype2" role="tabpanel" aria-labelledby="qtype2-tab">
+                                    <div class="qstn-bx dropdown">
+                                        <h5>Question</h5>
+                                        <div>
+                                            <button type="button" class="input-modal-lang2 dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+                                            <i class="fas fa-paperclip"></i> 
+                                         </button>
+                                            <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                                                <a class="dropdown-item d-flex align-item-center" href="#" onclick="document.getElementById('getFile').click()">From Computer</a>
+                                                <a class="dropdown-item d-flex align-item-center" href="#">From Cloud</a>
+                                                <a class="dropdown-item d-flex align-item-center" href="#">A link to a URL</a>
+                                            </div>
+                                          
+                                        </div>
+                                    </div>
+
+                                    <textarea name="" id="" cols="30" rows="3" class="form-control" placeholder="e.g. What is the basics of HTML"></textarea>
+                                    <div class="ans-tab">
+                                        <h5>Answer</h5>
+
+                                        <table class="table table-qstn ans-tbl-sm dt-responsive table-bordered nowrap table-padd" style="border-collapse: collapse; border-spacing: 0; width: 100%;">
+
+                                            <thead class="border-class">
+
+                                                <tr class="heading-text">
+                                                    <th>Choices</th>
+                                                    <th>Image</th>
+                                                    <th width="40px"></th>
+
+                                                </tr>
+                                            </thead>
+
+
+                                            <tbody class="body-textcls vertcle-center">
+                                                <tr>
+                                                    <td colspan="3">
+                                                        <a class="addq">
+                                                        Add a Line
+                                                    </a>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td>
+                                                        <input type="text" class="inputfile form-control mb-0" name="file" placeholder="Type here">
+
+                                                    </td>
+                                                    <td class="dropdown td-overflow">
+                                                        <button type="button" class="attach-btn dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+                                                      <i class="fas fa-paperclip mr-1"></i> <span>Add attachment</span> 
+                                                    </button>
+
+
+
+                                                        <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                                                            <a class="dropdown-item d-flex align-item-center" href="#" onclick="document.getElementById('getFile').click()">From Computer</a>
+                                                            <a class="dropdown-item d-flex align-item-center" href="#">From Cloud</a>
+                                                            <a class="dropdown-item d-flex align-item-center" href="#">A link to a URL</a>
+                                                        </div>
+
+
+
+                                                    </td>
+                                                    <td class="text-center px-1">
+                                                        <i class="bx bx-trash mx-1 " data-toggle="tooltip" data-placement="top" title="" data-original-title="Delete" aria-hidden="true"></i>
+                                                    </td>
+                                                </tr>
+
+                                            </tbody>
+                                        </table>
+
+                                        <h5>Description</h5>
+                                        <textarea name="" id="" cols="30" rows="3" class="form-control" placeholder="e.g. Guidelines, instructions ... to help attendees answer"></textarea>
+
+                                        <h5>Options</h5>
+                                        <hr class="m-0">
+                                        <div class="row question-options">
+                                            <div class="col-md-6">
+                                                <h5>Answers</h5>
+
+                                                <div class="optn-div">
+                                                    <h6>Show Comments Field</h6>
+                                                    <div class="form-group d-flex align-items-center">
+                                                        <div class="toggle-switch">
+                                                            <input id="toggle" class="toggle-input" type="checkbox">
+                                                            <label for="toggle" class="toggle-label">
+                                                        </label></div>
+
+                                                    </div>
+                                                </div>
+
+
+
+                                            </div>
+                                            <div class="col-md-6">
+                                                <h5>Layout</h5>
+
+                                                <div class="optn-div">
+                                                    <h6>Conditional Display</h6>
+                                                    <div class="form-group d-flex align-items-center">
+                                                        <div class="toggle-switch">
+                                                            <input id="toggle" class="toggle-input" type="checkbox">
+                                                            <label for="toggle" class="toggle-label">
+                                                        </label></div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="row question-options">
+                                            <div class="col-md-6">
+                                                <h5>Constraints</h5>
+
+                                                <div class="optn-div">
+                                                    <h6>Mandatory Answer</h6>
+                                                    <div class="form-group d-flex align-items-center">
+                                                        <div class="toggle-switch">
+                                                            <input id="toggle" class="toggle-input" type="checkbox" checked="">
+                                                            <label for="toggle" class="toggle-label">
+                                                        </label></div>
+                                                    </div>
+                                                </div>
+                                                <div class="optn-div">
+                                                    <h6>Error Message</h6>
+                                                    <div class="d-flex align-items-center plachldr">
+                                                        <input type="text" class="form-control" placeholder="This question requires an answer.">
+                                                    </div>
+                                                </div>
+
+                                            </div>
+                                            <div class="col-md-6">
+                                                <h5>Live Session</h5>
+
+                                                <div class="optn-div">
+                                                    <h6>Question Time Limit</h6>
+                                                    <div class="form-group d-flex align-items-center">
+                                                        <div class="toggle-switch">
+                                                            <input id="toggle" class="toggle-input" type="checkbox">
+                                                            <label for="toggle" class="toggle-label">
+                                                        </label></div>
+
+                                                
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="tab-pane fade" id="qtype3" role="tabpanel" aria-labelledby="qtype3-tab">
+                                    <div class="qstn-bx dropdown">
+                                        <h5>Question</h5>
+                                        <div>
+                                            <button type="button" class="input-modal-lang2 dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+                                            <i class="fas fa-paperclip"></i> 
+                                         </button>
+                                            <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                                                <a class="dropdown-item d-flex align-item-center" href="#" onclick="document.getElementById('getFile').click()">From Computer</a>
+                                                <a class="dropdown-item d-flex align-item-center" href="#">From Cloud</a>
+                                                <a class="dropdown-item d-flex align-item-center" href="#">A link to a URL</a>
+                                            </div>
+                                          
+                                        </div>
+                                    </div>
+
+                                    <textarea name="" id="" cols="30" rows="3" class="form-control" placeholder="e.g. What is the basics of HTML"></textarea>
+                                    <div class="ans-tab">
+                                        <h5>Description</h5>
+                                        <textarea name="" id="" cols="30" rows="3" class="form-control" placeholder="e.g. Guidelines, instructions ... to help attendees answer"></textarea>
+
+                                        <h5>Options</h5>
+                                        <hr class="m-0">
+                                        <div class="row question-options">
+                                            <div class="col-md-6">
+                                                <h5>Answers</h5>
+
+                                                <div class="optn-div">
+                                                    <h6>Placeholder</h6>
+                                                    <div class="d-flex align-items-center plachldr">
+                                                        <input type="text" class="form-control" placeholder="Help Participants know what to write.">
+                                                    </div>
+                                                </div>
+
+
+
+                                            </div>
+                                            <div class="col-md-6">
+                                                <h5>Layout</h5>
+
+                                                <div class="optn-div">
+                                                    <h6>Conditional Display</h6>
+                                                    <div class="form-group d-flex align-items-center">
+                                                        <div class="toggle-switch">
+                                                            <input id="toggle" class="toggle-input" type="checkbox">
+                                                            <label for="toggle" class="toggle-label">
+                                                        </label></div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="row question-options">
+                                            <div class="col-md-6">
+                                                <h5>Constraints</h5>
+
+                                                <div class="optn-div">
+                                                    <h6>Mandatory Answer</h6>
+                                                    <div class="form-group d-flex align-items-center">
+                                                        <div class="toggle-switch">
+                                                            <input id="toggle" class="toggle-input" type="checkbox" checked="">
+                                                            <label for="toggle" class="toggle-label">
+                                                        </label></div>
+                                                    </div>
+                                                </div>
+                                                <div class="optn-div">
+                                                    <h6>Error Message</h6>
+                                                    <div class="d-flex align-items-center plachldr">
+                                                        <input type="text" class="form-control" placeholder="This question requires an answer.">
+                                                    </div>
+                                                </div>
+
+                                            </div>
+                                            <div class="col-md-6">
+                                                <h5>Live Session</h5>
+
+                                                <div class="optn-div">
+                                                    <h6>Question Time Limit</h6>
+                                                    <div class="form-group d-flex align-items-center">
+                                                        <div class="toggle-switch">
+                                                            <input id="toggle" class="toggle-input" type="checkbox">
+                                                            <label for="toggle" class="toggle-label">
+                                                        </label></div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                               
+                                </div>
+                                <div class="tab-pane fade" id="qtype4" role="tabpanel" aria-labelledby="qtype4-tab">
+
+                                    <div class="qstn-bx dropdown">
+                                        <h5>Question</h5>
+                                        <div>
+                                            <button type="button" class="input-modal-lang2 dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+                                            <i class="fas fa-paperclip"></i> 
+                                         </button>
+                                            <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                                                <a class="dropdown-item d-flex align-item-center" href="#" onclick="document.getElementById('getFile').click()">From Computer</a>
+                                                <a class="dropdown-item d-flex align-item-center" href="#">From Cloud</a>
+                                                <a class="dropdown-item d-flex align-item-center" href="#">A link to a URL</a>
+                                            </div>
+                                          
+                                        </div>
+                                    </div>
+
+                                    <textarea name="" id="" cols="30" rows="3" class="form-control" placeholder="e.g. What is the basics of HTML"></textarea>
+                                    <div class="ans-tab">
+                                        <h5>Answer</h5>
+                                        <hr class="m-0">
+                                        <div class="row question-options mt-2">
+                                            <div class="col-md-12 ans-optn-check">
+                                                <div class="optn-div">
+                                                    <h6>Input must be an email</h6>
+                                                    <div class="form-group d-flex align-items-center">
+                                                        <div class="toggle-switch">
+                                                            <input id="toggle" class="toggle-input" type="checkbox" checked="">
+                                                            <label for="toggle" class="toggle-label">
+                                                        </label></div>
+
+                                                    </div>
+                                                </div>
+                                                <div class="optn-div">
+                                                    <h6>Save as user email</h6>
+                                                    <div class="form-group d-flex align-items-center">
+                                                        <div class="toggle-switch">
+                                                            <input id="toggle" class="toggle-input" type="checkbox">
+                                                            <label for="toggle" class="toggle-label">
+                                                        </label></div>
+
+                                                    </div>
+                                                </div>
+                                                <div class="optn-div">
+                                                    <h6>Save as user nickname</h6>
+                                                    <div class="form-group d-flex align-items-center">
+                                                        <div class="toggle-switch">
+                                                            <input id="toggle" class="toggle-input" type="checkbox">
+                                                            <label for="toggle" class="toggle-label">
+                                                        </label></div>
+
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+
+
+                                        <h5>Description</h5>
+                                        <textarea name="" id="" cols="30" rows="3" class="form-control" placeholder="e.g. Guidelines, instructions ... to help attendees answer"></textarea>
+
+                                        <h5>Options</h5>
+                                        <hr class="m-0">
+                                        <div class="row question-options">
+                                            <div class="col-md-6">
+                                                <h5>Answers</h5>
+
+                                                <div class="optn-div">
+                                                    <h6>Validate entry</h6>
+                                                    <div class="form-group d-flex align-items-center">
+                                                        <div class="toggle-switch">
+                                                            <input id="toggle" class="toggle-input" type="checkbox" checked="">
+                                                            <label for="toggle" class="toggle-label">
+                                                        </label></div>
+
+                                                    </div>
+                                                </div>
+                                                <div class="optn-div">
+                                                    <h6>Min/Max Limits</h6>
+                                                    <div class="limit-inpt">
+                                                        <div class="form-group d-flex align-items-center">
+                                                            <input type="text" class="form-control me-1" placeholder="1"> to
+                                                            <input type="text" class="form-control ms-1" placeholder="10">
+                                                        </div>
+
+
+
+                                                    </div>
+                                                </div>
+                                                <div class="optn-div">
+                                                    <h6>Validation Error</h6>
+                                                    <div class="d-flex align-items-center plachldr">
+                                                        <input type="text" class="form-control" placeholder="Displayed when the answer entered is not valid.">
+                                                    </div>
+                                                </div>
+                                                <div class="optn-div">
+                                                    <h6>Placeholder</h6>
+                                                    <div class="d-flex align-items-center plachldr">
+                                                        <input type="text" class="form-control" placeholder="Help Participants know what to write.">
+                                                    </div>
+                                                </div>
+
+                                            </div>
+                                            <div class="col-md-6">
+                                                <h5>Layout</h5>
+
+                                                <div class="optn-div">
+                                                    <h6>Conditional Display</h6>
+                                                    <div class="d-flex align-items-center">
+                                                        <div class="toggle-switch">
+                                                            <input id="toggle" class="toggle-input" type="checkbox">
+                                                            <label for="toggle" class="toggle-label">
+                                                        </label></div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="row question-options">
+                                            <div class="col-md-6">
+                                                <h5>Constraints</h5>
+
+                                                <div class="optn-div">
+                                                    <h6>Mandatory Answer</h6>
+                                                    <div class="d-flex align-items-center">
+                                                        <div class="toggle-switch">
+                                                            <input id="toggle" class="toggle-input" type="checkbox" checked="">
+                                                            <label for="toggle" class="toggle-label">
+                                                        </label></div>
+                                                    </div>
+                                                </div>
+                                                <div class="optn-div">
+                                                    <h6>Error Message</h6>
+                                                    <div class="d-flex align-items-center plachldr">
+                                                        <input type="text" class="form-control" placeholder="This question requires an answer.">
+                                                    </div>
+                                                </div>
+
+                                            </div>
+                                            <div class="col-md-6">
+                                                <h5>Live Session</h5>
+
+                                                <div class="optn-div">
+                                                    <h6>Question Time Limit</h6>
+                                                    <div class="d-flex align-items-center">
+                                                        <div class="toggle-switch">
+                                                            <input id="toggle" class="toggle-input" type="checkbox">
+                                                            <label for="toggle" class="toggle-label">
+                                                        </label></div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                </div>
+                                <div class="tab-pane fade" id="qtype5" role="tabpanel" aria-labelledby="qtype5-tab">
+                                    <div class="qstn-bx dropdown">
+                                        <h5>Question</h5>
+                                        <div>
+                                            <button type="button" class="input-modal-lang2 dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+                                            <i class="fas fa-paperclip"></i> 
+                                         </button>
+                                            <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                                                <a class="dropdown-item d-flex align-item-center" href="#" onclick="document.getElementById('getFile').click()">From Computer</a>
+                                                <a class="dropdown-item d-flex align-item-center" href="#">From Cloud</a>
+                                                <a class="dropdown-item d-flex align-item-center" href="#">A link to a URL</a>
+                                            </div>
+                                          
+                                        </div>
+                                    </div>
+
+                                    <textarea name="" id="" cols="30" rows="3" class="form-control" placeholder="e.g. What is the basics of HTML"></textarea>
+                                    <div class="ans-tab">
+
+
+                                        <h5>Description</h5>
+                                        <textarea name="" id="" cols="30" rows="3" class="form-control" placeholder="e.g. Guidelines, instructions ... to help attendees answer"></textarea>
+
+                                        <h5>Options</h5>
+                                        <hr class="m-0">
+
+
+
+
+                                        <div class="row question-options">
+                                            <div class="col-md-6">
+                                                <h5>Answers</h5>
+                                                <div class="optn-div">
+                                                    <h6>Validate entry</h6>
+                                                    <div class="form-group d-flex align-items-center">
+                                                        <div class="toggle-switch">
+                                                            <input id="toggle" class="toggle-input" type="checkbox" checked="">
+                                                            <label for="toggle" class="toggle-label">
+                                                        </label></div>
+
+                                                    </div>
+                                                </div>
+                                                <div class="optn-div">
+                                                    <h6>Placeholder</h6>
+                                                    <div class="d-flex align-items-center plachldr">
+                                                        <input type="text" class="form-control" placeholder="Help Participants know what to write.">
+                                                    </div>
+                                                </div>
+
+                                            </div>
+                                            <div class="col-md-6">
+                                                <h5>Layout</h5>
+
+                                                <div class="optn-div">
+                                                    <h6>Conditional Display</h6>
+                                                    <div class="d-flex align-items-center">
+                                                        <div class="toggle-switch">
+                                                            <input id="toggle" class="toggle-input" type="checkbox">
+                                                            <label for="toggle" class="toggle-label">
+                                                        </label></div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="row question-options">
+                                            <div class="col-md-6">
+                                                <h5>Constraints</h5>
+
+                                                <div class="optn-div">
+                                                    <h6>Mandatory Answer</h6>
+                                                    <div class="d-flex align-items-center">
+                                                        <div class="toggle-switch">
+                                                            <input id="toggle" class="toggle-input" type="checkbox">
+                                                            <label for="toggle" class="toggle-label">
+                                                        </label></div>
+                                                    </div>
+                                                </div>
+
+
+                                            </div>
+                                            <div class="col-md-6">
+                                                <h5>Live Session</h5>
+
+                                                <div class="optn-div">
+                                                    <h6>Question Time Limit</h6>
+                                                    <div class="d-flex align-items-center">
+                                                        <div class="toggle-switch">
+                                                            <input id="toggle" class="toggle-input" type="checkbox">
+                                                            <label for="toggle" class="toggle-label">
+                                                        </label></div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="tab-pane fade" id="qtype6" role="tabpanel" aria-labelledby="qtype6-tab">
+                                    <div class="qstn-bx dropdown">
+                                        <h5>Question</h5>
+                                        <div>
+                                            <button type="button" class="input-modal-lang2 dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+                                            <i class="fas fa-paperclip"></i> 
+                                         </button>
+                                            <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                                                <a class="dropdown-item d-flex align-item-center" href="#" onclick="document.getElementById('getFile').click()">From Computer</a>
+                                                <a class="dropdown-item d-flex align-item-center" href="#">From Cloud</a>
+                                                <a class="dropdown-item d-flex align-item-center" href="#">A link to a URL</a>
+                                            </div>
+                                          
+                                        </div>
+                                    </div>
+
+                                    <textarea name="" id="" cols="30" rows="3" class="form-control" placeholder="e.g. What is the basics of HTML"></textarea>
+                                    <div class="ans-tab">
+
+
+                                        <h5>Description</h5>
+                                        <textarea name="" id="" cols="30" rows="3" class="form-control" placeholder="e.g. Guidelines, instructions ... to help attendees answer"></textarea>
+
+                                        <h5>Options</h5>
+                                        <hr class="m-0">
+
+
+
+
+                                        <div class="row question-options">
+                                            <div class="col-md-6">
+                                                <h5>Answers</h5>
+                                                <div class="optn-div">
+                                                    <h6>Validate entry</h6>
+                                                    <div class="form-group d-flex align-items-center">
+                                                        <div class="toggle-switch">
+                                                            <input id="toggle" class="toggle-input" type="checkbox" checked="">
+                                                            <label for="toggle" class="toggle-label">
+                                                        </label></div>
+
+                                                    </div>
+                                                </div>
+                                                <div class="optn-div">
+                                                    <h6>Placeholder</h6>
+                                                    <div class="d-flex align-items-center plachldr">
+                                                        <input type="text" class="form-control" placeholder="Help Participants know what to write.">
+                                                    </div>
+                                                </div>
+
+                                            </div>
+                                            <div class="col-md-6">
+                                                <h5>Layout</h5>
+
+                                                <div class="optn-div">
+                                                    <h6>Conditional Display</h6>
+                                                    <div class="d-flex align-items-center">
+                                                        <div class="toggle-switch">
+                                                            <input id="toggle" class="toggle-input" type="checkbox">
+                                                            <label for="toggle" class="toggle-label">
+                                                        </label></div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="row question-options">
+                                            <div class="col-md-6">
+                                                <h5>Constraints</h5>
+
+                                                <div class="optn-div">
+                                                    <h6>Mandatory Answer</h6>
+                                                    <div class="d-flex align-items-center">
+                                                        <div class="toggle-switch">
+                                                            <input id="toggle" class="toggle-input" type="checkbox">
+                                                            <label for="toggle" class="toggle-label">
+                                                        </label></div>
+                                                    </div>
+                                                </div>
+
+
+                                            </div>
+                                            <div class="col-md-6">
+                                                <h5>Live Session</h5>
+
+                                                <div class="optn-div">
+                                                    <h6>Question Time Limit</h6>
+                                                    <div class="d-flex align-items-center">
+                                                        <div class="toggle-switch">
+                                                            <input id="toggle" class="toggle-input" type="checkbox">
+                                                            <label for="toggle" class="toggle-label">
+                                                        </label></div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="tab-pane fade" id="qtype7" role="tabpanel" aria-labelledby="qtype7-tab">
+                                    <div class="qstn-bx dropdown">
+                                        <h5>Question</h5>
+                                        <div>
+                                            <button type="button" class="input-modal-lang2 dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+                                            <i class="fas fa-paperclip"></i> 
+                                         </button>
+                                            <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                                                <a class="dropdown-item d-flex align-item-center" href="#" onclick="document.getElementById('getFile').click()">From Computer</a>
+                                                <a class="dropdown-item d-flex align-item-center" href="#">From Cloud</a>
+                                                <a class="dropdown-item d-flex align-item-center" href="#">A link to a URL</a>
+                                            </div>
+                                          
+                                        </div>
+                                    </div>
+
+                                    <textarea name="" id="" cols="30" rows="3" class="form-control" placeholder="e.g. What is the basics of HTML"></textarea>
+                                    <div class="ans-tab">
+
+
+                                        <h5>Description</h5>
+                                        <textarea name="" id="" cols="30" rows="3" class="form-control" placeholder="e.g. Guidelines, instructions ... to help attendees answer"></textarea>
+
+                                        <h5>Options</h5>
+                                        <hr class="m-0">
+
+
+
+
+                                        <div class="row question-options">
+                                            <div class="col-md-6">
+                                                <h5>Answers</h5>
+                                                <div class="optn-div">
+                                                    <h6>Validate entry</h6>
+                                                    <div class="form-group d-flex align-items-center">
+                                                        <div class="toggle-switch">
+                                                            <input id="toggle" class="toggle-input" type="checkbox" checked="">
+                                                            <label for="toggle" class="toggle-label">
+                                                        </label></div>
+
+                                                    </div>
+                                                </div>
+                                                <div class="optn-div">
+                                                    <h6>Placeholder</h6>
+                                                    <div class="d-flex align-items-center plachldr">
+                                                        <input type="text" class="form-control" placeholder="Help Participants know what to write.">
+                                                    </div>
+                                                </div>
+
+                                            </div>
+                                            <div class="col-md-6">
+                                                <h5>Layout</h5>
+
+                                                <div class="optn-div">
+                                                    <h6>Conditional Display</h6>
+                                                    <div class="d-flex align-items-center">
+                                                        <div class="toggle-switch">
+                                                            <input id="toggle" class="toggle-input" type="checkbox">
+                                                            <label for="toggle" class="toggle-label">
+                                                        </label></div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="row question-options">
+                                            <div class="col-md-6">
+                                                <h5>Constraints</h5>
+
+                                                <div class="optn-div">
+                                                    <h6>Mandatory Answer</h6>
+                                                    <div class="d-flex align-items-center">
+                                                        <div class="toggle-switch">
+                                                            <input id="toggle" class="toggle-input" type="checkbox">
+                                                            <label for="toggle" class="toggle-label">
+                                                        </label></div>
+                                                    </div>
+                                                </div>
+
+
+                                            </div>
+                                            <div class="col-md-6">
+                                                <h5>Live Session</h5>
+
+                                                <div class="optn-div">
+                                                    <h6>Question Time Limit</h6>
+                                                    <div class="d-flex align-items-center">
+                                                        <div class="toggle-switch">
+                                                            <input id="toggle" class="toggle-input" type="checkbox">
+                                                            <label for="toggle" class="toggle-label">
+                                                        </label></div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="tab-pane fade" id="qtype8" role="tabpanel" aria-labelledby="qtype8-tab">
+                                    <div class="qstn-bx dropdown">
+                                        <h5>Question</h5>
+                                        <div>
+                                            <button type="button" class="input-modal-lang2 dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+                                            <i class="fas fa-paperclip"></i> 
+                                         </button>
+                                            <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                                                <a class="dropdown-item d-flex align-item-center" href="#" onclick="document.getElementById('getFile').click()">From Computer</a>
+                                                <a class="dropdown-item d-flex align-item-center" href="#">From Cloud</a>
+                                                <a class="dropdown-item d-flex align-item-center" href="#">A link to a URL</a>
+                                            </div>
+                                          
+                                        </div>
+                                    </div>
+
+                                    <textarea name="" id="" cols="30" rows="3" class="form-control" placeholder="e.g. What is the basics of HTML"></textarea>
+                                    <div class="ans-tab">
+                                        <h5>Answer</h5>
+
+                                        <table class="table table-qstn dt-responsive table-bordered nowrap table-padd" style="border-collapse: collapse; border-spacing: 0; width: 100%;">
+
+                                            <thead class="border-class">
+
+                                                <tr class="heading-text">
+                                                    <th>Choices</th>
+
+                                                    <th width="40px"></th>
+
+                                                </tr>
+                                            </thead>
+
+
+                                            <tbody class="body-textcls vertcle-center">
+                                                <tr>
+                                                    <td colspan="2">
+                                                        <a class="addq">
+                                                        Add a Line
+                                                    </a>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td>
+                                                        <input type="text" class="inputfile form-control mb-0" name="file" placeholder="Type here">
+
+                                                    </td>
+
+                                                    <td class="text-center px-1">
+                                                        <i class="bx bx-trash mx-1 " data-toggle="tooltip" data-placement="top" title="" data-original-title="Delete" aria-hidden="true"></i>
+                                                    </td>
+                                                </tr>
+
+                                            </tbody>
+                                        </table>
+
+                                        <table class="table table-qstn dt-responsive table-bordered nowrap table-padd" style="border-collapse: collapse; border-spacing: 0; width: 100%;">
+
+                                            <thead class="border-class">
+
+                                                <tr class="heading-text">
+                                                    <th>Rows</th>
+
+                                                    <th width="40px"></th>
+
+                                                </tr>
+                                            </thead>
+
+
+                                            <tbody class="body-textcls vertcle-center">
+                                                <tr>
+                                                    <td colspan="2">
+                                                        <a class="addq">
+                                                    Add a Line
+                                                </a>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td>
+                                                        <input type="text" class="inputfile form-control mb-0" name="file" placeholder="Type here">
+
+                                                    </td>
+
+                                                    <td class="text-center px-1">
+                                                        <i class="bx bx-trash mx-1 " data-toggle="tooltip" data-placement="top" title="" data-original-title="Delete" aria-hidden="true"></i>
+                                                    </td>
+                                                </tr>
+
+                                            </tbody>
+                                        </table>
+
+                                        <h5>Description</h5>
+                                        <textarea name="" id="" cols="30" rows="3" class="form-control" placeholder="e.g. Guidelines, instructions ... to help attendees answer"></textarea>
+
+                                        <h5>Options</h5>
+                                        <hr class="m-0">
+                                        <div class="row question-options">
+                                            <div class="col-md-6">
+                                                <h5>Answers</h5>
+
+                                                <div class="optn-div">
+                                                    <h6>Matrix Type</h6>
+                                                    <div class="select-inp select-plchldr">
+                                                        <select class="form-control">
+                                                            <option value="" selected="">One choice per row</option>
+                                                            <option value="">Multiple choices per row</option>
+                                                        </select>
+                                                        <i class="fas fa-chevron-down" aria-hidden="true"></i>
+                                                    </div>
+                                                </div>
+                                                <div class="optn-div">
+                                                    <h6>Show Comments Field</h6>
+                                                    <div class="form-group d-flex align-items-center">
+                                                        <div class="toggle-switch">
+                                                            <input id="toggle" class="toggle-input" type="checkbox">
+                                                            <label for="toggle" class="toggle-label">
+                                                        </label></div>
+
+                                                    </div>
+                                                </div>
+
+
+
+                                            </div>
+                                            <div class="col-md-6">
+                                                <h5>Layout</h5>
+
+                                                <div class="optn-div">
+                                                    <h6>Conditional Display</h6>
+                                                    <div class="d-flex align-items-center">
+                                                        <div class="toggle-switch">
+                                                            <input id="toggle" class="toggle-input" type="checkbox">
+                                                            <label for="toggle" class="toggle-label">
+                                                        </label></div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="row question-options">
+                                            <div class="col-md-6">
+                                                <h5>Constraints</h5>
+
+                                                <div class="optn-div">
+                                                    <h6>Mandatory Answer</h6>
+                                                    <div class="d-flex align-items-center">
+                                                        <div class="toggle-switch">
+                                                            <input id="toggle" class="toggle-input" type="checkbox" checked="">
+                                                            <label for="toggle" class="toggle-label">
+                                                        </label></div>
+                                                    </div>
+                                                </div>
+                                                <div class="optn-div">
+                                                    <h6>Error Message</h6>
+                                                    <div class="d-flex align-items-center plachldr">
+                                                        <input type="text" class="form-control" placeholder="This question requires an answer.">
+                                                    </div>
+                                                </div>
+
+                                            </div>
+                                            <div class="col-md-6">
+                                                <h5>Live Session</h5>
+
+                                                <div class="optn-div">
+                                                    <h6>Question Time Limit</h6>
+                                                    <div class="d-flex align-items-center">
+                                                        <div class="toggle-switch">
+                                                            <input id="toggle" class="toggle-input" type="checkbox" checked="">
+                                                            <label for="toggle" class="toggle-label">
+                                                        </label></div>
+
+                                                        <input type="text" class="form-control secnd-frm" placeholder="05"> Seconds
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+
+
+
+
+
+                    </div>
+
+
+
+                </div>
+                <div class="modal-footer">            
+                    <button type="button" class="btn btn-light br-50 btn-md" data-bs-dismiss="modal">Close</button>
+                    <div class="d-flex">
+                    <a href="#"><button type="button" class="btn btn-primary br-50 btn-md">Save and Close</button></a>
+                    <a href="#"><button type="button" class="btn btn-primary br-50 btn-md ms-1">Save and New</button></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 
 
     <div class="modal common-modal fade" id="export-modal" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" role="dialog" aria-labelledby="staticBackdropLabel" aria-hidden="true">
@@ -2146,6 +3451,17 @@ function importDifferentFile(imgval) {
         }
      });
 
+ </script>
+ <script>
+      //qstion tab hide and show
+      $(document).on('click', '.qty-item', function() {
+                $('.qstion-prev-item').hide();
+                var id = $(this).data('id');
+                $('#qstion-prev' + id).show();
+                // $('qtype'+id+'-tab').addClass('active');
+
+
+            })
  </script>
 
 </body>
