@@ -14386,3 +14386,140 @@ table .avatar-sm{
     overflow-x: hidden;
     padding-right: 4px;
 }
+
+
+/* exhibitor team */
+
+.exhibtr-head .header-title h6{
+    color: #777;
+    font-size: 13px;
+    margin-bottom: 0px;
+}
+
+.exhibtr-head .header-title h4{
+    color: #222;
+}
+
+.exhibtr-head .exhi-img{
+    margin-left: 10px;
+}
+
+.exhibtr-head .exhi-img img{
+    width: 2.6rem;
+    height: 2.6rem;
+}
+
+.exhi-section{
+    margin: 16px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0px 0px 15px rgb(0 0 0 / 10%);
+    position: relative;
+    padding: 15px;
+}
+
+.exhi-section .bootom-nav{
+    position: absolute !important;
+    border-radius: 0px 0px 5px 5px;
+}
+
+.exhi-section .ex-heading{
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 15px;
+    padding-bottom: 10px;
+    color: #222;
+    border-bottom: 1px solid #ebebeb;
+}
+
+.exhi-grid .social-icns ul{
+    margin: 0px;
+    padding: 0px;
+    list-style-type: none;
+    display: flex;
+    gap: 3px;
+    font-size: 10px;
+}
+
+.exhi-grid .social-icns ul li a{
+    width: 20px;
+    height: 20px;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: 1s;
+}
+
+.exhi-grid .social-icns ul li{
+    border-radius: 40px;
+    transition: 1s;
+}
+
+.btn-assign{
+    background-color: #09BC8A;
+    color: white;
+    border: 0px;
+    padding: 5px 10px;
+    font-size: 13px;
+    line-height: 13px;
+    border-radius: 4px;
+    transition: 1s;
+}
+
+.btn-assign:hover{
+    background-color: #089f75;
+    transition: 1s;
+}
+
+.btm-btn-grid{
+    border-top: 1px solid #ebebeb;
+    padding: 5px 10px 0px;
+    margin-top: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.exhi-grid{
+    height: 77vh;
+    overflow-y: auto;
+    overflow-x: hidden;
+    padding-right: 6px;
+}
+
+.exhi-grid .social-icns ul .bg-primary:hover{
+    background-color: #1e3ad0 !important;
+    transition: 1s;
+}
+
+.exhi-grid .social-icns ul .bg-pink:hover{
+    background-color: #ec026e !important;
+    transition: 1s;
+}
+
+.exhi-grid .social-icns ul .bg-info:hover{
+    background-color: #0d81e5 !important;
+    transition: 1s;
+}
+
+.exhibtr-head .header-right-btns{
+    gap: 8px;
+}
+
+.exhibtr-head .header-right-btns .br-50{
+    border-radius: 50px !important;
+}
+
+.exhibtr-head .header-right-btns .btn{
+    font-size: 13px !important;
+    padding: 0.5rem 1rem !important;
+}
+.choose-tickt h4{
+    font-size: 15px;
+    margin-bottom: 10px;
+}
+
+.choose-tickt .form-check{
+    font-size: 13px;
+}
